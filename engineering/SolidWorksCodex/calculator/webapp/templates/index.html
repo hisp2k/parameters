@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Проекты</h1>
+<p><a class="btn" href="{{ url_for('new_project') }}">Новый проект</a></p>
+
+{% if not projects %}
+  <p class="note">Пока нет ни одного проекта. Начните с кнопки «Новый проект» — все данные вводятся
+  через форму, редактировать файл проекта вручную не требуется (раздел 2 задания).</p>
+{% else %}
+  <ul class="project-list">
+    {% for p in projects %}
+      <li>
+        <a href="{{ url_for('project_dashboard', designation=p.designation) }}">{{ p.project_name }}</a>
+        <div class="note">
+          Обозначение: {{ p.designation }} · Заказчик: {{ p.customer }} · Ревизия: {{ p.revision }} ·
+          Статус: {{ p.status }} · Обновлён: {{ p.updated_at[:19] }}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+{% endblock %}

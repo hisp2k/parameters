@@ -1,0 +1,161 @@
+{
+ "generated_at_utc": "2026-09-13T05:25:38.731337+00:00",
+ "required_taxonomy": [
+  "плоская листовая деталь",
+  "плоская деталь со сложным контуром",
+  "фланец",
+  "пластина с отверстиями",
+  "пластина с пазами или окнами",
+  "токарная ступенчатая деталь",
+  "вал",
+  "втулка",
+  "деталь с осевыми и радиальными отверстиями",
+  "деталь с карманами или выступами",
+  "гнутая листовая деталь",
+  "сварная деталь",
+  "профильная деталь",
+  "сборочная единица",
+  "покупное изделие",
+  "неподдерживаемая или неоднозначная конструкция"
+ ],
+ "discovered_additional_classes": [
+  "служебный документ",
+  "покупное изделие/спецификация"
+ ],
+ "class_coverage": [
+  {
+   "class": "плоская листовая деталь",
+   "count_in_this_archive": 61,
+   "support_status": "full",
+   "support_note": "Contour Plan v1 (sw_create_sheet_from_contours): произвольный замкнутый контур из отрезков и истинных дуг, внутренние вырезы, отверстия, линейные массивы."
+  },
+  {
+   "class": "плоская деталь со сложным контуром",
+   "count_in_this_archive": 7,
+   "support_status": "full",
+   "support_note": "Contour Plan v1 -- тот же построитель, что и для простой листовой детали."
+  },
+  {
+   "class": "фланец",
+   "count_in_this_archive": 3,
+   "support_status": "partial",
+   "support_note": "Простой плоский фланец с круговым массивом отверстий поддержан (Prismatic circle profile + circular_hole_pattern, либо Turned Plan). Фланец с точеной ступицей/шейкой как одно тело не проверялся."
+  },
+  {
+   "class": "пластина с отверстиями",
+   "count_in_this_archive": 0,
+   "support_status": "full",
+   "support_note": "Prismatic Plan v1-v3 и Contour Plan v1."
+  },
+  {
+   "class": "пластина с пазами или окнами",
+   "count_in_this_archive": 0,
+   "support_status": "full",
+   "support_note": "Prismatic Plan v3 (прямые пазы, карманы) и Contour Plan v1 (внутренние контуры произвольной формы)."
+  },
+  {
+   "class": "токарная ступенчатая деталь",
+   "count_in_this_archive": 0,
+   "support_status": "full",
+   "support_note": "Turned Plan v2/v3."
+  },
+  {
+   "class": "вал",
+   "count_in_this_archive": 6,
+   "support_status": "full",
+   "support_note": "Turned Plan v2/v3."
+  },
+  {
+   "class": "втулка",
+   "count_in_this_archive": 0,
+   "support_status": "full",
+   "support_note": "Turned Plan v2/v3 (наружный/внутренний диаметр, ступени)."
+  },
+  {
+   "class": "деталь с осевыми и радиальными отверстиями",
+   "count_in_this_archive": 0,
+   "support_status": "partial",
+   "support_note": "Осевые отверстия по оси вращения поддержаны в Turned Plan. Радиальные (поперечные) отверстия в теле вращения не подтверждены в текущем коде -- требует отдельной проверки src/TurnedPartPlan.cs."
+  },
+  {
+   "class": "деталь с карманами или выступами",
+   "count_in_this_archive": 0,
+   "support_status": "full",
+   "support_note": "Prismatic Plan v3 (карманы, пазы) и v4/v5 (прямоугольные и круглые выступы, фаски/скругления)."
+  },
+  {
+   "class": "гнутая листовая деталь",
+   "count_in_this_archive": 39,
+   "support_status": "none",
+   "support_note": "Не поддержана. Требует новой sheet-metal схемы (линии гиба, радиус, K-фактор/припуск на гиб, развёртка) и новых COM-вызовов (InsertBaseFlange2/SketchedBend/FlatPattern), которые в коде ни разу не использовались -- высокий риск."
+  },
+  {
+   "class": "сварная деталь",
+   "count_in_this_archive": 0,
+   "support_status": "none",
+   "support_note": "Не поддержана и вне архитектуры коннектора: коннектор строит ровно одно тело детали по числовому плану, а не сборку сварных элементов."
+  },
+  {
+   "class": "профильная деталь",
+   "count_in_this_archive": 1,
+   "support_status": "none",
+   "support_note": "Не поддержана. Требуется новая схема: сечение постоянного профиля (уголок/труба/швеллер) + длина + перпендикулярные торцевые резы + отверстия на выбранных гранях."
+  },
+  {
+   "class": "сборочная единица",
+   "count_in_this_archive": 279,
+   "support_status": "out_of_scope",
+   "support_note": "Коннектор принципиально работает с одной деталью (SLDPRT), не со сборками (SLDASM). Чтение дерева сборки (только для спецификаций) отдельно запланировано в PROJECT_STATE.md и не входит в эту ветку."
+  },
+  {
+   "class": "покупное изделие",
+   "count_in_this_archive": 5,
+   "support_status": "out_of_scope",
+   "support_note": "Не моделируется -- закупается готовым."
+  },
+  {
+   "class": "неподдерживаемая или неоднозначная конструкция",
+   "count_in_this_archive": 6,
+   "support_status": "out_of_scope",
+   "support_note": "Инструкции, карты раскроя, служебные документы -- не детали."
+  },
+  {
+   "class": "служебный документ",
+   "count_in_this_archive": 8,
+   "support_status": "out_of_scope",
+   "support_note": "Листы согласования, отчёты о проверке, оглавления -- не чертежи деталей."
+  },
+  {
+   "class": "покупное изделие/спецификация",
+   "count_in_this_archive": 21,
+   "support_status": "out_of_scope",
+   "support_note": "Файлы спецификаций (перечень позиций сборки) -- не геометрия одной детали."
+  }
+ ],
+ "operation_gap_analysis": [
+  {
+   "operation": "Протяжка (extrude) постоянного сечения профиля (уголок/труба/швеллер) на заданную длину, перпендикулярные торцевые резы, отверстия на выбранных гранях",
+   "drawings_that_would_benefit_this_archive": 1,
+   "drawings_that_would_benefit_prior_archive_60pdf": 3,
+   "manufacturing_usefulness": "high",
+   "complexity_and_risk": "low-medium (reuses proven sketch+extrude+cut+volume/topology verification pattern; no new SOLIDWORKS feature type)",
+   "recommendation": "IMPLEMENT NOW"
+  },
+  {
+   "operation": "Листовой гиб (sheet-metal): линии гиба, радиус, развёртка/плоский шаблон",
+   "drawings_that_would_benefit_this_archive": 39,
+   "drawings_that_would_benefit_prior_archive_60pdf": 1,
+   "manufacturing_usefulness": "high",
+   "complexity_and_risk": "high (новый класс COM-вызовов sheet-metal, никогда не использовавшийся в коде; у большинства чертежей этого архива развёртка/угол гиба не указаны в самом PDF и, судя по примечаниям (\"Предоставить развертку в формате DXF\"), поставляются отдельным DXF-файлом, которого нет в архиве -- многие планы всё равно окажутся BLOCKED)",
+   "recommendation": "ОТЛОЖИТЬ до отдельной ветки; нужен архив с приложенными DXF-развёртками"
+  },
+  {
+   "operation": "Радиальные (поперечные) отверстия в теле вращения",
+   "drawings_that_would_benefit_this_archive": 0,
+   "drawings_that_would_benefit_prior_archive_60pdf": 0,
+   "manufacturing_usefulness": "medium",
+   "complexity_and_risk": "medium",
+   "recommendation": "Нет доказанной необходимости в этих двух архивах; проверить на следующем комплекте"
+  }
+ ]
+}

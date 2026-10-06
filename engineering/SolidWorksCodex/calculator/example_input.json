@@ -1,0 +1,27 @@
+{
+  "conveyor_kind": "валовый_желобчатый",
+  "material": {
+    "material_name": "пример: щебень фракции 5-15мм (замените реальными данными)",
+    "bulk_density_kg_m3": 1500.0,
+    "max_lump_size_mm": 15.0,
+    "is_sorted_material": false,
+    "abrasiveness": "высокая"
+  },
+  "productivity": {"value": 8.0, "unit": "т/ч"},
+  "geometry": {
+    "mode": "длина_по_оси_и_угол",
+    "working_length_mm": 5000.0,
+    "incline_deg": 0.0
+  },
+  "profile": {
+    "duty_mode": "нормальный",
+    "environment": "цех, без агрессивной среды",
+    "construction_material": "Ст3"
+  },
+  "optional": {
+    "startup_under_load": true,
+    "reverse_required": false
+  },
+  "forced_diameter_mm": null,
+  "forced_step_mm": null
+}

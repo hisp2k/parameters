@@ -1,0 +1,414 @@
+{
+  "date_local": "2026-09-15",
+  "base_commit": "6730e03a5e7279900029a1d90bd9d8e38a8edbd0",
+  "branch": "claude/director-parametric-pilot",
+  "status": "BLOCKED_ON_ACTIVE_PART_FOR_EXACT_DRIVING_DIMENSION",
+  "binaries": {
+    "repository_sha256": "3063C60B39670A2D4CFE25058150FB9D00DA4067884836A535464154D2B4BFF7",
+    "installed_mcp_sha256": "B9A5DB07F3A2E8FCC9B94A605850B9FC4A391ECDAC191429683E4BDDF9EFB611",
+    "reinstalled": false
+  },
+  "pilot": {
+    "title": "25.SHT.G.00.00.00.00 СБ  Транспортер",
+    "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.00.00.00.00 СБ  Транспортер.SLDASM",
+    "document_type": "ASSEMBLY",
+    "active_configuration": "По умолчанию",
+    "has_unsaved_changes": true,
+    "document_revision": null,
+    "storage_scope": "LOCAL_FIXED_DISK",
+    "connector_write_allowed": false,
+    "revision_status": "UNKNOWN",
+    "snapshot_id": "76c87a4bdbe24de593f1f2ba4a9b7469",
+    "captured_at_utc": "2026-09-15T02:03:05.7691345Z",
+    "solidworks_api_revision": "34.3.2",
+    "source_state": "IN_MEMORY_ACTIVE_DOCUMENT",
+    "note": "API revision is a software version, not the engineering revision. VERIFIED means successfully read, not independently approved. No revision is inferred from filenames or timestamps."
+  },
+  "files": [
+    {
+      "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.00.00.00.00 СБ  Транспортер.SLDASM",
+      "sha256": "39C1A499FCE24D5AE5BC9E0EA287EAC65F6CE0C950041EE6D7A94A60CD017393",
+      "bytes": 6411870,
+      "last_write_utc": "2026-06-29T06:38:49.3880399Z"
+    },
+    {
+      "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.00 СБ  Перекладина съемная.SLDASM",
+      "sha256": "0FE637668E9C19D5CBE3C869CE816E2B65572DFEF6FF0848DA07797452BCD680",
+      "bytes": 107521,
+      "last_write_utc": "2026-05-05T12:58:57.8652294Z"
+    },
+    {
+      "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.01  Перекладина.SLDPRT",
+      "sha256": "06DD2D2576879484B9D8D1EE2971B45705F5AF85239D0FFBD6C3F91A5B82C8F7",
+      "bytes": 115142,
+      "last_write_utc": "2026-06-04T13:07:45.3692307Z"
+    },
+    {
+      "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.02  Пластина.SLDPRT",
+      "sha256": "5837DE9047414F187B0E47407816147C33A915FBD3A08230AAE3FF679B5313B9",
+      "bytes": 99614,
+      "last_write_utc": "2026-06-04T14:02:02.5757219Z"
+    }
+  ],
+  "tree": {
+    "source": "sw_assembly_tree/IAssemblyDoc.GetComponents(false)",
+    "reported_total": 516,
+    "read_offsets": [
+      0,
+      50,
+      100
+    ],
+    "rows_read": 150,
+    "full_traversal_this_run": false,
+    "snapshot_id": "1b7b47155c78a5422b5a00184d9d6a53",
+    "selected_instances": [
+      {
+        "instance_id": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-1",
+        "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.00 СБ  Перекладина съемная.SLDASM",
+        "configuration": "По умолчанию",
+        "parent": null,
+        "suppressed": false
+      },
+      {
+        "instance_id": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-1/25.SHT.G.09.00.00.01  Перекладина-1",
+        "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.01  Перекладина.SLDPRT",
+        "configuration": "По умолчанию",
+        "parent": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-1",
+        "suppressed": false
+      },
+      {
+        "instance_id": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-1/25.SHT.G.09.00.00.02  Пластина-1",
+        "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.02  Пластина.SLDPRT",
+        "configuration": "По умолчанию",
+        "parent": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-1",
+        "suppressed": false
+      },
+      {
+        "instance_id": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-1/25.SHT.G.09.00.00.02  Пластина-2",
+        "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.02  Пластина.SLDPRT",
+        "configuration": "По умолчанию",
+        "parent": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-1",
+        "suppressed": false
+      },
+      {
+        "instance_id": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-2",
+        "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.00 СБ  Перекладина съемная.SLDASM",
+        "configuration": "По умолчанию",
+        "parent": null,
+        "suppressed": false
+      },
+      {
+        "instance_id": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-2/25.SHT.G.09.00.00.01  Перекладина-1",
+        "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.01  Перекладина.SLDPRT",
+        "configuration": "По умолчанию",
+        "parent": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-2",
+        "suppressed": false
+      },
+      {
+        "instance_id": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-2/25.SHT.G.09.00.00.02  Пластина-1",
+        "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.02  Пластина.SLDPRT",
+        "configuration": "По умолчанию",
+        "parent": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-2",
+        "suppressed": false
+      },
+      {
+        "instance_id": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-2/25.SHT.G.09.00.00.02  Пластина-2",
+        "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.02  Пластина.SLDPRT",
+        "configuration": "По умолчанию",
+        "parent": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-2",
+        "suppressed": false
+      },
+      {
+        "instance_id": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-3",
+        "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.00 СБ  Перекладина съемная.SLDASM",
+        "configuration": "По умолчанию",
+        "parent": null,
+        "suppressed": false
+      },
+      {
+        "instance_id": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-3/25.SHT.G.09.00.00.01  Перекладина-1",
+        "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.01  Перекладина.SLDPRT",
+        "configuration": "По умолчанию",
+        "parent": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-3",
+        "suppressed": false
+      },
+      {
+        "instance_id": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-3/25.SHT.G.09.00.00.02  Пластина-1",
+        "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.02  Пластина.SLDPRT",
+        "configuration": "По умолчанию",
+        "parent": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-3",
+        "suppressed": false
+      },
+      {
+        "instance_id": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-3/25.SHT.G.09.00.00.02  Пластина-2",
+        "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.02  Пластина.SLDPRT",
+        "configuration": "По умолчанию",
+        "parent": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-3",
+        "suppressed": false
+      },
+      {
+        "instance_id": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-4",
+        "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.00 СБ  Перекладина съемная.SLDASM",
+        "configuration": "По умолчанию",
+        "parent": null,
+        "suppressed": false
+      },
+      {
+        "instance_id": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-4/25.SHT.G.09.00.00.01  Перекладина-1",
+        "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.01  Перекладина.SLDPRT",
+        "configuration": "По умолчанию",
+        "parent": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-4",
+        "suppressed": false
+      },
+      {
+        "instance_id": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-4/25.SHT.G.09.00.00.02  Пластина-1",
+        "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.02  Пластина.SLDPRT",
+        "configuration": "По умолчанию",
+        "parent": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-4",
+        "suppressed": false
+      },
+      {
+        "instance_id": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-4/25.SHT.G.09.00.00.02  Пластина-2",
+        "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.02  Пластина.SLDPRT",
+        "configuration": "По умолчанию",
+        "parent": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-4",
+        "suppressed": false
+      }
+    ]
+  },
+  "dependency_api": "sw_document_dependencies/ISldWorks.GetDocumentDependencies2(false,false,false)",
+  "dependency_disk_checks": [
+    {
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.00.00.00.00 СБ  Транспортер.SLDASM",
+      "unique_dependencies": 41,
+      "missing": [
+        "C:\\Users\\Конструктор\\Desktop\\23.SHT.TR.00.00.00.00 СБ 'Транспортёр'\\Заглушка.SLDPRT",
+        "C:\\Users\\Конструктор\\Desktop\\25.SHT.G.00.00.00.00 СБ Изм.4\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.00.00.00.03  Резиновая прокладка к фланцам.SLDPRT",
+        "C:\\Users\\Конструктор\\Desktop\\25.SHT.G.00.00.00.00 СБ Изм.4\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.00.00.00.05  Фланец наружний.SLDPRT",
+        "C:\\Users\\Constructor\\Desktop\\Заявка №2377 Шнек 3000\\25.SHT.TR.00.00.00.00 СБ\\Из старого транспортера\\Болт М16х80 DIN 933 ОЦ.SLDPRT"
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.01.00.00.00 СБ  Отсек.SLDASM",
+      "unique_dependencies": 12,
+      "missing": []
+    },
+    {
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.03.00.00.00 СБ  Фланец.SLDASM",
+      "unique_dependencies": 4,
+      "missing": [
+        "C:\\Users\\Конструктор\\Desktop\\25.SHT.G.00.00.00.00 СБ Изм.4\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.03.00.00.02  Фланец.SLDPRT",
+        "C:\\Users\\Конструктор\\Desktop\\25.SHT.G.00.00.00.00 СБ Изм.4\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.03.00.00.04  Косынка.SLDPRT"
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.06.00.00.00 СБ  Крышка.SLDASM",
+      "unique_dependencies": 5,
+      "missing": []
+    },
+    {
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.02.00.00.00 СБ  Шнек с осями.SLDASM",
+      "unique_dependencies": 4,
+      "missing": []
+    },
+    {
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.00 СБ  Перекладина съемная.SLDASM",
+      "unique_dependencies": 2,
+      "missing": []
+    }
+  ],
+  "candidate_direct_edges": [
+    {
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.01.00.00.00 СБ  Отсек.SLDASM",
+      "api_status": "OK",
+      "referenced_paths": [
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.01.00.00.04  Уголок.SLDPRT",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.01.00.00.01  Желоб выгрузки.SLDPRT",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.01.00.00.05  Пластина.SLDPRT",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.01.00.00.06  Пластина.SLDPRT",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.01.01.00.00 СБ  Опора.SLDASM",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.01.00.00.03  Желоб.SLDPRT",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.01.00.00.02  Желоб.SLDPRT",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.01.00.00.09  Шпангоут.SLDPRT",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.01.00.00.04-01  Уголок.SLDPRT",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.01.00.00.10  Труба.SLDPRT",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.01.00.00.11  Труба.SLDPRT",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.01.00.00.08  Шпангоут.SLDPRT"
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.03.00.00.00 СБ  Фланец.SLDASM",
+      "api_status": "OK",
+      "referenced_paths": [
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.03.00.00.01  Пластина.SLDPRT",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.03.00.00.03  Обойма.SLDPRT",
+        "C:\\Users\\Конструктор\\Desktop\\25.SHT.G.00.00.00.00 СБ Изм.4\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.03.00.00.04  Косынка.SLDPRT",
+        "C:\\Users\\Конструктор\\Desktop\\25.SHT.G.00.00.00.00 СБ Изм.4\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.03.00.00.02  Фланец.SLDPRT"
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.06.00.00.00 СБ  Крышка.SLDASM",
+      "api_status": "OK",
+      "referenced_paths": [
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.06.01.00.00 СБ  Крышка.SLDASM",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\Покупное\\Ручка скоба с втулками пластиковая-12.SLDPRT",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\Покупное\\Винт М6 DIN 7984 А2.SLDPRT",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\Покупное\\Шайба DIN 125 А2.SLDPRT",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\Покупное\\Гайка М6 DIN 934.SLDPRT"
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.02.00.00.00 СБ  Шнек с осями.SLDASM",
+      "api_status": "OK",
+      "referenced_paths": [
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.02.00.00.04  Торец.SLDPRT",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.02.00.00.01  Шнек 200 мм.SLDPRT",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.02.00.00.02  Вал.SLDPRT",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.02.00.00.03  Вал.SLDPRT"
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.00 СБ  Перекладина съемная.SLDASM",
+      "api_status": "OK",
+      "referenced_paths": [
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.01  Перекладина.SLDPRT",
+        "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.02  Пластина.SLDPRT"
+      ]
+    }
+  ],
+  "readonly_subassembly_attempts": [
+    {
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.01.00.00.00 СБ  Отсек.SLDASM",
+      "code": "ASSEMBLY_ALREADY_OPEN_NOT_READONLY"
+    },
+    {
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.03.00.00.00 СБ  Фланец.SLDASM",
+      "code": "ASSEMBLY_ALREADY_OPEN_NOT_READONLY"
+    },
+    {
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.06.00.00.00 СБ  Крышка.SLDASM",
+      "code": "ASSEMBLY_ALREADY_OPEN_NOT_READONLY"
+    },
+    {
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.02.00.00.00 СБ  Шнек с осями.SLDASM",
+      "code": "ASSEMBLY_ALREADY_OPEN_NOT_READONLY"
+    },
+    {
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.00 СБ  Перекладина съемная.SLDASM",
+      "code": "ASSEMBLY_ALREADY_OPEN_NOT_READONLY"
+    }
+  ],
+  "part_properties": [
+    {
+      "source": "sw_component_details",
+      "instance": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-1/25.SHT.G.09.00.00.01  Перекладина-1",
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.01  Перекладина.SLDPRT",
+      "configuration": "По умолчанию",
+      "resolved": true,
+      "material": {
+        "name": "AISI 304",
+        "database": "solidworks materials"
+      },
+      "mass_properties": {
+        "mass_kg": 0.5005694747404823,
+        "volume_m3": 0.0000625711843425603,
+        "surface_area_m2": 0.04231576889833403,
+        "configuration": "По умолчанию"
+      },
+      "material_table": {
+        "name": "Материал_Таблица",
+        "raw": "Труба <STACK size=1>30х30х3<OVER>304 ASTM A-312</STACK>",
+        "evaluated": "Труба <STACK size=1>30х30х3<OVER>304 ASTM A-312</STACK>",
+        "value_status": "VERIFIED",
+        "api_return_code": 2,
+        "was_resolved": true,
+        "linked": false,
+        "scope": "По умолчанию"
+      },
+      "issues": []
+    },
+    {
+      "source": "sw_component_details",
+      "instance": "25.SHT.G.09.00.00.00 СБ  Перекладина съемная-1/25.SHT.G.09.00.00.02  Пластина-1",
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.02  Пластина.SLDPRT",
+      "configuration": "По умолчанию",
+      "resolved": true,
+      "material": {
+        "name": "AISI 304",
+        "database": "solidworks materials"
+      },
+      "mass_properties": {
+        "mass_kg": 0.06844984109637328,
+        "volume_m3": 0.00000855623013704666,
+        "surface_area_m2": 0.005352278677643438,
+        "configuration": "По умолчанию"
+      },
+      "material_table": {
+        "name": "Материал_Таблица",
+        "raw": "Лист 4 304 ASTM 240 M-15",
+        "evaluated": "Лист 4 304 ASTM 240 M-15",
+        "value_status": "VERIFIED",
+        "api_return_code": 2,
+        "was_resolved": true,
+        "linked": false,
+        "scope": "По умолчанию"
+      },
+      "issues": []
+    }
+  ],
+  "part_outgoing_dependencies": [
+    {
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.01  Перекладина.SLDPRT",
+      "api_status": "UNKNOWN",
+      "raw_count": 0,
+      "issues": [],
+      "no_dependencies_not_proven": true
+    },
+    {
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00\\25.SHT - Заказ №2377 Промстрой\\25.SHT.G.00.00.00.00 СБ Изм.5\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.02  Пластина.SLDPRT",
+      "api_status": "UNKNOWN",
+      "raw_count": 0,
+      "issues": [],
+      "no_dependencies_not_proven": true
+    }
+  ],
+  "root_equations": {
+    "scope": "DOCUMENT_EQUATIONS_AND_GLOBAL_VARIABLES",
+    "items": [],
+    "total": 0,
+    "limitations": "Raw IEquationMgr contents only: exact equation text (\"LHS\" = RHS) and whatever global-variable/suppression/configuration-scope flags the installed API revision exposes; a flag that is unavailable is reported as an UNKNOWN issue, never guessed. No formula is evaluated, renamed or classified by the connector; sorting equations into input/derived/fixed is a downstream analysis step."
+  },
+  "root_configurations": {
+    "scope": "DOCUMENT_CONFIGURATIONS",
+    "items": [
+      "По умолчанию"
+    ],
+    "total": 1,
+    "active_configuration": "По умолчанию",
+    "limitations": "Configuration names only, from IModelDoc2.GetConfigurationNames(). Per-configuration suppression state and Design Table linkage are not read here."
+  },
+  "dimension_probe": {
+    "binary": "repository",
+    "active_document_type": "ASSEMBLY",
+    "sw_features": "PART_REQUIRED",
+    "sw_parameters": "PART_REQUIRED",
+    "exact_full_name": null,
+    "feature_name": null,
+    "units": null,
+    "editability": "NOT_VERIFIED"
+  },
+  "questionnaire_mapping": "NOT_PROVIDED_OR_FOUND_IN_TARGETED_REPO_SEARCH",
+  "calculation_formula": "NOT_PROVIDED",
+  "offline_self_test": {
+    "assertions": 262,
+    "status": "OFFLINE_PASS"
+  },
+  "safety": {
+    "cad_edits": false,
+    "save": false,
+    "rebuild": false,
+    "close": false,
+    "configuration_switch": false
+  },
+  "manual_action": "Activate 25.SHT.G.09.00.00.02  Пластина.SLDPRT in its own window without rebuilding/saving/closing the assembly."
+}

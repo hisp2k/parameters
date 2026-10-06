@@ -1,0 +1,302 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% macro role_fields() %}
+  <div class="field-row">
+    <div class="field">
+      <label>ФИО</label>
+      <input type="text" name="person_name" required>
+    </div>
+    <div class="field">
+      <label>Совмещаемые роли (отметьте все назначенные этому человеку)</label>
+      {% for r in choices.roles %}
+        <label style="font-weight:normal;display:block;">
+          <input type="checkbox" name="assigned_roles" value="{{ r.value }}"> {{ r.value }}
+        </label>
+      {% endfor %}
+    </div>
+    <div class="field">
+      <label>Действует как (роль для ИМЕННО этого действия)</label>
+      <select name="acting_as">
+        {% for r in choices.roles %}
+          <option value="{{ r.value }}">{{ r.value }}</option>
+        {% endfor %}
+      </select>
+    </div>
+  </div>
+{% endmacro %}
+
+<h1>{{ project.project_name }}</h1>
+<p class="note">
+  Обозначение: <strong>{{ project.designation }}</strong> · Заказчик: {{ project.customer }} ·
+  Ревизия: <strong>{{ project.revision }}</strong> · Статус: {{ project.status }} ·
+  Обновлён: {{ project.updated_at[:19] }}
+</p>
+<p>
+  <a class="btn btn-secondary" href="{{ url_for('edit_project', designation=project.designation) }}">Изменить анкету</a>
+</p>
+
+{% if is_stale %}
+  <div class="card" style="border-color:#f0dba0;background:#fdf3d8;">
+    <strong>Расчёт устарел (раздел 1.Б):</strong> входные данные изменились после последнего расчёта —
+    откройте «Изменить анкету» и сохраните заново, чтобы пересчитать актуальную ревизию.
+  </div>
+{% endif %}
+
+{% if project.warnings_log %}
+<div class="card">
+  <h2 style="margin-top:0;border:none;">Предупреждения</h2>
+  <ul class="warning-list">
+    {% for w in project.warnings_log %}<li>{{ w }}</li>{% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+<div class="card">
+  <h2 style="margin-top:0;border:none;">Инженерное ядро (черновик)</h2>
+  {% if project.engineering_result %}
+    {% set r = project.engineering_result %}
+    <table>
+      <tr><th>Диаметр</th><td>{{ r.diameter_mm }} мм</td><th>Шаг</th><td>{{ r.step_mm }} мм</td></tr>
+      <tr><th>Обороты (факт.)</th><td>{{ r.rotation_speed_rpm }} об/мин</td>
+          <th>Допустимо до</th><td>{{ r.max_allowed_rotation_speed_rpm }} об/мин</td></tr>
+      <tr><th>Мощность на валу</th><td>{{ r.shaft_power_kw }} кВт</td>
+          <th>Мотор</th><td>{{ r.motor_power_kw ~ ' кВт' if r.motor_selection_ok else 'не подобран' }}</td></tr>
+      <tr>
+        <th>Производительность требуется</th><td>{{ r.productivity_required_t_per_h }} т/ч</td>
+        <th>Достижимо</th>
+        <td>{{ r.productivity_achievable_t_per_h }} т/ч —
+          <span class="badge {{ 'badge-ok' if r.requirement_met else 'badge-bad' }}">
+            {{ 'выполнено' if r.requirement_met else 'НЕ выполнено' }}
+          </span>
+        </td>
+      </tr>
+    </table>
+    {% if r.warnings %}
+      <p class="note"><strong>Предупреждения расчёта:</strong></p>
+      <ul class="warning-list">{% for w in r.warnings %}<li>{{ w }}</li>{% endfor %}</ul>
+    {% endif %}
+  {% else %}
+    <p class="note">Расчёт ещё не выполнен.</p>
+  {% endif %}
+</div>
+
+{% if schematic_svg %}
+<div class="card">
+  <h2 style="margin-top:0;border:none;">Предварительная схема (не CAD-модель)</h2>
+  <div class="schematic-wrap">{{ schematic_svg | safe }}</div>
+</div>
+{% endif %}
+
+<div class="card">
+  <h2 style="margin-top:0;border:none;">Требования к приводу (раздел 11)</h2>
+  {% set p = project.parameters %}
+  {% if 'drive_required_power_kw' in p %}
+    <table>
+      <tr><th>Требуемая мощность</th><td>{{ p['drive_required_power_kw'].value }} кВт</td></tr>
+      <tr><th>Рабочий момент</th><td>{{ p['drive_running_torque_nm'].value }} Н·м</td></tr>
+      <tr><th>Пусковой момент</th><td>{{ p['drive_starting_torque_nm'].value }} Н·м</td></tr>
+      <tr><th>Требуемое передаточное число</th><td>~{{ p['drive_required_gear_ratio'].value }}</td></tr>
+    </table>
+    <p class="note">Каталог поставщика не подключён — показаны только требования, а не подобранная позиция (раздел 11).</p>
+  {% else %}
+    <p class="note">Требования к приводу ещё не рассчитаны.</p>
+  {% endif %}
+  <p class="note">Статус модуля «Подбор привода»: {{ project.drive_selection.note }}</p>
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0;border:none;">Охват проверки прочности по BOM (раздел 10)</h2>
+  <table>
+    <tr><th>Позиция</th><th>Метод</th><th>Статус</th><th>Причины (если не закрыто)</th></tr>
+    {% for row in coverage_summary %}
+      <tr>
+        <td>{{ row.item.component_class }}</td>
+        <td>{{ row.item.method.value }}</td>
+        <td><span class="badge {{ 'badge-ok' if row.closed else 'badge-bad' }}">{{ 'закрыто' if row.closed else 'открыто' }}</span></td>
+        <td>{{ row.reasons | join('; ') }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0;border:none;">Прочие модули</h2>
+  <table>
+    <tr><th>Модуль</th><th>Готово и актуально?</th><th>Примечание</th></tr>
+    {% for label, m in [('Синхронизация CAD', project.cad_sync), ('КД и BOM', project.kd_bom),
+                          ('Технология', project.technology), ('Себестоимость/цена', project.economics)] %}
+      <tr>
+        <td>{{ label }}</td>
+        <td><span class="badge {{ 'badge-ok' if m.is_current(project.revision, project.compute_input_fingerprint()) else 'badge-bad' }}">
+          {{ 'да' if m.is_current(project.revision, project.compute_input_fingerprint()) else 'нет' }}
+        </span></td>
+        <td>{{ m.note }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+</div>
+
+{% set p = project.parameters %}
+<div class="card">
+  <h2 style="margin-top:0;border:none;">Синхронизация компоновки желоба с CAD — чтение состава</h2>
+  <p class="note">
+    Читает фактическую компоновку («Отсек» + межсекционные проставки) обратно из SolidWorks через
+    существующий коннектор (ClaudeBridge). Запись числа секций в сборку коннектором НЕ поддерживается —
+    секции добавляются вручную в SolidWorks («Линейный массив компонентов»); эта форма только сверяет
+    результат с целевыми значениями и сохраняет количество экземпляров в проект.
+    Подсчёт не подтверждает геометрию, посадки, отсутствие коллизий, пригодность шнека/привода и BOM.
+  </p>
+
+  {% if 'trough_measured_section_count' in p and project.cad_layout_readback.is_current(project.revision, project.compute_input_fingerprint()) %}
+    <table>
+      <tr>
+        <th>Номинал секции</th><td>{{ p['trough_nominal_section_length_mm'].value }} мм</td>
+        <th>Цель (секций × номинал)</th><td>{{ p['trough_target_section_count'].value }} × {{ p['trough_nominal_section_length_mm'].value }} = {{ p['trough_target_nominal_length_mm'].value }} мм</td>
+      </tr>
+      <tr>
+        <th>Фактически секций</th>
+        <td>
+          {{ p['trough_measured_section_count'].value }}
+          <span class="badge {{ 'badge-ok' if p['trough_measured_section_count'].value == p['trough_target_section_count'].value else 'badge-bad' }}">
+            {{ 'совпадает с целью' if p['trough_measured_section_count'].value == p['trough_target_section_count'].value else 'НЕ совпадает с целью' }}
+          </span>
+        </td>
+        <th>Проставок верхнего уровня</th><td>{{ p['trough_measured_spacer_count'].value }}; стыков: {{ p['trough_measured_section_count'].value - 1 }}. Посадка не проверена.</td>
+      </tr>
+      {% if 'trough_measured_joint_spacer_thickness_mm' in p %}
+        <tr>
+          <th>Измеренная толщина проставки в стыке</th>
+          <td>{{ p['trough_measured_joint_spacer_thickness_mm'].value }} мм (введено вручную по обмеру в SolidWorks)</td>
+          <th>Оценка общей длины</th>
+          <td>
+            {% if 'trough_overall_length_estimate_mm' in p %}
+              {{ p['trough_overall_length_estimate_mm'].value }} мм <span class="note">(оценка цепочки секций со стыками; полный габарит и торцевые узлы не обмерены)</span>
+            {% else %}
+              —
+            {% endif %}
+          </td>
+        </tr>
+      {% endif %}
+    </table>
+    <p class="note">Чтение состава: {{ project.cad_layout_readback.note }}</p>
+    {% if project.trough_section_layout %}
+      <ul>{% for warning in project.trough_section_layout.get('warnings', []) %}<li>{{ warning }}</li>{% endfor %}</ul>
+    {% endif %}
+  {% else %}
+    <p class="note">Актуального чтения состава нет: {{ project.cad_layout_readback.note }}.</p>
+    {% if project.trough_section_layout %}
+      <ul>{% for error in project.trough_section_layout.get('errors', []) %}<li>{{ error }}</li>{% endfor %}</ul>
+    {% endif %}
+  {% endif %}
+  <p class="note">Полная проверка CAD: {{ project.cad_sync.note }}</p>
+
+  <form method="post" action="{{ url_for('cad_sync', designation=project.designation) }}">
+    {{ role_fields() }}
+    <div class="field-row">
+      <div class="field">
+        <label for="nominal_section_length_mm">Номинальная длина секции, мм</label>
+        <input type="text" name="nominal_section_length_mm" id="nominal_section_length_mm"
+               value="{{ p['trough_nominal_section_length_mm'].value if 'trough_nominal_section_length_mm' in p else '3000' }}">
+      </div>
+      <div class="field">
+        <label for="target_section_count">Целевое количество секций</label>
+        <input type="text" name="target_section_count" id="target_section_count"
+               value="{{ p['trough_target_section_count'].value if 'trough_target_section_count' in p else '4' }}">
+      </div>
+      <div class="field">
+        <label for="measured_joint_spacer_thickness_mm">Измеренная толщина проставки в стыке, мм (необязательно)</label>
+        <input type="text" name="measured_joint_spacer_thickness_mm" id="measured_joint_spacer_thickness_mm"
+               value="{{ p['trough_measured_joint_spacer_thickness_mm'].value if 'trough_measured_joint_spacer_thickness_mm' in p else '' }}">
+      </div>
+    </div>
+    <button class="btn" type="submit">Синхронизировать с CAD</button>
+  </form>
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0;border:none;">Документы</h2>
+  {% if project.issued_documents %}
+    <table>
+      <tr><th>Документ</th><th>Ревизия документа</th><th>Актуален?</th><th></th></tr>
+      {% for d in project.issued_documents %}
+        <tr>
+          <td>{{ d.kind }}</td>
+          <td>{{ d.revision }}</td>
+          <td><span class="badge {{ 'badge-ok' if d.is_current(project.revision) else 'badge-warn' }}">
+            {{ 'да' if d.is_current(project.revision) else 'устарел' }}
+          </span></td>
+          <td>
+            {% if 'html' in d.kind %}<a href="{{ url_for('project_file', designation=project.designation, kind='agreement_html') }}">открыть</a>
+            {% elif 'pdf' in d.kind %}<a href="{{ url_for('project_file', designation=project.designation, kind='agreement_pdf') }}">скачать PDF</a>
+            {% elif 'технология' in d.kind %}<a href="{{ url_for('project_file', designation=project.designation, kind='technology_json') }}">черновик технологии (JSON)</a>
+            {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+    </table>
+  {% else %}
+    <p class="note">Документы ещё не выпущены.</p>
+  {% endif %}
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0;border:none;">История ревизий</h2>
+  {% if project.revision_history %}
+    <table>
+      <tr><th>Ревизия</th><th>Заменена</th><th>Причина</th></tr>
+      {% for h in project.revision_history %}
+        <tr><td>{{ h.revision }}</td><td>{{ h.superseded_at[:19] }}</td><td>{{ h.reason }}</td></tr>
+      {% endfor %}
+    </table>
+  {% else %}
+    <p class="note">Ревизия ещё не поднималась.</p>
+  {% endif %}
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0;border:none;">Подтверждения и проверки (раздел 1.А/5)</h2>
+  <p class="note">Совмещение ролей — только явное: укажите ФИО, ВСЕ роли, назначенные этому человеку на
+  проекте, и роль, ОТ ИМЕНИ КОТОРОЙ выполняется именно это действие (роли не наследуются автоматически).</p>
+
+  <h3>Подтверждение исходных данных инженером</h3>
+  <p class="note">Текущее состояние: {{ 'подтверждено — ' ~ project.engineer_confirmed_by if project.engineer_confirmed_assumptions else 'не подтверждено' }}</p>
+  <form method="post" action="{{ url_for('confirm_assumptions', designation=project.designation) }}">
+    {{ role_fields() }}
+    <button class="btn" type="submit">Подтвердить исходные данные</button>
+  </form>
+
+  <h3 style="margin-top:1.2rem;">Техническая проверка другим специалистом</h3>
+  <p class="note">
+    Текущее состояние: {{ 'зафиксирована — ' ~ project.technical_review.reviewer_name if project.technical_review else 'не зафиксирована' }}
+  </p>
+  <form method="post" action="{{ url_for('technical_review', designation=project.designation) }}">
+    {{ role_fields() }}
+    <div class="field">
+      <label for="notes">Примечания проверки</label>
+      <textarea name="notes" id="notes" rows="2"></textarea>
+    </div>
+    <button class="btn" type="submit">Зафиксировать техническую проверку</button>
+  </form>
+
+  <h3 style="margin-top:1.2rem;">Утверждение выпуска руководителем</h3>
+  <p class="note">
+    Текущее состояние: {{ 'утверждён — ' ~ project.release_approval.approved_by_name if project.release_approval else 'не утверждён' }}
+  </p>
+  <form method="post" action="{{ url_for('release_approval', designation=project.designation) }}">
+    {{ role_fields() }}
+    <button class="btn" type="submit">Утвердить выпуск</button>
+  </form>
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0;border:none;">Блокировки выпуска (раздел 20)</h2>
+  {% if release_reasons %}
+    <ul class="blocked-list">{% for r in release_reasons %}<li>{{ r }}</li>{% endfor %}</ul>
+  {% else %}
+    <p class="note">Блокировок не найдено — проверьте это вручную, автоматических проверок недостаточно
+    для гарантии готовности к производству.</p>
+  {% endif %}
+</div>
+
+{% endblock %}

@@ -1,0 +1,59 @@
+{
+  "schema": "profile_part_plan_normalized/3",
+  "source_pdf": null,
+  "source_sha256": null,
+  "source_pages": [],
+  "units": "mm",
+  "designation": "AI_CONTROL_PROFILE_SLOT_01",
+  "name": "Контрольная профильная труба с пазами",
+  "material": "AISI 304",
+  "part_class": "профильная деталь",
+  "part_class_confidence": "N/A (синтетический контрольный план)",
+  "mcp_tool": "sw_create_profile_part_from_plan",
+  "plan": {
+    "plan_version": "3",
+    "cross_section": {
+      "type": "rectangular_tube",
+      "width_mm": 40,
+      "height_mm": 40,
+      "wall_thickness_mm": 4,
+      "outer_corner_radius_mm": 8,
+      "inner_corner_radius_mm": 4
+    },
+    "length_mm": 500,
+    "hole_groups": [],
+    "slot_groups": [
+      {
+        "face": "face_a",
+        "pattern": "explicit",
+        "length_mm": 90,
+        "width_mm": 13,
+        "edge_offset_mm": 20,
+        "positions_mm": [
+          100,
+          300
+        ],
+        "count": 2,
+        "note": "Axial obround control slots. Overall length is 90 mm and width is 13 mm."
+      }
+    ],
+    "properties": {
+      "designation": "AI_CONTROL_PROFILE_SLOT_01",
+      "name": "Контрольная профильная труба с пазами"
+    },
+    "material": "AISI 304"
+  },
+  "proven_parameters": [
+    "Все параметры заданы напрямую в синтетическом контрольном плане."
+  ],
+  "unknown_or_ambiguous_parameters": [],
+  "readiness_status": "READY_FOR_LIVE_TEST",
+  "expected_volume_m3": 0.00024925850705232832,
+  "expected_envelope_mm": {
+    "x_length": 500,
+    "y_width": 40,
+    "z_height": 40
+  },
+  "expected_topology": "1 тело; 8 цилиндрических граней радиусных углов сечения; 8 цилиндрических граней двух пазов через две противоположные стенки.",
+  "manufacturing_approved": false
+}

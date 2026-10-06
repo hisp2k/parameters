@@ -1,0 +1,51 @@
+﻿
+===== setup =====
+FakeWorker build output: 
+FakeWorker built OK.
+
+===== 1. success (fake_ok) =====
+[PASS] success -- exit=0 ok=True status=OK request_id_matches=True
+
+===== 2. result.ok=false (fake_fail) =====
+[PASS] result.ok=false -- exit=1 ok=False status=TOOL_FAILED errcode=FAKE_FAIL
+
+===== 3. worker exit code != 0 (fake_nonzero) =====
+[PASS] worker exit code != 0 overrides a false ok:true -- exit=1 bridge_ok=False worker_exit_code=3
+
+===== 4. corrupted JSON (fake_corrupt) =====
+[PASS] corrupted JSON -- exit=2 status=BRIDGE_ERROR parse_error_set=True
+
+===== 5. empty stdout (fake_empty) =====
+[PASS] empty response -- exit=2 status=BRIDGE_ERROR parse_error=Worker produced no stdout.
+
+===== 6. stdout/stderr separation (fake_stderr_noise) =====
+[PASS] stdout/stderr separation -- exit=0 ok=True stderr_log_has_noise=True
+
+===== 7. timeout (fake_hang, timeout_ms=2000) -> quarantine =====
+[PASS] timeout -> UNKNOWN, process reaped, no false cancel claim, quarantine written -- exit=2 status=UNKNOWN elapsed_ms=5352 still_running=False quarantine_written=True
+
+===== 7b. quarantine gate (write-capable blocked, read-only allowed, clear resumes) =====
+[PASS] quarantine blocks write-capable, allows read-only, clear resumes normal calls -- blocked=True read_only_passed_gate=True cleared=True resumed=True
+
+===== 8. repeated request_id (sequential, different arguments each time) =====
+[PASS] repeated request_id does not cause stale/cached answers -- r1_echo_has_111=True r2_echo_has_222=True timestamps_differ=True
+
+===== 8b. unsafe request_id rejected (path-traversal attempt) =====
+[PASS] unsafe request_id rejected, never used as a path -- exit=2 no_file_written_for_unsafe_id_anywhere_under_testdir=True
+
+===== 9. concurrency: 3 overlapping callers + lock survival + per-id responses =====
+[PASS] 3-way concurrency: lock survives BUSY callers, 3 distinct responses, bridge usable again after -- lock_held_by_1=True lock_unchanged_after_2=True lock_unchanged_after_3=True lock_released_after_1=True distinct_responses=True call1_won=True call2_busy=True call3_busy=True call4_succeeds=True proc1_exit=0 proc2_exit=2 proc3_exit=2
+
+===== SUMMARY =====
+11 / 11 scenarios passed
+  [PASS] success
+  [PASS] result.ok=false
+  [PASS] worker exit code != 0 overrides a false ok:true
+  [PASS] corrupted JSON
+  [PASS] empty response
+  [PASS] stdout/stderr separation
+  [PASS] timeout -> UNKNOWN, process reaped, no false cancel claim, quarantine written
+  [PASS] quarantine blocks write-capable, allows read-only, clear resumes normal calls
+  [PASS] repeated request_id does not cause stale/cached answers
+  [PASS] unsafe request_id rejected, never used as a path
+  [PASS] 3-way concurrency: lock survives BUSY callers, 3 distinct responses, bridge usable again after

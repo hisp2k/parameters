@@ -1,0 +1,133 @@
+{
+  "format": "tech-aero-screw-source-notes-1",
+  "source": {
+    "conversation_id": "6a8820ac-e80c-83eb-af11-73a94230d785",
+    "title": "Шнековый транспортер проектирование",
+    "retrieved_on": "2026-09-06",
+    "evidence_level": "conversation_only",
+    "attachments_accessible": false
+  },
+  "active_calculation": false,
+  "profiles": [
+    {
+      "family": "25.SHT.G",
+      "diameter_mm": 200,
+      "pitch_mm": 200,
+      "screw_flight_length_mm": 2873,
+      "screw_with_shafts_length_mm": 3165.5,
+      "housing_module_length_mm": 3000,
+      "bom_rows": 85,
+      "assembly_rows": 12,
+      "make_rows": 46,
+      "buy_rows": 27,
+      "reference_labor_person_h": 143.233,
+      "reference_machine_h": 80.648,
+      "screw_assembly_mass_drawing_kg": 63.16,
+      "screw_assembly_mass_step_assuming_steel_kg": 62.76,
+      "evidence_turns": [
+        "8b0c87ca-b134-44c6-bf51-b9bde37b3e63",
+        "970e1b36-a4ca-427f-a355-2bbde0eba7ae"
+      ],
+      "bom_step_differences": [
+        {
+          "part": "Шайба М16 DIN 125 ОЦ",
+          "bom": 33,
+          "step": 31
+        },
+        {
+          "part": "Шайба М16 DIN 127",
+          "bom": 34,
+          "step": 32
+        },
+        {
+          "part": "Болт M16×45",
+          "bom": 7,
+          "step": 5
+        },
+        {
+          "part": "Гайка DIN 6923 M16",
+          "bom": 27,
+          "step": 25
+        },
+        {
+          "part": "Шайба М8 DIN125 A2",
+          "bom": 32,
+          "step": 0
+        }
+      ]
+    },
+    {
+      "family": "24.SHT.G",
+      "diameter_mm": 300,
+      "pitch_mm": 300,
+      "flight_thickness_mm": 4,
+      "overall_length_approx_mm": 6100,
+      "tube_shaft": {
+        "outer_diameter_mm": 121,
+        "wall_mm": 8,
+        "length_approx_mm": 5994,
+        "material_reported": "AISI 316Ti; requires drawing confirmation"
+      },
+      "full_flights": 20,
+      "trimmed_flights": 1,
+      "bom_rows": 118,
+      "product_rows": 1,
+      "assembly_rows": 11,
+      "make_rows": 74,
+      "buy_rows": 32,
+      "unique_buy_items": 23,
+      "reference_labor_person_h": 312.907,
+      "reference_machine_h": 152.74,
+      "flight_forming_reference_h_each": 0.084,
+      "flight_forming_rule_scope": "D300 / P300 / thickness4 / AISI316 only; not universal",
+      "reported_known_mass_kg": 294.087,
+      "reported_known_mass_with_waste_kg": 338.2,
+      "reported_partial_material_cost_rub": 111916,
+      "full_cost_rub": null,
+      "readiness_reported_latest": "v11: 2/10 gates passed; not independently verified",
+      "evidence_turns": [
+        "bbb2176b-6730-4920-9fc2-2c0e2e528d94",
+        "bbb21f9d-4f13-448f-acd8-a9b7e6701050",
+        "5d4fd696-a716-4160-b201-4b33bb002aa4",
+        "65398cd2-79cd-45ec-b2cc-c49c5f832da7"
+      ]
+    },
+    {
+      "family": "05",
+      "overall_length_approx_mm": 10000,
+      "status": "mentioned future reference; no complete profile retrieved"
+    }
+  ],
+  "integration_constraints": [
+    "Keep family 24 separate from family 25; do not scale total labor by length alone.",
+    "Separate MAKE, BUY and ASSEMBLY; prevent double counting assemblies and their children.",
+    "Keep person-hours separate from machine-hours and verify rate cost composition.",
+    "Materials from drawings and material assumptions must have distinct provenance.",
+    "Do not substitute AISI316Ti, AISI316, AISI316L automatically.",
+    "Historic material price multiplier 1.25 is a source-note, not current verified pricing; apply no duplicate surcharge.",
+    "Calibration ratios do not automatically modify engineering formulae.",
+    "Distinguish controlled-feed conveyor from flood-loaded screw feeder.",
+    "Do not import cancelled standard references as current standards without verification.",
+    "No complete manufacturing price or production-ready status can be derived from conversation summaries alone."
+  ],
+  "needed_files": [
+    "Latest screw calculator v11 XLSX (with formulas and source sheets)",
+    "Official BOMs for families 25 and 24",
+    "STEP and matching drawing revisions",
+    "Operation-level time/cost breakdown and confirmed purchase prices",
+    "Actual costing and rate scope/approval evidence"
+  ],
+  "local_search": {
+    "paths": [
+      "D:/CodexProjects",
+      "workspace sources/"
+    ],
+    "matching_screw_files_found": false
+  },
+  "available_but_not_imported_as_formulae": [
+    "Questionnaire text",
+    "Engineering dependency descriptions",
+    "Version v4-v11 change summaries"
+  ]
+}
+

@@ -1,0 +1,355 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% macro tri(name, label) %}
+  <div class="field">
+    <label for="{{ name }}">{{ label }}</label>
+    <select name="{{ name }}" id="{{ name }}">
+      <option value="" {{ 'selected' if values.get(name) in (None, '') else '' }}>не указано</option>
+      <option value="true" {{ 'selected' if values.get(name) in (True, 'true', 'on') else '' }}>да</option>
+      <option value="false" {{ 'selected' if values.get(name) == False or values.get(name) == 'false' else '' }}>нет</option>
+    </select>
+  </div>
+{% endmacro %}
+
+{% if mode == "new" %}
+  <h1>Новый проект</h1>
+  <p class="note">Экран 1 «Задача» (раздел 6 задания) — все поля вводятся здесь, отдельный JSON-файл
+  анкеты редактировать не нужно.</p>
+{% else %}
+  <h1>Редактирование анкеты — {{ project.project_name }}</h1>
+  <p class="note">Изменение анкеты существующего проекта (раздел 1.Б): если данные изменились
+  по существу, ревизия будет поднята, а расчёт/подтверждения/утверждение выпуска — аннулированы
+  автоматически. Обозначение и заказчик проекта здесь не меняются.</p>
+{% endif %}
+
+{% if errors %}
+  <div class="errors">
+    <strong>Найдены проблемы:</strong>
+    <ul>{% for e in errors %}<li>{{ e }}</li>{% endfor %}</ul>
+  </div>
+{% endif %}
+
+<form method="post">
+
+  {% if mode == "new" %}
+  <fieldset>
+    <legend>Проект</legend>
+    <div class="field-row">
+      <div class="field">
+        <label for="designation">Обозначение (латиница/цифры/_/- , используется как имя файла)</label>
+        <input type="text" name="designation" id="designation" value="{{ values.get('designation','') }}" required>
+      </div>
+      <div class="field">
+        <label for="project_name">Наименование проекта</label>
+        <input type="text" name="project_name" id="project_name" value="{{ values.get('project_name','') }}" required>
+      </div>
+      <div class="field">
+        <label for="customer">Заказчик</label>
+        <input type="text" name="customer" id="customer" value="{{ values.get('customer','') }}" required>
+      </div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label for="conveyor_kind">Вид конструкции</label>
+        <select name="conveyor_kind" id="conveyor_kind">
+          {% for k in choices.conveyor_kinds %}
+            <option value="{{ k.value }}" {{ 'selected' if values.get('conveyor_kind') == k.value else '' }}>{{ k.value }}</option>
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+    <p class="note">Инженерное ядро на этом этапе полноценно считает «валовый_желобчатый»; для
+    «валовый_трубчатый» (Issue #3) — честные блокеры вместо чисел, см. группу 5 ниже.</p>
+  </fieldset>
+  {% else %}
+  {# ИСПРАВЛЕНИЕ 17.09.2026: вид конструкции здесь НЕ редактируется (как обозначение/заказчик),
+     но раньше форма вообще не передавала это поле при редактировании — forms.py::_enum_or_error
+     тогда подставлял default=SHAFTED_TROUGH, что молча превращало ЛЮБОЙ редактируемый
+     SHAFTED_TUBE-проект в SHAFTED_TROUGH. Скрытое поле сохраняет исходное значение. #}
+  <input type="hidden" name="conveyor_kind" id="conveyor_kind" value="{{ values.get('conveyor_kind','') }}">
+  {% endif %}
+
+  <fieldset>
+    <legend>Группа 1 — Материал (транспортируемый продукт)</legend>
+    <div class="field-row">
+      <div class="field">
+        <label for="material_name">Наименование материала</label>
+        <input type="text" name="material_name" id="material_name" value="{{ values.get('material_name','') }}" required>
+      </div>
+      <div class="field">
+        <label for="bulk_density_kg_m3">Насыпная плотность, кг/м³</label>
+        <input type="text" name="bulk_density_kg_m3" id="bulk_density_kg_m3" value="{{ values.get('bulk_density_kg_m3','') }}" required>
+      </div>
+      <div class="field">
+        <label for="max_lump_size_mm">Макс. размер куска, мм</label>
+        <input type="text" name="max_lump_size_mm" id="max_lump_size_mm" value="{{ values.get('max_lump_size_mm','') }}" required>
+      </div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label for="abrasiveness">Абразивность</label>
+        <select name="abrasiveness" id="abrasiveness">
+          <option value="">не указано</option>
+          {% for a in choices.abrasiveness_levels %}
+            <option value="{{ a.value }}" {{ 'selected' if values.get('abrasiveness') == a.value else '' }}>{{ a.value }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="field checkbox">
+        <input type="checkbox" name="is_sorted_material" id="is_sorted_material" {{ 'checked' if values.get('is_sorted_material') in (True, 'on', 'true') else '' }}>
+        <label for="is_sorted_material">Материал сортированный (не рядовой)</label>
+      </div>
+    </div>
+    <details>
+      <summary>Дополнительные свойства материала (раздел 6, по требованию)</summary>
+      <div class="field-row">
+        <div class="field">
+          <label for="moisture_percent">Влажность, %</label>
+          <input type="text" name="moisture_percent" id="moisture_percent" value="{{ values.get('moisture_percent','') }}">
+        </div>
+        <div class="field">
+          <label for="temperature_c">Температура продукта, °C</label>
+          <input type="text" name="temperature_c" id="temperature_c" value="{{ values.get('temperature_c','') }}">
+        </div>
+        {{ tri('is_fibrous', 'Волокнистый материал?') }}
+        {{ tri('is_sticky', 'Липкий материал?') }}
+      </div>
+    </details>
+  </fieldset>
+
+  <fieldset>
+    <legend>Группа 2 — Производительность</legend>
+    <div class="field-row">
+      <div class="field">
+        <label for="productivity_value">Значение</label>
+        <input type="text" name="productivity_value" id="productivity_value" value="{{ values.get('productivity_value','') }}" required>
+      </div>
+      <div class="field">
+        <label for="productivity_unit">Единица</label>
+        <select name="productivity_unit" id="productivity_unit">
+          {% for u in choices.productivity_units %}
+            <option value="{{ u.value }}" {{ 'selected' if values.get('productivity_unit') == u.value else '' }}>{{ u.value }}</option>
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Группа 3 — Геометрия</legend>
+    <div class="field-row">
+      <div class="field">
+        <label for="geometry_mode">Способ задания</label>
+        <select name="geometry_mode" id="geometry_mode">
+          {% for m in choices.geometry_modes %}
+            <option value="{{ m.value }}" {{ 'selected' if values.get('geometry_mode') == m.value else '' }}>{{ m.value }}</option>
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+    <p class="note">Заполните ТОЛЬКО поля, относящиеся к выбранному способу — остальные игнорируются.</p>
+    <div class="field-row">
+      <div class="field">
+        <label for="working_length_mm">Рабочая длина по оси, мм (для «длина_по_оси_и_угол»)</label>
+        <input type="text" name="working_length_mm" id="working_length_mm" value="{{ values.get('working_length_mm','') }}">
+      </div>
+      <div class="field">
+        <label for="incline_deg">Угол наклона, ° (для «длина_по_оси_и_угол»)</label>
+        <input type="text" name="incline_deg" id="incline_deg" value="{{ values.get('incline_deg','0') }}">
+      </div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label for="horizontal_projection_mm">Горизонтальная проекция, мм (для «горизонтальная_проекция_и_высота»)</label>
+        <input type="text" name="horizontal_projection_mm" id="horizontal_projection_mm" value="{{ values.get('horizontal_projection_mm','') }}">
+      </div>
+      <div class="field">
+        <label for="height_gain_mm">Набор высоты, мм (для «горизонтальная_проекция_и_высота»)</label>
+        <input type="text" name="height_gain_mm" id="height_gain_mm" value="{{ values.get('height_gain_mm','') }}">
+      </div>
+    </div>
+    <div class="field-row">
+      <div class="field"><label for="load_x_mm">Загрузка X, мм (для «координаты…»)</label><input type="text" name="load_x_mm" id="load_x_mm" value="{{ values.get('load_x_mm','') }}"></div>
+      <div class="field"><label for="load_y_mm">Загрузка Y, мм</label><input type="text" name="load_y_mm" id="load_y_mm" value="{{ values.get('load_y_mm','') }}"></div>
+      <div class="field"><label for="load_z_mm">Загрузка Z, мм</label><input type="text" name="load_z_mm" id="load_z_mm" value="{{ values.get('load_z_mm','') }}"></div>
+    </div>
+    <div class="field-row">
+      <div class="field"><label for="unload_x_mm">Выгрузка X, мм</label><input type="text" name="unload_x_mm" id="unload_x_mm" value="{{ values.get('unload_x_mm','') }}"></div>
+      <div class="field"><label for="unload_y_mm">Выгрузка Y, мм</label><input type="text" name="unload_y_mm" id="unload_y_mm" value="{{ values.get('unload_y_mm','') }}"></div>
+      <div class="field"><label for="unload_z_mm">Выгрузка Z, мм</label><input type="text" name="unload_z_mm" id="unload_z_mm" value="{{ values.get('unload_z_mm','') }}"></div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label for="overall_length_mm">Общий габарит, мм (необязательно, для чертежа)</label>
+        <input type="text" name="overall_length_mm" id="overall_length_mm" value="{{ values.get('overall_length_mm','') }}">
+      </div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Группа 4 — Профиль эксплуатации</legend>
+    <div class="field-row">
+      <div class="field">
+        <label for="duty_mode">Режим работы</label>
+        <input type="text" name="duty_mode" id="duty_mode" value="{{ values.get('duty_mode','нормальный') }}">
+      </div>
+      <div class="field">
+        <label for="environment">Среда эксплуатации</label>
+        <input type="text" name="environment" id="environment" value="{{ values.get('environment','') }}">
+      </div>
+      <div class="field">
+        <label for="construction_material">Материал конструкции (не продукта!)</label>
+        <input type="text" name="construction_material" id="construction_material" value="{{ values.get('construction_material','Ст3') }}">
+      </div>
+    </div>
+  </fieldset>
+
+  <fieldset id="tube-fieldset">
+    <legend>Группа 5 — Валовый трубчатый шнек (только для «валовый_трубчатый», Issue #3)</legend>
+    <p class="note">Эти поля используются только инженерным ядром трубного шнека
+    (<code>core/tube_engineering.py</code>) — для «валовый_желобчатый» они игнорируются и ни на что
+    не влияют. Расположение привода запрашивается ДВУМЯ независимыми источниками (текст ТЗ и
+    графика эскиза) — если они расходятся, это честно показывается как блокер, а не выбирается
+    автоматически.</p>
+    <div class="field-row">
+      <div class="field">
+        <label for="connection_diameter_mm">Присоединительный диаметр DN, мм</label>
+        <input type="text" name="connection_diameter_mm" id="connection_diameter_mm" value="{{ values.get('connection_diameter_mm','') }}">
+      </div>
+      <div class="field">
+        <label for="load_height_from_floor_mm">Высота загрузки от пола, мм</label>
+        <input type="text" name="load_height_from_floor_mm" id="load_height_from_floor_mm" value="{{ values.get('load_height_from_floor_mm','') }}">
+      </div>
+      <div class="field">
+        <label for="unload_height_from_floor_mm">Высота выгрузки от пола, мм</label>
+        <input type="text" name="unload_height_from_floor_mm" id="unload_height_from_floor_mm" value="{{ values.get('unload_height_from_floor_mm','') }}">
+      </div>
+    </div>
+    <div class="field-row">
+      {{ tri('is_slurry_mixture', 'Двухфазная смесь (жидкость+твёрдая фаза)?') }}
+      <div class="field">
+        <label for="solids_concentration_percent">Концентрация твёрдой фазы, %</label>
+        <input type="text" name="solids_concentration_percent" id="solids_concentration_percent" value="{{ values.get('solids_concentration_percent','') }}">
+      </div>
+      {{ tri('drain_connection_required', 'Требуется подключение дренажа?') }}
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label for="duty_hours_per_day">Часов работы в сутки</label>
+        <input type="text" name="duty_hours_per_day" id="duty_hours_per_day" value="{{ values.get('duty_hours_per_day','') }}">
+      </div>
+      <div class="field">
+        <label for="starts_per_day">Пусков в сутки</label>
+        <input type="text" name="starts_per_day" id="starts_per_day" value="{{ values.get('starts_per_day','') }}">
+      </div>
+      <div class="field">
+        <label for="corrosion_requirements">Требования по коррозионной стойкости</label>
+        <input type="text" name="corrosion_requirements" id="corrosion_requirements" value="{{ values.get('corrosion_requirements','') }}">
+      </div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label for="drive_location_text">Расположение привода — ТЕКСТ ТЗ/эскиза</label>
+        <select name="drive_location_text" id="drive_location_text">
+          <option value="">не указано</option>
+          {% for d in choices.drive_locations %}
+            <option value="{{ d.value }}" {{ 'selected' if values.get('drive_location_text') == d.value else '' }}>{{ d.value }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="field">
+        <label for="drive_location_text_source">Источник (текст)</label>
+        <input type="text" name="drive_location_text_source" id="drive_location_text_source" value="{{ values.get('drive_location_text_source','') }}" placeholder="напр. «текст эскиза, п.5»">
+      </div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label for="drive_location_graphic">Расположение привода — ГРАФИКА эскиза</label>
+        <select name="drive_location_graphic" id="drive_location_graphic">
+          <option value="">не указано</option>
+          {% for d in choices.drive_locations %}
+            <option value="{{ d.value }}" {{ 'selected' if values.get('drive_location_graphic') == d.value else '' }}>{{ d.value }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="field">
+        <label for="drive_location_graphic_source">Источник (графика)</label>
+        <input type="text" name="drive_location_graphic_source" id="drive_location_graphic_source" value="{{ values.get('drive_location_graphic_source','') }}" placeholder="напр. «графическая часть эскиза»">
+      </div>
+    </div>
+    <p class="note">«Пуск под нагрузкой» — общее поле, см. раздел «Дополнительные вопросы» ниже.</p>
+  </fieldset>
+
+  <fieldset>
+    <legend>Форсирование диаметра/шага (необязательно)</legend>
+    <div class="field-row">
+      <div class="field">
+        <label for="forced_diameter_mm">Диаметр шнека, мм</label>
+        <input type="text" name="forced_diameter_mm" id="forced_diameter_mm" value="{{ values.get('forced_diameter_mm','') }}">
+      </div>
+      <div class="field">
+        <label for="forced_step_mm">Шаг витка, мм</label>
+        <input type="text" name="forced_step_mm" id="forced_step_mm" value="{{ values.get('forced_step_mm','') }}">
+      </div>
+    </div>
+  </fieldset>
+
+  <details>
+    <summary><strong>Дополнительные вопросы (раздел 6, второй список) — заполняйте, только если применимо</strong></summary>
+    <fieldset>
+      <legend>Дополнительно</legend>
+      <div class="field-row">
+        {{ tri('startup_under_load', 'Пуск под нагрузкой?') }}
+        {{ tri('inlet_backpressure', 'Противодавление на загрузке?') }}
+        {{ tri('reverse_required', 'Требуется реверс?') }}
+        {{ tri('multiple_outlets', 'Многоточечная выгрузка?') }}
+        {{ tri('washdown_required', 'Требуется мойка/влагозащита?') }}
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="special_execution">Специальное исполнение (текстом)</label>
+          <input type="text" name="special_execution" id="special_execution" value="{{ values.get('special_execution','') }}">
+        </div>
+        <div class="field">
+          <label for="drive_power_supply">Электропитание привода</label>
+          <input type="text" name="drive_power_supply" id="drive_power_supply" value="{{ values.get('drive_power_supply','') }}">
+        </div>
+      </div>
+      <p class="note">Эти пункты фиксируются как заявленные требования, но текущее инженерное ядро
+      не все из них проверяет расчётом — после сохранения список непокрытых требований будет показан явно.</p>
+    </fieldset>
+  </details>
+
+  <p>
+    <button class="btn" type="submit">{{ 'Создать проект' if mode == 'new' else 'Сохранить и пересчитать' }}</button>
+    {% if mode == 'edit' %}
+      <a class="btn btn-secondary" href="{{ url_for('project_dashboard', designation=project.designation) }}">Отмена</a>
+    {% endif %}
+  </p>
+</form>
+
+<script>
+// Обязательность полей группы 1/2 (свойства продукта, производительность) зависит от вида
+// конструкции (раздел 21 / Issue #3): жёстко нужны только для «валовый_желобчатый» — на
+// сервере это уже реализовано в core/questionnaire.py::validate_questionnaire()
+// (material_props_required/productivity_required), здесь — то же самое на клиенте, чтобы
+// HTML5 "required" не блокировал отправку честно неполной трубной анкеты.
+(function () {
+  var TROUGH_ONLY_REQUIRED = ["bulk_density_kg_m3", "max_lump_size_mm", "productivity_value"];
+  var select = document.getElementById("conveyor_kind");
+  function applyRequiredness() {
+    var kind = select ? select.value : "валовый_желобчатый";
+    var isTrough = (kind === "валовый_желобчатый");
+    TROUGH_ONLY_REQUIRED.forEach(function (name) {
+      var el = document.getElementById(name);
+      if (el) { el.required = isTrough; }
+    });
+  }
+  if (select) {
+    select.addEventListener("change", applyRequiredness);
+    applyRequiredness();
+  }
+})();
+</script>
+{% endblock %}

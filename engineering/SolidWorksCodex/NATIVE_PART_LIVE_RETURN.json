@@ -1,0 +1,207 @@
+{
+  "schema_version": "native-part-live/1",
+  "started_utc": "2026-09-15T02:41:01.5305420Z",
+  "target": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.02  Пластина.SLDPRT",
+  "connector_sha256": "B9570CC918CB5D4D341C85BCE8328037A84D3D43F78BBBE372FAEE9AF2C93425",
+  "test_only": true,
+  "manufacturing_approved": false,
+  "steps": [
+    {
+      "arguments": {},
+      "reply": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"schema_version\":\"solidworks-local/1.3\",\"context\":{\"title\":\"25.SHT.G.09.00.00.02  Пластина\",\"path\":\"C:\\\\Users\\\\adm\\\\Desktop\\\\25.SHT.G.00.00.00.00 СБ\\\\25.SHT.G.09.00.00.02  Пластина.SLDPRT\",\"document_type\":\"PART\",\"active_configuration\":\"По умолчанию\",\"has_unsaved_changes\":false,\"document_revision\":null,\"storage_scope\":\"LOCAL_FIXED_DISK\",\"connector_write_allowed\":true,\"revision_status\":\"UNKNOWN\",\"snapshot_id\":\"9ae257c875c74fa08dcb67c8e48bf8e2\",\"captured_at_utc\":\"2026-09-15T02:41:01.8048909Z\",\"solidworks_api_revision\":\"34.3.2\",\"source_state\":\"IN_MEMORY_ACTIVE_DOCUMENT\",\"note\":\"API revision is a software version, not the engineering revision. VERIFIED means successfully read, not independently approved. No revision is inferred from filenames or timestamps.\"},\"data\":{\"title\":\"25.SHT.G.09.00.00.02  Пластина\",\"path\":\"C:\\\\Users\\\\adm\\\\Desktop\\\\25.SHT.G.00.00.00.00 СБ\\\\25.SHT.G.09.00.00.02  Пластина.SLDPRT\",\"document_type\":\"PART\",\"active_configuration\":\"По умолчанию\",\"has_unsaved_changes\":false,\"document_revision\":null,\"storage_scope\":\"LOCAL_FIXED_DISK\",\"connector_write_allowed\":true,\"revision_status\":\"UNKNOWN\",\"snapshot_id\":\"9ae257c875c74fa08dcb67c8e48bf8e2\",\"captured_at_utc\":\"2026-09-15T02:41:01.7947212Z\",\"solidworks_api_revision\":\"34.3.2\",\"source_state\":\"IN_MEMORY_ACTIVE_DOCUMENT\",\"note\":\"API revision is a software version, not the engineering revision. VERIFIED means successfully read, not independently approved. No revision is inferred from filenames or timestamps.\"},\"issues\":[],\"partial\":false,\"manufacturing_approved\":false,\"consistency\":\"Best-effort live read, not a locked transaction. Do not edit the document during extraction.\",\"untrusted_text\":true}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      "tool": "sw_document"
+    },
+    {
+      "arguments": {
+        "offset": 0,
+        "limit": 100
+      },
+      "reply": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"schema_version\":\"solidworks-local/1.3\",\"context\":{\"title\":\"25.SHT.G.09.00.00.02  Пластина\",\"path\":\"C:\\\\Users\\\\adm\\\\Desktop\\\\25.SHT.G.00.00.00.00 СБ\\\\25.SHT.G.09.00.00.02  Пластина.SLDPRT\",\"document_type\":\"PART\",\"active_configuration\":\"По умолчанию\",\"has_unsaved_changes\":false,\"document_revision\":null,\"storage_scope\":\"LOCAL_FIXED_DISK\",\"connector_write_allowed\":true,\"revision_status\":\"UNKNOWN\",\"snapshot_id\":\"2e452e188a164d73bca6ca58f1a6031b\",\"captured_at_utc\":\"2026-09-15T02:41:04.0639974Z\",\"solidworks_api_revision\":\"34.3.2\",\"source_state\":\"IN_MEMORY_ACTIVE_DOCUMENT\",\"note\":\"API revision is a software version, not the engineering revision. VERIFIED means successfully read, not independently approved. No revision is inferred from filenames or timestamps.\"},\"data\":{\"items\":[{\"index\":0,\"feature_name\":\"Часто используемые\",\"feature_type\":\"FavoriteFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":1,\"feature_name\":\"История\",\"feature_type\":\"HistoryFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":2,\"feature_name\":\"Наборы выбора\",\"feature_type\":\"SelectionSetFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":3,\"feature_name\":\"Датчики\",\"feature_type\":\"SensorFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":4,\"feature_name\":\"Связь проектов\",\"feature_type\":\"DocsFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":5,\"feature_name\":\"Примечания\",\"feature_type\":\"DetailCabinet\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":6,\"feature_name\":\"Исправления\",\"feature_type\":\"InkMarkupFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":7,\"feature_name\":\"Источники света и камеры\",\"feature_type\":\"EnvFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":8,\"feature_name\":\"Твердые тела\",\"feature_type\":\"SolidBodyFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":9,\"feature_name\":\"Тела поверхности\",\"feature_type\":\"SurfaceBodyFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":10,\"feature_name\":\"Заметки\",\"feature_type\":\"CommentsFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":11,\"feature_name\":\"Уравнения\",\"feature_type\":\"EqnFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":12,\"feature_name\":\"AISI 304\",\"feature_type\":\"MaterialFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":13,\"feature_name\":\"Спереди\",\"feature_type\":\"RefPlane\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":14,\"feature_name\":\"Сверху\",\"feature_type\":\"RefPlane\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":15,\"feature_name\":\"Справа\",\"feature_type\":\"RefPlane\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":16,\"feature_name\":\"Исходная точка\",\"feature_type\":\"OriginProfileFeature\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":17,\"feature_name\":\"Эскиз1\",\"feature_type\":\"ProfileFeature\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[{\"name\":\"D1\",\"full_name\":\"D1@Эскиз1@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз1\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.003,\"value_mm\":3,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false},{\"name\":\"D2\",\"full_name\":\"D2@Эскиз1@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз1\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.03,\"value_mm\":30,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false},{\"name\":\"D3\",\"full_name\":\"D3@Эскиз1@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз1\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.08,\"value_mm\":80,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false},{\"name\":\"D6\",\"full_name\":\"D6@Эскиз1@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз1\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.01,\"value_mm\":10,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false},{\"name\":\"D7\",\"full_name\":\"D7@Эскиз1@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз1\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.01,\"value_mm\":10,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false}],\"dimension_count\":5},{\"index\":18,\"feature_name\":\"Бобышка-Вытянуть1\",\"feature_type\":\"Extrusion\",\"suppressed\":false,\"supported_for_dimension_edit\":true,\"dimensions\":[{\"name\":\"D1\",\"full_name\":\"D1@Бобышка-Вытянуть1@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Бобышка-Вытянуть1\",\"feature_type\":\"Extrusion\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.005,\"value_mm\":5,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":true}],\"dimension_count\":1},{\"index\":19,\"feature_name\":\"Эскиз5\",\"feature_type\":\"ProfileFeature\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[{\"name\":\"D1\",\"full_name\":\"D1@Эскиз5@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз5\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.03,\"value_mm\":30,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false},{\"name\":\"D2\",\"full_name\":\"D2@Эскиз5@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз5\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.03,\"value_mm\":30,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false},{\"name\":\"D3\",\"full_name\":\"D3@Эскиз5@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз5\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.01,\"value_mm\":10,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false},{\"name\":\"D4\",\"full_name\":\"D4@Эскиз5@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз5\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.06,\"value_mm\":60,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false},{\"name\":\"D5\",\"full_name\":\"D5@Эскиз5@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз5\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.018,\"value_mm\":18,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false}],\"dimension_count\":5},{\"index\":20,\"feature_name\":\"Вырез-Вытянуть2\",\"feature_type\":\"ICE\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0}],\"offset\":0,\"limit\":100,\"total\":21,\"truncated\":false,\"issues\":[],\"partial\":false,\"configuration\":\"По умолчанию\",\"local_fixed_disk_part\":true,\"network_paths_allowed\":false,\"supported_feature_types\":[\"Extrusion\",\"Boss\",\"Cut\",\"HoleWzd\",\"Chamfer\",\"Fillet\"],\"scope\":\"Top-level feature inventory. Only directly owned linear driving dimensions marked editable_by_feature_tool=true are eligible. Sketch dimensions, angles, suppressed features and unknown feature types are read-only.\"},\"issues\":[],\"partial\":false,\"manufacturing_approved\":false,\"consistency\":\"Best-effort live read, not a locked transaction. Do not edit the document during extraction.\",\"untrusted_text\":true}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      "tool": "sw_features"
+    },
+    {
+      "arguments": {
+        "feature_name": "Бобышка-Вытянуть1",
+        "changes": [
+          {
+            "new_value_mm": 4,
+            "expected_current_mm": 5,
+            "full_name": "D1@Бобышка-Вытянуть1@25.SHT.G.09.00.00.02  Пластина.Part"
+          }
+        ],
+        "expected_feature_type": "Extrusion"
+      },
+      "reply": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"operation\":\"UPDATED_EXISTING_FEATURE_DIMENSIONS\",\"connector_version\":\"2.5.0\",\"file_path\":\"C:\\\\Users\\\\adm\\\\Desktop\\\\25.SHT.G.00.00.00.00 СБ\\\\25.SHT.G.09.00.00.02  Пластина.SLDPRT\",\"backup_path\":\"C:\\\\Users\\\\adm\\\\Desktop\\\\25.SHT.G.00.00.00.00 СБ\\\\25.SHT.G.09.00.00.02  Пластина_BEFORE_FEATURE_CHANGE_20260915_024105_02ea6533.SLDPRT\",\"source_sha256_before\":\"bf916d1349caf177ff8a465fa9af253452dc471cf4cde77f01f8c6fe56e3456f\",\"source_sha256_after\":\"e82a03c36ad1196d12c7af27ad187a72a5c73debd9df5fd15ac01bbb8adc1ef2\",\"feature_name\":\"Бобышка-Вытянуть1\",\"feature_type\":\"Extrusion\",\"configuration\":\"По умолчанию\",\"change_count\":1,\"changes\":[{\"name\":\"D1\",\"full_name\":\"D1@Бобышка-Вытянуть1@25.SHT.G.09.00.00.02  Пластина.Part\",\"before_mm\":5,\"requested_mm\":4,\"actual_mm\":4,\"set_status\":0,\"tolerance_mm\":0.001}],\"verification\":{\"status\":\"PASS\",\"rebuilt\":true,\"feature_identity_confirmed\":true,\"feature_not_suppressed\":true,\"solid_body_count_before\":1,\"solid_body_count_after\":1,\"volume_before_m3\":1.0695287671308326E-05,\"volume_after_m3\":8.55623013704666E-06,\"all_requested_values_confirmed\":true},\"save\":{\"operation\":\"SAVED_LOCAL_DOCUMENT\",\"connector_version\":\"2.5.0\",\"file_path\":\"C:\\\\Users\\\\adm\\\\Desktop\\\\25.SHT.G.00.00.00.00 СБ\\\\25.SHT.G.09.00.00.02  Пластина.SLDPRT\",\"document_type\":\"PART\",\"api_success\":true,\"errors\":0,\"warnings\":0,\"backup_path\":null,\"inside_workspace\":false,\"local_fixed_disk_only\":true,\"network_paths_allowed\":false,\"manufacturing_approved\":false},\"inside_workspace\":false,\"local_fixed_disk_only\":true,\"network_paths_allowed\":false,\"manufacturing_approved\":false}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      "tool": "sw_set_feature_dimensions"
+    },
+    {
+      "arguments": {
+        "offset": 0,
+        "limit": 100
+      },
+      "reply": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"schema_version\":\"solidworks-local/1.3\",\"context\":{\"title\":\"25.SHT.G.09.00.00.02  Пластина\",\"path\":\"C:\\\\Users\\\\adm\\\\Desktop\\\\25.SHT.G.00.00.00.00 СБ\\\\25.SHT.G.09.00.00.02  Пластина.SLDPRT\",\"document_type\":\"PART\",\"active_configuration\":\"По умолчанию\",\"has_unsaved_changes\":false,\"document_revision\":null,\"storage_scope\":\"LOCAL_FIXED_DISK\",\"connector_write_allowed\":true,\"revision_status\":\"UNKNOWN\",\"snapshot_id\":\"ee71acebf176455282b23b12c3e8ab1f\",\"captured_at_utc\":\"2026-09-15T02:41:08.6493673Z\",\"solidworks_api_revision\":\"34.3.2\",\"source_state\":\"IN_MEMORY_ACTIVE_DOCUMENT\",\"note\":\"API revision is a software version, not the engineering revision. VERIFIED means successfully read, not independently approved. No revision is inferred from filenames or timestamps.\"},\"data\":{\"items\":[{\"index\":0,\"feature_name\":\"Часто используемые\",\"feature_type\":\"FavoriteFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":1,\"feature_name\":\"История\",\"feature_type\":\"HistoryFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":2,\"feature_name\":\"Наборы выбора\",\"feature_type\":\"SelectionSetFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":3,\"feature_name\":\"Датчики\",\"feature_type\":\"SensorFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":4,\"feature_name\":\"Связь проектов\",\"feature_type\":\"DocsFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":5,\"feature_name\":\"Примечания\",\"feature_type\":\"DetailCabinet\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":6,\"feature_name\":\"Исправления\",\"feature_type\":\"InkMarkupFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":7,\"feature_name\":\"Источники света и камеры\",\"feature_type\":\"EnvFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":8,\"feature_name\":\"Твердые тела\",\"feature_type\":\"SolidBodyFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":9,\"feature_name\":\"Тела поверхности\",\"feature_type\":\"SurfaceBodyFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":10,\"feature_name\":\"Заметки\",\"feature_type\":\"CommentsFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":11,\"feature_name\":\"Уравнения\",\"feature_type\":\"EqnFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":12,\"feature_name\":\"AISI 304\",\"feature_type\":\"MaterialFolder\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":13,\"feature_name\":\"Спереди\",\"feature_type\":\"RefPlane\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":14,\"feature_name\":\"Сверху\",\"feature_type\":\"RefPlane\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":15,\"feature_name\":\"Справа\",\"feature_type\":\"RefPlane\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":16,\"feature_name\":\"Исходная точка\",\"feature_type\":\"OriginProfileFeature\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0},{\"index\":17,\"feature_name\":\"Эскиз1\",\"feature_type\":\"ProfileFeature\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[{\"name\":\"D1\",\"full_name\":\"D1@Эскиз1@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз1\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.003,\"value_mm\":3,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false},{\"name\":\"D2\",\"full_name\":\"D2@Эскиз1@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз1\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.03,\"value_mm\":30,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false},{\"name\":\"D3\",\"full_name\":\"D3@Эскиз1@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз1\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.08,\"value_mm\":80,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false},{\"name\":\"D6\",\"full_name\":\"D6@Эскиз1@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз1\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.01,\"value_mm\":10,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false},{\"name\":\"D7\",\"full_name\":\"D7@Эскиз1@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз1\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.01,\"value_mm\":10,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false}],\"dimension_count\":5},{\"index\":18,\"feature_name\":\"Бобышка-Вытянуть1\",\"feature_type\":\"Extrusion\",\"suppressed\":false,\"supported_for_dimension_edit\":true,\"dimensions\":[{\"name\":\"D1\",\"full_name\":\"D1@Бобышка-Вытянуть1@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Бобышка-Вытянуть1\",\"feature_type\":\"Extrusion\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.004,\"value_mm\":4,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":true}],\"dimension_count\":1},{\"index\":19,\"feature_name\":\"Эскиз5\",\"feature_type\":\"ProfileFeature\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[{\"name\":\"D1\",\"full_name\":\"D1@Эскиз5@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз5\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.03,\"value_mm\":30,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false},{\"name\":\"D2\",\"full_name\":\"D2@Эскиз5@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз5\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.03,\"value_mm\":30,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false},{\"name\":\"D3\",\"full_name\":\"D3@Эскиз5@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз5\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.01,\"value_mm\":10,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false},{\"name\":\"D4\",\"full_name\":\"D4@Эскиз5@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз5\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.06,\"value_mm\":60,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false},{\"name\":\"D5\",\"full_name\":\"D5@Эскиз5@25.SHT.G.09.00.00.02  Пластина.Part\",\"feature_name\":\"Эскиз5\",\"feature_type\":\"ProfileFeature\",\"dimension_type_code\":0,\"dimension_type\":\"swDimensionParamTypeDoubleLinear\",\"dimension_type_enum\":\"swDimensionParamType_e\",\"dimension_kind\":\"LINEAR\",\"system_value_si\":0.018,\"value_mm\":18,\"read_only\":false,\"driving\":true,\"inventory_source\":\"IFeature.GetFirstDisplayDimension\",\"editable_by_connector\":false,\"editable_by_feature_tool\":false}],\"dimension_count\":5},{\"index\":20,\"feature_name\":\"Вырез-Вытянуть2\",\"feature_type\":\"ICE\",\"suppressed\":false,\"supported_for_dimension_edit\":false,\"dimensions\":[],\"dimension_count\":0}],\"offset\":0,\"limit\":100,\"total\":21,\"truncated\":false,\"issues\":[],\"partial\":false,\"configuration\":\"По умолчанию\",\"local_fixed_disk_part\":true,\"network_paths_allowed\":false,\"supported_feature_types\":[\"Extrusion\",\"Boss\",\"Cut\",\"HoleWzd\",\"Chamfer\",\"Fillet\"],\"scope\":\"Top-level feature inventory. Only directly owned linear driving dimensions marked editable_by_feature_tool=true are eligible. Sketch dimensions, angles, suppressed features and unknown feature types are read-only.\"},\"issues\":[],\"partial\":false,\"manufacturing_approved\":false,\"consistency\":\"Best-effort live read, not a locked transaction. Do not edit the document during extraction.\",\"untrusted_text\":true}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      "tool": "sw_features"
+    },
+    {
+      "arguments": {},
+      "reply": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"schema_version\":\"solidworks-local/1.3\",\"context\":{\"title\":\"25.SHT.G.09.00.00.02  Пластина\",\"path\":\"C:\\\\Users\\\\adm\\\\Desktop\\\\25.SHT.G.00.00.00.00 СБ\\\\25.SHT.G.09.00.00.02  Пластина.SLDPRT\",\"document_type\":\"PART\",\"active_configuration\":\"По умолчанию\",\"has_unsaved_changes\":false,\"document_revision\":null,\"storage_scope\":\"LOCAL_FIXED_DISK\",\"connector_write_allowed\":true,\"revision_status\":\"UNKNOWN\",\"snapshot_id\":\"2dcf83ed4d7f43b9a90c8ec8fc5f86c3\",\"captured_at_utc\":\"2026-09-15T02:41:09.9429163Z\",\"solidworks_api_revision\":\"34.3.2\",\"source_state\":\"IN_MEMORY_ACTIVE_DOCUMENT\",\"note\":\"API revision is a software version, not the engineering revision. VERIFIED means successfully read, not independently approved. No revision is inferred from filenames or timestamps.\"},\"data\":{\"material\":{\"value\":\"AISI 304\",\"status\":\"VERIFIED\",\"unit\":null,\"source\":{\"api\":\"IPartDoc.GetMaterialPropertyName2\",\"document\":\"C:\\\\Users\\\\adm\\\\Desktop\\\\25.SHT.G.00.00.00.00 СБ\\\\25.SHT.G.09.00.00.02  Пластина.SLDPRT\",\"configuration\":\"По умолчанию\",\"snapshot_id\":\"2dcf83ed4d7f43b9a90c8ec8fc5f86c3\"}},\"material_database\":\"solidworks materials\",\"material_scope\":\"Part active configuration only. Individual body materials may differ.\",\"bounding_box\":{\"size_xyz\":{\"value\":[4,30.000000000000011,80.000000000000014],\"status\":\"CALCULATED\",\"unit\":\"mm\",\"source\":{\"api\":\"IPartDoc.GetPartBox\",\"document\":\"C:\\\\Users\\\\adm\\\\Desktop\\\\25.SHT.G.00.00.00.00 СБ\\\\25.SHT.G.09.00.00.02  Пластина.SLDPRT\",\"configuration\":\"По умолчанию\",\"snapshot_id\":\"2dcf83ed4d7f43b9a90c8ec8fc5f86c3\"}},\"approximate\":true,\"coordinate_system\":\"MODEL_AXES\",\"use\":\"Approximate envelope only; not drawing dimensions, tolerances or stock size.\"},\"mass_properties\":{\"mass\":{\"value\":0.068449841096373282,\"status\":\"CALCULATED\",\"unit\":\"kg\",\"source\":{\"api\":\"IMassProperty.Mass\",\"document\":\"C:\\\\Users\\\\adm\\\\Desktop\\\\25.SHT.G.00.00.00.00 СБ\\\\25.SHT.G.09.00.00.02  Пластина.SLDPRT\",\"configuration\":\"По умолчанию\",\"snapshot_id\":\"2dcf83ed4d7f43b9a90c8ec8fc5f86c3\"}},\"volume\":{\"value\":8.55623013704666E-06,\"status\":\"CALCULATED\",\"unit\":\"m3\",\"source\":{\"api\":\"IMassProperty.Volume\",\"document\":\"C:\\\\Users\\\\adm\\\\Desktop\\\\25.SHT.G.00.00.00.00 СБ\\\\25.SHT.G.09.00.00.02  Пластина.SLDPRT\",\"configuration\":\"По умолчанию\",\"snapshot_id\":\"2dcf83ed4d7f43b9a90c8ec8fc5f86c3\"}},\"surface_area\":{\"value\":0.0053522786776434381,\"status\":\"CALCULATED\",\"unit\":\"m2\",\"source\":{\"api\":\"IMassProperty.SurfaceArea\",\"document\":\"C:\\\\Users\\\\adm\\\\Desktop\\\\25.SHT.G.00.00.00.00 СБ\\\\25.SHT.G.09.00.00.02  Пластина.SLDPRT\",\"configuration\":\"По умолчанию\",\"snapshot_id\":\"2dcf83ed4d7f43b9a90c8ec8fc5f86c3\"}},\"manufacturing_approved\":false,\"limitations\":\"CAD-reported values. Density, body materials, overrides, hidden bodies and rebuild freshness are not independently validated. Missing material does not make mass verified.\"}},\"issues\":[],\"partial\":false,\"manufacturing_approved\":false,\"consistency\":\"Best-effort live read, not a locked transaction. Do not edit the document during extraction.\",\"untrusted_text\":true}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      "tool": "sw_part"
+    },
+    {
+      "arguments": {},
+      "reply": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"schema_version\":\"solidworks-local/1.3\",\"context\":{\"title\":\"25.SHT.G.09.00.00.02  Пластина\",\"path\":\"C:\\\\Users\\\\adm\\\\Desktop\\\\25.SHT.G.00.00.00.00 СБ\\\\25.SHT.G.09.00.00.02  Пластина.SLDPRT\",\"document_type\":\"PART\",\"active_configuration\":\"По умолчанию\",\"has_unsaved_changes\":false,\"document_revision\":null,\"storage_scope\":\"LOCAL_FIXED_DISK\",\"connector_write_allowed\":true,\"revision_status\":\"UNKNOWN\",\"snapshot_id\":\"cfeadd13689848429d7f4933a0df8f0d\",\"captured_at_utc\":\"2026-09-15T02:41:11.1717707Z\",\"solidworks_api_revision\":\"34.3.2\",\"source_state\":\"IN_MEMORY_ACTIVE_DOCUMENT\",\"note\":\"API revision is a software version, not the engineering revision. VERIFIED means successfully read, not independently approved. No revision is inferred from filenames or timestamps.\"},\"data\":{\"title\":\"25.SHT.G.09.00.00.02  Пластина\",\"path\":\"C:\\\\Users\\\\adm\\\\Desktop\\\\25.SHT.G.00.00.00.00 СБ\\\\25.SHT.G.09.00.00.02  Пластина.SLDPRT\",\"document_type\":\"PART\",\"active_configuration\":\"По умолчанию\",\"has_unsaved_changes\":false,\"document_revision\":null,\"storage_scope\":\"LOCAL_FIXED_DISK\",\"connector_write_allowed\":true,\"revision_status\":\"UNKNOWN\",\"snapshot_id\":\"cfeadd13689848429d7f4933a0df8f0d\",\"captured_at_utc\":\"2026-09-15T02:41:11.1597602Z\",\"solidworks_api_revision\":\"34.3.2\",\"source_state\":\"IN_MEMORY_ACTIVE_DOCUMENT\",\"note\":\"API revision is a software version, not the engineering revision. VERIFIED means successfully read, not independently approved. No revision is inferred from filenames or timestamps.\"},\"issues\":[],\"partial\":false,\"manufacturing_approved\":false,\"consistency\":\"Best-effort live read, not a locked transaction. Do not edit the document during extraction.\",\"untrusted_text\":true}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      "tool": "sw_document"
+    }
+  ],
+  "status": "LIVE_PASS",
+  "source_sha256_before": "BF916D1349CAF177FF8A465FA9AF253452DC471CF4CDE77F01F8C6FE56E3456F",
+  "edit": {
+    "operation": "UPDATED_EXISTING_FEATURE_DIMENSIONS",
+    "connector_version": "2.5.0",
+    "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.02  Пластина.SLDPRT",
+    "backup_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.02  Пластина_BEFORE_FEATURE_CHANGE_20260915_024105_02ea6533.SLDPRT",
+    "source_sha256_before": "bf916d1349caf177ff8a465fa9af253452dc471cf4cde77f01f8c6fe56e3456f",
+    "source_sha256_after": "e82a03c36ad1196d12c7af27ad187a72a5c73debd9df5fd15ac01bbb8adc1ef2",
+    "feature_name": "Бобышка-Вытянуть1",
+    "feature_type": "Extrusion",
+    "configuration": "По умолчанию",
+    "change_count": 1,
+    "changes": [
+      {
+        "name": "D1",
+        "full_name": "D1@Бобышка-Вытянуть1@25.SHT.G.09.00.00.02  Пластина.Part",
+        "before_mm": 5,
+        "requested_mm": 4,
+        "actual_mm": 4,
+        "set_status": 0,
+        "tolerance_mm": 0.001
+      }
+    ],
+    "verification": {
+      "status": "PASS",
+      "rebuilt": true,
+      "feature_identity_confirmed": true,
+      "feature_not_suppressed": true,
+      "solid_body_count_before": 1,
+      "solid_body_count_after": 1,
+      "volume_before_m3": 1.0695287671308326E-05,
+      "volume_after_m3": 8.55623013704666E-06,
+      "all_requested_values_confirmed": true
+    },
+    "save": {
+      "operation": "SAVED_LOCAL_DOCUMENT",
+      "connector_version": "2.5.0",
+      "file_path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.02  Пластина.SLDPRT",
+      "document_type": "PART",
+      "api_success": true,
+      "errors": 0,
+      "warnings": 0,
+      "backup_path": null,
+      "inside_workspace": false,
+      "local_fixed_disk_only": true,
+      "network_paths_allowed": false,
+      "manufacturing_approved": false
+    },
+    "inside_workspace": false,
+    "local_fixed_disk_only": true,
+    "network_paths_allowed": false,
+    "manufacturing_approved": false
+  },
+  "source_sha256_after": "E82A03C36AD1196D12C7AF27AD187A72A5C73DEBD9DF5FD15AC01BBB8ADC1EF2",
+  "backup_sha256": "BF916D1349CAF177FF8A465FA9AF253452DC471CF4CDE77F01F8C6FE56E3456F",
+  "verification": {
+    "dimension_mm": 4,
+    "size_xyz_mm": [
+      4,
+      30.00000000000001,
+      80.00000000000001
+    ],
+    "volume_m3": 8.55623013704666E-06,
+    "baseline_volume_m3": 8.55623013704666E-06,
+    "backup_matches_source": true,
+    "clean_after_save": true,
+    "configuration": "По умолчанию"
+  },
+  "cad_audit": {
+    "checked": 114,
+    "changed": [
+      {
+        "sha256": "E82A03C36AD1196D12C7AF27AD187A72A5C73DEBD9DF5FD15AC01BBB8ADC1EF2",
+        "path": "C:\\Users\\adm\\Desktop\\25.SHT.G.00.00.00.00 СБ\\25.SHT.G.09.00.00.02  Пластина.SLDPRT"
+      }
+    ]
+  },
+  "finished_utc": "2026-09-15T02:41:12.3235344Z"
+}

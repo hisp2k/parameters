@@ -1,0 +1,38 @@
+{
+  "request_id": "SLUDGE-NEW-001",
+  "product_profile_id": "SCREW_SLUDGE_CONCEPT_V0",
+  "material": {
+    "material_id": "SLUDGE-SITE-UNKNOWN",
+    "version": "0.1",
+    "material_class": "SLUDGE_DEWATERED",
+    "physical_model_id": null,
+    "properties": {
+      "wet_density": {"status": "NOT_MEASURED"},
+      "dry_solids_mass_fraction": {"status": "NOT_MEASURED"},
+      "max_inclusion_size": {"status": "NOT_MEASURED"},
+      "temperature": {"status": "NOT_MEASURED"}
+    },
+    "evidence_refs": {},
+    "components": [
+      {
+        "component_id": "SAND",
+        "name": "Песок",
+        "properties": {
+          "mass_fraction_of_wet_mixture": {"status": "NOT_PROVIDED"},
+          "max_particle_size": {"status": "NOT_MEASURED"},
+          "water_content_dry_basis": {"status": "NOT_MEASURED"}
+        },
+        "reported_values": {
+          "moisture": "60%",
+          "moisture_basis": "UNKNOWN",
+          "source": "Сообщение пользователя от 29.09.2026"
+        },
+        "evidence_refs": {}
+      }
+    ]
+  },
+  "feed_mode": "UNKNOWN",
+  "target_flow": {"status": "NOT_PROVIDED"},
+  "length": {"status": "NOT_PROVIDED"},
+  "angle": {"status": "NOT_PROVIDED"}
+}

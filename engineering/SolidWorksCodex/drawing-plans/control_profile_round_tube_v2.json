@@ -1,0 +1,41 @@
+{
+  "schema": "profile_part_plan_normalized/2",
+  "source_pdf": null,
+  "source_sha256": null,
+  "source_pages": [],
+  "units": "mm",
+  "designation": "AI_CONTROL_ROUND_TUBE_01",
+  "name": "Контрольная круглая труба",
+  "material": "AISI 304",
+  "part_class": "профильная деталь",
+  "part_class_confidence": "N/A (синтетический контрольный план)",
+  "mcp_tool": "sw_create_profile_part_from_plan",
+  "plan": {
+    "plan_version": "2",
+    "cross_section": {
+      "type": "round_tube",
+      "outer_diameter_mm": 33.7,
+      "wall_thickness_mm": 3
+    },
+    "length_mm": 262,
+    "hole_groups": [],
+    "properties": {
+      "designation": "AI_CONTROL_ROUND_TUBE_01",
+      "name": "Контрольная круглая труба"
+    },
+    "material": "AISI 304"
+  },
+  "proven_parameters": [
+    "Все параметры заданы напрямую в синтетическом контрольном плане."
+  ],
+  "unknown_or_ambiguous_parameters": [],
+  "readiness_status": "READY_FOR_LIVE_TEST",
+  "expected_volume_m3": 0.00007580725904965248,
+  "expected_envelope_mm": {
+    "x_length": 262,
+    "y_diameter": 33.7,
+    "z_diameter": 33.7
+  },
+  "expected_topology": "1 тело; наружная и внутренняя цилиндрические поверхности.",
+  "manufacturing_approved": false
+}

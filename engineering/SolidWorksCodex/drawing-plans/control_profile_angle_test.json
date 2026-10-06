@@ -1,0 +1,53 @@
+{
+  "schema": "profile_part_plan_normalized/1",
+  "source_pdf": null,
+  "source_sha256": null,
+  "source_pages": [],
+  "units": "mm",
+  "designation": "AI_CONTROL_PROFILE_ANGLE_01",
+  "name": "Контрольный уголок (синтетический тест новой операции)",
+  "material": "AISI 304",
+  "part_class": "профильная деталь",
+  "part_class_confidence": "N/A (синтетический контрольный план, не из чертежа)",
+  "mcp_tool": "sw_create_profile_part_from_plan",
+  "purpose": "Простой контрольный план для живой проверки новой универсальной операции sw_create_profile_part_from_plan в реальном SOLIDWORKS 2026: маленькое сечение, короткая длина, оба типа групп отверстий (linear и explicit), обе полки -- всё для быстрой ручной проверки штангенциркулем.",
+  "plan": {
+    "plan_version": "1",
+    "cross_section": {
+      "type": "equal_angle",
+      "leg_a_mm": 40.0,
+      "leg_b_mm": 40.0,
+      "thickness_mm": 3.0
+    },
+    "length_mm": 200.0,
+    "material": "AISI 304",
+    "properties": { "designation": "AI_CONTROL_PROFILE_ANGLE_01", "name": "Контрольный уголок" },
+    "hole_groups": [
+      {
+        "face": "leg_a",
+        "pattern": "linear",
+        "diameter_mm": 6.0,
+        "edge_offset_mm": 20.0,
+        "start_mm": 40.0,
+        "count": 3,
+        "pitch_mm": 60.0
+      },
+      {
+        "face": "leg_b",
+        "pattern": "explicit",
+        "diameter_mm": 5.0,
+        "edge_offset_mm": 15.0,
+        "positions_mm": [100.0],
+        "count": 1
+      }
+    ]
+  },
+  "proven_parameters": ["Все параметры заданы напрямую в этом синтетическом плане; источник -- не чертёж."],
+  "unknown_or_ambiguous_parameters": [],
+  "readiness_status": "READY_FOR_LIVE_TEST",
+  "expected_volume_m3": 4.5886626132804425e-05,
+  "expected_volume_calculation": "V = t*(a+b-t)*L - hole_volumes = 3*(40+40-3)*200 - 3*pi*3^2*3 - 1*pi*2.5^2*3 = 46200 - 254.469 - 58.905 = 45886.626 мм^3 = 4.5886626e-5 м^3",
+  "expected_envelope_mm": { "x_length": 200.0, "y_leg_a": 40.0, "z_leg_b": 40.0 },
+  "expected_topology": "1 сплошное тело; 4 сквозных цилиндрических отверстия (3 на полке A диаметром 6 мм + 1 на полке B диаметром 5 мм), глубина каждого = 3 мм; сечение -- 6-точечный уголковый многоугольник без скруглений.",
+  "manufacturing_approved": false
+}
