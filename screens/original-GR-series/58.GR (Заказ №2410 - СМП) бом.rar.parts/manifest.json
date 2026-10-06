@@ -1,0 +1,32 @@
+{
+  "original_path": "screens/original-GR-series/58.GR (Заказ №2410 - СМП) бом.rar",
+  "size": 76550852,
+  "sha256": "1feb826ae058565cd14acc87a0b497c79aad66cf1bbbed59ffeb6bb465a1bc90",
+  "parts": [
+    {
+      "path": "screens/original-GR-series/58.GR (Заказ №2410 - СМП) бом.rar.parts/part-001",
+      "size": 16777216,
+      "sha256": "ef65ebc1fb46343505c0e50e25935d361b08c8f403eeddfe959fdb5bf585def8"
+    },
+    {
+      "path": "screens/original-GR-series/58.GR (Заказ №2410 - СМП) бом.rar.parts/part-002",
+      "size": 16777216,
+      "sha256": "f587f33e5014366d34df553eff2be37f8fa7574370048fc466cf5d932ba41751"
+    },
+    {
+      "path": "screens/original-GR-series/58.GR (Заказ №2410 - СМП) бом.rar.parts/part-003",
+      "size": 16777216,
+      "sha256": "d7bcfb1e7d2a140f79bd4ca158050bf2e93e60c5d8302316bf9e4b91c80487e5"
+    },
+    {
+      "path": "screens/original-GR-series/58.GR (Заказ №2410 - СМП) бом.rar.parts/part-004",
+      "size": 16777216,
+      "sha256": "e99bef2fda90da4e0b48728cf2ae79c544a1e3e0a8f5033acd853e38cf1a451f"
+    },
+    {
+      "path": "screens/original-GR-series/58.GR (Заказ №2410 - СМП) бом.rar.parts/part-005",
+      "size": 9441988,
+      "sha256": "6d8cc8ca36645559c09469f986a84fdbc781b49af8c64c8809e83c5d13d4782f"
+    }
+  ]
+}

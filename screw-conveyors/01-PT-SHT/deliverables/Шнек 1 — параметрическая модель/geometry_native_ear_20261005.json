@@ -1,0 +1,114 @@
+[
+  {
+    "parameter": "tube_diameter",
+    "before": 141,
+    "tested": 145,
+    "applied": true,
+    "verification": {
+      "timestamp": "2026-10-05T10:15:52+04:00",
+      "components": 204,
+      "suppressed": 0,
+      "broken_mates": 0,
+      "feature_errors": 0,
+      "positive_interferences": 0,
+      "threshold_mm3": 0.001,
+      "measured_geometry": {
+        "tube_diameter": 145.0,
+        "working_length": 2510.0,
+        "incline": 34.99999999999987,
+        "world_axis": [
+          0.0,
+          -0.5735764363510443,
+          0.819152044288993
+        ],
+        "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+      },
+      "representation": "Сборочная — резьба условно"
+    },
+    "snapshot": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\snapshots\\20261005-101503-646763",
+    "saddle_geometry": [
+      {
+        "component": "PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-1",
+        "diameters_mm": [
+          145.0
+        ]
+      },
+      {
+        "component": "PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-4",
+        "diameters_mm": [
+          145.0
+        ]
+      },
+      {
+        "component": "PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-2",
+        "diameters_mm": [
+          145.0
+        ]
+      },
+      {
+        "component": "PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-3",
+        "diameters_mm": [
+          145.0
+        ]
+      }
+    ],
+    "restored_verification": {
+      "timestamp": "2026-10-05T10:16:41+04:00",
+      "components": 204,
+      "suppressed": 0,
+      "broken_mates": 0,
+      "feature_errors": 0,
+      "positive_interferences": 0,
+      "threshold_mm3": 0.001,
+      "measured_geometry": {
+        "tube_diameter": 141.0,
+        "working_length": 2510.0,
+        "incline": 34.99999999999987,
+        "world_axis": [
+          0.0,
+          -0.5735764363510443,
+          0.819152044288993
+        ],
+        "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+      },
+      "representation": "Сборочная — резьба условно"
+    },
+    "restored_geometry": {
+      "tube_diameter": 141.0,
+      "working_length": 2510.0,
+      "incline": 34.99999999999987,
+      "world_axis": [
+        0.0,
+        -0.5735764363510443,
+        0.819152044288993
+      ],
+      "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+    },
+    "restored_saddle_geometry": [
+      {
+        "component": "PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-1",
+        "diameters_mm": [
+          141.0
+        ]
+      },
+      {
+        "component": "PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-4",
+        "diameters_mm": [
+          141.0
+        ]
+      },
+      {
+        "component": "PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-2",
+        "diameters_mm": [
+          141.0
+        ]
+      },
+      {
+        "component": "PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-3",
+        "diameters_mm": [
+          141.0
+        ]
+      }
+    ]
+  }
+]

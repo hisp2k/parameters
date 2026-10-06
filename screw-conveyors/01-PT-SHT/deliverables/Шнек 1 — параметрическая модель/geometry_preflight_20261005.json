@@ -1,0 +1,46 @@
+[
+  {
+    "case": "too_short",
+    "changes": {
+      "working_length": 2000
+    },
+    "design_mode": "special",
+    "rejected_before_cad": true,
+    "errors": [
+      "Винтовая часть с торцевой деталью заходит в верхнюю ступень вала: шаг × число витков + две толщины лопасти должны быть не больше рабочей длины + 85 мм для этой модели."
+    ]
+  },
+  {
+    "case": "diameter_overlap",
+    "changes": {
+      "tube_diameter": 130
+    },
+    "design_mode": "special",
+    "rejected_before_cad": true,
+    "errors": [
+      "Внутренний диаметр трубы должен быть больше диаметра винта."
+    ]
+  },
+  {
+    "case": "vertical_angle",
+    "changes": {
+      "incline": 90
+    },
+    "design_mode": "special",
+    "rejected_before_cad": true,
+    "errors": [
+      "Угол наклона должен быть меньше 90°."
+    ]
+  },
+  {
+    "case": "gost_angle_limit",
+    "changes": {
+      "incline": 55
+    },
+    "design_mode": "gost",
+    "rejected_before_cad": true,
+    "errors": [
+      "Для режима ГОСТ 2037-82 угол наклона должен быть от 0 до 20°."
+    ]
+  }
+]

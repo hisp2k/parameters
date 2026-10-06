@@ -1,0 +1,248 @@
+[
+  {
+    "parameter": "working_length",
+    "before": 2510,
+    "tested": 2610,
+    "simultaneous": true,
+    "checked_at": "2026-10-05T13:33:43+04:00",
+    "test_values": {
+      "blade_thickness": 5,
+      "flange_thickness": 5,
+      "incline": 35,
+      "inlet_diameter": 100,
+      "inlet_length": 200,
+      "inlet_wall": 3,
+      "mounting_hole_diameter": 8,
+      "opening_diameter": 110,
+      "pitch": 105,
+      "screw_diameter": 121,
+      "shaft_diameter": 36,
+      "shaft_wall": 3,
+      "support_long_beam_length": 500,
+      "support_short_beam_length": 250,
+      "tube_diameter": 141,
+      "tube_wall": 4,
+      "turns": 24,
+      "working_length": 2610
+    },
+    "applied": true,
+    "verification": {
+      "timestamp": "2026-10-05T13:34:34+04:00",
+      "components": 204,
+      "suppressed": 0,
+      "broken_mates": 0,
+      "feature_errors": 0,
+      "positive_interferences": 0,
+      "threshold_mm3": 0.001,
+      "measured_geometry": {
+        "tube_diameter": 141.0,
+        "working_length": 2610.0,
+        "incline": 34.99999999999989,
+        "world_axis": [
+          0.0,
+          -0.5735764363510446,
+          0.8191520442889931
+        ],
+        "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+      },
+      "representation": "Сборочная — резьба условно"
+    },
+    "snapshot": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\snapshots\\20261005-133343-477190",
+    "restored_geometry": {
+      "tube_diameter": 133.0,
+      "working_length": 2510.0,
+      "incline": 54.99999999999973,
+      "world_axis": [
+        0.0,
+        -0.819152044288989,
+        0.5735764363510504
+      ],
+      "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+    },
+    "restored_verification": {
+      "timestamp": "2026-10-05T13:35:31+04:00",
+      "components": 204,
+      "suppressed": 0,
+      "broken_mates": 0,
+      "feature_errors": 0,
+      "positive_interferences": 0,
+      "threshold_mm3": 0.001,
+      "measured_geometry": {
+        "tube_diameter": 133.0,
+        "working_length": 2510.0,
+        "incline": 54.99999999999973,
+        "world_axis": [
+          0.0,
+          -0.819152044288989,
+          0.5735764363510504
+        ],
+        "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+      },
+      "representation": "Сборочная — резьба условно"
+    }
+  },
+  {
+    "parameter": "tube_diameter",
+    "before": 133,
+    "tested": 141,
+    "simultaneous": true,
+    "checked_at": "2026-10-05T13:33:43+04:00",
+    "test_values": {
+      "blade_thickness": 5,
+      "flange_thickness": 5,
+      "incline": 35,
+      "inlet_diameter": 100,
+      "inlet_length": 200,
+      "inlet_wall": 3,
+      "mounting_hole_diameter": 8,
+      "opening_diameter": 110,
+      "pitch": 105,
+      "screw_diameter": 121,
+      "shaft_diameter": 36,
+      "shaft_wall": 3,
+      "support_long_beam_length": 500,
+      "support_short_beam_length": 250,
+      "tube_diameter": 141,
+      "tube_wall": 4,
+      "turns": 24,
+      "working_length": 2610
+    },
+    "applied": true,
+    "verification": {
+      "timestamp": "2026-10-05T13:34:34+04:00",
+      "components": 204,
+      "suppressed": 0,
+      "broken_mates": 0,
+      "feature_errors": 0,
+      "positive_interferences": 0,
+      "threshold_mm3": 0.001,
+      "measured_geometry": {
+        "tube_diameter": 141.0,
+        "working_length": 2610.0,
+        "incline": 34.99999999999989,
+        "world_axis": [
+          0.0,
+          -0.5735764363510446,
+          0.8191520442889931
+        ],
+        "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+      },
+      "representation": "Сборочная — резьба условно"
+    },
+    "snapshot": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\snapshots\\20261005-133343-477190",
+    "restored_geometry": {
+      "tube_diameter": 133.0,
+      "working_length": 2510.0,
+      "incline": 54.99999999999973,
+      "world_axis": [
+        0.0,
+        -0.819152044288989,
+        0.5735764363510504
+      ],
+      "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+    },
+    "restored_verification": {
+      "timestamp": "2026-10-05T13:35:31+04:00",
+      "components": 204,
+      "suppressed": 0,
+      "broken_mates": 0,
+      "feature_errors": 0,
+      "positive_interferences": 0,
+      "threshold_mm3": 0.001,
+      "measured_geometry": {
+        "tube_diameter": 133.0,
+        "working_length": 2510.0,
+        "incline": 54.99999999999973,
+        "world_axis": [
+          0.0,
+          -0.819152044288989,
+          0.5735764363510504
+        ],
+        "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+      },
+      "representation": "Сборочная — резьба условно"
+    }
+  },
+  {
+    "parameter": "incline",
+    "before": 55,
+    "tested": 35,
+    "simultaneous": true,
+    "checked_at": "2026-10-05T13:33:43+04:00",
+    "test_values": {
+      "blade_thickness": 5,
+      "flange_thickness": 5,
+      "incline": 35,
+      "inlet_diameter": 100,
+      "inlet_length": 200,
+      "inlet_wall": 3,
+      "mounting_hole_diameter": 8,
+      "opening_diameter": 110,
+      "pitch": 105,
+      "screw_diameter": 121,
+      "shaft_diameter": 36,
+      "shaft_wall": 3,
+      "support_long_beam_length": 500,
+      "support_short_beam_length": 250,
+      "tube_diameter": 141,
+      "tube_wall": 4,
+      "turns": 24,
+      "working_length": 2610
+    },
+    "applied": true,
+    "verification": {
+      "timestamp": "2026-10-05T13:34:34+04:00",
+      "components": 204,
+      "suppressed": 0,
+      "broken_mates": 0,
+      "feature_errors": 0,
+      "positive_interferences": 0,
+      "threshold_mm3": 0.001,
+      "measured_geometry": {
+        "tube_diameter": 141.0,
+        "working_length": 2610.0,
+        "incline": 34.99999999999989,
+        "world_axis": [
+          0.0,
+          -0.5735764363510446,
+          0.8191520442889931
+        ],
+        "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+      },
+      "representation": "Сборочная — резьба условно"
+    },
+    "snapshot": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\snapshots\\20261005-133343-477190",
+    "restored_geometry": {
+      "tube_diameter": 133.0,
+      "working_length": 2510.0,
+      "incline": 54.99999999999973,
+      "world_axis": [
+        0.0,
+        -0.819152044288989,
+        0.5735764363510504
+      ],
+      "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+    },
+    "restored_verification": {
+      "timestamp": "2026-10-05T13:35:31+04:00",
+      "components": 204,
+      "suppressed": 0,
+      "broken_mates": 0,
+      "feature_errors": 0,
+      "positive_interferences": 0,
+      "threshold_mm3": 0.001,
+      "measured_geometry": {
+        "tube_diameter": 133.0,
+        "working_length": 2510.0,
+        "incline": 54.99999999999973,
+        "world_axis": [
+          0.0,
+          -0.819152044288989,
+          0.5735764363510504
+        ],
+        "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+      },
+      "representation": "Сборочная — резьба условно"
+    }
+  }
+]

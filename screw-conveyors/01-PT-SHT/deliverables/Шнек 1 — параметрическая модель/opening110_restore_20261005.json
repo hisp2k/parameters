@@ -1,0 +1,19 @@
+{
+  "snapshot": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\snapshots\\20261005-112424-before-opening110",
+  "before_suppressed": true,
+  "restored": true,
+  "opening_cylinders": [
+    [
+      0.0,
+      2.630000000000005,
+      -0.07050000000000034,
+      0.0,
+      0.0,
+      1.0,
+      0.05499999999999958
+    ]
+  ],
+  "removed_volume_mm3": 1178.7599758731476,
+  "model_errors": 0,
+  "positive_interferences": 0
+}

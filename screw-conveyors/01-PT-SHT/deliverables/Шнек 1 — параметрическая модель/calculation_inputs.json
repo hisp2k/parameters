@@ -1,0 +1,10 @@
+{
+  "rpm": 190.0,
+  "target_m3_h": 10.0,
+  "bulk_density_kg_m3": null,
+  "lump_mm": 2.0,
+  "cargo_temp_c": null,
+  "measured_mass_kg": null,
+  "measured_time_s": null,
+  "material_key": null
+}

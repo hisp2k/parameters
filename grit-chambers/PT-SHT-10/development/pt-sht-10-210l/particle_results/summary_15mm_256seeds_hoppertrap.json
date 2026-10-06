@@ -1,0 +1,114 @@
+[
+  {
+    "diameter_mm": 0.1,
+    "grid_mm": 15,
+    "seed_count": 256,
+    "wall_mode": "hoppertrap",
+    "collision_limit": 200,
+    "max_spatial_step_m": 0.005,
+    "free_settling_m_s": 0.007970511741778976,
+    "tau_stokes_s": 0.001469765068979902,
+    "fractions": {
+      "main_outlet": 0.07591285979575858,
+      "inlet_backflow": 0.0,
+      "hopper_wall": 0.5834321252177987,
+      "other_wall": 0.0,
+      "unresolved": 0.3406550149864425
+    },
+    "counts": {
+      "main_outlet": 22,
+      "inlet_backflow": 0,
+      "hopper_wall": 152,
+      "other_wall": 0,
+      "unresolved": 82
+    },
+    "mean_residence_s": 7.7312946696152824,
+    "max_steps": 1506,
+    "max_collisions": 201,
+    "max_particle_time_s": 18.947880684295658
+  },
+  {
+    "diameter_mm": 0.15,
+    "grid_mm": 15,
+    "seed_count": 256,
+    "wall_mode": "hoppertrap",
+    "collision_limit": 200,
+    "max_spatial_step_m": 0.005,
+    "free_settling_m_s": 0.01590541207578293,
+    "tau_stokes_s": 0.0033069714052047783,
+    "fractions": {
+      "main_outlet": 0.08257913473490465,
+      "inlet_backflow": 0.0,
+      "hopper_wall": 0.6259497411040131,
+      "other_wall": 0.0,
+      "unresolved": 0.2914711241610822
+    },
+    "counts": {
+      "main_outlet": 26,
+      "inlet_backflow": 0,
+      "hopper_wall": 160,
+      "other_wall": 0,
+      "unresolved": 70
+    },
+    "mean_residence_s": 7.37059276644834,
+    "max_steps": 1277,
+    "max_collisions": 201,
+    "max_particle_time_s": 15.608946864177272
+  },
+  {
+    "diameter_mm": 0.2,
+    "grid_mm": 15,
+    "seed_count": 256,
+    "wall_mode": "hoppertrap",
+    "collision_limit": 200,
+    "max_spatial_step_m": 0.005,
+    "free_settling_m_s": 0.02480957501828632,
+    "tau_stokes_s": 0.005879060275919608,
+    "fractions": {
+      "main_outlet": 0.14827185739551765,
+      "inlet_backflow": 0.0,
+      "hopper_wall": 0.6101871925559486,
+      "other_wall": 0.0,
+      "unresolved": 0.2415409500485336
+    },
+    "counts": {
+      "main_outlet": 43,
+      "inlet_backflow": 0,
+      "hopper_wall": 155,
+      "other_wall": 0,
+      "unresolved": 58
+    },
+    "mean_residence_s": 6.946413305777726,
+    "max_steps": 1351,
+    "max_collisions": 201,
+    "max_particle_time_s": 14.422523782367927
+  },
+  {
+    "diameter_mm": 0.25,
+    "grid_mm": 15,
+    "seed_count": 256,
+    "wall_mode": "hoppertrap",
+    "collision_limit": 200,
+    "max_spatial_step_m": 0.005,
+    "free_settling_m_s": 0.03403245405463008,
+    "tau_stokes_s": 0.009186031681124385,
+    "fractions": {
+      "main_outlet": 0.152327768285694,
+      "inlet_backflow": 0.0,
+      "hopper_wall": 0.6729110159119284,
+      "other_wall": 0.0,
+      "unresolved": 0.17476121580237747
+    },
+    "counts": {
+      "main_outlet": 43,
+      "inlet_backflow": 0,
+      "hopper_wall": 171,
+      "other_wall": 0,
+      "unresolved": 42
+    },
+    "mean_residence_s": 6.625957203076361,
+    "max_steps": 1551,
+    "max_collisions": 201,
+    "max_particle_time_s": 18.96462726602217
+  }
+]

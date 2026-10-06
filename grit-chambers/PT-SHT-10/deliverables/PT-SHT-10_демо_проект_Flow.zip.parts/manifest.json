@@ -1,0 +1,47 @@
+{
+  "original_path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10_демо_проект_Flow.zip",
+  "size": 123193972,
+  "sha256": "f9ef3e3b909913afb086d61b6e6cec025ee54ee9b082ee322607d72da84a4c52",
+  "parts": [
+    {
+      "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10_демо_проект_Flow.zip.parts/part-001",
+      "size": 16777216,
+      "sha256": "01f738ad65474918ed3bff9d02bd6bfbfbc25e74370ee61ddfa4faea6ca4e591"
+    },
+    {
+      "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10_демо_проект_Flow.zip.parts/part-002",
+      "size": 16777216,
+      "sha256": "14b29a33529745cab48b032d415107b3e5dd2e1d936fa3e95137d0e610bef689"
+    },
+    {
+      "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10_демо_проект_Flow.zip.parts/part-003",
+      "size": 16777216,
+      "sha256": "4824e41a576c840efab4e6dad01b9b1cc9f9529a02483bc4c94b8ba505f845e5"
+    },
+    {
+      "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10_демо_проект_Flow.zip.parts/part-004",
+      "size": 16777216,
+      "sha256": "1357f90d94a0268dff17a79875ee74ea8135f36ac51c64052ea3c6d93e9d7092"
+    },
+    {
+      "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10_демо_проект_Flow.zip.parts/part-005",
+      "size": 16777216,
+      "sha256": "035fd9c632dc34b9076619307dd7e24f34040347c58ea88af37ee842afcc7899"
+    },
+    {
+      "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10_демо_проект_Flow.zip.parts/part-006",
+      "size": 16777216,
+      "sha256": "105524c0b3320b17e3c9134a6b484b02185e03b319e50fbd5d0d563935ed0005"
+    },
+    {
+      "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10_демо_проект_Flow.zip.parts/part-007",
+      "size": 16777216,
+      "sha256": "5024182979491768128cb097b1f59c76f7c1242c1cd39c62002c53978c57e37a"
+    },
+    {
+      "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10_демо_проект_Flow.zip.parts/part-008",
+      "size": 5753460,
+      "sha256": "972180d9a29828179aca2850cfe85653e713b2880ed4f929debc6d5e391bc50f"
+    }
+  ]
+}

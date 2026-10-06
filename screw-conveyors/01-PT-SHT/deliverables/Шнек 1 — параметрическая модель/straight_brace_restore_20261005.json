@@ -1,0 +1,626 @@
+{
+  "timestamp": "2026-10-05T14:48:25+04:00",
+  "trial_root": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\work\\straight-brace-trial-20261005_144714\\Сборка — прямые подкосы.SLDASM",
+  "trial": {
+    "braces": [
+      {
+        "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено_STRAIGHT_20261005_144714-1/PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04_STRAIGHT_20261005_144714-2",
+        "file": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\work\\straight-brace-trial-20261005_144714\\PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04_STRAIGHT_20261005_144714.SLDPRT",
+        "suppressed_bypass_features": [],
+        "solid_bodies": 1,
+        "volume_mm3": 207754.76497346614
+      },
+      {
+        "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено_STRAIGHT_20261005_144714-1/PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_STRAIGHT_20261005_144714-1",
+        "file": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\work\\straight-brace-trial-20261005_144714\\PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_STRAIGHT_20261005_144714.SLDPRT",
+        "suppressed_bypass_features": [
+          "Проход корпуса — выборка для 55 градусов",
+          "Полость обхода — нижний переход",
+          "Полость обхода — наружная ветвь",
+          "Полость обхода — верхний переход",
+          "Обход корпуса — нижний переход",
+          "Обход корпуса — наружная ветвь",
+          "Обход корпуса — верхний переход"
+        ],
+        "solid_bodies": 1,
+        "volume_mm3": 143326.21523930924
+      }
+    ],
+    "issues": [
+      0,
+      0,
+      []
+    ],
+    "joints": {
+      "ok": true,
+      "bush": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено_STRAIGHT_20261005_144714-1/PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04_STRAIGHT_20261005_144714-2",
+      "axes": [
+        {
+          "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено_STRAIGHT_20261005_144714-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04_STRAIGHT_20261005_144714-3",
+          "axis_offset_mm": 6.973856444316954e-12,
+          "axis_angle_deg": 0.0,
+          "ok": true
+        },
+        {
+          "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено_STRAIGHT_20261005_144714-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04_STRAIGHT_20261005_144714-4",
+          "axis_offset_mm": 7.0366982031815615e-12,
+          "axis_angle_deg": 0.0,
+          "ok": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено_STRAIGHT_20261005_144714-1/PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_STRAIGHT_20261005_144714-1",
+          "axis_offset_mm": 1.547350056223643e-14,
+          "axis_angle_deg": 0.0,
+          "ok": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено_STRAIGHT_20261005_144714-1/PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04_STRAIGHT_20261005_144714-2",
+          "axis_offset_mm": 1.1195114209471793e-14,
+          "axis_angle_deg": 0.0,
+          "ok": true
+        }
+      ],
+      "seats": [
+        {
+          "ear": 3,
+          "gap_mm": 2.0816681711721685e-13,
+          "ok": true
+        },
+        {
+          "ear": 4,
+          "gap_mm": 2.0816681711721685e-13,
+          "ok": true
+        }
+      ],
+      "mates": [
+        {
+          "name": "Втулка 2 — ухо 3 — соосность",
+          "ok": true,
+          "references": [
+            {
+              "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено_STRAIGHT_20261005_144714-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04_STRAIGHT_20261005_144714-3",
+              "present": true
+            },
+            {
+              "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено_STRAIGHT_20261005_144714-1/PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04_STRAIGHT_20261005_144714-2",
+              "present": true
+            }
+          ]
+        },
+        {
+          "name": "Втулка 2 — ухо 4 — торцевая посадка",
+          "ok": true,
+          "references": [
+            {
+              "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено_STRAIGHT_20261005_144714-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04_STRAIGHT_20261005_144714-4",
+              "present": true
+            },
+            {
+              "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено_STRAIGHT_20261005_144714-1/PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04_STRAIGHT_20261005_144714-2",
+              "present": true
+            }
+          ]
+        },
+        {
+          "name": "Подкос 1 — втулка 2 — соосность",
+          "ok": true,
+          "references": [
+            {
+              "component": "PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_STRAIGHT_20261005_144714-1",
+              "present": true
+            },
+            {
+              "component": "PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04_STRAIGHT_20261005_144714-2",
+              "present": true
+            }
+          ]
+        }
+      ],
+      "mirrored_brace_ok": true,
+      "tolerance_mm": 0.001
+    },
+    "interferences": [],
+    "geometry": {
+      "tube_diameter": 133.0,
+      "working_length": 2510.0,
+      "incline": 54.999999999999716,
+      "world_axis": [
+        0.0,
+        -0.8191520442889889,
+        0.5735764363510505
+      ],
+      "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+    }
+  },
+  "snapshot": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\snapshots\\20261005-144845-before-straight-braces",
+  "working": {
+    "braces": [
+      {
+        "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04-2",
+        "file": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.SLDPRT",
+        "suppressed_bypass_features": [],
+        "solid_bodies": 1,
+        "volume_mm3": 143319.08059838036,
+        "bbox_m": [
+          -0.11211368801698196,
+          -0.5973671222431439,
+          -0.12607695363045104,
+          0.015039688226497658,
+          7.37257477290143e-18,
+          0.11500000000000009
+        ],
+        "shape": "original straight hollow profile; bypass features inactive"
+      },
+      {
+        "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04-1",
+        "file": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.SLDPRT",
+        "suppressed_bypass_features": [
+          "Проход корпуса — выборка для 55 градусов",
+          "Полость обхода — нижний переход",
+          "Полость обхода — наружная ветвь",
+          "Полость обхода — верхний переход",
+          "Обход корпуса — нижний переход",
+          "Обход корпуса — наружная ветвь",
+          "Обход корпуса — верхний переход"
+        ],
+        "solid_bodies": 1,
+        "volume_mm3": 143326.21523930918,
+        "bbox_m": [
+          -0.015000000000000013,
+          -0.5973671222431439,
+          -0.11500000000000009,
+          0.11211368801698196,
+          7.806255641895632e-18,
+          0.12607695363045104
+        ],
+        "shape": "original straight hollow profile; bypass features inactive"
+      }
+    ],
+    "issues": [
+      0,
+      0,
+      []
+    ],
+    "joints": {
+      "ok": true,
+      "bush": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+      "axes": [
+        {
+          "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-3",
+          "axis_offset_mm": 6.973856444316954e-12,
+          "axis_angle_deg": 0.0,
+          "ok": true
+        },
+        {
+          "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-4",
+          "axis_offset_mm": 7.0366982031815615e-12,
+          "axis_angle_deg": 0.0,
+          "ok": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04-1",
+          "axis_offset_mm": 1.547350056223643e-14,
+          "axis_angle_deg": 0.0,
+          "ok": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04-2",
+          "axis_offset_mm": 1.1195114209471793e-14,
+          "axis_angle_deg": 0.0,
+          "ok": true
+        }
+      ],
+      "seats": [
+        {
+          "ear": 3,
+          "gap_mm": 2.0816681711721685e-13,
+          "ok": true
+        },
+        {
+          "ear": 4,
+          "gap_mm": 2.0816681711721685e-13,
+          "ok": true
+        }
+      ],
+      "mates": [
+        {
+          "name": "Втулка 2 — ухо 3 — соосность",
+          "ok": true,
+          "references": [
+            {
+              "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-3",
+              "present": true
+            },
+            {
+              "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+              "present": true
+            }
+          ]
+        },
+        {
+          "name": "Втулка 2 — ухо 4 — торцевая посадка",
+          "ok": true,
+          "references": [
+            {
+              "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-4",
+              "present": true
+            },
+            {
+              "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+              "present": true
+            }
+          ]
+        },
+        {
+          "name": "Подкос 1 — втулка 2 — соосность",
+          "ok": true,
+          "references": [
+            {
+              "component": "PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04-1",
+              "present": true
+            },
+            {
+              "component": "PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+              "present": true
+            }
+          ]
+        }
+      ],
+      "mirrored_brace_ok": true,
+      "tolerance_mm": 0.001
+    },
+    "interferences": [],
+    "geometry": {
+      "tube_diameter": 133.0,
+      "working_length": 2510.0,
+      "incline": 54.999999999999716,
+      "world_axis": [
+        0.0,
+        -0.8191520442889889,
+        0.5735764363510505
+      ],
+      "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+    }
+  },
+  "saved": true,
+  "angle_tests": {
+    "timestamp": "2026-10-05T14:50:35+04:00",
+    "checks": [
+      {
+        "angle": 35,
+        "verification": {
+          "timestamp": "2026-10-05T14:51:31+04:00",
+          "components": 204,
+          "suppressed": 0,
+          "broken_mates": 0,
+          "feature_errors": 0,
+          "positive_interferences": 0,
+          "threshold_mm3": 0.001,
+          "measured_geometry": {
+            "tube_diameter": 133.0,
+            "working_length": 2510.0,
+            "incline": 34.99999999999989,
+            "world_axis": [
+              0.0,
+              -0.5735764363510446,
+              0.8191520442889931
+            ],
+            "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+          },
+          "pin_joints": {
+            "ok": true,
+            "bush": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+            "axes": [
+              {
+                "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-3",
+                "axis_offset_mm": 2.705298262942692e-12,
+                "axis_angle_deg": 0.0,
+                "ok": true
+              },
+              {
+                "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-4",
+                "axis_offset_mm": 2.6236018668044113e-12,
+                "axis_angle_deg": 0.0,
+                "ok": true
+              },
+              {
+                "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04-1",
+                "axis_offset_mm": 1.547350056223643e-14,
+                "axis_angle_deg": 0.0,
+                "ok": true
+              },
+              {
+                "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04-2",
+                "axis_offset_mm": 1.1195114209471794e-14,
+                "axis_angle_deg": 0.0,
+                "ok": true
+              }
+            ],
+            "seats": [
+              {
+                "ear": 3,
+                "gap_mm": 1.249000902703301e-13,
+                "ok": true
+              },
+              {
+                "ear": 4,
+                "gap_mm": 1.249000902703301e-13,
+                "ok": true
+              }
+            ],
+            "mates": [
+              {
+                "name": "Втулка 2 — ухо 3 — соосность",
+                "ok": true,
+                "references": [
+                  {
+                    "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-3",
+                    "present": true
+                  },
+                  {
+                    "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+                    "present": true
+                  }
+                ]
+              },
+              {
+                "name": "Втулка 2 — ухо 4 — торцевая посадка",
+                "ok": true,
+                "references": [
+                  {
+                    "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-4",
+                    "present": true
+                  },
+                  {
+                    "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+                    "present": true
+                  }
+                ]
+              },
+              {
+                "name": "Подкос 1 — втулка 2 — соосность",
+                "ok": true,
+                "references": [
+                  {
+                    "component": "PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04-1",
+                    "present": true
+                  },
+                  {
+                    "component": "PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+                    "present": true
+                  }
+                ]
+              }
+            ],
+            "mirrored_brace_ok": true,
+            "tolerance_mm": 0.001
+          },
+          "representation": "Сборочная — резьба условно"
+        },
+        "snapshot": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\snapshots\\20261005-145036-264987"
+      },
+      {
+        "angle": 55,
+        "verification": {
+          "timestamp": "2026-10-05T14:52:28+04:00",
+          "components": 204,
+          "suppressed": 0,
+          "broken_mates": 0,
+          "feature_errors": 0,
+          "positive_interferences": 0,
+          "threshold_mm3": 0.001,
+          "measured_geometry": {
+            "tube_diameter": 133.0,
+            "working_length": 2510.0,
+            "incline": 54.99999999999973,
+            "world_axis": [
+              0.0,
+              -0.819152044288989,
+              0.5735764363510504
+            ],
+            "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+          },
+          "pin_joints": {
+            "ok": true,
+            "bush": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+            "axes": [
+              {
+                "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-3",
+                "axis_offset_mm": 6.019287528310024e-12,
+                "axis_angle_deg": 0.0,
+                "ok": true
+              },
+              {
+                "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-4",
+                "axis_offset_mm": 5.95090534869524e-12,
+                "axis_angle_deg": 0.0,
+                "ok": true
+              },
+              {
+                "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04-1",
+                "axis_offset_mm": 1.547350056223643e-14,
+                "axis_angle_deg": 0.0,
+                "ok": true
+              },
+              {
+                "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04-2",
+                "axis_offset_mm": 1.1195114209471793e-14,
+                "axis_angle_deg": 0.0,
+                "ok": true
+              }
+            ],
+            "seats": [
+              {
+                "ear": 3,
+                "gap_mm": 2.0816681711721685e-13,
+                "ok": true
+              },
+              {
+                "ear": 4,
+                "gap_mm": 2.0816681711721685e-13,
+                "ok": true
+              }
+            ],
+            "mates": [
+              {
+                "name": "Втулка 2 — ухо 3 — соосность",
+                "ok": true,
+                "references": [
+                  {
+                    "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-3",
+                    "present": true
+                  },
+                  {
+                    "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+                    "present": true
+                  }
+                ]
+              },
+              {
+                "name": "Втулка 2 — ухо 4 — торцевая посадка",
+                "ok": true,
+                "references": [
+                  {
+                    "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-4",
+                    "present": true
+                  },
+                  {
+                    "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+                    "present": true
+                  }
+                ]
+              },
+              {
+                "name": "Подкос 1 — втулка 2 — соосность",
+                "ok": true,
+                "references": [
+                  {
+                    "component": "PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04-1",
+                    "present": true
+                  },
+                  {
+                    "component": "PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+                    "present": true
+                  }
+                ]
+              }
+            ],
+            "mirrored_brace_ok": true,
+            "tolerance_mm": 0.001
+          },
+          "representation": "Сборочная — резьба условно"
+        },
+        "snapshot": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\snapshots\\20261005-145133-017062"
+      }
+    ]
+  },
+  "verification": {
+    "timestamp": "2026-10-05T14:52:28+04:00",
+    "components": 204,
+    "suppressed": 0,
+    "broken_mates": 0,
+    "feature_errors": 0,
+    "positive_interferences": 0,
+    "threshold_mm3": 0.001,
+    "measured_geometry": {
+      "tube_diameter": 133.0,
+      "working_length": 2510.0,
+      "incline": 54.99999999999973,
+      "world_axis": [
+        0.0,
+        -0.819152044288989,
+        0.5735764363510504
+      ],
+      "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+    },
+    "pin_joints": {
+      "ok": true,
+      "bush": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+      "axes": [
+        {
+          "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-3",
+          "axis_offset_mm": 6.019287528310024e-12,
+          "axis_angle_deg": 0.0,
+          "ok": true
+        },
+        {
+          "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-4",
+          "axis_offset_mm": 5.95090534869524e-12,
+          "axis_angle_deg": 0.0,
+          "ok": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04-1",
+          "axis_offset_mm": 1.547350056223643e-14,
+          "axis_angle_deg": 0.0,
+          "ok": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04-2",
+          "axis_offset_mm": 1.1195114209471793e-14,
+          "axis_angle_deg": 0.0,
+          "ok": true
+        }
+      ],
+      "seats": [
+        {
+          "ear": 3,
+          "gap_mm": 2.0816681711721685e-13,
+          "ok": true
+        },
+        {
+          "ear": 4,
+          "gap_mm": 2.0816681711721685e-13,
+          "ok": true
+        }
+      ],
+      "mates": [
+        {
+          "name": "Втулка 2 — ухо 3 — соосность",
+          "ok": true,
+          "references": [
+            {
+              "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-3",
+              "present": true
+            },
+            {
+              "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+              "present": true
+            }
+          ]
+        },
+        {
+          "name": "Втулка 2 — ухо 4 — торцевая посадка",
+          "ok": true,
+          "references": [
+            {
+              "component": "PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-4",
+              "present": true
+            },
+            {
+              "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+              "present": true
+            }
+          ]
+        },
+        {
+          "name": "Подкос 1 — втулка 2 — соосность",
+          "ok": true,
+          "references": [
+            {
+              "component": "PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04-1",
+              "present": true
+            },
+            {
+              "component": "PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+              "present": true
+            }
+          ]
+        }
+      ],
+      "mirrored_brace_ok": true,
+      "tolerance_mm": 0.001
+    },
+    "representation": "Сборочная — резьба условно"
+  }
+}

@@ -1,0 +1,7 @@
+exec(open('work/efd_project_inspect.py',encoding='utf-8').read().split("print('project'")[0])
+g=typed(p.GetGeneralSettings(),'IGeneralSettings')
+print('before',g.GetConduction(),flush=True)
+g.SetConduction(False)
+print('after',g.GetConduction(),flush=True)
+print('rebuild',p.Rebuild(False,False,True,False,False,False),flush=True)
+print('last',p.GetLastRebuildError(),flush=True)

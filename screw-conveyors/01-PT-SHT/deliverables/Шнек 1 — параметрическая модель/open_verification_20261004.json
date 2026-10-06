@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "partial": false,
+  "missing_references": 0,
+  "missing_files": 0,
+  "suppressed_components": 0,
+  "broken_mates": 0,
+  "other_feature_errors": 0,
+  "relink_candidates": {},
+  "load_error": 0,
+  "message": "Сборка открыта: 204 вхождений; неразрешённых путей — 0; подавленных компонентов — 0; ошибочных сопряжений — 0; других ошибок элементов — 0.",
+  "components": 204
+}

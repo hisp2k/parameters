@@ -1,0 +1,72 @@
+{
+  "method": "Native SOLIDWORKS Boolean fluid extraction, not Flow Check Geometry",
+  "volume_m3": 0.16254310539050704,
+  "contacts": [
+    {
+      "port": "inlet",
+      "center_m": [
+        0.2515,
+        0.7195,
+        0.329
+      ],
+      "touching_faces": [
+        {
+          "distance_m": 0.0,
+          "face_area_m2": 0.002042820622996763,
+          "box": [
+            0.226,
+            0.6940000000000002,
+            0.329,
+            0.277,
+            0.7450000000000001,
+            0.329
+          ]
+        }
+      ]
+    },
+    {
+      "port": "main_outlet",
+      "center_m": [
+        0.0,
+        0.458,
+        0.353
+      ],
+      "touching_faces": [
+        {
+          "distance_m": 0.0,
+          "face_area_m2": 0.004778362426110075,
+          "box": [
+            -0.039,
+            0.4189999999999964,
+            0.353,
+            0.039,
+            0.49699999999999633,
+            0.353
+          ]
+        }
+      ]
+    },
+    {
+      "port": "bottom_outlet",
+      "center_m": [
+        0.0,
+        0.004,
+        0.0
+      ],
+      "touching_faces": [
+        {
+          "distance_m": 0.0,
+          "face_area_m2": 0.008171282491987052,
+          "box": [
+            -0.051,
+            0.004,
+            -0.051,
+            0.051,
+            0.004,
+            0.051
+          ]
+        }
+      ]
+    }
+  ]
+}

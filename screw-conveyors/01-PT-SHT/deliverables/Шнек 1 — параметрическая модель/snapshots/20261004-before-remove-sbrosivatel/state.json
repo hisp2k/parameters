@@ -1,0 +1,162 @@
+{
+  "values": {
+    "working_length": 2510,
+    "tube_diameter": 141,
+    "tube_wall": 5,
+    "incline": 55,
+    "inlet_diameter": 100,
+    "inlet_length": 200,
+    "inlet_wall": 3,
+    "flange_thickness": 5,
+    "mounting_hole_diameter": 8,
+    "discharger_diameter": 110,
+    "discharger_length": 200,
+    "screw_diameter": 130,
+    "pitch": 105,
+    "blade_thickness": 5,
+    "shaft_diameter": 36,
+    "shaft_wall": 3,
+    "turns": 24,
+    "support_short_beam_length": 250,
+    "support_long_beam_length": 500
+  },
+  "selection": {
+    "tube": "custom",
+    "material": "unspecified",
+    "screw": "custom"
+  },
+  "design_mode": "special",
+  "last_applied": "2026-10-04T22:12:53+04:00",
+  "rebuilds": {
+    "tube": true,
+    "screw": true,
+    "support": true
+  },
+  "saves": {
+    "CAD\\Шнек\\Шнек механизм\\PT.SHT.01.24.00.01 'Вал шнека верхний'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD\\Шнек\\Шнек механизм\\PT.SHT.01.24.00.03 'Вал шнека нижний'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD\\Шнек\\Шнек механизм\\PT.SHT.01.24.00.05 'Винт шнека'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD\\Шнек\\Шнек механизм\\PT.SHT.01.24.00.07 'Сердечник'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD\\Шнек\\Шнек механизм\\PT.SHT.01.24.00.09 'Торец шнека'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Восстановленные из STEP\\PT.SHT.01.01.00.11  Фланец присоединительный.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Восстановленные из STEP\\PT.SHT.01.01.02.03  Опора.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Опора шнека\\PT.SHT.01.25.00.01 'Балка 1'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Опора шнека\\PT.SHT.01.25.00.03 'Балка 2'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Опора шнека\\PT.SHT.01.25.00.05 'Втулка'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Опора шнека\\PT.SHT.01.25.00.07 'Стойка 1'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Опора шнека\\PT.SHT.01.25.00.07-01 'Стойка 1'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Опора шнека\\PT.SHT.01.25.00.09 'Подкос 1'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Опора шнека\\PT.SHT.01.25.00.09-01 'Подкос 1'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Шнек\\PT.SHT.01.21.00.01 'Кронштейн грузовой'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Шнек\\PT.SHT.01.21.00.03 'Патрубок промывки'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Шнек\\PT.SHT.01.21.00.05 'Патрубок шнека'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Шнек\\PT.SHT.01.21.00.07 'Сбрасыватель'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Шнек\\PT.SHT.01.21.00.09 'Труба шнека'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Шнек\\PT.SHT.01.21.00.11 'Ухо'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Шнек\\PT.SHT.01.21.00.13 'Фланец трубы шнека'.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Шнек\\Кран шаровый G 1.2.SLDPRT": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD\\Шнек\\Шнек механизм\\PT.SHT.01.24.00.00 СБ 'Шнековый вал'.SLDASM": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Опора шнека\\PT.SHT.01.25.00.00 СБ 'Опора шнековая' — восстановлено.SLDASM": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    },
+    "CAD_восстановленный\\Шнек\\PT.SHT.01.21.00.00 СБ 'Труба в сборе' — восстановлено.SLDASM": {
+      "saved": true,
+      "errors": 0,
+      "warnings": 0
+    }
+  }
+}

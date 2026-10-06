@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Шнек 1 · Параметрическая модель</title>
+<style>
+:root{--navy:#172c37;--deep:#10232d;--cream:#f6f5f0;--white:#fff;--ink:#1c3039;--muted:#728089;--line:#e3e8e8;--lime:#c7ed62;--amber:#f8cc83;--red:#bf5e5e}
+*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font-family:Manrope,Segoe UI,sans-serif}button,input{font:inherit}button{cursor:pointer}
+.app{display:grid;grid-template-columns:246px minmax(0,1fr);min-height:100vh}.sidebar{background:var(--navy);color:#eaf0ed;padding:28px 18px;display:flex;flex-direction:column;gap:26px}.brand{display:flex;align-items:center;gap:13px;padding:4px 12px}.logo{width:42px;height:42px;border-radius:13px;background:var(--lime);color:var(--deep);display:grid;place-items:center;font-size:24px;font-weight:800;transform:rotate(-8deg)}.brand b{display:block;font-size:15px;letter-spacing:.02em}.brand small{color:#a5b5b8;font-size:11px;letter-spacing:.1em;text-transform:uppercase}.nav-label{color:#84979e;font-size:10px;letter-spacing:.15em;text-transform:uppercase;margin:4px 14px 10px;font-weight:800}.nav-item{padding:12px 14px;border-radius:11px;display:flex;align-items:center;gap:12px;color:#b6c5c8;font-size:13px;font-weight:700;text-decoration:none}.nav-item.active{background:#29414c;color:#f9fcfa}.nav-item.active .dot{width:7px;height:7px;border-radius:50%;background:var(--lime)}.dot{width:7px;height:7px;border-radius:50%;background:#68818a}.nav-item.disabled{opacity:.5}.side-bottom{margin-top:auto;padding:16px 13px;background:#203945;border-radius:16px}.side-bottom .eyebrow{color:#9dafb3;font-size:10px;letter-spacing:.15em;text-transform:uppercase}.side-bottom strong{display:block;font-size:13px;margin:8px 0}.side-bottom p{font-size:11px;line-height:1.6;color:#adbec0;margin:0}
+main{padding:31px 42px 40px;max-width:1700px;width:100%;margin:auto}.top{display:flex;justify-content:space-between;align-items:start;gap:20px}.eyebrow{font-size:10px;letter-spacing:.17em;text-transform:uppercase;color:#7c8b8e;font-weight:800}.top h1{font-size:29px;letter-spacing:-.04em;margin:6px 0 5px;line-height:1.2}.subtitle{font-size:13px;color:var(--muted);margin:0}.top-actions{display:flex;gap:9px;align-items:center}.ghost{background:white;border:1px solid var(--line);border-radius:10px;padding:11px 15px;color:var(--ink);font-size:12px;font-weight:800}.primary{border:0;border-radius:10px;background:var(--navy);color:white;padding:12px 18px;font-size:12px;font-weight:800;box-shadow:0 8px 20px #172c3720}.primary:disabled{opacity:.45;cursor:wait}.statusline{display:flex;gap:12px;align-items:center;margin:22px 0 20px}.pill{border-radius:30px;padding:7px 11px;font-size:10px;font-weight:800;letter-spacing:.04em;background:#e8eede;color:#3b6241}.pill.warn{background:#fff0d7;color:#926727}.statusline span:last-child{font-size:11px;color:var(--muted)}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) 258px;gap:20px}.visual{border-radius:20px;background:radial-gradient(circle at 68% 30%,#395865 0,#203a47 40%,#172d38 100%);min-height:274px;overflow:hidden;position:relative;padding:21px 24px;color:white}.visual:before{content:"";position:absolute;inset:0;background-image:linear-gradient(#ffffff0c 1px,transparent 1px),linear-gradient(90deg,#ffffff0c 1px,transparent 1px);background-size:25px 25px;mask-image:linear-gradient(90deg,transparent,#000)}.visual-head{position:relative;z-index:1;display:flex;justify-content:space-between;font-size:11px;color:#ccdade;font-weight:700}.visual-head strong{color:white;font-size:14px}.visual svg{position:absolute;left:3%;top:24%;width:94%;height:62%;filter:drop-shadow(0 14px 22px #08192360)}.metric-card{background:var(--white);border:1px solid var(--line);border-radius:20px;padding:22px;display:flex;flex-direction:column;justify-content:space-between}.metric-card .caption{color:#7d8d91;font-size:10px;text-transform:uppercase;letter-spacing:.12em;font-weight:800}.metric-card .big{font-size:34px;letter-spacing:-.05em;font-weight:800;margin-top:5px}.metric-card .unit{font-size:13px;color:var(--muted);font-weight:700}.metric-card .rule{height:1px;background:var(--line);margin:14px 0}.metric-pair{display:flex;justify-content:space-between;font-size:11px;color:#687980;gap:8px}.metric-pair b{color:var(--ink)}
+.section-head{display:flex;align-items:end;justify-content:space-between;margin:27px 0 13px}.section-head h2{font-size:17px;letter-spacing:-.025em;margin:0}.section-head p{font-size:11px;color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.field{background:white;border:1px solid var(--line);border-radius:14px;padding:16px 17px;min-width:0;transition:border .2s,box-shadow .2s}.field:focus-within{border-color:#91b97a;box-shadow:0 0 0 3px #c7ed6240}.field label{display:block;font-size:11px;color:#61737a;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.inputline{display:flex;align-items:baseline;gap:5px;margin-top:8px}.field input{border:0;outline:0;width:100%;font-size:21px;letter-spacing:-.035em;color:var(--ink);font-weight:800;background:transparent;min-width:0}.field .unit{font-size:10px;color:#92a0a3;font-weight:800}.field small{font-size:9px;color:#99a6a9;display:block;margin-top:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.field small span{color:#6a8c57}.bottom-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}.note{background:white;border:1px solid var(--line);padding:18px 21px;border-radius:16px}.note h3{font-size:12px;margin:0 0 8px}.note p{font-size:11px;line-height:1.7;color:#73838a;margin:0}.note.warning{background:#fffaf1;border-color:#f1e0c2}.note.warning h3{color:#93682e}.footer{display:flex;justify-content:space-between;gap:15px;color:#93a0a3;font-size:10px;margin-top:22px}.error{color:#ae4747!important}.toast{position:fixed;right:24px;bottom:24px;max-width:380px;background:var(--navy);color:white;padding:15px 19px;border-radius:13px;font-size:12px;box-shadow:0 16px 40px #152a3560;opacity:0;transform:translateY(10px);transition:.2s;pointer-events:none}.toast.show{opacity:1;transform:translateY(0)}
+@media(max-width:1100px){.grid{grid-template-columns:repeat(3,1fr)}.hero{grid-template-columns:1fr 220px}main{padding:28px}}@media(max-width:760px){.app{display:block}.sidebar{padding:14px 20px}.sidebar nav,.side-bottom{display:none}.brand{padding:0}.top{display:block}.top-actions{margin-top:17px}.hero,.bottom-grid{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}main{padding:22px}.visual{min-height:220px}}@media(max-width:460px){.grid{grid-template-columns:1fr 1fr}.field{padding:13px}.field input{font-size:18px}.top h1{font-size:25px}.ghost,.primary{padding:10px 12px}}
+.standards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.standard-card{background:#fff;border:1px solid var(--line);border-radius:15px;padding:17px;min-width:0}.standard-card label{display:block;font-size:12px;font-weight:800;margin-bottom:10px}.standard-card select{width:100%;border:1px solid #d5dfdf;border-radius:9px;background:#fbfcfa;padding:10px;color:var(--ink);font:inherit;font-size:12px}.standard-card small{display:block;margin-top:10px;line-height:1.5;color:#7a8a8f;font-size:10px}.standard-card a{color:#496f70}@media(max-width:760px){.standards{grid-template-columns:1fr}}
+.calc-panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:21px}.calc-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px}.calc-input label{display:block;font-size:11px;font-weight:750;color:#5b7078;margin-bottom:6px}.calc-input input,.calc-input select{width:100%;border:1px solid #d5dfdf;border-radius:9px;padding:10px;background:#fbfcfa;color:var(--ink);font:inherit;font-size:12px}.calc-input.wide{grid-column:span 2}.calc-hint{font-size:11px;color:#7a898d;margin:10px 0 0;line-height:1.5}.calc-output{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}.calc-result{border:1px solid var(--line);border-radius:11px;padding:13px;background:#fafbf8}.calc-result small{display:block;color:#74848a;font-size:10px;margin-bottom:6px}.calc-result b{font-size:17px}.calc-checks{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:14px}.calc-check{border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:11px;line-height:1.45}.calc-check b{display:block;margin-bottom:3px}.calc-check.block{border-color:#efcaca;background:#fff5f5}.calc-check.required{border-color:#eddfb9;background:#fffaf0}.calc-check.pass{border-color:#d4e7d3;background:#f6fcf5}@media(max-width:900px){.calc-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.calc-grid,.calc-output,.calc-checks{grid-template-columns:1fr}.calc-input.wide{grid-column:span 1}}
+.project-tag{display:inline-flex;gap:7px;align-items:center;margin-top:10px;padding:6px 10px;border:1px solid #d9e2df;border-radius:8px;background:#fff;font-size:11px;color:#63767b}.project-tag b{color:#203842}.top-actions{flex-wrap:wrap;justify-content:flex-end}.journal-panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;margin-top:10px}.journal-summary{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 16px}.journal-summary span{background:#f3f6f3;border:1px solid #e2e9e3;border-radius:9px;padding:9px 12px;font-size:11px}.journal-summary b{font-size:15px;color:#223b43;margin-right:5px}.journal-list{display:grid;gap:10px}.journal-entry{border:1px solid #e1e8e7;border-radius:11px;padding:13px 15px;background:#fcfdfb}.journal-entry header{display:flex;justify-content:space-between;gap:12px;font-size:12px}.journal-entry small{color:#7c8c90}.journal-entry p{font-size:11px;line-height:1.55;color:#566d74;margin:8px 0 0}.journal-entry ul{margin:8px 0 0;padding-left:19px;font-size:11px;line-height:1.6;color:#425a61}.journal-empty{font-size:12px;color:#7a898d}.drawing-status{font-size:11px;color:#6c7f85;margin:8px 0 0}@media(max-width:1100px){.top{flex-direction:column}.top-actions{justify-content:flex-start}}
+.questionnaire-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:15px}.questionnaire-actions span{font-size:11px;color:#677b81}.questionnaire-intro{font-size:12px;line-height:1.6;color:#566d74;margin:0 0 14px}
+.visual{min-height:420px}.visual svg{top:15%;height:81%}@media(max-width:760px){.visual{min-height:340px}.visual svg{top:17%;height:78%}}
+
+.hero{grid-template-columns:minmax(0,1fr) 320px}
+.visual{min-height:520px}
+.metric-card{height:520px;display:block;overflow-y:auto;scrollbar-color:#b9c9c9 transparent}
+.parameter-summary{margin-top:18px;border-top:1px solid var(--line);padding-top:15px}
+.parameter-summary h3{font-size:13px;margin:0 0 9px}
+.summary-group{margin:0 0 14px}
+.summary-group h4{font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:#75898c;margin:0 0 5px}
+.summary-row{display:flex;justify-content:space-between;gap:12px;padding:5px 0;border-bottom:1px solid #eef2f0;font-size:10px;line-height:1.35}
+.summary-row span{color:#6b7d82;min-width:0}.summary-row b{color:#203842;text-align:right;max-width:58%;overflow-wrap:anywhere}
+@media(max-width:1100px){.hero{grid-template-columns:minmax(0,1fr) 290px}}
+@media(max-width:760px){.hero{grid-template-columns:1fr}.visual{min-height:400px}.metric-card{height:440px}}
+.diagnostics{margin-top:12px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 21px}
+.diagnostics h3{font-size:13px;margin:0 0 8px}.diagnostics p{font-size:11px;line-height:1.6;color:#667b80;margin:0 0 10px}
+.diagnostics-summary{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}.diagnostics-summary span{font-size:11px;font-weight:700;background:#f4f6f2;border-radius:8px;padding:8px 10px}
+.diagnostics details{border-top:1px solid #e7edeb;padding:9px 0}.diagnostics summary{cursor:pointer;font-size:11px;font-weight:800;color:#263e46}
+.diagnostics summary small{color:#809095;font-weight:600;margin-left:8px}.diagnostics ul{margin:9px 0 3px;padding-left:21px;font-size:10px;line-height:1.6;color:#556c72}
+.diagnostics li{margin:3px 0}.diagnostics li b{color:#344d54}
+.angle-control{margin-top:20px;background:#fff;border:1px solid #d5e1df;border-radius:18px;padding:21px}.angle-heading{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:14px}.angle-heading h2{font-size:17px;margin:0}.angle-heading span{color:#677d82;font-size:11px}.angle-grid{display:grid;grid-template-columns:minmax(210px,.75fr) minmax(0,1.25fr);gap:14px}.angle-control .field{height:100%;background:#f6f9f5;border-color:#dbe6d8}.angle-control .field label{font-size:12px;color:#263e46}.angle-control .field input{font-size:30px;outline-offset:3px}.angle-control .field input[aria-invalid="true"]{color:#a53737}.angle-control .field small{white-space:normal;overflow:visible;line-height:1.5}.angle-control .field .inputline{margin:8px 0}.angle-mode{border:0;padding:5px 0}.angle-mode small{font-size:11px}.angle-reference{font-size:11px;line-height:1.7;color:#62777c;margin:16px 0 10px}.angle-reference strong{display:inline-block;background:#eef5e6;border-radius:6px;padding:3px 8px;color:#334e35;margin-right:6px}.angle-reference a{color:#496f70}.angle-feedback{font-size:12px;line-height:1.6;margin:0;border:1px solid #d4e7d3;border-radius:10px;padding:12px 14px;background:#f6fcf5;color:#375b39}.angle-feedback.warning{background:#fff9eb;border-color:#edd6aa;color:#785627}.angle-feedback.error{background:#fff5f5;border-color:#efcaca;color:#963c3c}@media(max-width:650px){.angle-grid{grid-template-columns:1fr}.angle-heading{display:block}.angle-heading span{display:block;margin-top:6px}.angle-control{padding:16px}}
+.apply-feedback{margin:0 0 18px}.apply-feedback[hidden]{display:none}.apply-feedback.success{background:#f6fcf5;border-color:#d4e7d3}.apply-feedback small{font-size:10px;color:#74848a}.apply-feedback details{font-size:11px;margin-top:12px}.apply-feedback summary{cursor:pointer;color:#496f70}
+.input-blockers{font-size:12px;line-height:1.6;border:1px solid #edd6aa;border-radius:12px;padding:13px 16px;background:#fff9eb;color:#785627;white-space:pre-line;margin:0 0 16px}.input-blockers[hidden]{display:none}
+</style>
+</head>
+<body><div class="app">
+<aside class="sidebar"><div class="brand"><div class="logo">∿</div><div><b>ШНЕК / 01</b><small>CAD Control Studio</small></div></div><nav><div class="nav-label">Рабочее пространство</div><a class="nav-item active" href="#geometry"><i class="dot"></i> Геометрия</a><a class="nav-item" href="#checks"><i class="dot"></i> Проверки модели</a><a class="nav-item" href="#calculation"><i class="dot"></i> Расчёт и подбор</a><a class="nav-item" href="#questionnaire"><i class="dot"></i> Опросные данные</a><a class="nav-item" href="#journal"><i class="dot"></i> Чертежи и журнал</a></nav><div class="side-bottom"><div class="eyebrow">Профиль модели</div><strong>Осевой шнек · SHAFTED</strong><p>Управление существующими уравнениями SolidWorks в подсборках трубы и шнекового вала.</p></div></aside>
+<main id="geometry"><div class="top"><div><div class="eyebrow" id="projectCode">PT.SHT.01.20.00.00 СБ · Параметрическая сборка</div><h1>Шнек 1</h1><p class="subtitle">Настройка геометрии изделия из одного окна</p><div class="project-tag">Наименование проекта: <b id="projectName">Шнек 1</b></div><div class="project-tag">Груз: <b id="projectCargo">Песок с очистных сооружений</b> · режим: <b id="projectMode">прерывный</b></div><div class="project-tag" id="projectParticle" hidden></div><div class="project-tag" id="projectMoisture" hidden></div></div><div class="top-actions"><button class="ghost" id="openCad">Открыть CAD ↗</button><button class="ghost" id="buildDrawings">Построить чертежи</button><button class="primary" id="apply" disabled>Применить к модели</button></div></div>
+<div class="statusline"><span class="pill warn" id="assemblyStatus">АУДИТ ЗАГРУЖАЕТСЯ</span><span id="applied">Параметры загружаются…</span></div>
+<p id="applyBlockers" class="input-blockers" hidden role="status" aria-live="polite"></p>
+<section id="applyFeedback" class="note apply-feedback" hidden aria-live="polite" aria-atomic="true"><h3 id="applyHeading"></h3><p id="applyMessage"></p><p id="applyParameters" style="white-space:pre-line"></p><small id="applyTime"></small><details id="applyDetails" hidden><summary>Подробности ошибки SolidWorks</summary><p id="applyErrorText" style="white-space:pre-wrap;overflow-wrap:anywhere"></p></details></section>
+<div class="hero"><section class="visual"><div class="visual-head"><strong>Геометрический профиль</strong><span>SHAFTED · ВИД СБОКУ</span></div><svg id="conveyorSchematic" viewBox="0 0 800 460" role="img" aria-label="Схема шнекового транспортера, наклон 55 градусов"><defs><linearGradient id="body" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#819aa1"/><stop offset=".5" stop-color="#d4e1df"/><stop offset="1" stop-color="#6c8791"/></linearGradient><linearGradient id="core" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d9e5df"/><stop offset="1" stop-color="#8da7a8"/></linearGradient><clipPath id="tubeClip"><rect x="88" y="55" width="615" height="82" rx="5"/></clipPath><marker id="flowIn" viewBox="0 0 18 18" markerWidth="18" markerHeight="18" refX="14" refY="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M2 2l13 7-13 7z" fill="#c7ed62"/></marker><marker id="flowOut" viewBox="0 0 18 18" markerWidth="18" markerHeight="18" refX="14" refY="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M2 2l13 7-13 7z" fill="#f8cc83"/></marker></defs><line id="angleBase" x1="110" y1="370" x2="360" y2="370" stroke="#80a9ae" stroke-width="2" stroke-dasharray="8 6"/><g id="conveyorDrawing"><path d="M68 45h652v102H68z" fill="#16323e" stroke="#93adb1" stroke-width="2"/><path d="M87 55h617v82H87z" fill="url(#body)" opacity=".38"/><g clip-path="url(#tubeClip)"><path id="helix" d="" fill="none" stroke="#d9eb9c" stroke-width="7" opacity=".9"/><rect x="88" y="91" width="615" height="12" fill="url(#core)"/></g><path d="M88 55h615M88 137h615" stroke="#e1eeee" stroke-width="3"/><path d="M45 34h44v124H45zM704 34h44v124h-44z" fill="#647f88" stroke="#c3d5d4" stroke-width="2"/><path d="M31 76h15v44H31zM748 76h26v44h-26z" fill="#b4c6c5"/><path d="M106 169h570" stroke="#b7c7c6" stroke-width="1.5"/><path d="M106 164v10m570-10v10" stroke="#b7c7c6" stroke-width="1.5"/><text x="391" y="186" fill="#d4e4df" font-size="12" text-anchor="middle" id="drawingLength">2500 мм</text></g><g id="flowPorts">
+<line id="portInTube" stroke="#a9c5c5" stroke-width="17" stroke-linecap="round"/>
+<line id="portOutTube" stroke="#a9c5c5" stroke-width="17" stroke-linecap="round"/>
+<line id="portInArrow" stroke="#c7ed62" stroke-width="5" stroke-linecap="round" marker-end="url(#flowIn)"/>
+<line id="portOutArrow" stroke="#f8cc83" stroke-width="5" stroke-linecap="round" marker-end="url(#flowOut)"/>
+<path id="portInArc" fill="none" stroke="#c7ed62" stroke-width="2"/>
+<path id="portOutArc" fill="none" stroke="#f8cc83" stroke-width="2"/>
+<g fill="#f4f7f0" font-size="13" font-weight="800" stroke="#102a35" stroke-width="3" paint-order="stroke" text-anchor="middle">
+<text id="portInText">ВХОД</text><text id="portOutText">ВЫХОД</text>
+</g></g><path id="angleArc" fill="none" stroke="#f8cc83" stroke-width="3"/><text id="angleLabel" fill="#f8cc83" font-size="17" font-weight="800" text-anchor="middle">55°</text><text x="755" y="44" fill="#d4e4df" font-size="12" text-anchor="end">УГОЛ НАКЛОНА <tspan id="angleReadout" fill="#f8cc83">55°</tspan></text><g id="dimensionsPanel">
+<rect x="316" y="365" width="474" height="93" rx="10" fill="#102a35" fill-opacity=".94" stroke="#63828a" stroke-width="1"/>
+<path d="M474 373v77 M632 373v77 M326 414h454" stroke="#54727a" stroke-width="1"/>
+<g fill="#a8c1c5" font-size="9" font-weight="700" text-anchor="middle">
+<text x="395" y="383">L РАБОЧАЯ</text><text x="553" y="383">L ПОЛНАЯ</text><text x="711" y="383">Ø КОРПУСА</text>
+<text x="395" y="429">ВХОД · НИЖНИЙ</text><text x="553" y="429">ВЫХОД · ВЕРХНИЙ</text><text x="711" y="429">УГОЛ К КОРПУСУ</text>
+</g>
+<g fill="#f1f7f1" font-size="14" font-weight="800" text-anchor="middle">
+<text id="dimWorking" x="395" y="403">—</text><text id="dimFull" x="553" y="403">—</text>
+<text id="dimTube" x="711" y="403">—</text>
+<text id="dimInlet" x="395" y="449">—</text><text id="dimOutlet" x="553" y="449">—</text><text id="dimPortAngle" x="711" y="449">—</text>
+</g></g></svg></section>
+<div class="metric-card"><div><div class="caption">Номинальный радиальный зазор</div><div class="big" id="clearance">— <span class="unit">мм</span></div><div id="clearanceNote" style="font-size:10px;color:#839398">По внутреннему диаметру трубы</div><div class="rule"></div><div class="metric-pair"><span>Проход трубы</span><b id="bore">—</b></div><div class="metric-pair" style="margin-top:10px"><span>Длина полная</span><b id="fullLength">—</b></div><div class="metric-pair" style="margin-top:10px"><span>Витков</span><b id="turnCount">—</b></div></div><div id="parameterSummary" class="parameter-summary"></div><div><div class="rule"></div><div class="caption">Рабочий зазор под нагрузкой не подтверждён</div></div></div></div>
+<div class="note warning" style="margin-top:12px"><h3>Задание и фактическая геометрия</h3><p id="designAngleText">Загружается проверка угла…</p></div><div class="section-head" id="gost"><h2>Выбор по ГОСТ</h2><p>Выбор размеров; неподходящие варианты отклоняются</p></div>
+<div class="standards"><div class="standard-card"><label for="tubeChoice">Труба · наружный диаметр × стенка</label><select id="tubeChoice"></select><small><a id="tubeSource" target="_blank" rel="noopener">ГОСТ 10704-91</a> · электросварная прямошовная труба; справочный сортамент. Применяемость размера в CAD проверяется при перестроении.</small></div><div class="standard-card"><label for="screwChoice">Винт · диаметр × шаг</label><select id="screwChoice"></select><small><a id="screwSource" target="_blank" rel="noopener">ГОСТ 2037-82, таблица 1</a> · выбор задаёт одновременно диаметр винта и шаг. Совпадение размеров не подтверждает соответствие изделия; проверки выбранного угла и зазора приведены ниже.</small></div><div class="standard-card"><label for="materialChoice">Марка стали</label><select id="materialChoice"></select><small><a id="materialSource" target="_blank" rel="noopener">ГОСТ 5632-2014</a> · марка сохраняется в проекте; физический материал SolidWorks пока не назначается.</small></div></div>
+<div class="note warning" style="margin-top:12px"><h3>Проверка применения ГОСТ 2037-82</h3><p id="standardCheck">Сопоставление угла и зазора с областью стандарта…</p></div>
+<section class="angle-control" aria-labelledby="angleHeading">
+ <div class="angle-heading"><h2 id="angleHeading">Угол наклона</h2><span>Ручной ввод · от горизонтали</span></div>
+ <div class="angle-grid"><div id="angleFields"></div><div class="standard-card angle-mode"><label for="angleMode">Режим проверки угла</label><select id="angleMode"><option value="special">Ручной ввод</option><option value="gost">По ГОСТ · 0–20°</option></select><small id="angleModeHint">Можно вводить дробные значения угла.</small></div></div>
+ <p id="angleReference" class="angle-reference"><strong>По ГОСТ: 0–20°</strong> <a href="https://files.stroyinf.ru/Data2/1/4294751/4294751811.pdf" target="_blank" rel="noopener">ГОСТ 2037-82, п. 1.1 ↗</a> — наклонные конвейеры общего назначения. Специальные конвейеры исключены из области применения этого стандарта.</p>
+ <p id="angleFeedback" class="angle-feedback" role="status" aria-live="polite" aria-atomic="true">Проверка введённого угла…</p>
+</section>
+<div class="section-head"><h2>Корпус и патрубок</h2><p>Размеры в миллиметрах · режим FIXED</p></div><div class="grid" id="bodyFields"></div>
+<div class="section-head"><h2>Винт и вал</h2><p>Согласованные переменные подсборки</p></div><div class="grid" id="screwFields"></div>
+<div class="section-head"><h2>Опора</h2><p>Длины двух балок · редактируемые операции SolidWorks</p></div><div class="grid" id="supportFields"></div>
+<div class="section-head" id="calculation"><h2>Расчётный модуль</h2><p>ГОСТ 2037-82 · нормативные проверки и расчёт по измерениям</p></div>
+<section class="calc-panel"><div class="calc-grid"><div class="calc-input"><label for="cargoCategory">Группа грузов</label><select id="cargoCategory"><option value="">Все группы</option></select></div><div class="calc-input"><label for="cargoSearch">Поиск груза</label><input id="cargoSearch" type="search" placeholder="Название груза"></div><div class="calc-input wide"><label for="cargoPreset">Предлагаемая область применения · сыпучий груз</label><select id="cargoPreset"><option value="">Груз пока не выбран</option></select></div><div class="calc-input"><label for="calcRpm">Частота винта, об/мин</label><input id="calcRpm" type="number" step="any" placeholder="Требуется"><small>190 об/мин — кандидат для испытаний; подача 10 м³/ч пока не подтверждена.</small></div><div class="calc-input"><label for="calcTarget">Требуемая подача, м³/ч</label><input id="calcTarget" type="number" step="any" placeholder="Требуется"></div><div class="calc-input"><label for="calcDensity">Измеренная плотность, кг/м³</label><input id="calcDensity" type="number" step="any" placeholder="Требуется"></div><div class="calc-input"><label for="calcLump">Наибольший кусок, мм</label><input id="calcLump" type="number" step="any" placeholder="Требуется"></div><div class="calc-input"><label for="calcTemp">Температура груза, °C</label><input id="calcTemp" type="number" step="any" placeholder="Требуется"></div><div class="calc-input"><label for="calcMass">Масса при испытании, кг</label><input id="calcMass" type="number" step="any" placeholder="По стенду"></div><div class="calc-input"><label for="calcTime">Время испытания, с</label><input id="calcTime" type="number" step="any" placeholder="По стенду"></div></div><p class="calc-hint" id="cargoHint">Справочные значения груза показываются как диапазон; для проектного расчёта нужны данные конкретной партии.</p><div style="display:flex;align-items:center;gap:12px;margin-top:14px"><button class="primary" id="calculate">Рассчитать</button><span class="pill warn" id="calcStatus">ОЖИДАНИЕ</span></div><div class="calc-output" id="calcResults"></div><div class="calc-checks" id="calcChecks"></div><p class="calc-hint">Геометрический объём за оборот не является фактической производительностью. Мощность и прочность не определяются без проверенной методики и входных данных. <a href="https://files.stroyinf.ru/Data2/1/4294751/4294751811.pdf" target="_blank" rel="noopener">Текст ГОСТ 2037-82 ↗</a></p></section>
+<div class="section-head" id="questionnaire"><h2>Опросные данные для подбора привода</h2><p>Заполните по режиму эксплуатации</p></div><section class="calc-panel"><p class="questionnaire-intro">Песок 0,2–2 мм; вода составляет 90% общей массы смеси. Поля ниже нужны для проверки пусковой нагрузки и выбора привода. Неизвестные значения оставьте пустыми.</p><div class="calc-grid"><div class="calc-input"><label for="surveyStarts">Сколько пусков в час?</label><input id="surveyStarts" type="number" min="1" step="1" placeholder="Неизвестно"></div><div class="calc-input"><label for="surveyDuration">Сколько минут длится одно включение?</label><input id="surveyDuration" type="number" min="0" max="60" step="any" placeholder="Неизвестно"></div><div class="calc-input"><label for="surveyLoaded">Возможен пуск с заполненным шнеком?</label><select id="surveyLoaded"><option value="">Неизвестно</option><option value="yes">Да</option><option value="no">Нет</option></select></div><div class="calc-input"><label for="surveyDensity">Измеренная плотность смеси, кг/м³</label><input id="surveyDensity" type="number" min="0" step="any" placeholder="Неизвестно"></div></div><div class="questionnaire-actions"><button class="primary" id="saveQuestionnaire">Сохранить ответы</button><span id="questionnaireStatus">Ответы ещё не заполнены.</span></div></section>
+<div class="bottom-grid" id="checks"><div class="note warning"><h3>Контроль сборки</h3><p id="assemblyCheckText">Загружается последний результат проверки сборки.</p></div><div class="note"><h3>Как работает изменение</h3><p>Кнопка перестраивает изменённые узлы и общую сборку. Сохранение выполняется после проверки реальных размеров, связей и пересечений. Неуспешный вариант откатывается; перед изменением создаётся резервная копия.</p></div></div>
+<section class="note" style="margin-top:16px"><h3>Соответствие заданным параметрам</h3><p id="correspondenceText" style="white-space:pre-line">Сопоставление размеров CAD загружается.</p></section>
+<section class="note" style="margin-top:12px"><h3>Уши 3/4 · втулка · подкосы</h3><p id="pinJointText" style="white-space:pre-line">Проверка нижнего шарнира загружается.</p></section>
+<section class="note" style="margin-top:12px"><h3>Стыки труб опоры</h3><p id="pipeJointText" style="white-space:pre-line">Проверка стыков труб загружается.</p></section>
+<div class="note" style="margin-top:12px"><h3>Проверка изменения параметров</h3><p id="parameterCheckText" style="white-space:pre-line">Результаты тестов загружаются…</p></div><section class="diagnostics" aria-labelledby="diagnosticsHeading"><h3 id="diagnosticsHeading">Ошибки по узлам</h3><p id="diagnosticsNote">Загружается последний аудит SolidWorks…</p><div class="diagnostics-summary" id="diagnosticsSummary"></div><div id="diagnosticsGroups"></div></section>
+<div class="section-head" id="journal"><h2>Журнал проекта</h2><p>Применённые изменения модели и построенные чертежи</p></div><section class="journal-panel"><div class="journal-summary" id="journalSummary"></div><div class="journal-list" id="journalList"><span class="journal-empty">Журнал загружается…</span></div><p class="drawing-status" id="drawingStatus">Кнопка создаёт три предварительных чертежа по сохранённым моделям SolidWorks в папке «Чертежи».</p></section>
+<div class="footer"><span>Локальный интерфейс · копия исходной модели</span><span>Геометрия ≠ расчёт производительности и прочности</span></div>
+</main></div><div class="toast" id="toast"></div>
+<script>
+const defs=[
+ ['working_length','Рабочая длина','мм','bodyFields','Труба + вал · общая база'],
+ ['tube_diameter','Диаметр трубы','мм','bodyFields','Наружный размер'],
+ ['tube_wall','Стенка трубы','мм','bodyFields','Толщина корпуса'],
+ ['incline','Угол наклона транспортера','°','angleFields','Введите значение от горизонтали, например 15,5°'],
+ ['inlet_diameter','Диаметр патрубка','мм','bodyFields','Входной патрубок'],
+ ['inlet_length','Длина вытягивания патрубка','мм','bodyFields','Входной патрубок'],
+ ['inlet_wall','Стенка патрубка','мм','bodyFields','Входной патрубок'],
+ ['flange_thickness','Толщина фланца','мм','bodyFields','Труба в сборе'],
+ ['mounting_hole_diameter','Номинал крепежа M','мм','bodyFields','Фактический диаметр отверстия = номинал + 0,8 мм'],
+ ['opening_diameter','Отверстие в корпусе','мм','bodyFields','Сохранённое отверстие после удаления сбрасывателя'],
+ ['screw_diameter','Диаметр винта','мм','screwFields','Наружный размер спирали'],
+ ['pitch','Шаг винта','мм','screwFields','Осевое расстояние'],
+ ['blade_thickness','Толщина лопасти','мм','screwFields','Винтовая поверхность'],
+ ['shaft_diameter','Диаметр вала','мм','screwFields','Наружный размер'],
+ ['shaft_wall','Стенка вала','мм','screwFields','Полый вал'],
+ ['turns','Число витков','шт','screwFields','Целое значение'],
+ ['support_short_beam_length','Длина балки 1 опоры','мм','supportFields','Симметричное вытягивание · 250 мм исходно'],
+ ['support_long_beam_length','Длина балки 2 опоры','мм','supportFields','Симметричное вытягивание · 500 мм исходно']
+];
+const PORT_COUNTS={inlet:1,outlet:1,wash:2};let original={},catalog={},materials={},calcReady=false,calcTimer=0,calcSeq=0,applyBusy=false;const $=id=>document.getElementById(id);
+function fmt(n){return Number(n).toLocaleString('ru-RU',{maximumFractionDigits:2})}
+function fmtAngle(n){return Number(n).toLocaleString('ru-RU',{maximumFractionDigits:20})}
+function toast(message,bad=false){const el=$('toast');el.textContent=message;el.style.background=bad?'#8f4343':'#172c37';el.classList.add('show');setTimeout(()=>el.classList.remove('show'),5000)}
+function values(){return Object.fromEntries(defs.map(([id])=>{const raw=$(id).value.trim();return [id,raw===''?NaN:Number(raw.replace(',','.'))]}))}
+function selection(){return {tube:$('tubeChoice').value,screw:$('screwChoice').value,material:$('materialChoice').value}}
+function designMode(){return $('angleMode').value}
+function schematicPose(angle){
+ const radians=Math.max(0,Math.min(angle,90))*Math.PI/180;
+ const co=Math.cos(radians),si=Math.sin(radians);
+ const scale=Math.min(1,640/(690*co+145*si),300/(690*si+145*co));
+ const x=110,y=260+135*si,pivotX=88,pivotY=96;
+ const a=scale*co,b=-scale*si,c=scale*si,d=scale*co;
+ const e=x-a*pivotX-c*pivotY,f=y-b*pivotX-d*pivotY;
+ const r=88,arcEndX=x+r*co,arcEndY=y-r*si;
+ const arc=radians<0.000001?'':`M ${x+r} ${y} A ${r} ${r} 0 0 0 ${arcEndX} ${arcEndY}`;
+ return {matrix:`matrix(${a} ${b} ${c} ${d} ${e} ${f})`,x,y,arc,co,si,scale,
+  labelX:x+125,labelY:Math.min(440,y+75*scale+20)};
+}
+function setSchematicLine(id,x1,y1,x2,y2){
+ const line=$(id);line.setAttribute('x1',x1);line.setAttribute('y1',y1);
+ line.setAttribute('x2',x2);line.setAttribute('y2',y2);
+}
+function setSchematicText(id,x,y,label){
+ const element=$(id);element.setAttribute('x',x);element.setAttribute('y',y);
+ element.textContent=label;
+}
+function updatePortGeometry(pose,angle){
+ const {x,y,co,si,scale}=pose;
+ const along=fraction=>({x:x+615*scale*fraction*co,y:y-615*scale*fraction*si});
+ const inlet=along(.18),outlet=along(.82);
+ const reach=68;const portAngle=90-angle;
+ setSchematicLine('portInTube',inlet.x,inlet.y-reach,inlet.x,inlet.y-9);
+ setSchematicLine('portInArrow',inlet.x,inlet.y-reach-5,inlet.x,inlet.y-12);
+ setSchematicLine('portOutTube',outlet.x,outlet.y+9,outlet.x,outlet.y+reach);
+ setSchematicLine('portOutArrow',outlet.x,outlet.y+12,outlet.x,outlet.y+reach+5);
+ const r=30,mainArc=(point,out=false)=>`M ${point.x+(out?-1:1)*r*co} ${point.y+(out?1:-1)*r*si} A ${r} ${r} 0 0 0 ${point.x} ${point.y+(out?1:-1)*r}`;
+ $('portInArc').setAttribute('d',mainArc(inlet));
+ $('portOutArc').setAttribute('d',mainArc(outlet,true));
+ setSchematicText('portInText',inlet.x,inlet.y-reach-12,`ВХОД · ${fmt(portAngle)}°`);
+ setSchematicText('portOutText',outlet.x,outlet.y+reach+18,`ВЫХОД · ${fmt(portAngle)}°`);
+}
+function updateSchematic(angle){
+ const valid=Number.isFinite(angle)&&angle>=0&&angle<90;
+ const pose=schematicPose(valid?angle:0);
+ $('conveyorDrawing').setAttribute('transform',pose.matrix);updatePortGeometry(pose,valid?angle:0);
+ $('angleBase').setAttribute('y1',pose.y);
+ $('angleBase').setAttribute('y2',pose.y);
+ $('angleArc').setAttribute('d',pose.arc);
+ $('angleLabel').setAttribute('x',pose.labelX);
+ $('angleLabel').setAttribute('y',pose.labelY);
+ const label=valid?`${fmtAngle(angle)}°`:'—';
+ $('angleLabel').textContent=label;
+ $('angleReadout').textContent=label;
+ $('conveyorSchematic').setAttribute('aria-label',valid?`Схема шнекового транспортера, угол наклона ${fmtAngle(angle)} градусов`:'Схема шнекового транспортера, угол не задан');
+}
+function summaryRow(label,value){
+ const row=document.createElement('div');row.className='summary-row';
+ const name=document.createElement('span');name.textContent=label;
+ const number=document.createElement('b');number.textContent=value;
+ row.append(name,number);return row;
+}
+function summaryGroup(root,title,rows){
+ const group=document.createElement('section');group.className='summary-group';
+ const heading=document.createElement('h4');heading.textContent=title;group.append(heading);
+ for(const [label,value] of rows)group.append(summaryRow(label,value));root.append(group);
+}
+function inputSummary(id,unit){
+ const raw=$(id).value.trim();if(!raw)return 'не задано';
+ const value=Number(raw.replace(',','.'));
+ return Number.isFinite(value)?`${fmt(value)} ${unit}`:'не задано';
+}
+function selectedText(id){return $(id).selectedOptions[0]?.textContent||'не выбран'}
+function renderAngleControl(angle,gostMode){
+ const input=$('incline'),feedback=$('angleFeedback');
+ input.min='0';input.max=gostMode?'20':'90';
+ input.setAttribute('aria-describedby','angleModeHint angleReference angleFeedback');
+ $('angleModeHint').textContent=gostMode?'Введите угол от 0 до 20° включительно. Значение вне диапазона блокирует применение.':'Введите любой угол от 0° до 90° (90° не включается), в том числе дробный. Выше 20° требуется специальное исполнение.';
+ let message='',level='pass',invalid=false;
+ if(!Number.isFinite(angle)){message='Введите угол наклона от горизонтали. Поле не должно быть пустым.';level='error';invalid=true}
+ else if(angle<0||angle>=90){message='Для этой модели угол должен быть не меньше 0° и меньше 90°. Применение заблокировано.';level='error';invalid=true}
+ else if(angle>20){
+  if(gostMode){message=`Угол ${fmtAngle(angle)}° превышает предел 20° по ГОСТ 2037-82. Применение заблокировано: введите 0–20° или выберите ручной ввод для специального исполнения.`;level='error';invalid=true}
+  else{message=`Угол ${fmtAngle(angle)}° выходит за диапазон 0–20° по ГОСТ 2037-82. Ручной ввод разрешён для специального исполнения; геометрия и возможность применения в SolidWorks проверяются отдельно.`;level='warning'}
+ }else{message=`Угол ${fmtAngle(angle)}° входит в диапазон 0–20° по ГОСТ 2037-82. Это проверка только угла; соответствие изделия остальным требованиям стандарта не подтверждено.`}
+ input.setAttribute('aria-invalid',String(invalid));input.setCustomValidity(invalid?message:'');
+ feedback.className='angle-feedback'+(level==='pass'?'':' '+level);feedback.textContent=message;
+}
+function modelInputErrors(v){
+ const errors=[];
+ for(const[id,label]of defs){
+  if(!Number.isFinite(v[id]))errors.push(`Заполните поле «${label}» числом`);
+  else if(v[id]<0||(id!=='incline'&&v[id]===0))errors.push(`«${label}»: требуется ${id==='incline'?'неотрицательное':'положительное'} значение`);
+ }
+ if(errors.length)return errors;
+ const bore=v.tube_diameter-2*v.tube_wall,gap=(bore-v.screw_diameter)/2;
+ if(bore<=0)errors.push('Стенка трубы не оставляет проходного сечения');
+ else if(gap<=0)errors.push(`Внутренний диаметр трубы ${fmt(bore)} мм должен быть больше диаметра винта ${fmt(v.screw_diameter)} мм; радиальный зазор ${fmt(gap)} мм`);
+ if(v.screw_diameter<=v.shaft_diameter)errors.push('Диаметр винта должен быть больше диаметра вала');
+ if(v.shaft_diameter<=2*v.shaft_wall)errors.push('Стенка вала не оставляет внутреннего сечения');
+ if(v.pitch*v.turns+2*v.blade_thickness>v.working_length+85)errors.push('Винт с заданным шагом и числом витков не помещается по рабочей длине');
+ if(v.turns%1!==0)errors.push('Число витков должно быть целым');
+ if(v.incline>=90)errors.push('Угол наклона должен быть меньше 90°');
+ else if(designMode()==='gost'&&v.incline>20)errors.push('В режиме ГОСТ угол наклона должен быть от 0 до 20°');
+ return errors;
+}
+function showApplyOutcome(data){
+ if(!data)return;
+ const outcome=data.apply_outcome||data,box=$('applyFeedback');box.hidden=false;
+ box.className='note apply-feedback'+(outcome.ok?' success':' warning');
+ $('applyHeading').textContent=outcome.ok?'Модель перестроена и сохранена':outcome.code==='connection_lost'?'Результат применения не получен':'Изменения не применены';
+ const failed=[...new Set((outcome.failed_features||[]).filter(x=>x.error_code>1).map(x=>`${x.feature} (код ${x.error_code})`))];
+ $('applyMessage').textContent=outcome.ok?'SolidWorks перестроил сборку. Размеры, сопряжения и объёмные пересечения проверены перед сохранением.':outcome.code==='connection_lost'?'Не удалось получить ответ программы. Результат CAD неизвестен; проверьте состояние модели перед повторным применением.':outcome.rollback_verified?'SolidWorks отклонил изменение. Предыдущая модель восстановлена, проверена и сохранена. Параметры этой попытки не применены.':'Применение не выполнено. Подробности ошибки приведены ниже.';
+ if(failed.length)$('applyMessage').textContent+=' Ошибки операций: '+failed.join('; ')+'.';
+ if((outcome.interferences||[]).length){
+  const names=[...new Set(outcome.interferences.map(row=>row.components.map(name=>{const leaf=name.split('/').at(-1);return leaf.match(/'([^']+)'/)?.[1]||leaf}).join(' ↔ ')))];
+  $('applyMessage').textContent+=' Обнаружены пересечения: '+names.join('; ')+'.';
+ }
+ const sizes=v=>v&&['working_length','tube_diameter','tube_wall','screw_diameter','incline'].every(id=>Number.isFinite(v[id]))?`длина ${fmt(v.working_length)} мм; труба Ø${fmt(v.tube_diameter)} × ${fmt(v.tube_wall)} мм; винт Ø${fmt(v.screw_diameter)} мм; угол ${fmtAngle(v.incline)}°`:'';
+ const saved=sizes(outcome.saved_values),requested=sizes(outcome.requested_values);
+ $('applyParameters').textContent=(saved?'В сохранённой CAD-модели: '+saved+'.':'')+(!outcome.ok&&requested?'\nЗапрошено: '+requested+'.':'');
+ $('applyTime').textContent=outcome.timestamp?'Результат от '+new Date(outcome.timestamp).toLocaleString('ru-RU'):'';
+ $('applyDetails').hidden=!(outcome.errors||[]).length;
+ $('applyErrorText').textContent=(outcome.errors||[]).join('\n');
+}
+function renderParameterSummary(v){
+ const root=$('parameterSummary'),scroll=root.parentElement.scrollTop;
+ root.replaceChildren();const heading=document.createElement('h3');
+ heading.textContent='Выбранные параметры';root.append(heading);
+ for(const [title,target] of [['Корпус и патрубок','bodyFields'],['Винт и вал','screwFields'],['Опора','supportFields']]){
+  const rows=defs.filter(([, , ,place])=>place===target||(target==='bodyFields'&&place==='angleFields')).map(([id,label,unit])=>
+   [label,Number.isFinite(v[id])?`${id==='incline'?fmtAngle(v[id]):fmt(v[id])} ${unit}`:'не задано']);
+  summaryGroup(root,title,rows);
+ }
+ summaryGroup(root,'Вход и выход',[['Направление груза','от нижнего патрубка к верхнему'],['Нижний вход',PORT_COUNTS.inlet+' шт. · Ø '+fmt(v.inlet_diameter)+' мм · '+fmt(90-v.incline)+'° к корпусу'],['Верхний выход',PORT_COUNTS.outlet+' шт. · Ø '+fmt(v.inlet_diameter)+' мм · '+fmt(90-v.incline)+'° к корпусу'],['Патрубки промывки',PORT_COUNTS.wash+' шт. · не являются входами груза'],['Отверстие в корпусе','Ø '+fmt(v.opening_diameter)+' мм; деталь сбрасывателя удалена'],]);summaryGroup(root,'Выбор по стандартам',[
+  ['Труба',selectedText('tubeChoice')],['Винт',selectedText('screwChoice')],
+  ['Марка стали',selectedText('materialChoice')],['Режим угла',selectedText('angleMode')],
+  ['Груз',selectedText('cargoPreset')],
+ ]);
+ summaryGroup(root,'Данные расчёта',[
+  ['Частота винта',inputSummary('calcRpm','об/мин')],
+  ['Требуемая подача',inputSummary('calcTarget','м³/ч')],
+  ['Плотность груза',inputSummary('calcDensity','кг/м³')],
+  ['Крупность',inputSummary('calcLump','мм')],
+  ['Температура',inputSummary('calcTemp','°C')],
+  ['Масса на испытании',inputSummary('calcMass','кг')],
+  ['Время испытания',inputSummary('calcTime','с')],
+ ]);
+ summaryGroup(root,'Режим эксплуатации',[
+  ['Пусков в час',inputSummary('surveyStarts','1/ч')],
+  ['Длительность включения',inputSummary('surveyDuration','мин')],
+  ['Пуск с заполненным шнеком',selectedText('surveyLoaded')],
+  ['Плотность смеси',inputSummary('surveyDensity','кг/м³')],
+ ]);
+ root.parentElement.scrollTop=scroll;
+}
+function render(){const v=values(),bore=v.tube_diameter-2*v.tube_wall,gap=(bore-v.screw_diameter)/2;const gostMode=designMode()==='gost';updateSchematic(v.incline);renderParameterSummary(v);renderAngleControl(v.incline,gostMode);$('clearance').innerHTML=fmt(gap)+' <span class="unit">мм</span>';$('clearance').style.color=gap>0?'':'#bf5e5e';$('clearanceNote').textContent=gap>0?'По внутреннему диаметру трубы':'Винт пересекает внутреннюю поверхность трубы';$('clearanceNote').style.color=gap>0?'#839398':'#bf5e5e';$('bore').textContent=fmt(bore)+' мм';$('fullLength').textContent=fmt(v.working_length+270)+' мм';$('turnCount').textContent=fmt(v.turns);$('drawingLength').textContent=fmt(v.working_length)+' мм';$('dimWorking').textContent=fmt(v.working_length)+' мм';$('dimFull').textContent=fmt(v.working_length+270)+' мм';$('dimTube').textContent='Ø '+fmt(v.tube_diameter)+' мм';$('dimInlet').textContent=PORT_COUNTS.inlet+' × Ø '+fmt(v.inlet_diameter)+' мм';$('dimOutlet').textContent=PORT_COUNTS.outlet+' × Ø '+fmt(v.inlet_diameter)+' мм';$('dimPortAngle').textContent=fmt(90-v.incline)+'°';const cautions=[];if(v.incline>20)cautions.push(`угол ${fmtAngle(v.incline)}° превышает 20°`);if(gap<8||gap>10)cautions.push(`зазор ${fmt(gap)} мм вне диапазона 8–10 мм`);$('standardCheck').textContent=cautions.length?'Совпадение типоразмеров не подтверждает соответствие конвейера: '+cautions.join('; ')+'.':'Угол и номинальный зазор входят в указанные пределы; остальные требования стандарта не проверены.';let d='';for(let i=0;i<15;i++){let x=90+i*43;d+=`M${x} 58 C${x+28} 69 ${x+28} 121 ${x+43} 135 `}$('helix').setAttribute('d',d);const blockers=modelInputErrors(v);$('apply').disabled=applyBusy||blockers.length>0;$('applyBlockers').hidden=applyBusy||!blockers.length;$('applyBlockers').textContent='Применение недоступно:\n'+blockers.join('\n');if(calcReady)queueCalculation()}
+function makeFields(v){for(const [id,label,unit,target,hint] of defs){const card=document.createElement('div');card.className='field';card.innerHTML=`<label for="${id}">${label}</label><div class="inputline"><input id="${id}" type="number" step="any" inputmode="decimal" value="${v[id]}"><span class="unit">${unit}</span></div><small><span>●</span> ${hint}</small>`;$(target).append(card);$(id).addEventListener('input',()=>{if(id==='tube_diameter'||id==='tube_wall')$('tubeChoice').value='custom';if(id==='screw_diameter'||id==='pitch')$('screwChoice').value='custom';render()})}render()}
+function makeChoices(saved){for(const [kind,control,custom] of [['tube','tubeChoice','Свой размер трубы'],['screw','screwChoice','Свой диаметр и шаг']]){const select=$(control);select.add(new Option(custom,'custom'));for(const item of catalog[kind].items){const label=kind==='tube'?`Ø${item.diameter} × ${item.wall} мм`:`Ø${item.diameter} · шаг ${item.pitch} мм`;select.add(new Option(label,item.id))}select.value=saved?.[kind]||'custom';$(kind+'Source').href=catalog[kind].url}const mat=$('materialChoice');mat.add(new Option('Не выбран','unspecified'));for(const item of catalog.material.items)mat.add(new Option(item,item));mat.value=saved?.material||'unspecified';$('materialSource').href=catalog.material.url;$('materialChoice').onchange=render;$('tubeChoice').onchange=()=>{const item=catalog.tube.items.find(x=>x.id===$('tubeChoice').value);if(item){$('tube_diameter').value=item.diameter;$('tube_wall').value=item.wall}render()};$('screwChoice').onchange=()=>{const item=catalog.screw.items.find(x=>x.id===$('screwChoice').value);if(item){$('screw_diameter').value=item.diameter;$('pitch').value=item.pitch}render()}}
+const calcFields={rpm:'calcRpm',target_m3_h:'calcTarget',bulk_density_kg_m3:'calcDensity',lump_mm:'calcLump',cargo_temp_c:'calcTemp',measured_mass_kg:'calcMass',measured_time_s:'calcTime'};
+const checkNames={incline:'Область применения · угол',screw_pair:'Диаметр и шаг винта',radial_clearance:'Номинальный зазор',rpm:'Ряд частот вращения',bulk_density:'Насыпная плотность',lump_size:'Размер куска',cargo_temperature:'Температура груза',capacity_series:'Ряд расчётной подачи',target_geometry_bound:'Геометрическая достижимость подачи',bench_measurement:'Стендовая подача',target_verification:'Проверка заявленной подачи'};
+function calcInputs(){const result={material_key:$('cargoPreset').value};for(const [key,id] of Object.entries(calcFields))result[key]=$(id).value.trim()===''?null:Number($(id).value.replace(',','.'));return result}
+function queueCalculation(){clearTimeout(calcTimer);$('calcStatus').textContent='ПЕРЕРАСЧЁТ';calcTimer=setTimeout(runCalculation,280)}
+function addCalcResult(label,value){const card=document.createElement('div');card.className='calc-result';const caption=document.createElement('small');caption.textContent=label;const big=document.createElement('b');big.textContent=value;card.append(caption,big);$('calcResults').append(card)}
+function displayCalculation(data){$('calcStatus').textContent=data.status==='BLOCK'?'БЛОК':data.status==='REQUIRED'?'НУЖНЫ ДАННЫЕ':'ЧАСТИЧНО';$('calcStatus').className='pill '+(data.status==='BLOCK'?'warn':'');$('calcResults').replaceChildren();const r=data.results;addCalcResult('Номинальный радиальный зазор',fmt(r.radial_clearance_mm)+' мм');addCalcResult('Геометрический объём за оборот',fmt(r.geometric_volume_per_rev_m3*1000)+' л/об');if(r.geometric_volume_per_hour_m3!==null)addCalcResult('Условный геометрический объём',fmt(r.geometric_volume_per_hour_m3)+' м³/ч');if(r.minimum_ideal_rpm_for_target!==null)addCalcResult('Теоретический минимум частоты',fmt(r.minimum_ideal_rpm_for_target)+' об/мин');if(r.required_effective_fraction!==null)addCalcResult('Требуемая доля от геометрического предела',fmt(r.required_effective_fraction*100)+' % · не подтверждена');if(r.requested_standard_capacity_m3_h!==null)addCalcResult('Ближайший ряд ГОСТ по заявке',fmt(r.requested_standard_capacity_m3_h)+' м³/ч');if(r.measured_mass_flow_kg_h!==null)addCalcResult('Измеренная массовая подача',fmt(r.measured_mass_flow_kg_h)+' кг/ч');if(r.measured_volume_flow_m3_h!==null)addCalcResult('Измеренная объёмная подача',fmt(r.measured_volume_flow_m3_h)+' м³/ч');$('calcChecks').replaceChildren();for(const check of data.checks){const card=document.createElement('div');card.className='calc-check '+check.status.toLowerCase();const title=document.createElement('b');title.textContent=(checkNames[check.id]||check.id)+' · '+check.status;const detail=document.createElement('span');detail.textContent='Факт: '+(check.actual===null?'не задано':check.actual)+' · '+check.requirement+' · '+check.source;card.append(title,detail);$('calcChecks').append(card)}}
+async function runCalculation(){const seq=++calcSeq;try{const response=await fetch('/api/calculate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({values:values(),inputs:calcInputs()})});const data=await response.json();if(seq!==calcSeq)return;if(!data.ok)throw Error((data.errors||['Ошибка расчёта']).join(' '));displayCalculation(data)}catch(e){if(seq!==calcSeq)return;$('calcStatus').textContent='ОШИБКА';$('calcResults').textContent=e.message;$('calcChecks').replaceChildren()}}
+function renderCargoChoices(){const select=$('cargoPreset'),selected=select.value,group=$('cargoCategory').value,query=$('cargoSearch').value.trim().toLocaleLowerCase('ru-RU');select.replaceChildren(new Option('Груз пока не выбран',''));const groups=new Map();for(const item of materials.items){if(item.id!==selected&&((group&&item.category!==group)||(query&&!`${item.name} ${item.source_name}`.toLocaleLowerCase('ru-RU').includes(query))))continue;if(!groups.has(item.category))groups.set(item.category,[]);groups.get(item.category).push(item)}for(const [name,items] of groups){const optgroup=document.createElement('optgroup');optgroup.label=name;for(const item of items)optgroup.append(new Option(item.name+(item.vertical_candidate?' · V':''),item.id));select.append(optgroup)}select.value=selected}
+function describeCargo(){const item=materials.items.find(x=>x.id===$('cargoPreset').value);if(!item){$('cargoHint').textContent='Справочные значения груза показываются как диапазон; для проектного расчёта нужны данные конкретной партии.';return}const density=item.density_kg_m3[0]===item.density_kg_m3[1]?item.density_kg_m3[0]:item.density_kg_m3.join('–');const particle=item.max_particle_mm===null?`крупность по таблице ${item.particle_spec}`:`размер частиц до ${item.max_particle_mm} мм`;const vertical=item.vertical_candidate?'В справочнике есть отметка V — возможна вертикальная подача после отдельного проектирования.':'В справочнике нет отметки V для вертикальной подачи.';$('cargoHint').textContent=`${item.application}. Справочная плотность ${density} кг/м³; ${particle}. ${vertical} Данные конкретной партии необходимо измерить.`}
+function setupMaterials(){for(const category of materials.categories)$('cargoCategory').add(new Option(category,category));renderCargoChoices();$('cargoPreset').onchange=()=>{describeCargo();renderParameterSummary(values());queueCalculation()};$('cargoCategory').onchange=renderCargoChoices;$('cargoSearch').oninput=renderCargoChoices;for(const id of Object.values(calcFields))$(id).addEventListener('input',()=>{renderParameterSummary(values());queueCalculation()});$('calculate').onclick=runCalculation}
+function journalValue(value){if(value===null||value===undefined)return 'не задано';if(value==='custom')return 'свой размер';if(value==='unspecified')return 'не выбрана';if(value==='gost')return 'ГОСТ 2037-82 · 0–20°';if(value==='special')return 'специальное исполнение';return typeof value==='number'?fmt(value):String(value)}
+function renderJournal(data){$('projectName').textContent=data.project.name;$('projectCode').textContent=data.project.id+' · Параметрическая сборка';$('projectCargo').textContent=data.project.cargo||'не указан';$('projectMode').textContent=(data.project.operating_mode||'не указан').toLowerCase();const summary=$('journalSummary');summary.replaceChildren();for(const [count,label] of [[data.summary.model_changes,'записей об изменениях'],[data.summary.changed_fields,'изменений'],[data.summary.drawing_files,'чертежей'],[data.summary.specification_changes||0,'решений по проекту'],[data.summary.assembly_repairs||0,'исправлено сопряжений']]){const span=document.createElement('span'),number=document.createElement('b');number.textContent=count;span.append(number,document.createTextNode(label));summary.append(span)}const list=$('journalList');list.replaceChildren();if(!data.entries.length){const empty=document.createElement('span');empty.className='journal-empty';empty.textContent='Новых записей пока нет. Журнал ведётся с '+new Date(data.started_at).toLocaleString('ru-RU')+'.';list.append(empty);return}for(const entry of data.entries){const card=document.createElement('article');card.className='journal-entry';const header=document.createElement('header'),title=document.createElement('b'),time=document.createElement('small');time.textContent=new Date(entry.timestamp).toLocaleString('ru-RU');title.textContent=`№${entry.number} · ${entry.title}`;header.append(title,time);card.append(header);const info=document.createElement('p');info.textContent=entry.type!=='drawings'?`Проект: ${entry.project_name}. ${entry.type==='model_check'?'Проверок':entry.type==='assembly_repair'?'Исправлено сопряжений':'Изменений'}: ${entry.type==='model_check'?entry.check_count:entry.change_count}.`:`Проект: ${entry.project_name}. Построено чертежей: ${entry.drawings.length}.${entry.partial?' Сборка содержит отсутствующие ссылки.':''}`;card.append(info);const ul=document.createElement('ul');if(entry.type!=='drawings'){for(const change of entry.changes){const li=document.createElement('li');li.textContent=`${change.name}: ${journalValue(change.before)} → ${journalValue(change.after)}`;ul.append(li)}}else{for(const drawing of entry.drawings){const li=document.createElement('li');li.textContent=`${drawing.name} · ${drawing.scale} · ${drawing.path}${drawing.missing_references?' · отсутствуют ссылки: '+drawing.missing_references:''}`;ul.append(li)}}card.append(ul);list.append(card)}}
+async function refreshJournal(){try{const response=await fetch('/api/journal');if(!response.ok)throw Error('Журнал недоступен');const data=await response.json();renderJournal(data);const p=data.project;if(p.cargo_particle_min_mm!==undefined&&p.cargo_particle_max_mm!==undefined){$('projectParticle').hidden=false;$('projectParticle').textContent=`Фракция: ${fmt(p.cargo_particle_min_mm)}–${fmt(p.cargo_particle_max_mm)} мм`}if(p.cargo_moisture_reported_percent!==undefined){$('projectMoisture').hidden=false;$('projectMoisture').textContent=`Влажность: ${fmt(p.cargo_moisture_reported_percent)}% · основа измерения ${p.cargo_moisture_basis||'не уточнена'}`}}catch(e){$('journalList').textContent=e.message}}
+async function refreshDiagnostics(){
+ try{
+  const response=await fetch('/api/model-diagnostics');if(!response.ok)throw Error('Аудит сборки недоступен');
+  const data=await response.json();if(!data.available)throw Error(data.message);
+  const checkedOther=data.checked_feature_errors??data.other;
+  const issues=data.mates+checkedOther+(data.missing_files??0)+(data.interferences??0);
+  $('assemblyStatus').textContent=issues?'ЕСТЬ ОШИБКИ CAD':data.design_angle_mismatch?'ТРЕБУЕТ ДОРАБОТКИ':'CAD ПРОВЕРЕН';$('assemblyStatus').className=issues||data.design_angle_mismatch?'pill warn':'pill';
+  $('designAngleText').textContent=`Задание: ${fmt(data.target_incline_deg)}° от горизонтали. В сохранённой CAD-модели: ${data.actual_incline_deg===null?'не проверено':fmt(data.actual_incline_deg)+'°'}. ${data.design_angle_mismatch?'Для целевого угла требуется переработка опоры и отверстия под верхний патрубок.':'Угол модели соответствует заданию.'}`;
+  const names={working_length:'Рабочая длина',tube_diameter:'Диаметр трубы',incline:'Угол к горизонтали'};
+  $('parameterCheckText').textContent=((data.parameter_checks||[]).some(r=>r.simultaneous)?'Длина, диаметр и угол изменены одновременно в одной контрольной сборке.\n':'')+(data.parameter_checks||[]).map(r=>`${names[r.parameter]}: ${fmt(r.before)} → ${fmt(r.tested)} → ${fmt(r.before)} — ${r.ok?'проверено без ошибок и пересечений':'вариант отклонён, сборка восстановлена'}`).join('\n')+'\nПроверены отдельные варианты; полный диапазон размеров не подтверждён.';
+  $('assemblyCheckText').textContent=`Последняя контрольная проверка ${data.checked_at?new Date(data.checked_at).toLocaleString('ru-RU'):data.audit_date}: ${data.component_count??'—'} компонентов; потерянных файлов — ${data.missing_files??'—'}; ошибок сопряжений — ${data.mates}; ошибок элементов — ${checkedOther}; пересечений более 0,001 мм³ — ${data.interferences??'не проверено'}. Фактический угол — ${data.actual_incline_deg==null?'—':fmt(data.actual_incline_deg)}°, задание — ${data.target_incline_deg==null?'—':fmt(data.target_incline_deg)}°.`;
+  const a=data.parameter_correspondence;
+  const joint=data.pin_joints;
+  const pipes=data.support_pipe_joints;
+  $('pipeJointText').textContent=pipes?`${pipes.ok?'Проверено':'Требуется исправление'}: ${pipes.connections.filter(r=>r.ok).length}/${pipes.connections.length} стыков труб опоры.\nМаксимальный зазор: ${fmt(Math.max(...pipes.connections.map(r=>r.gap_mm)))} мм; допуск проверки ${pipes.tolerance_mm} мм.\nПодкосы соединены со стойками. При применении параметров проверяются сопряжение и фактические зазоры перед сохранением.`:'Сохранённая проверка стыков труб отсутствует.';
+  $('pinJointText').textContent=joint?`${joint.ok?'Проверено':'Требуется исправление'}: втулка №2 установлена между ушами 3 и 4; подкосы соосны втулке.\nМаксимальное смещение осей: ${fmt(Math.max(...joint.axes.map(r=>r.axis_offset_mm)))} мм; допуск проверки ${joint.tolerance_mm} мм.\nТорцевые посадки на обоих ушах: ${joint.seats.every(r=>r.ok)?'совпадают':'требуют проверки'}. Зеркальный подкос: ${joint.mirrored_brace_ok?'проверен':'требует проверки'}.\nПри применении параметров проверяется фактическая геометрия шарнира перед сохранением.`:'Сохранённая проверка нижнего шарнира отсутствует.';
+  $('correspondenceText').textContent=a?`Проверка сохранённых значений ${new Date(a.checked_at).toLocaleString('ru-RU')}: ${a.matched_parameters}/${a.parameters} параметров операций; ${a.matched_bindings}/${a.bindings} связанных размеров соответствуют заданию формы.
+Патрубок: вытягивание ${fmt(a.port_extrusion_length_mm)} мм до подрезки; фактический осевой габарит ${fmt(a.port_axial_length_mm)} мм.
+Крепёж M${fmt(a.mounting_nominal_mm)}: фактические отверстия Ø${fmt(a.mounting_actual_mm)} мм.
+Вырез Ø${fmt(a.opening_mm)} мм: ${a.opening_active?'активен, геометрия восстановлена':'подавлен — отверстие отсутствует'}.
+${data.design_angle_mismatch?'Целевой угол ещё не достигнут.':'Сохранённый угол соответствует заданию.'} Полный диапазон параметров не подтверждён.`:'Сохранённое сопоставление параметров пока не выполнено.';
+  $('diagnosticsNote').textContent=`Список узлов: аудит ${data.audit_date}. Контрольная проверка после применения: ${data.checked_at?new Date(data.checked_at).toLocaleString('ru-RU'):'нет'}. Резьба показана условно. Данные относятся к сохранённой сборке; после изменений нужна новая проверка CAD.`;
+  const summary=$('diagnosticsSummary');summary.replaceChildren();
+  for(const label of [`${data.mates} ошибочных сопряжений`,`${data.other} ошибки элементов`,`${data.assemblies.length} проверенных узла`]){const chip=document.createElement('span');chip.textContent=label;summary.append(chip)}
+  const groups=$('diagnosticsGroups');groups.replaceChildren();
+  for(const group of data.assemblies){
+   const details=document.createElement('details'),heading=document.createElement('summary'),counts=document.createElement('small');
+   heading.append(document.createTextNode(group.assembly));counts.textContent=`${group.mates} сопряжений · ${group.other} элементов`;heading.append(counts);details.append(heading);
+   if(group.errors.length){const list=document.createElement('ul');for(const issue of group.errors){const row=document.createElement('li'),name=document.createElement('b');name.textContent=issue.name+' · ';row.append(name,document.createTextNode(issue.lost_reference?`потеряна геометрическая ссылка: ${issue.affected_components.join(', ')}`:issue.kind+' требует проверки'));list.append(row)}details.append(list)}
+   else{const empty=document.createElement('p');empty.textContent='Ошибок в сохранённом аудите нет.';details.append(empty)}
+   groups.append(details);
+  }
+ }catch(error){$('diagnosticsNote').textContent=error.message}
+}
+function questionnaireValues(){const number=id=>$(id).value.trim()===''?null:Number($(id).value.replace(',','.'));return {starts_per_hour:number('surveyStarts'),run_minutes:number('surveyDuration'),loaded_start:$('surveyLoaded').value||null,mixture_density_kg_m3:number('surveyDensity')}}
+async function loadQuestionnaire(){try{const response=await fetch('/api/questionnaire');if(!response.ok)throw Error('Не удалось загрузить опрос');const data=await response.json();$('surveyStarts').value=data.starts_per_hour??'';$('surveyDuration').value=data.run_minutes??'';$('surveyLoaded').value=data.loaded_start??'';$('surveyDensity').value=data.mixture_density_kg_m3??'';$('questionnaireStatus').textContent=Object.values(data).some(x=>x!==null)?'Сохранённые ответы загружены.':'Ответы ещё не заполнены.';if($('incline'))renderParameterSummary(values())}catch(e){$('questionnaireStatus').textContent=e.message}}
+$('saveQuestionnaire').onclick=async()=>{const button=$('saveQuestionnaire');button.disabled=true;try{const response=await fetch('/api/questionnaire',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(questionnaireValues())});const data=await response.json();if(!response.ok||!data.ok)throw Error(data.error||'Не удалось сохранить опрос');$('questionnaireStatus').textContent='Ответы сохранены.';await refreshJournal();toast(data.journal_entry?'Условия работы записаны в журнал.':'Ответы сохранены без изменений.')}catch(e){$('questionnaireStatus').textContent=e.message;toast(e.message,true)}finally{button.disabled=false}};
+async function load(){try{const [state,items,bulk,saved,outcome]=await Promise.all([fetch('/api/state').then(r=>r.json()),fetch('/api/catalog').then(r=>r.json()),fetch('/api/materials').then(r=>r.json()),fetch('/api/calculation-inputs').then(r=>r.json()),fetch('/api/apply-status').then(r=>r.ok?r.json():null)]);showApplyOutcome(outcome);catalog=items;materials=bulk;original=state.values;$('angleMode').value=state.design_mode||'special';$('angleMode').onchange=render;makeFields(state.values);makeChoices(state.selection);setupMaterials();for(const [key,id] of Object.entries(calcFields))if(saved[key]!==null&&saved[key]!==undefined)$(id).value=saved[key];if(saved.material_key){$('cargoPreset').value=saved.material_key;$('cargoPreset').onchange()}renderParameterSummary(values());calcReady=true;runCalculation();$('applied').textContent=state.last_applied?'Последнее применение: '+new Date(state.last_applied).toLocaleString('ru-RU'):'Исходные значения модели';refreshJournal();refreshDiagnostics()}catch(e){toast('Не удалось загрузить параметры и справочники',true)}}
+$('apply').onclick=async()=>{
+ const button=$('apply'),request={values:values(),selection:selection(),design_mode:designMode()};
+ applyBusy=true;button.disabled=true;button.textContent='Перестроение…';
+ $('applyFeedback').hidden=false;$('applyFeedback').className='note apply-feedback';
+ $('applyHeading').textContent='SolidWorks перестраивает модель…';
+ $('applyMessage').textContent='Параметры отправлены в CAD. После перестроения выполняются проверки размеров, сопряжений и пересечений.';
+ $('applyParameters').textContent='';$('applyTime').textContent='';$('applyDetails').hidden=true;
+ let result;
+ try{
+  const response=await fetch('/api/apply',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(request)});
+  result=await response.json();showApplyOutcome(result.apply_outcome||result);
+  await refreshJournal();await refreshDiagnostics();
+  if(!result.ok)throw Error((result.errors||['Ошибка SolidWorks']).join(' '));
+  original=result.values;$('applied').textContent='Применено: '+new Date(result.last_applied).toLocaleString('ru-RU');
+  toast('Модель перестроена, проверена и сохранена.');
+ }catch(error){
+  if(!result)showApplyOutcome({ok:false,code:'connection_lost',errors:[error.message]});
+  toast(result?.rollback_verified?'Изменения отклонены; предыдущая модель восстановлена.':error.message,true);
+ }finally{applyBusy=false;button.textContent='Применить к модели';render()}
+};
+$('openCad').onclick=async()=>{const button=$('openCad');button.disabled=true;button.textContent='Открытие…';try{const response=await fetch('/api/open',{method:'POST'});const data=await response.json();if(!response.ok||!data.ok)throw Error(data.error||(data.errors||['Не удалось открыть сборку']).join(' '));toast(data.message||'Сборка открыта в SolidWorks.',Boolean(data.partial))}catch(error){toast(error.message||'Не удалось открыть сборку',true)}finally{button.disabled=false;button.textContent='Открыть CAD ↗'}};
+$('buildDrawings').onclick=async()=>{const button=$('buildDrawings');button.disabled=true;button.textContent='Построение…';$('drawingStatus').textContent='SolidWorks строит чертежи по сохранённым моделям…';try{const response=await fetch('/api/drawings',{method:'POST'});const data=await response.json();if(!response.ok||!data.ok)throw Error(data.error||'Не удалось построить чертежи');$('drawingStatus').textContent=`Создано ${data.drawings.length} чертежа в папке ${data.batch}.${data.partial?' В модели остаются ошибки; проверьте сопряжения и виды перед выпуском.':''}`;await refreshJournal();toast(`Создано чертежей: ${data.drawings.length}.${data.partial?' Требуется проверка модели.':''}`,Boolean(data.partial))}catch(error){$('drawingStatus').textContent=error.message;toast(error.message,true)}finally{button.disabled=false;button.textContent='Построить чертежи'}};
+for(const id of ['surveyStarts','surveyDuration','surveyDensity'])$(id).addEventListener('input',()=>{if($('incline'))renderParameterSummary(values())});$('surveyLoaded').addEventListener('change',()=>{if($('incline'))renderParameterSummary(values())});load();loadQuestionnaire();
+</script></body></html>
+
+
+

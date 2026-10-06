@@ -1,0 +1,310 @@
+
+PART 25.SHT.G.02.00.00.01  Шнек 200 мм.SLDPRT status 0 128
+bbox (-0.10156875192025686, -0.001568751920256961, -0.10153861349206487, 0.10151786521173753, 2.897008324543162, 0.10156602990351762)
+mass error (-2147352573, 'Член группы не найден.', None, None)
+equations 0
+FEATURE Favorites FavoriteFolder
+FEATURE History HistoryFolder
+FEATURE Selection Sets SelectionSetFolder
+FEATURE Связь проектов DocsFolder
+FEATURE Примечания DetailCabinet
+FEATURE Исправления InkMarkupFolder
+FEATURE Источники света и камеры EnvFolder
+FEATURE Твердые тела SolidBodyFolder
+FEATURE Тела поверхности SurfaceBodyFolder
+FEATURE Датчики SensorFolder
+FEATURE Заметки CommentsFolder
+FEATURE Уравнения EqnFolder
+FEATURE 09Г2С ГОСТ 4543-71 MaterialFolder
+FEATURE Спереди RefPlane
+FEATURE Сверху RefPlane
+FEATURE Справа RefPlane
+FEATURE Исходная точка OriginProfileFeature
+FEATURE Эскиз1 ProfileFeature
+  DIM 45@Эскиз1@25.SHT.G.02.00.00.01  Шнек 200 мм.Part 0.045
+FEATURE Спираль1 Helix
+  DIM D7@Спираль1@25.SHT.G.02.00.00.01  Шнек 200 мм.Part 4.7123889803847
+  DIM D5@Спираль1@25.SHT.G.02.00.00.01  Шнек 200 мм.Part 14.424999999999999
+  DIM D4@Спираль1@25.SHT.G.02.00.00.01  Шнек 200 мм.Part 0.2
+  DIM D3@Спираль1@25.SHT.G.02.00.00.01  Шнек 200 мм.Part 2.885
+FEATURE Эскиз3 ProfileFeature
+  DIM D1@Эскиз3@25.SHT.G.02.00.00.01  Шнек 200 мм.Part 0.076
+  DIM D2@Эскиз3@25.SHT.G.02.00.00.01  Шнек 200 мм.Part 0.2
+  DIM D3@Эскиз3@25.SHT.G.02.00.00.01  Шнек 200 мм.Part 0.012
+FEATURE По траектории2 Sweep
+  DIM D1@Эскиз3@25.SHT.G.02.00.00.01  Шнек 200 мм.Part 0.076
+  DIM D2@Эскиз3@25.SHT.G.02.00.00.01  Шнек 200 мм.Part 0.2
+  DIM D3@Эскиз3@25.SHT.G.02.00.00.01  Шнек 200 мм.Part 0.012
+FEATURE Эскиз4 ProfileFeature
+  DIM D1@Эскиз4@25.SHT.G.02.00.00.01  Шнек 200 мм.Part 0.045
+
+PART 25.SHT.G.01.00.00.02  Желоб.SLDPRT status 0 128
+bbox (-0.5, -0.11100000000000002, -0.11100000000000007, 0.5, 0.15, 0.11100000000000002)
+mass error (-2147352573, 'Член группы не найден.', None, None)
+equations 0
+FEATURE Заметки к конфигурации ConfigCommentsFolder
+FEATURE Часто используемые FavoriteFolder
+FEATURE История HistoryFolder
+FEATURE Наборы выбора SelectionSetFolder
+FEATURE Датчики SensorFolder
+FEATURE Связь проектов DocsFolder
+FEATURE Примечания DetailCabinet
+FEATURE Исправления InkMarkupFolder
+FEATURE Источники света и камеры EnvFolder
+FEATURE Твердые тела SolidBodyFolder
+FEATURE Тела поверхности SurfaceBodyFolder
+FEATURE Заметки CommentsFolder
+FEATURE Уравнения EqnFolder
+FEATURE AISI 304 MaterialFolder
+FEATURE Спереди RefPlane
+FEATURE Сверху RefPlane
+FEATURE Справа RefPlane
+FEATURE Исходная точка OriginProfileFeature
+FEATURE Эскиз7 ProfileFeature
+  DIM D1@Эскиз7@25.SHT.G.01.00.00.02  Желоб.Part 1.0
+FEATURE Листовой металл4 SheetMetal
+FEATURE Плоскость2 RefPlane
+FEATURE Плоскость3 RefPlane
+FEATURE Эскиз1 ProfileFeature
+  DIM D1@Эскиз1@25.SHT.G.01.00.00.02  Желоб.Part 0.216
+  DIM D2@Эскиз1@25.SHT.G.01.00.00.02  Желоб.Part 0.15
+FEATURE Эскиз8 ProfileFeature
+FEATURE Элемент по сечениям сгиба2 LoftedBend
+  DIM D7@Листовой металл4@25.SHT.G.01.00.00.02  Желоб.Part 0.0
+  DIM D1@Эскиз1@25.SHT.G.01.00.00.02  Желоб.Part 0.216
+  DIM D2@Эскиз1@25.SHT.G.01.00.00.02  Желоб.Part 0.15
+FEATURE Плоскость4 RefPlane
+  DIM D1@Плоскость4@25.SHT.G.01.00.00.02  Желоб.Part 0.8726646259971667
+FEATURE Эскиз10 ProfileFeature
+  DIM D1@Плоскость4@25.SHT.G.01.00.00.02  Желоб.Part 0.8726646259971667
+  DIM D1@Эскиз10@25.SHT.G.01.00.00.02  Желоб.Part 0.0065
+  DIM D2@Эскиз10@25.SHT.G.01.00.00.02  Желоб.Part 0.048
+  DIM D3@Эскиз10@25.SHT.G.01.00.00.02  Желоб.Part 10.0
+  DIM D4@Эскиз10@25.SHT.G.01.00.00.02  Желоб.Part 0.1
+FEATURE Вырез-Вытянуть2 ICE
+  DIM D1@Плоскость4@25.SHT.G.01.00.00.02  Желоб.Part 0.8726646259971667
+  DIM D1@Эскиз10@25.SHT.G.01.00.00.02  Желоб.Part 0.0065
+  DIM D2@Эскиз10@25.SHT.G.01.00.00.02  Желоб.Part 0.048
+  DIM D3@Эскиз10@25.SHT.G.01.00.00.02  Желоб.Part 10.0
+  DIM D4@Эскиз10@25.SHT.G.01.00.00.02  Желоб.Part 0.1
+FEATURE Зеркальное отражение1 MirrorPattern
+FEATURE Эскиз11 ProfileFeature
+  DIM D1@Эскиз11@25.SHT.G.01.00.00.02  Желоб.Part 0.007
+  DIM D4@Эскиз11@25.SHT.G.01.00.00.02  Желоб.Part 7.0
+  DIM D5@Эскиз11@25.SHT.G.01.00.00.02  Желоб.Part 0.15
+  DIM D2@Эскиз11@25.SHT.G.01.00.00.02  Желоб.Part 0.07499999999999993
+  DIM D3@Эскиз11@25.SHT.G.01.00.00.02  Желоб.Part 0.05
+  DIM D6@Эскиз11@25.SHT.G.01.00.00.02  Желоб.Part 0.018
+  DIM D7@Эскиз11@25.SHT.G.01.00.00.02  Желоб.Part 0.06
+  DIM D8@Эскиз11@25.SHT.G.01.00.00.02  Желоб.Part 0.66
+  DIM D9@Эскиз11@25.SHT.G.01.00.00.02  Желоб.Part 0.009
+FEATURE Вырез-Вытянуть3 ICE
+  DIM D1@Эскиз11@25.SHT.G.01.00.00.02  Желоб.Part 0.007
+  DIM D4@Эскиз11@25.SHT.G.01.00.00.02  Желоб.Part 7.0
+  DIM D5@Эскиз11@25.SHT.G.01.00.00.02  Желоб.Part 0.15
+  DIM D2@Эскиз11@25.SHT.G.01.00.00.02  Желоб.Part 0.07499999999999993
+  DIM D3@Эскиз11@25.SHT.G.01.00.00.02  Желоб.Part 0.05
+  DIM D6@Эскиз11@25.SHT.G.01.00.00.02  Желоб.Part 0.018
+  DIM D7@Эскиз11@25.SHT.G.01.00.00.02  Желоб.Part 0.06
+  DIM D8@Эскиз11@25.SHT.G.01.00.00.02  Желоб.Part 0.66
+  DIM D9@Эскиз11@25.SHT.G.01.00.00.02  Желоб.Part 0.009
+FEATURE Развертка4 FlatPattern
+
+PART 25.SHT.G.01.00.00.03  Желоб.SLDPRT status 0 128
+bbox (-0.5, -0.11100000000000002, -0.11100000000000007, 0.5, 0.15, 0.11100000000000002)
+mass error (-2147352573, 'Член группы не найден.', None, None)
+equations 0
+FEATURE Часто используемые FavoriteFolder
+FEATURE История HistoryFolder
+FEATURE Наборы выбора SelectionSetFolder
+FEATURE Датчики SensorFolder
+FEATURE Связь проектов DocsFolder
+FEATURE Примечания DetailCabinet
+FEATURE Исправления InkMarkupFolder
+FEATURE Источники света и камеры EnvFolder
+FEATURE Твердые тела SolidBodyFolder
+FEATURE Тела поверхности SurfaceBodyFolder
+FEATURE Заметки CommentsFolder
+FEATURE Уравнения EqnFolder
+FEATURE AISI 304 MaterialFolder
+FEATURE Спереди RefPlane
+FEATURE Сверху RefPlane
+FEATURE Справа RefPlane
+FEATURE Исходная точка OriginProfileFeature
+FEATURE Эскиз7 ProfileFeature
+  DIM D1@Эскиз7@25.SHT.G.01.00.00.03  Желоб.Part 1.0
+FEATURE Листовой металл4 SheetMetal
+FEATURE Плоскость2 RefPlane
+FEATURE Плоскость3 RefPlane
+FEATURE Эскиз1 ProfileFeature
+  DIM D1@Эскиз1@25.SHT.G.01.00.00.03  Желоб.Part 0.216
+  DIM D2@Эскиз1@25.SHT.G.01.00.00.03  Желоб.Part 0.15
+FEATURE Эскиз8 ProfileFeature
+FEATURE Элемент по сечениям сгиба2 LoftedBend
+  DIM D7@Листовой металл4@25.SHT.G.01.00.00.03  Желоб.Part 0.0
+  DIM D1@Эскиз1@25.SHT.G.01.00.00.03  Желоб.Part 0.216
+  DIM D2@Эскиз1@25.SHT.G.01.00.00.03  Желоб.Part 0.15
+FEATURE Плоскость4 RefPlane
+  DIM D1@Плоскость4@25.SHT.G.01.00.00.03  Желоб.Part 0.8726646259971667
+FEATURE Эскиз10 ProfileFeature
+  DIM D1@Плоскость4@25.SHT.G.01.00.00.03  Желоб.Part 0.8726646259971667
+  DIM D1@Эскиз10@25.SHT.G.01.00.00.03  Желоб.Part 0.0065
+  DIM D2@Эскиз10@25.SHT.G.01.00.00.03  Желоб.Part 0.054
+  DIM D3@Эскиз10@25.SHT.G.01.00.00.03  Желоб.Part 10.0
+  DIM D4@Эскиз10@25.SHT.G.01.00.00.03  Желоб.Part 0.1
+FEATURE Вырез-Вытянуть2 ICE
+  DIM D1@Плоскость4@25.SHT.G.01.00.00.03  Желоб.Part 0.8726646259971667
+  DIM D1@Эскиз10@25.SHT.G.01.00.00.03  Желоб.Part 0.0065
+  DIM D2@Эскиз10@25.SHT.G.01.00.00.03  Желоб.Part 0.054
+  DIM D3@Эскиз10@25.SHT.G.01.00.00.03  Желоб.Part 10.0
+  DIM D4@Эскиз10@25.SHT.G.01.00.00.03  Желоб.Part 0.1
+FEATURE Зеркальное отражение1 MirrorPattern
+FEATURE Эскиз12 ProfileFeature
+  DIM D1@Эскиз12@25.SHT.G.01.00.00.03  Желоб.Part 0.024
+  DIM D2@Эскиз12@25.SHT.G.01.00.00.03  Желоб.Part 0.09
+  DIM D3@Эскиз12@25.SHT.G.01.00.00.03  Желоб.Part 0.008
+  DIM D4@Эскиз12@25.SHT.G.01.00.00.03  Желоб.Part 0.455
+  DIM D5@Эскиз12@25.SHT.G.01.00.00.03  Желоб.Part 2.0
+  DIM D6@Эскиз12@25.SHT.G.01.00.00.03  Желоб.Part 0.482
+FEATURE Эскиз13 ProfileFeature
+  DIM D1@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.007
+  DIM D4@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 7.0
+  DIM D5@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.15
+  DIM D2@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.05
+  DIM D3@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.07499999999999994
+  DIM D6@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.06
+  DIM D7@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.17
+  DIM D8@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.06
+  DIM D9@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.56
+  DIM D10@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.018
+  DIM D11@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.009
+FEATURE Вырез-Вытянуть4 ICE
+  DIM D1@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.007
+  DIM D4@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 7.0
+  DIM D5@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.15
+  DIM D2@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.05
+  DIM D3@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.07499999999999994
+  DIM D6@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.06
+  DIM D7@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.17
+  DIM D8@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.06
+  DIM D9@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.56
+  DIM D10@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.018
+  DIM D11@Эскиз13@25.SHT.G.01.00.00.03  Желоб.Part 0.009
+FEATURE Развертка4 FlatPattern
+
+PART 25.SHT.G.02.00.00.02  Вал.SLDPRT status 0 128
+bbox (-0.038, -0.038, -0.3075, 0.038, 0.038, 0.0)
+mass error (-2147352573, 'Член группы не найден.', None, None)
+equations 0
+FEATURE Favorites FavoriteFolder
+FEATURE History HistoryFolder
+FEATURE Selection Sets SelectionSetFolder
+FEATURE Связь проектов DocsFolder
+FEATURE Примечания DetailCabinet
+FEATURE Markups InkMarkupFolder
+FEATURE Источники света и камеры EnvFolder
+FEATURE Твердые тела SolidBodyFolder
+FEATURE Тела поверхности SurfaceBodyFolder
+FEATURE Датчики SensorFolder
+FEATURE Заметки CommentsFolder
+FEATURE Уравнения EqnFolder
+FEATURE 09Г2С ГОСТ 4543-71 MaterialFolder
+FEATURE Спереди RefPlane
+FEATURE Сверху RefPlane
+FEATURE Справа RefPlane
+FEATURE Исходная точка OriginProfileFeature
+FEATURE Эскиз1 ProfileFeature
+  DIM D7@Эскиз1@25.SHT.G.02.00.00.02  Вал.Part 0.0575
+  DIM D8@Эскиз1@25.SHT.G.02.00.00.02  Вал.Part 0.25
+  DIM D1@Эскиз1@25.SHT.G.02.00.00.02  Вал.Part 0.076
+  DIM D2@Эскиз1@25.SHT.G.02.00.00.02  Вал.Part 0.06500000000000002
+  DIM D3@Эскиз1@25.SHT.G.02.00.00.02  Вал.Part 0.00535
+  DIM D4@Эскиз1@25.SHT.G.02.00.00.02  Вал.Part 0.00265
+  DIM D5@Эскиз1@25.SHT.G.02.00.00.02  Вал.Part 0.062
+FEATURE Повернуть1 Revolution
+  DIM D1@Повернуть1@25.SHT.G.02.00.00.02  Вал.Part 6.2831853071796
+  DIM D7@Эскиз1@25.SHT.G.02.00.00.02  Вал.Part 0.0575
+  DIM D8@Эскиз1@25.SHT.G.02.00.00.02  Вал.Part 0.25
+  DIM D1@Эскиз1@25.SHT.G.02.00.00.02  Вал.Part 0.076
+  DIM D2@Эскиз1@25.SHT.G.02.00.00.02  Вал.Part 0.06500000000000002
+  DIM D3@Эскиз1@25.SHT.G.02.00.00.02  Вал.Part 0.00535
+  DIM D4@Эскиз1@25.SHT.G.02.00.00.02  Вал.Part 0.00265
+  DIM D5@Эскиз1@25.SHT.G.02.00.00.02  Вал.Part 0.062
+FEATURE Фаска1 Chamfer
+  DIM D1@Фаска1@25.SHT.G.02.00.00.02  Вал.Part 0.002
+  DIM D2@Фаска1@25.SHT.G.02.00.00.02  Вал.Part 0.78539816339745
+
+PART 25.SHT.G.01.01.00.01  Пластина.SLDPRT status 0 128
+bbox (-0.003, -0.18200000000000008, -0.16800000000000007, 0.003, 0.14600000000000002, 0.16800000000000004)
+mass error (-2147352573, 'Член группы не найден.', None, None)
+equations 0
+FEATURE Заметки к конфигурации ConfigCommentsFolder
+FEATURE Часто используемые FavoriteFolder
+FEATURE История HistoryFolder
+FEATURE Наборы выбора SelectionSetFolder
+FEATURE Датчики SensorFolder
+FEATURE Связь проектов DocsFolder
+FEATURE Примечания DetailCabinet
+FEATURE Исправления InkMarkupFolder
+FEATURE Источники света и камеры EnvFolder
+FEATURE Твердые тела SolidBodyFolder
+FEATURE Тела поверхности SurfaceBodyFolder
+FEATURE Заметки CommentsFolder
+FEATURE Уравнения EqnFolder
+FEATURE AISI 304 MaterialFolder
+FEATURE Спереди RefPlane
+FEATURE Сверху RefPlane
+FEATURE Справа RefPlane
+FEATURE Исходная точка OriginProfileFeature
+FEATURE Эскиз1 ProfileFeature
+  DIM D1@Эскиз1@25.SHT.G.01.01.00.01  Пластина.Part 0.223
+  DIM D4@Эскиз1@25.SHT.G.01.01.00.01  Пластина.Part 0.146
+  DIM D3@Эскиз1@25.SHT.G.01.01.00.01  Пластина.Part 0.336
+  DIM D2@Эскиз1@25.SHT.G.01.01.00.01  Пластина.Part 0.07050000000000003
+FEATURE Листовой металл3 SheetMetal
+  DIM D7@Листовой металл3@25.SHT.G.01.01.00.01  Пластина.Part 0.006
+  DIM D1@Листовой металл3@25.SHT.G.01.01.00.01  Пластина.Part 0.004
+FEATURE Базовая кромка1 SMBaseFlange
+  DIM D7@Листовой металл3@25.SHT.G.01.01.00.01  Пластина.Part 0.006
+  DIM D1@Листовой металл3@25.SHT.G.01.01.00.01  Пластина.Part 0.004
+  DIM D1@Эскиз1@25.SHT.G.01.01.00.01  Пластина.Part 0.223
+  DIM D4@Эскиз1@25.SHT.G.01.01.00.01  Пластина.Part 0.146
+  DIM D3@Эскиз1@25.SHT.G.01.01.00.01  Пластина.Part 0.336
+  DIM D2@Эскиз1@25.SHT.G.01.01.00.01  Пластина.Part 0.07050000000000003
+FEATURE Эскиз6 ProfileFeature
+  DIM D1@Эскиз6@25.SHT.G.01.01.00.01  Пластина.Part 0.2705
+  DIM D2@Эскиз6@25.SHT.G.01.01.00.01  Пластина.Part 0.018
+  DIM D3@Эскиз6@25.SHT.G.01.01.00.01  Пластина.Part 0.6632251157578467
+  DIM D4@Эскиз6@25.SHT.G.01.01.00.01  Пластина.Part 0.6632251157578467
+  DIM D5@Эскиз6@25.SHT.G.01.01.00.01  Пластина.Part 0.115
+  DIM D6@Эскиз6@25.SHT.G.01.01.00.01  Пластина.Part 0.137
+  DIM D7@Эскиз6@25.SHT.G.01.01.00.01  Пластина.Part 0.025
+FEATURE Вырез-Вытянуть1 ICE
+  DIM D1@Эскиз6@25.SHT.G.01.01.00.01  Пластина.Part 0.2705
+  DIM D2@Эскиз6@25.SHT.G.01.01.00.01  Пластина.Part 0.018
+  DIM D3@Эскиз6@25.SHT.G.01.01.00.01  Пластина.Part 0.6632251157578467
+  DIM D4@Эскиз6@25.SHT.G.01.01.00.01  Пластина.Part 0.6632251157578467
+  DIM D5@Эскиз6@25.SHT.G.01.01.00.01  Пластина.Part 0.115
+  DIM D6@Эскиз6@25.SHT.G.01.01.00.01  Пластина.Part 0.137
+  DIM D7@Эскиз6@25.SHT.G.01.01.00.01  Пластина.Part 0.025
+FEATURE Эскиз8 ProfileFeature
+  DIM D1@Эскиз8@25.SHT.G.01.01.00.01  Пластина.Part 0.005
+  DIM D2@Эскиз8@25.SHT.G.01.01.00.01  Пластина.Part 0.035
+FEATURE Вырез-Вытянуть2 ICE
+  DIM D1@Эскиз8@25.SHT.G.01.01.00.01  Пластина.Part 0.005
+  DIM D2@Эскиз8@25.SHT.G.01.01.00.01  Пластина.Part 0.035
+FEATURE Скругление1 Fillet
+  DIM D1@Скругление1@25.SHT.G.01.01.00.01  Пластина.Part 0.01
+FEATURE Эскиз9 ProfileFeature
+  DIM D1@Эскиз9@25.SHT.G.01.01.00.01  Пластина.Part 0.004
+  DIM D2@Эскиз9@25.SHT.G.01.01.00.01  Пластина.Part 0.047
+FEATURE Вырез-Вытянуть3 ICE
+  DIM D1@Эскиз9@25.SHT.G.01.01.00.01  Пластина.Part 0.004
+  DIM D2@Эскиз9@25.SHT.G.01.01.00.01  Пластина.Part 0.047
+FEATURE Фаска1 Chamfer
+  DIM D1@Фаска1@25.SHT.G.01.01.00.01  Пластина.Part 0.008
+  DIM D2@Фаска1@25.SHT.G.01.01.00.01  Пластина.Part 0.78539816339745
+FEATURE Фаска2 Chamfer
+  DIM D1@Фаска2@25.SHT.G.01.01.00.01  Пластина.Part 0.004
+  DIM D2@Фаска2@25.SHT.G.01.01.00.01  Пластина.Part 0.78539816339745
+FEATURE Развертка3 FlatPattern

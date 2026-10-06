@@ -1,0 +1,1 @@
+exec(open(r'work\efd_methods.py',encoding='utf-8').read().replace("['IProjectFeatures','IBoundaryCondition','IParamCollFeature','IProject','IDocument','ICADDocument','IApplication']","['IObjectFactory','ISolver','ICADApplication','ICADFace','ICADComponent','ICADBody','IProjectFeature','IParameter']"))

@@ -1,0 +1,13 @@
+exec(open('work/efd_save.py',encoding='utf-8').read().split("print('path'")[0])
+doc=typed(app.GetActiveDoc(),'IDocument')
+p=typed(doc.GetActiveProject(),'IProject')
+g=typed(p.GetGeneralSettings(),'IGeneralSettings')
+a=typed(g.GetAmbientParameters(),'IAmbientParameters')
+for k,v in [(1,293.15),(93,0.0),(94,-9.81),(95,0.0)]:
+    param=a.GetParameter(k)
+    print('set',k,v,param.SetValue(v),param.GetValue(0.0),flush=True)
+print('gravity',g.GetGravitationParameters(0.0,0.0,0.0),flush=True)
+print('rebuild',p.Rebuild(False,False,True,False,False,False),flush=True)
+cad=typed(app.GetCAD(),'ICADApplication')
+cdoc=typed(cad.GetActiveDoc(),'ICADDocument')
+print('save',cdoc.Save(),flush=True)

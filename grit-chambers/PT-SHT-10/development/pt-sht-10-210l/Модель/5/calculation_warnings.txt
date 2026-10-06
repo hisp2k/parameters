@@ -1,0 +1,9 @@
+2026-Oct-04 14:14:01
+Computer name:	DESKTOP-8IAKTG3
+Number of cores used in calculation:	24
+Configuration name:	По умолчанию
+Project name:	PT-SHT-10-210L-Q2p09
+
+Warnings on last iteration: 
+1. Неразрешенные подобласти течения :
+	Имя условия : Подобласть течения 1

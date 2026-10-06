@@ -1,28 +1,110 @@
 [
   {
+    "original_path": "screw-conveyors/25-SHT-G/deliverables/25.SHT.G_parameterized.zip",
+    "size": 45747913,
+    "sha256": "e141515a7937544de4063939d47a081657bc368f2e84734d9c857a49019f4bf6",
+    "parts": [
+      {
+        "path": "screw-conveyors/25-SHT-G/deliverables/25.SHT.G_parameterized.zip.parts/part-001",
+        "size": 16777216,
+        "sha256": "e9d4ae5ee5f8c8184bb40200504757846d7fcf5f37cb4219aa675e564f1e358a"
+      },
+      {
+        "path": "screw-conveyors/25-SHT-G/deliverables/25.SHT.G_parameterized.zip.parts/part-002",
+        "size": 16777216,
+        "sha256": "b082fd76e708f657afd3d859fcc868eccdb963553dcbd41a8bf010d49462fab5"
+      },
+      {
+        "path": "screw-conveyors/25-SHT-G/deliverables/25.SHT.G_parameterized.zip.parts/part-003",
+        "size": 12193481,
+        "sha256": "f995aa6173ea7b5abac27abad00e3a3766631bbb68cb6bdb52a5734c49f1b68c"
+      }
+    ]
+  },
+  {
     "original_path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10-210L_модель_и_Flow.zip",
     "size": 253574673,
     "sha256": "cecd8d06a3f210fcb676e9c3854c186a0f2a68ce5804f3c9e76c44bae7533ea6",
     "parts": [
       {
         "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10-210L_модель_и_Flow.zip.parts/part-001",
-        "size": 67108864,
-        "sha256": "afe46da1a89ed198f393e5006439c15131f2edf5324b65de1a0e8fbeed677088"
+        "size": 16777216,
+        "sha256": "7c2c0427dbdebf3e53a4eb6334ee3550abdfbe9be3384bcac2dc6d755c337ec4"
       },
       {
         "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10-210L_модель_и_Flow.zip.parts/part-002",
-        "size": 67108864,
-        "sha256": "9193d13c9a15e5443a49c772ae0ac9cfa403c7d8fb52ad7afc04f656f4b1bc0b"
+        "size": 16777216,
+        "sha256": "a5c4a4ba0761a9d20267c04dbc780b1d46d4df623794a11b1dd1f7d2ab037ac6"
       },
       {
         "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10-210L_модель_и_Flow.zip.parts/part-003",
-        "size": 67108864,
-        "sha256": "ac6c0a53fa83340ec2140adcb2ecf29cc4e6221036814c9c011cd95c6ab2bd24"
+        "size": 16777216,
+        "sha256": "b9feadd055afa334233dee8a5ab3f94a292b3347426d8adf1b47988ae955786f"
       },
       {
         "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10-210L_модель_и_Flow.zip.parts/part-004",
-        "size": 52248081,
-        "sha256": "faa3e8080f5158074b4253c4f6a1801d65411b51275b313da26d21483f7ac73e"
+        "size": 16777216,
+        "sha256": "05fb68021c314764a325c144d8d42d906ba1283c455ffe402c70825d7edfbe1c"
+      },
+      {
+        "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10-210L_модель_и_Flow.zip.parts/part-005",
+        "size": 16777216,
+        "sha256": "a3688638fe944c721c9bfa649a17df1d9379376497d5e1481b19df5e26b1d6f7"
+      },
+      {
+        "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10-210L_модель_и_Flow.zip.parts/part-006",
+        "size": 16777216,
+        "sha256": "b9af4e76ab5cb48751b57c29f9a329044387a1de821f4c05673a0138fcc12cfd"
+      },
+      {
+        "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10-210L_модель_и_Flow.zip.parts/part-007",
+        "size": 16777216,
+        "sha256": "bfd1bee58735ea2a4e49d9b1dc94b13190f68d7e8c7af6980a2085da581f4e35"
+      },
+      {
+        "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10-210L_модель_и_Flow.zip.parts/part-008",
+        "size": 16777216,
+        "sha256": "a00839f46b0fb304deb911300f31fdca4e1915df665ef2b3684d794e80117d6d"
+      },
+      {
+        "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10-210L_модель_и_Flow.zip.parts/part-009",
+        "size": 16777216,
+        "sha256": "c4056b8ff77255f56adc7a13e9a0be9471d9e70d58d3c5ae909e2cdeee3e7347"
+      },
+      {
+        "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10-210L_модель_и_Flow.zip.parts/part-010",
+        "size": 16777216,
+        "sha256": "77a4ab0b4dcf04cb401a5299decd8dc8c00256a417774a489080927d51524ead"
+      },
+      {
+        "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10-210L_модель_и_Flow.zip.parts/part-011",
+        "size": 16777216,
+        "sha256": "570b81f642c51f99b3488e4d6c49b8edbc146419c4ed9f6f3d79f16b4d7a8d4b"
+      },
+      {
+        "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10-210L_модель_и_Flow.zip.parts/part-012",
+        "size": 16777216,
+        "sha256": "8b1bf93de869a01cb004942dadbde178dfda12a497974cf373519b045c0318d3"
+      },
+      {
+        "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10-210L_модель_и_Flow.zip.parts/part-013",
+        "size": 16777216,
+        "sha256": "8c4bccf5c4107513b01f4e05d8517eef76b774fabb6ea9ca824e77abb16433e6"
+      },
+      {
+        "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10-210L_модель_и_Flow.zip.parts/part-014",
+        "size": 16777216,
+        "sha256": "a2f07c9332f5420e858bb4b27d75476642d0fa8ebd7f8b60718b34d24f3a01d1"
+      },
+      {
+        "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10-210L_модель_и_Flow.zip.parts/part-015",
+        "size": 16777216,
+        "sha256": "f4cd2c91bdf37dc3e1c46eacc4d5880aa38133700daa9d25c1c0aee318a902f8"
+      },
+      {
+        "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10-210L_модель_и_Flow.zip.parts/part-016",
+        "size": 1916433,
+        "sha256": "011089e1e790c8cb25224b2bb6e561cb47df6cdb9503914a9c6bb701e75263af"
       }
     ]
   },
@@ -33,13 +115,193 @@
     "parts": [
       {
         "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10_демо_проект_Flow.zip.parts/part-001",
-        "size": 67108864,
-        "sha256": "58060ed05d20e974614a1090b7b7ab2ac8609404d0dd39f7e7417eadf2adbde5"
+        "size": 16777216,
+        "sha256": "01f738ad65474918ed3bff9d02bd6bfbfbc25e74370ee61ddfa4faea6ca4e591"
       },
       {
         "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10_демо_проект_Flow.zip.parts/part-002",
-        "size": 56085108,
-        "sha256": "61bc99d69158e8fbb768c0f6cb224507e65436b248c60e58903f5ff4f64b7f4f"
+        "size": 16777216,
+        "sha256": "14b29a33529745cab48b032d415107b3e5dd2e1d936fa3e95137d0e610bef689"
+      },
+      {
+        "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10_демо_проект_Flow.zip.parts/part-003",
+        "size": 16777216,
+        "sha256": "4824e41a576c840efab4e6dad01b9b1cc9f9529a02483bc4c94b8ba505f845e5"
+      },
+      {
+        "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10_демо_проект_Flow.zip.parts/part-004",
+        "size": 16777216,
+        "sha256": "1357f90d94a0268dff17a79875ee74ea8135f36ac51c64052ea3c6d93e9d7092"
+      },
+      {
+        "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10_демо_проект_Flow.zip.parts/part-005",
+        "size": 16777216,
+        "sha256": "035fd9c632dc34b9076619307dd7e24f34040347c58ea88af37ee842afcc7899"
+      },
+      {
+        "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10_демо_проект_Flow.zip.parts/part-006",
+        "size": 16777216,
+        "sha256": "105524c0b3320b17e3c9134a6b484b02185e03b319e50fbd5d0d563935ed0005"
+      },
+      {
+        "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10_демо_проект_Flow.zip.parts/part-007",
+        "size": 16777216,
+        "sha256": "5024182979491768128cb097b1f59c76f7c1242c1cd39c62002c53978c57e37a"
+      },
+      {
+        "path": "grit-chambers/PT-SHT-10/deliverables/PT-SHT-10_демо_проект_Flow.zip.parts/part-008",
+        "size": 5753460,
+        "sha256": "972180d9a29828179aca2850cfe85653e713b2880ed4f929debc6d5e391bc50f"
+      }
+    ]
+  },
+  {
+    "original_path": "screw-conveyors/01-PT-SHT/original-sources/01.PT.SHT.01.20.00.00 СБ 'Шнек 1'.rar",
+    "size": 54359941,
+    "sha256": "a33133be3b715aa88d02e5828a1a5282bdce47dfa0bd4c4170479ba32e13df6e",
+    "parts": [
+      {
+        "path": "screw-conveyors/01-PT-SHT/original-sources/01.PT.SHT.01.20.00.00 СБ 'Шнек 1'.rar.parts/part-001",
+        "size": 16777216,
+        "sha256": "5fe26f516aa2f4adcbdcc8bee398b426ffdf97e971e744d53ad844f08ff8d80c"
+      },
+      {
+        "path": "screw-conveyors/01-PT-SHT/original-sources/01.PT.SHT.01.20.00.00 СБ 'Шнек 1'.rar.parts/part-002",
+        "size": 16777216,
+        "sha256": "b9fef0a847ebc91d55b1e0532f7789a0646cd9ada5873feec29481a666fe887d"
+      },
+      {
+        "path": "screw-conveyors/01-PT-SHT/original-sources/01.PT.SHT.01.20.00.00 СБ 'Шнек 1'.rar.parts/part-003",
+        "size": 16777216,
+        "sha256": "3734811772d4df2a6297cf99b96c2319d571b4290eba743bfa2d4b31c6e9c670"
+      },
+      {
+        "path": "screw-conveyors/01-PT-SHT/original-sources/01.PT.SHT.01.20.00.00 СБ 'Шнек 1'.rar.parts/part-004",
+        "size": 4028293,
+        "sha256": "51a0a78ac84a83454588292cf1d96b5afd95dacd8a4e9de6fa3f1a2bb6b19b30"
+      }
+    ]
+  },
+  {
+    "original_path": "screw-conveyors/25-SHT-G/original-sources/source-order/25.SHT - Заказ №2377 Промстрой/25.SHT.G.00.00.00.00 СБ Изм.5.rar",
+    "size": 51715994,
+    "sha256": "969e1a93ee180c817a0561dbdbc26d802ef816ff3c65333eb4368c3bb65f5b72",
+    "parts": [
+      {
+        "path": "screw-conveyors/25-SHT-G/original-sources/source-order/25.SHT - Заказ №2377 Промстрой/25.SHT.G.00.00.00.00 СБ Изм.5.rar.parts/part-001",
+        "size": 16777216,
+        "sha256": "b9c55bb3cf083bb620b87c097ab7886e9b12fc20d5ae5450cf2a82f3597f324f"
+      },
+      {
+        "path": "screw-conveyors/25-SHT-G/original-sources/source-order/25.SHT - Заказ №2377 Промстрой/25.SHT.G.00.00.00.00 СБ Изм.5.rar.parts/part-002",
+        "size": 16777216,
+        "sha256": "564dcf1fc9e1976eb5194f807af3ea0a74645456f80ce6ca35945a92dd8826c1"
+      },
+      {
+        "path": "screw-conveyors/25-SHT-G/original-sources/source-order/25.SHT - Заказ №2377 Промстрой/25.SHT.G.00.00.00.00 СБ Изм.5.rar.parts/part-003",
+        "size": 16777216,
+        "sha256": "9168216b6f6a29b81655536286b40963414c2367fda306bd3e93ecd8cc89ae1f"
+      },
+      {
+        "path": "screw-conveyors/25-SHT-G/original-sources/source-order/25.SHT - Заказ №2377 Промстрой/25.SHT.G.00.00.00.00 СБ Изм.5.rar.parts/part-004",
+        "size": 1384346,
+        "sha256": "23f56f3cdda53834ae884aad878df90754a22c2d43ce116e80b054756cf156e5"
+      }
+    ]
+  },
+  {
+    "original_path": "screens/original-GR-series/57.GR (Заказ №2410 - СМП) бом.rar",
+    "size": 67645774,
+    "sha256": "29ff696351965ec272db5d333965c4d4b06e8f965bb474ed96e7242b2c7f2c01",
+    "parts": [
+      {
+        "path": "screens/original-GR-series/57.GR (Заказ №2410 - СМП) бом.rar.parts/part-001",
+        "size": 16777216,
+        "sha256": "f2020a34764f49a51a1bc152dfabc176e763ae4510e2db8394ae3a75e4394388"
+      },
+      {
+        "path": "screens/original-GR-series/57.GR (Заказ №2410 - СМП) бом.rar.parts/part-002",
+        "size": 16777216,
+        "sha256": "aaf6cf1bb2328d911f808245b6b7c317eec40db1cce575846ded61719d997a62"
+      },
+      {
+        "path": "screens/original-GR-series/57.GR (Заказ №2410 - СМП) бом.rar.parts/part-003",
+        "size": 16777216,
+        "sha256": "94b276d7bbd6c3f14bc3141aea601ffcc5f462a19745214bfabd0f3523eb964f"
+      },
+      {
+        "path": "screens/original-GR-series/57.GR (Заказ №2410 - СМП) бом.rar.parts/part-004",
+        "size": 16777216,
+        "sha256": "98da6b4d44a7742090c4df698b54c3ed7cd827fe932c24444a0380f47baab829"
+      },
+      {
+        "path": "screens/original-GR-series/57.GR (Заказ №2410 - СМП) бом.rar.parts/part-005",
+        "size": 536910,
+        "sha256": "320428d9a54d09a3f6bdbdc24a3d35838d0547e9d73aec00902c3daadf228d63"
+      }
+    ]
+  },
+  {
+    "original_path": "screens/original-GR-series/58.GR (Заказ №2410 - СМП) бом.rar",
+    "size": 76550852,
+    "sha256": "1feb826ae058565cd14acc87a0b497c79aad66cf1bbbed59ffeb6bb465a1bc90",
+    "parts": [
+      {
+        "path": "screens/original-GR-series/58.GR (Заказ №2410 - СМП) бом.rar.parts/part-001",
+        "size": 16777216,
+        "sha256": "ef65ebc1fb46343505c0e50e25935d361b08c8f403eeddfe959fdb5bf585def8"
+      },
+      {
+        "path": "screens/original-GR-series/58.GR (Заказ №2410 - СМП) бом.rar.parts/part-002",
+        "size": 16777216,
+        "sha256": "f587f33e5014366d34df553eff2be37f8fa7574370048fc466cf5d932ba41751"
+      },
+      {
+        "path": "screens/original-GR-series/58.GR (Заказ №2410 - СМП) бом.rar.parts/part-003",
+        "size": 16777216,
+        "sha256": "d7bcfb1e7d2a140f79bd4ca158050bf2e93e60c5d8302316bf9e4b91c80487e5"
+      },
+      {
+        "path": "screens/original-GR-series/58.GR (Заказ №2410 - СМП) бом.rar.parts/part-004",
+        "size": 16777216,
+        "sha256": "e99bef2fda90da4e0b48728cf2ae79c544a1e3e0a8f5033acd853e38cf1a451f"
+      },
+      {
+        "path": "screens/original-GR-series/58.GR (Заказ №2410 - СМП) бом.rar.parts/part-005",
+        "size": 9441988,
+        "sha256": "6d8cc8ca36645559c09469f986a84fdbc781b49af8c64c8809e83c5d13d4782f"
+      }
+    ]
+  },
+  {
+    "original_path": "screens/original-GR-series/59.GR (Заказ №2410 - СМП) бом.rar",
+    "size": 67258265,
+    "sha256": "a164cb57e2f1bfc305da6d050b3340df3ee4c9d2f079bd0030f868b0df0351e3",
+    "parts": [
+      {
+        "path": "screens/original-GR-series/59.GR (Заказ №2410 - СМП) бом.rar.parts/part-001",
+        "size": 16777216,
+        "sha256": "152a17d951367ec15817efc7d7fd5a9a2d264dfa479a6e4f03fa736778aedcba"
+      },
+      {
+        "path": "screens/original-GR-series/59.GR (Заказ №2410 - СМП) бом.rar.parts/part-002",
+        "size": 16777216,
+        "sha256": "586c6a52dd641e2f43ea391316d2a988cfdfa0dce692467493f5801b7734f8d8"
+      },
+      {
+        "path": "screens/original-GR-series/59.GR (Заказ №2410 - СМП) бом.rar.parts/part-003",
+        "size": 16777216,
+        "sha256": "316423a19c4a8c0d56f1e5815605de9f677c580e3fe9d0f94632d806b8bd2780"
+      },
+      {
+        "path": "screens/original-GR-series/59.GR (Заказ №2410 - СМП) бом.rar.parts/part-004",
+        "size": 16777216,
+        "sha256": "711a82d41b7581aac97c26fe6ce924080f2a0e15553e05aac7a8777f7b4b3402"
+      },
+      {
+        "path": "screens/original-GR-series/59.GR (Заказ №2410 - СМП) бом.rar.parts/part-005",
+        "size": 149401,
+        "sha256": "c423448fcce6a2c9c09f41588fd65b577e3c47b725b1b535ef83a041b1e6061b"
       }
     ]
   }

@@ -1,0 +1,155 @@
+{
+    "version": 0,
+    "model_name": "PT-SHT-10-210L.SLDASM",
+    "project_name": "PT-SHT-10-210L-cloned",
+    "config_name": "По умолчанию",
+    "project_path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\4\\4.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 334467,
+        "cells_fluid": 334467,
+        "cells_solid": 121263,
+        "cells_fluid_containing_solid": 102803
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "17:19:15+0400",
+        "prepare_geometry_total_time": 11,
+        "cpu_time_solver_total": 884,
+        "iteration": 395,
+        "travel": 2.8452210309776325,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "17:33:41+0400",
+        "cpu_time_per_last_iter": 2,
+        "cpu_time_left": 53,
+        "iterations_per_travel": 139
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "Global_Velocity_Max",
+                "unit": "speed and velocity",
+                "value": 1.5710329592273777,
+                "progress": 100.0,
+                "criteria": 0.03833301741282073,
+                "delta": 0.002826668879271743,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "Inlet_Q",
+                "unit": "volumetric flow",
+                "value": 0.0027777777777777783,
+                "progress": 0.0,
+                "criteria": 1e-08,
+                "delta": 4.336808689942018e-19,
+                "use_in_convergence": false
+            }
+        },
+        {
+            "goal": {
+                "name": "Inlet_MassFlow",
+                "unit": "mass flow",
+                "value": 2.7710400694520634,
+                "progress": 0.0,
+                "criteria": 0.0027710400694520637,
+                "delta": 0.0,
+                "use_in_convergence": false
+            }
+        },
+        {
+            "goal": {
+                "name": "Inlet_StaticP",
+                "unit": "pressure and stress",
+                "value": 93681.23614640976,
+                "progress": 0.0,
+                "criteria": 22.034035362136493,
+                "delta": 21.492933680812712,
+                "use_in_convergence": false
+            }
+        },
+        {
+            "goal": {
+                "name": "Inlet_TotalP",
+                "unit": "pressure and stress",
+                "value": 94625.68070122627,
+                "progress": 100.0,
+                "criteria": 22.034035362136493,
+                "delta": 21.492933680769056,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "MainOutlet_Q",
+                "unit": "volumetric flow",
+                "value": -0.0027777797957212807,
+                "progress": 0.0,
+                "criteria": 1e-08,
+                "delta": 1.3216822393469219e-09,
+                "use_in_convergence": false
+            }
+        },
+        {
+            "goal": {
+                "name": "MainOutlet_MassFlow",
+                "unit": "mass flow",
+                "value": -2.7710420181025324,
+                "progress": 0.0,
+                "criteria": 0.0027710420181025325,
+                "delta": 1.334446730449912e-06,
+                "use_in_convergence": false
+            }
+        },
+        {
+            "goal": {
+                "name": "MainOutlet_StaticP",
+                "unit": "pressure and stress",
+                "value": 96842.84781575412,
+                "progress": 0.0,
+                "criteria": 0.001015318452991778,
+                "delta": 2.3550295736640692e-05,
+                "use_in_convergence": false
+            }
+        },
+        {
+            "goal": {
+                "name": "MainOutlet_TotalP",
+                "unit": "pressure and stress",
+                "value": 97073.17637386064,
+                "progress": 0.0,
+                "criteria": 1.0811400376618256,
+                "delta": 0.11577827189466916,
+                "use_in_convergence": false
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Water"
+        ],
+        "analysis_type": "internal",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": true,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2026  x64 / 7133 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
+        "cad_version": "SOLIDWORKS 2026 SP3.2",
+        "computer_name": "DESKTOP-8IAKTG3",
+        "user_name": "adm",
+        "os": "Windows 10 (Version 10.0.19045)",
+        "cpu": "AMD Ryzen 9 5900X 12-Core Processor            ",
+        "number_of_cores": 24,
+        "memory_avail": 20089,
+        "memory_total": 32691
+    }
+}

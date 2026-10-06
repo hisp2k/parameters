@@ -1,0 +1,266 @@
+[
+  {
+    "name": "01.PT.SHT.01.00.00.00 СБ  Бункер в сборе.SLDASM",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 39,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.00.00.01  Прокладка.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 19,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер.SLDASM",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 130,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.01  Цилиндр внешний.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 24,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.02  Конус.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 24,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.03  Цилиндр внутренний.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 22,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.04  Конус обратный.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 20,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.05  Отвод.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 19,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.06  Труба входная.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 21,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.07  Опора.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 20,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.08  Косынка.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 19,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.09  Кронштейн опорный.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 22,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.10  Ручка.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 21,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.11  Фланец присоединительный.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 19,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.12  Обвязка.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 21,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.01.00 СБ  Патрубок выходной.SLDASM",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 21,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.01.01  Труба внешняя.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 19,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.01.02  Труба внутренняя.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 26,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.02.00 СБ  Опора бункера.SLDASM",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 18,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.02.01  Стойка.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 22,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.02.02  Заглушка.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 19,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.01.02.03  Опора.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 22,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.02.00.00 СБ  Крышка бункера.SLDASM",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 28,
+    "feature_errors": []
+  },
+  {
+    "name": "01.PT.SHT.01.02.00.01  Крышка глухая.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 19,
+    "feature_errors": []
+  },
+  {
+    "name": "Винт М6х16 DIN 931 А2.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 18,
+    "feature_errors": []
+  },
+  {
+    "name": "Винт М8х16 DIN 7984 А2.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 32,
+    "feature_errors": []
+  },
+  {
+    "name": "Отвод 76х3.0 AISI 304 90 гр..SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 20,
+    "feature_errors": []
+  },
+  {
+    "name": "Ручка скоба с втулками.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 29,
+    "feature_errors": []
+  },
+  {
+    "name": "Фланец 50-1-01-1-В AISI 304 ГОСТ 33259-2015.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 22,
+    "feature_errors": []
+  },
+  {
+    "name": "Фланец 65-1-01-1-В AISI 304 ГОСТ 33259-2015.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 22,
+    "feature_errors": []
+  },
+  {
+    "name": "Шайба DIN 125 А2.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 19,
+    "feature_errors": []
+  },
+  {
+    "name": "Шайба пружинная М6 DIN128.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 18,
+    "feature_errors": []
+  },
+  {
+    "name": "Шайба пружинная М8 DIN127 А2.SLDPRT",
+    "open_error": 0,
+    "open_warning": 128,
+    "rebuild": true,
+    "feature_count": 18,
+    "feature_errors": []
+  }
+]

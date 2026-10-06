@@ -1,0 +1,32 @@
+[
+  {
+    "diameter_mm": 0.25,
+    "grid_mm": 15,
+    "seed_count": 128,
+    "wall_mode": "reflect",
+    "collision_limit": 2000,
+    "max_spatial_step_m": 0.0025,
+    "free_settling_m_s": 0.03403245405463008,
+    "tau_stokes_s": 0.009186031681124385,
+    "fractions": {
+      "bottom_outlet": 0.96877959558209,
+      "main_outlet": 0.02339898876762913,
+      "inlet_backflow": 0.0,
+      "hopper_wall": 0.0,
+      "other_wall": 0.0,
+      "unresolved": 0.007821415650280984
+    },
+    "counts": {
+      "bottom_outlet": 124,
+      "main_outlet": 3,
+      "inlet_backflow": 0,
+      "hopper_wall": 0,
+      "other_wall": 0,
+      "unresolved": 1
+    },
+    "mean_residence_s": 14.189220150581331,
+    "max_steps": 9040,
+    "max_collisions": 1255,
+    "max_particle_time_s": 180.01297655156367
+  }
+]

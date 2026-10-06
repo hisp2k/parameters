@@ -1,0 +1,2548 @@
+{
+  "assembly": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\PT.SHT.01.20.00.00 СБ 'Шнек 1'.SLDASM",
+  "configuration": {
+    "error": "<unknown>.ConfigurationManager.ActiveConfiguration.Name"
+  },
+  "component_count": 205,
+  "exists_count": 117,
+  "missing_count": 88,
+  "local_count": 117,
+  "suppression_counts": {
+    "2": 117,
+    "0": 88
+  },
+  "visibility_counts": {
+    "1": 205
+  },
+  "hidden_counts": {
+    "{'error': \"(-2147352561, 'Параметр является обязательным.', None, None)\"}": 205
+  },
+  "missing_paths": [
+    {
+      "name": "Болт М8х25 DIN 933",
+      "count": 16
+    },
+    {
+      "name": "Гайка М8 DIN 934",
+      "count": 16
+    },
+    {
+      "name": "Шайба пружинная М6 DIN128",
+      "count": 16
+    },
+    {
+      "name": "Винт М8х20 DIN 931",
+      "count": 8
+    },
+    {
+      "name": "Болт М6х20 DIN 933 А2",
+      "count": 8
+    },
+    {
+      "name": "Гайка М6 DIN 934",
+      "count": 8
+    },
+    {
+      "name": "Шайба пружинная М10 DIN128",
+      "count": 4
+    },
+    {
+      "name": "Болт М10х90 DIN 933",
+      "count": 2
+    },
+    {
+      "name": "Гайка М10 DIN 934",
+      "count": 2
+    },
+    {
+      "name": "PT.SHT.01.01.02.03  Опора",
+      "count": 2
+    },
+    {
+      "name": "PT.SHT.01.01.00.11  Фланец присоединительный",
+      "count": 1
+    },
+    {
+      "name": "PT.SHT.01.21.00.07 'Сбрасыватель'",
+      "count": 1
+    },
+    {
+      "name": "Винт М12х30 DIN 931",
+      "count": 1
+    },
+    {
+      "name": "Шпонка 8x7x63 ГОСТ 23360-78 DIN 6885",
+      "count": 1
+    },
+    {
+      "name": "Шайба пружинная М12 DIN 128",
+      "count": 1
+    },
+    {
+      "name": "Стопорное кольцо D80 DIN 472 А2",
+      "count": 1
+    }
+  ],
+  "components": [
+    {
+      "name": "PT.SHT.01.21.00.00 СБ 'Труба в сборе'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\PT.SHT.01.21.00.00 СБ 'Труба в сборе'.SLDASM",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.21.00.00 СБ 'Труба в сборе'-1/PT.SHT.01.01.00.11  Фланец присоединительный-1",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Бункер\\PT.SHT.01.01.00.11  Фланец присоединительный.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.21.00.00 СБ 'Труба в сборе'-1/PT.SHT.01.21.00.09 'Труба шнека'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\PT.SHT.01.21.00.09 'Труба шнека'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.21.00.00 СБ 'Труба в сборе'-1/PT.SHT.01.21.00.05 'Патрубок шнека'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\PT.SHT.01.21.00.05 'Патрубок шнека'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.21.00.00 СБ 'Труба в сборе'-1/PT.SHT.01.21.00.13 'Фланец трубы шнека'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\PT.SHT.01.21.00.13 'Фланец трубы шнека'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.21.00.00 СБ 'Труба в сборе'-1/PT.SHT.01.21.00.03 'Патрубок промывки'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\PT.SHT.01.21.00.03 'Патрубок промывки'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.21.00.00 СБ 'Труба в сборе'-1/PT.SHT.01.21.00.13 'Фланец трубы шнека'-2",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\PT.SHT.01.21.00.13 'Фланец трубы шнека'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.21.00.00 СБ 'Труба в сборе'-1/PT.SHT.01.21.00.05 'Патрубок шнека'-2",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\PT.SHT.01.21.00.05 'Патрубок шнека'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.21.00.00 СБ 'Труба в сборе'-1/PT.SHT.01.21.00.01 'Кронштейн грузовой'-2",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\PT.SHT.01.21.00.01 'Кронштейн грузовой'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.21.00.00 СБ 'Труба в сборе'-1/Кран шаровый G 1.2-2",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Кран шаровый G 1.2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "Default"
+    },
+    {
+      "name": "PT.SHT.01.21.00.00 СБ 'Труба в сборе'-1/PT.SHT.01.21.00.07 'Сбрасыватель'-1",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT.SHT.01.00.00.00 СБ 'Тангенциальная песколовка'\\Модель\\Шнек 1\\Шнек\\PT.SHT.01.21.00.07 'Сбрасыватель'.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.21.00.00 СБ 'Труба в сборе'-1/PT.SHT.01.21.00.03 'Патрубок промывки'-2",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\PT.SHT.01.21.00.03 'Патрубок промывки'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.21.00.00 СБ 'Труба в сборе'-1/Кран шаровый G 1.2-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Кран шаровый G 1.2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "Default"
+    },
+    {
+      "name": "PT.SHT.01.21.00.00 СБ 'Труба в сборе'-1/PT.SHT.01.21.00.11 'Ухо'-4",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\PT.SHT.01.21.00.11 'Ухо'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.21.00.00 СБ 'Труба в сборе'-1/PT.SHT.01.21.00.11 'Ухо'-3",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\PT.SHT.01.21.00.11 'Ухо'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.21.00.00 СБ 'Труба в сборе'-1/PT.SHT.01.21.00.11 'Ухо'-2",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\PT.SHT.01.21.00.11 'Ухо'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.21.00.00 СБ 'Труба в сборе'-1/PT.SHT.01.21.00.11 'Ухо'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\PT.SHT.01.21.00.11 'Ухо'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.21.00.00 СБ 'Труба в сборе'-1/PT.SHT.01.21.00.01 'Кронштейн грузовой'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\PT.SHT.01.21.00.01 'Кронштейн грузовой'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-14",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Болт М8х25 DIN 933-10",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М8х25 DIN 933.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Болт М8х25 DIN 933-12",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М8х25 DIN 933.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-16",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Болт М8х25 DIN 933-11",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М8х25 DIN 933.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Болт М8х25 DIN 933-13",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М8х25 DIN 933.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-15",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-17",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-13",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-19",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Гайка М8 DIN 934-16",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Гайка М8 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-20",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Болт М8х25 DIN 933-4",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М8х25 DIN 933.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Болт М8х25 DIN 933-5",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М8х25 DIN 933.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Болт М8х25 DIN 933-6",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М8х25 DIN 933.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Болт М8х25 DIN 933-3",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М8х25 DIN 933.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Болт М8х25 DIN 933-2",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М8х25 DIN 933.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Гайка М8 DIN 934-13",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Гайка М8 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Гайка М8 DIN 934-14",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Гайка М8 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Гайка М8 DIN 934-15",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Гайка М8 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Гайка М8 DIN 934-10",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Гайка М8 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Болт М8х25 DIN 933-15",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М8х25 DIN 933.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Болт М8х25 DIN 933-16",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М8х25 DIN 933.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Гайка М8 DIN 934-11",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Гайка М8 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Гайка М8 DIN 934-12",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Гайка М8 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Болт М8х25 DIN 933-14",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М8х25 DIN 933.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Гайка М8 DIN 934-3",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Гайка М8 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-4",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-6",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Гайка М8 DIN 934-2",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Гайка М8 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Гайка М8 DIN 934-7",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Гайка М8 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Гайка М8 DIN 934-4",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Гайка М8 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Болт М8х25 DIN 933-7",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М8х25 DIN 933.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Гайка М8 DIN 934-6",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Гайка М8 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Гайка М8 DIN 934-8",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Гайка М8 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-3",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Болт М8х25 DIN 933-8",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М8х25 DIN 933.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Гайка М8 DIN 934-5",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Гайка М8 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-5",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-12",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-7",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-8",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-9",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-11",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Болт М10х90 DIN 933-2",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М10х90 DIN 933.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М10 DIN128-4",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Шайба пружинная М10 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Болт М8х25 DIN 933-9",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М8х25 DIN 933.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.00 СБ 'Обойма верхняя'.SLDASM",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/PT.SHT.01.22.00.01 'Косынка 1'-11",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.01 'Косынка 1'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/PT.SHT.01.22.00.01 'Косынка 1'-12",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.01 'Косынка 1'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/PT.SHT.01.22.00.01 'Косынка 1'-10",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.01 'Косынка 1'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/PT.SHT.01.22.00.01 'Косынка 1'-13",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.01 'Косынка 1'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/PT.SHT.01.22.00.01 'Косынка 1'-9",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.01 'Косынка 1'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/PT.SHT.01.22.00.01 'Косынка 1'-14",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.01 'Косынка 1'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/PT.SHT.01.22.00.01 'Косынка 1'-15",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.01 'Косынка 1'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/PT.SHT.01.22.00.03 'Крышка обоймы верхней'-2",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.03 'Крышка обоймы верхней'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/Манжета 2 -50х70-5 ГОСТ 8752-79-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\Манжета 2 -50х70-5 ГОСТ 8752-79.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/PT.SHT.01.22.00.01 'Косынка 1'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.01 'Косынка 1'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/Стопорное кольцо D40 DIN 471 А2-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\Стопорное кольцо D40 DIN 471 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/PT.SHT.01.22.00.13 'Фланец обоймы'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.13 'Фланец обоймы'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/PT.SHT.01.22.00.09 'Проставка обоймы верхней'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.09 'Проставка обоймы верхней'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/Стопорное кольцо D80 DIN 472 А2-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\Стопорное кольцо D80 DIN 472 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/Подшипник 7208BEA.step-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\Подшипник 7208BEA.step.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/PT.SHT.01.22.00.11 'Проставочное кольцо'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.11 'Проставочное кольцо'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/Подшипник 7208BEA.step-2",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\Подшипник 7208BEA.step.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/Стопорное кольцо D70 DIN 472 А2-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\Стопорное кольцо D70 DIN 472 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/PT.SHT.01.22.00.05 'Обойма'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.05 'Обойма'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.22.00.00 СБ 'Обойма верхняя'-1/PT.SHT.01.22.00.07 'Прокладка'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.07 'Прокладка'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.24.00.00 СБ 'Шнековый вал'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Шнек механизм\\PT.SHT.01.24.00.00 СБ 'Шнековый вал'.SLDASM",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.24.00.00 СБ 'Шнековый вал'-1/PT.SHT.01.24.00.05 'Винт шнека'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Шнек механизм\\PT.SHT.01.24.00.05 'Винт шнека'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.24.00.00 СБ 'Шнековый вал'-1/PT.SHT.01.24.00.07 'Сердечник'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Шнек механизм\\PT.SHT.01.24.00.07 'Сердечник'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.24.00.00 СБ 'Шнековый вал'-1/PT.SHT.01.24.00.01 'Вал шнека верхний'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Шнек механизм\\PT.SHT.01.24.00.01 'Вал шнека верхний'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.24.00.00 СБ 'Шнековый вал'-1/PT.SHT.01.24.00.09 'Торец шнека'-2",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Шнек механизм\\PT.SHT.01.24.00.09 'Торец шнека'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.24.00.00 СБ 'Шнековый вал'-1/PT.SHT.01.24.00.03 'Вал шнека нижний'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Шнек механизм\\PT.SHT.01.24.00.03 'Вал шнека нижний'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.24.00.00 СБ 'Шнековый вал'-1/PT.SHT.01.24.00.09 'Торец шнека'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Шнек механизм\\PT.SHT.01.24.00.09 'Торец шнека'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-26",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Болт М8х25 DIN 933-1",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М8х25 DIN 933.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Гайка М8 DIN 934-1",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Гайка М8 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Гайка М8 DIN 934-9",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Гайка М8 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.20.00.01 'Ограничитель верхний'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\PT.SHT.01.20.00.01 'Ограничитель верхний'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-18",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-34",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Винт М12х30 DIN 931-1",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Винт М12х30 DIN 931.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шпонка 8x7x63 ГОСТ 23360-78 DIN 6885-1",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Шпонка 8x7x63 ГОСТ 23360-78 DIN 6885.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Болт М10х90 DIN 933-1",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М10х90 DIN 933.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М10 DIN128-2",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Шайба пружинная М10 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М10 DIN128-1",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Шайба пружинная М10 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Гайка М10 DIN 934-1",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Гайка М10 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Винт М8х20 DIN 931-1",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Винт М8х20 DIN 931.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-10",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М12 DIN 128-1",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Шайба пружинная М12 DIN 128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М10 DIN128-3",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Шайба пружинная М10 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Гайка М10 DIN 934-2",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Гайка М10 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Мотор-редуктор NMRV 075(100B5)-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\NMRV 075\\Мотор-редуктор NMRV 075(100B5).SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.25.00.00 СБ 'Опора шнековая'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Опора шнека\\PT.SHT.01.25.00.00 СБ 'Опора шнековая'.SLDASM",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.25.00.00 СБ 'Опора шнековая'-1/PT.SHT.01.25.00.09-01 'Подкос 1'-2",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Опора шнека\\PT.SHT.01.25.00.09-01 'Подкос 1'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.25.00.00 СБ 'Опора шнековая'-1/PT.SHT.01.25.00.07-01 'Стойка 1'-3",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Опора шнека\\PT.SHT.01.25.00.07-01 'Стойка 1'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.25.00.00 СБ 'Опора шнековая'-1/PT.SHT.01.25.00.01 'Балка 1'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Опора шнека\\PT.SHT.01.25.00.01 'Балка 1'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.25.00.00 СБ 'Опора шнековая'-1/PT.SHT.01.25.00.03 'Балка 2'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Опора шнека\\PT.SHT.01.25.00.03 'Балка 2'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.25.00.00 СБ 'Опора шнековая'-1/PT.SHT.01.25.00.05 'Втулка'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Опора шнека\\PT.SHT.01.25.00.05 'Втулка'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.25.00.00 СБ 'Опора шнековая'-1/PT.SHT.01.25.00.07 'Стойка 1'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Опора шнека\\PT.SHT.01.25.00.07 'Стойка 1'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.25.00.00 СБ 'Опора шнековая'-1/PT.SHT.01.01.02.03  Опора-1",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Опора бункера\\PT.SHT.01.01.02.03  Опора.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.25.00.00 СБ 'Опора шнековая'-1/PT.SHT.01.25.00.05 'Втулка'-2",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Опора шнека\\PT.SHT.01.25.00.05 'Втулка'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.25.00.00 СБ 'Опора шнековая'-1/PT.SHT.01.01.02.03  Опора-2",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Опора бункера\\PT.SHT.01.01.02.03  Опора.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.25.00.00 СБ 'Опора шнековая'-1/PT.SHT.01.25.00.09 'Подкос 1'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Опора шнека\\PT.SHT.01.25.00.09 'Подкос 1'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-41",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-40",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-31",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Винт М8х20 DIN 931-4",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Винт М8х20 DIN 931.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-28",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-22",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Винт М8х20 DIN 931-6",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Винт М8х20 DIN 931.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Винт М8х20 DIN 931-7",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Винт М8х20 DIN 931.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-35",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-30",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Винт М8х20 DIN 931-2",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Винт М8х20 DIN 931.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Винт М8х20 DIN 931-3",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Винт М8х20 DIN 931.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Винт М8х20 DIN 931-8",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Винт М8х20 DIN 931.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-36",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-37",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-38",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-39",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-29",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-21",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-32",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-25",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-24",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-27",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-23",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Шайба пружинная М8 DIN127 А2-33",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "Винт М8х20 DIN 931-5",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Винт М8х20 DIN 931.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма нижняя\\PT.SHT.01.23.00.00 СБ 'Обойма нижняя'.SLDASM",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Шайба пружинная М6 DIN128-13",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Шайба пружинная М6 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Шайба пружинная М6 DIN128-14",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Шайба пружинная М6 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/PT.SHT.01.23.00.01 'Косынка 2'-7",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма нижняя\\PT.SHT.01.23.00.01 'Косынка 2'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Болт М6х20 DIN 933 А2-5",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М6х20 DIN 933 А2.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/PT.SHT.01.23.00.01 'Косынка 2'-2",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма нижняя\\PT.SHT.01.23.00.01 'Косынка 2'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/PT.SHT.01.23.00.01 'Косынка 2'-8",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма нижняя\\PT.SHT.01.23.00.01 'Косынка 2'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/PT.SHT.01.23.00.01 'Косынка 2'-3",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма нижняя\\PT.SHT.01.23.00.01 'Косынка 2'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/PT.SHT.01.23.00.01 'Косынка 2'-4",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма нижняя\\PT.SHT.01.23.00.01 'Косынка 2'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/PT.SHT.01.23.00.01 'Косынка 2'-5",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма нижняя\\PT.SHT.01.23.00.01 'Косынка 2'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/PT.SHT.01.23.00.01 'Косынка 2'-6",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма нижняя\\PT.SHT.01.23.00.01 'Косынка 2'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Болт М6х20 DIN 933 А2-2",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М6х20 DIN 933 А2.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Болт М6х20 DIN 933 А2-3",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М6х20 DIN 933 А2.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Болт М6х20 DIN 933 А2-4",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М6х20 DIN 933 А2.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Гайка М6 DIN 934-3",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Гайка М6 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Гайка М6 DIN 934-4",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Гайка М6 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Шайба пружинная М6 DIN128-9",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Шайба пружинная М6 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Гайка М6 DIN 934-7",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Гайка М6 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Шайба пружинная М6 DIN128-3",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Шайба пружинная М6 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Болт М6х20 DIN 933 А2-8",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М6х20 DIN 933 А2.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Шайба пружинная М6 DIN128-6",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Шайба пружинная М6 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Болт М6х20 DIN 933 А2-7",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М6х20 DIN 933 А2.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Гайка М6 DIN 934-2",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Гайка М6 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Гайка М6 DIN 934-8",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Гайка М6 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Шайба пружинная М6 DIN128-8",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Шайба пружинная М6 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Шайба пружинная М6 DIN128-4",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Шайба пружинная М6 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Гайка М6 DIN 934-6",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Гайка М6 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Шайба пружинная М6 DIN128-5",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Шайба пружинная М6 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Шайба пружинная М6 DIN128-10",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Шайба пружинная М6 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Шайба пружинная М6 DIN128-11",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Шайба пружинная М6 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Болт М6х20 DIN 933 А2-6",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М6х20 DIN 933 А2.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Шайба пружинная М6 DIN128-12",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Шайба пружинная М6 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Гайка М6 DIN 934-5",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Гайка М6 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Шайба пружинная М6 DIN128-7",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Шайба пружинная М6 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/PT.SHT.01.22.00.13 'Фланец обоймы'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.13 'Фланец обоймы'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Подшипник 7208BEA.step-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\Подшипник 7208BEA.step.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Подшипник 7208BEA.step-2",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\Подшипник 7208BEA.step.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Стопорное кольцо D40 DIN 471 А2-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\Стопорное кольцо D40 DIN 471 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Стопорное кольцо D70 DIN 472 А2-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\Стопорное кольцо D70 DIN 472 А2.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Стопорное кольцо D80 DIN 472 А2-1",
+      "path": "C:\\Users\\Конструктор\\Desktop\\Шнек 1\\Шнек\\Обойма верхняя\\Стопорное кольцо D80 DIN 472 А2.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/PT.SHT.01.22.00.05 'Обойма'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.05 'Обойма'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/PT.SHT.01.22.00.11 'Проставочное кольцо'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.11 'Проставочное кольцо'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Манжета 2 -50х70-5 ГОСТ 8752-79-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\Манжета 2 -50х70-5 ГОСТ 8752-79.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/PT.SHT.01.22.00.07 'Прокладка'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма верхняя\\PT.SHT.01.22.00.07 'Прокладка'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/PT.SHT.01.23.00.05 'Фланец обоймы нижней'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма нижняя\\PT.SHT.01.23.00.05 'Фланец обоймы нижней'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Гайка М6 DIN 934-1",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Гайка М6 DIN 934.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/PT.SHT.01.23.00.01 'Косынка 2'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма нижняя\\PT.SHT.01.23.00.01 'Косынка 2'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Шайба пружинная М6 DIN128-2",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Шайба пружинная М6 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Болт М6х20 DIN 933 А2-1",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\!Стандартные изделия\\Болт М6х20 DIN 933 А2.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Шайба пружинная М6 DIN128-1",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Шайба пружинная М6 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/PT.SHT.01.23.10.00 СБ 'Крышка обоймы нижней'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма нижняя\\PT.SHT.01.23.10.00 СБ 'Крышка обоймы в сборе'\\PT.SHT.01.23.10.00 СБ 'Крышка обоймы нижней'.SLDASM",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/PT.SHT.01.23.10.00 СБ 'Крышка обоймы нижней'-1/PT.SHT.01.23.10.03 'Гильза'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма нижняя\\PT.SHT.01.23.10.00 СБ 'Крышка обоймы в сборе'\\PT.SHT.01.23.10.03 'Гильза'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/PT.SHT.01.23.10.00 СБ 'Крышка обоймы нижней'-1/PT.SHT.01.23.10.01 'Крышка'-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD\\Шнек\\Обойма нижняя\\PT.SHT.01.23.10.00 СБ 'Крышка обоймы в сборе'\\PT.SHT.01.23.10.01 'Крышка'.SLDPRT",
+      "exists": true,
+      "local": true,
+      "suppression": 2,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Шайба пружинная М6 DIN128-16",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Шайба пружинная М6 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    },
+    {
+      "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя'-1/Шайба пружинная М6 DIN128-15",
+      "path": "C:\\Users\\Конструктор\\Desktop\\PT-SHT-10\\Модель\\Бункер 1\\Миксер\\Шайба пружинная М6 DIN128.SLDPRT",
+      "exists": false,
+      "local": false,
+      "suppression": 0,
+      "visible": 1,
+      "is_hidden": {
+        "error": "(-2147352561, 'Параметр является обязательным.', None, None)"
+      },
+      "configuration": "По умолчанию"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+exec(open('work/efd_project_inspect.py',encoding='utf-8').read().split("print('project'")[0])
+print('rebuild start',flush=True)
+try:print('rebuild',p.Rebuild(False,False,True,False,False,False),flush=True)
+except Exception as e:print('ERR',repr(e),flush=True)
+try:print('last',p.GetLastRebuildError(),flush=True)
+except Exception as e:print('lastERR',repr(e),flush=True)

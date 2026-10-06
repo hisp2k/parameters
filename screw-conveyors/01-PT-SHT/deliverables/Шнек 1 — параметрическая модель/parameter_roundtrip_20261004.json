@@ -1,0 +1,29 @@
+[
+  {
+    "pitch_mm": 100,
+    "native_helix_pitch_mm": 100.0,
+    "rebuilds": {
+      "tube": true,
+      "screw": true,
+      "support": true
+    },
+    "ok": true
+  },
+  {
+    "pitch_mm": 105,
+    "native_helix_pitch_mm": 105.0,
+    "rebuilds": {
+      "tube": true,
+      "screw": true,
+      "support": true
+    },
+    "ok": true
+  },
+  {
+    "invalid_turns": 26,
+    "rejected": true,
+    "errors": [
+      "Винтовая часть с торцевой деталью заходит в верхнюю ступень вала: шаг × число витков + две толщины лопасти должны быть не больше рабочей длины + 85 мм для этой модели."
+    ]
+  }
+]

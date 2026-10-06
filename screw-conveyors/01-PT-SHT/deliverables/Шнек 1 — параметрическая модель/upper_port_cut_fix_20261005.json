@@ -1,0 +1,10 @@
+{
+  "feature": "Вырез-Вытянуть8",
+  "before": "Глубина 200 мм",
+  "after": "До внутренней цилиндрической поверхности трубы",
+  "volume_change_mm3": -13.893498487967115,
+  "retained_opening_diameter_mm": 110.0,
+  "backup": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\snapshots\\20261005-before-upper-port-cut-selection",
+  "issues": 0,
+  "interferences": 0
+}

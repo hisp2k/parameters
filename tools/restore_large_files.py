@@ -1,4 +1,4 @@
-"""Restore imported large archives from 64 MiB parts; verify every SHA-256."""
+"""Restore imported large archives from 16 MiB parts; verify every SHA-256."""
 from pathlib import Path
 import hashlib
 import json

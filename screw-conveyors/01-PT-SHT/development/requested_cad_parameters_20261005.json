@@ -1,0 +1,28 @@
+{
+  "design_mode": "special",
+  "selection": {
+    "material": "unspecified",
+    "screw": "custom",
+    "tube": "custom"
+  },
+  "values": {
+    "blade_thickness": 5,
+    "flange_thickness": 5,
+    "incline": 55,
+    "inlet_diameter": 100,
+    "inlet_length": 200,
+    "inlet_wall": 3,
+    "mounting_hole_diameter": 8,
+    "opening_diameter": 110,
+    "pitch": 105,
+    "screw_diameter": 121,
+    "shaft_diameter": 36,
+    "shaft_wall": 3,
+    "support_long_beam_length": 500,
+    "support_short_beam_length": 250,
+    "tube_diameter": 133,
+    "tube_wall": 4,
+    "turns": 24,
+    "working_length": 2510
+  }
+}

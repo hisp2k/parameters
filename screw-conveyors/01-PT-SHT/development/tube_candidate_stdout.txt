@@ -1,0 +1,22 @@
+calculating C:\Users\adm\Documents\Codex\2026-10-01\x20\work\tube_collision_trial\Труба — контроль.SLDASM
+{
+  "assembly": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\work\\tube_collision_trial\\Труба — контроль.SLDASM",
+  "dirty": false,
+  "count": 2,
+  "interferences": [
+    {
+      "components": [
+        "PT.SHT.01.21.00.03 'Патрубок промывки'_TCR04-1",
+        "Кран шаровый G 1.2_TCR04-1"
+      ],
+      "volume_mm3": 226.62890660878372
+    },
+    {
+      "components": [
+        "PT.SHT.01.21.00.03 'Патрубок промывки'_TCR04-2",
+        "Кран шаровый G 1.2_TCR04-2"
+      ],
+      "volume_mm3": 226.62522447750703
+    }
+  ]
+}

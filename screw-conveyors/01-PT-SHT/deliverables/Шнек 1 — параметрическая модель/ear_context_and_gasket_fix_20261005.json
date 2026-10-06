@@ -1,0 +1,7 @@
+{
+  "gasket_before": "\"D1@Эскиз1@PT.SHT.01.22.00.07 'Прокладка'_NI_20261004_R04<1>.Part@PT.SHT.01.23.00.00 СБ 'Обойма нижняя' — исправлено<1>.Assembly\" = \"D1@Эскиз1@PT.SHT.01.21.00.13 'Фланец трубы шнека'_TCR04_TR04<1>.Part@PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено<1>.Assembly\"",
+  "gasket_after": "\"D1@Эскиз1@PT.SHT.01.22.00.07 'Прокладка'_NI_20261004_R04<1>.Part@PT.SHT.01.23.00.00 СБ 'Обойма нижняя' — исправлено<1>.Assembly\" = 141мм",
+  "backup": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\snapshots\\20261005-before-ear-context",
+  "issues": 0,
+  "interferences": 0
+}

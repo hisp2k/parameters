@@ -1,0 +1,7 @@
+{
+  "before": "\"D2@Эскиз1@PT.SHT.01.21.00.13 'Фланец трубы шнека'_TCR04_TR04<1>.Part\" = \"Диаметр трубы\" + 29мм",
+  "after": "\"D2@Эскиз1@PT.SHT.01.21.00.13 'Фланец трубы шнека'_TCR04_TR04<1>.Part\" = 170мм",
+  "backup": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\snapshots\\20261005-before-parametric-interface",
+  "issues": 0,
+  "interferences": 0
+}

@@ -1,0 +1,22 @@
+{
+  "original_path": "screw-conveyors/25-SHT-G/deliverables/25.SHT.G_parameterized.zip",
+  "size": 45747913,
+  "sha256": "e141515a7937544de4063939d47a081657bc368f2e84734d9c857a49019f4bf6",
+  "parts": [
+    {
+      "path": "screw-conveyors/25-SHT-G/deliverables/25.SHT.G_parameterized.zip.parts/part-001",
+      "size": 16777216,
+      "sha256": "e9d4ae5ee5f8c8184bb40200504757846d7fcf5f37cb4219aa675e564f1e358a"
+    },
+    {
+      "path": "screw-conveyors/25-SHT-G/deliverables/25.SHT.G_parameterized.zip.parts/part-002",
+      "size": 16777216,
+      "sha256": "b082fd76e708f657afd3d859fcc868eccdb963553dcbd41a8bf010d49462fab5"
+    },
+    {
+      "path": "screw-conveyors/25-SHT-G/deliverables/25.SHT.G_parameterized.zip.parts/part-003",
+      "size": 12193481,
+      "sha256": "f995aa6173ea7b5abac27abad00e3a3766631bbb68cb6bdb52a5734c49f1b68c"
+    }
+  ]
+}

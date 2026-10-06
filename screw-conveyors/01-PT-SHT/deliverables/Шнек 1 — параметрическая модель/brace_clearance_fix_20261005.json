@@ -1,0 +1,393 @@
+{
+  "timestamp": "2026-10-05T13:17:26+04:00",
+  "request": {
+    "design_mode": "special",
+    "selection": {
+      "material": "unspecified",
+      "screw": "custom",
+      "tube": "custom"
+    },
+    "values": {
+      "blade_thickness": 5,
+      "flange_thickness": 5,
+      "incline": 55,
+      "inlet_diameter": 100,
+      "inlet_length": 200,
+      "inlet_wall": 3,
+      "mounting_hole_diameter": 8,
+      "opening_diameter": 110,
+      "pitch": 105,
+      "screw_diameter": 121,
+      "shaft_diameter": 36,
+      "shaft_wall": 3,
+      "support_long_beam_length": 500,
+      "support_short_beam_length": 250,
+      "tube_diameter": 133,
+      "tube_wall": 4,
+      "turns": 24,
+      "working_length": 2510
+    }
+  },
+  "repairs": [
+    {
+      "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04-1",
+      "file": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.SLDPRT",
+      "cut": {
+        "cut": "Проход корпуса — выборка для 55 градусов",
+        "diameter_mm": 147,
+        "center": [
+          0.06671463804302688,
+          -0.16778765789249053,
+          -0.015000000000000083
+        ],
+        "axis": [
+          -0.8910065241883656,
+          0.453990499739551,
+          3.25434876881625e-16
+        ],
+        "profile": "Проход корпуса — профиль",
+        "datum": "Ось корпуса 55 градусов — базовые точки",
+        "plane": "Проход корпуса — поперечная плоскость"
+      },
+      "bypass": {
+        "features": [
+          "Обход корпуса — верхний переход",
+          "Обход корпуса — наружная ветвь",
+          "Обход корпуса — нижний переход",
+          "Полость обхода — верхний переход",
+          "Полость обхода — наружная ветвь",
+          "Полость обхода — нижний переход"
+        ],
+        "start_distance_mm": 25.0,
+        "finish_distance_mm": 258.0,
+        "outward_mm": 100.0,
+        "section_mm": [
+          30,
+          20,
+          3
+        ],
+        "end_joint_geometry_retained": true,
+        "strength_verified": false
+      },
+      "inherited": false,
+      "volume_change_mm3": 65977.32399584781,
+      "before_volume_mm3": 143326.2152393092,
+      "trial_volume_mm3": 209303.53923515702,
+      "after_volume_mm3": 209303.53923515673,
+      "before_transform": [
+        4.247794080089647e-16,
+        0.9902680687415703,
+        -0.13917310096006594,
+        1.1684461905186628e-16,
+        0.139173100960066,
+        0.9902680687415703,
+        1.0,
+        -4.369071119741708e-16,
+        -5.65896278147474e-17,
+        0.015000000000000074,
+        0.732010872553475,
+        -0.5867678717340531,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено-1/PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04-2",
+      "file": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.SLDPRT",
+      "cut": {
+        "inherited_from_mirrored_source": true
+      },
+      "bypass": {
+        "inherited_from_mirrored_source": true,
+        "strength_verified": false
+      },
+      "inherited": true,
+      "volume_change_mm3": 65984.1006243338,
+      "before_volume_mm3": 143319.08059838033,
+      "trial_volume_mm3": 209303.18122271413,
+      "after_volume_mm3": 209302.66910356874,
+      "before_transform": [
+        4.247794080089647e-16,
+        0.9902680687415703,
+        -0.13917310096006594,
+        1.1684461905186628e-16,
+        0.139173100960066,
+        0.9902680687415703,
+        1.0,
+        -4.369071119741708e-16,
+        -5.65896278147474e-17,
+        -0.014999999999999908,
+        0.732010872553475,
+        -0.5867678717340531,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "trial_directory": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\work\\brace-clearance-trial-20261005-131533",
+  "result": {
+    "ok": true,
+    "snapshot": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\snapshots\\20261005-131533-720366",
+    "values": {
+      "blade_thickness": 5,
+      "flange_thickness": 5,
+      "incline": 55,
+      "inlet_diameter": 100,
+      "inlet_length": 200,
+      "inlet_wall": 3,
+      "mounting_hole_diameter": 8,
+      "opening_diameter": 110,
+      "pitch": 105,
+      "screw_diameter": 121,
+      "shaft_diameter": 36,
+      "shaft_wall": 3,
+      "support_long_beam_length": 500,
+      "support_short_beam_length": 250,
+      "tube_diameter": 133,
+      "tube_wall": 4,
+      "turns": 24,
+      "working_length": 2510
+    },
+    "selection": {
+      "material": "unspecified",
+      "screw": "custom",
+      "tube": "custom"
+    },
+    "design_mode": "special",
+    "last_applied": "2026-10-05T13:17:25",
+    "rebuilds": {
+      "tube": true,
+      "screw": true
+    },
+    "saves": {
+      "CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.01.02.03  Опора_SPCR04_SPR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Труба в сборе — исправлено 20261004\\PT.SHT.01.01.00.11  Фланец присоединительный_TCR04_TR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Труба в сборе — исправлено 20261004\\PT.SHT.01.21.00.01 'Кронштейн грузовой'_TCR04_TR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Труба в сборе — исправлено 20261004\\PT.SHT.01.21.00.03 'Патрубок промывки'_TCR04_TR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Труба в сборе — исправлено 20261004\\PT.SHT.01.21.00.05 'Патрубок шнека'_TCR04_TR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Труба в сборе — исправлено 20261004\\PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Труба в сборе — исправлено 20261004\\PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Труба в сборе — исправлено 20261004\\PT.SHT.01.21.00.13 'Фланец трубы шнека'_TCR04_TR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Труба в сборе — исправлено 20261004\\Кран шаровый G 1.2_TCR04_TR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Шнековый вал — исправлено 20261004\\PT.SHT.01.24.00.01 'Вал шнека верхний'_SCR04_SR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Шнековый вал — исправлено 20261004\\PT.SHT.01.24.00.03 'Вал шнека нижний'_SCR04_SR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Шнековый вал — исправлено 20261004\\PT.SHT.01.24.00.05 'Винт шнека'_SCR04_SR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Шнековый вал — исправлено 20261004\\PT.SHT.01.24.00.07 'Сердечник'_SCR04_SR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\Шнековый вал — исправлено 20261004\\PT.SHT.01.24.00.09 'Торец шнека'_SCR04_SR04.SLDPRT": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      "CAD_восстановленный\\PT.SHT.01.20.00.00 СБ 'Шнек 1' — восстановлено.SLDASM": {
+        "saved": true,
+        "errors": 0,
+        "warnings": 0
+      }
+    },
+    "rebuilt_nodes": [
+      "screw",
+      "tube",
+      "top"
+    ],
+    "cad_verification": {
+      "timestamp": "2026-10-05T13:17:25+04:00",
+      "components": 204,
+      "suppressed": 0,
+      "broken_mates": 0,
+      "feature_errors": 0,
+      "positive_interferences": 0,
+      "threshold_mm3": 0.001,
+      "measured_geometry": {
+        "tube_diameter": 133.0,
+        "working_length": 2510.0,
+        "incline": 54.999999999999716,
+        "world_axis": [
+          0.0,
+          -0.8191520442889889,
+          0.5735764363510505
+        ],
+        "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+      },
+      "representation": "Сборочная — резьба условно"
+    }
+  },
+  "journal_entry": {
+    "type": "model_change",
+    "title": "Применение параметров к модели",
+    "change_count": 4,
+    "changes": [
+      {
+        "key": "incline",
+        "name": "Угол наклона",
+        "before": 35.0,
+        "after": 55
+      },
+      {
+        "key": "screw_diameter",
+        "name": "Диаметр винта",
+        "before": 130,
+        "after": 121
+      },
+      {
+        "key": "tube_diameter",
+        "name": "Диаметр трубы",
+        "before": 141,
+        "after": 133
+      },
+      {
+        "key": "tube_wall",
+        "name": "Стенка трубы",
+        "before": 5,
+        "after": 4
+      }
+    ],
+    "number": 32,
+    "timestamp": "2026-10-05T13:17:26+04:00",
+    "project_id": "PT.SHT.01.20.00.00 СБ",
+    "project_name": "Шнек 1"
+  },
+  "outcome": {
+    "timestamp": "2026-10-05T13:17:26+04:00",
+    "ok": true,
+    "requested_values": {
+      "blade_thickness": 5,
+      "flange_thickness": 5,
+      "incline": 55,
+      "inlet_diameter": 100,
+      "inlet_length": 200,
+      "inlet_wall": 3,
+      "mounting_hole_diameter": 8,
+      "opening_diameter": 110,
+      "pitch": 105,
+      "screw_diameter": 121,
+      "shaft_diameter": 36,
+      "shaft_wall": 3,
+      "support_long_beam_length": 500,
+      "support_short_beam_length": 250,
+      "tube_diameter": 133,
+      "tube_wall": 4,
+      "turns": 24,
+      "working_length": 2510
+    },
+    "saved_values": {
+      "blade_thickness": 5,
+      "flange_thickness": 5,
+      "incline": 55,
+      "inlet_diameter": 100,
+      "inlet_length": 200,
+      "inlet_wall": 3,
+      "mounting_hole_diameter": 8,
+      "opening_diameter": 110,
+      "pitch": 105,
+      "screw_diameter": 121,
+      "shaft_diameter": 36,
+      "shaft_wall": 3,
+      "support_long_beam_length": 500,
+      "support_short_beam_length": 250,
+      "tube_diameter": 133,
+      "tube_wall": 4,
+      "turns": 24,
+      "working_length": 2510
+    },
+    "design_mode": "special",
+    "saved_at": "2026-10-05T13:17:25",
+    "snapshot": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\snapshots\\20261005-131533-720366"
+  },
+  "strength_verified": false,
+  "fixed_envelope": {
+    "angle_deg": 55,
+    "max_tube_diameter_mm": 145,
+    "radial_clearance_mm": 1
+  }
+}

@@ -1,0 +1,291 @@
+[
+  {
+    "assembly": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD_восстановленный\\PT.SHT.01.20.00.00 СБ 'Шнек 1' — восстановлено.SLDASM",
+    "errors": [
+      {
+        "name": "PT.SHT.01.23.00.00 СБ 'Обойма нижняя' — восстановлено-1",
+        "type": "Reference",
+        "code": 1
+      },
+      {
+        "name": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — восстановлено-1",
+        "type": "Reference",
+        "code": 1
+      },
+      {
+        "name": "Группа сопряжений1",
+        "type": "MateGroup",
+        "code": 1
+      },
+      {
+        "name": "Концентричный75",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Совпадение98",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Концентричный86",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Совпадение99",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Концентричный73",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Концентричный87",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Совпадение101",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Совпадение102",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Концентричный88",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Совпадение103",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Совпадение85",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Концентричный71",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Совпадение104",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Концентричный89",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Концентричный85",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Совпадение96",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Совпадение97",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Совпадение90",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Концентричный78",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Совпадение112",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Концентричный91",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Совпадение89",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Концентричный77",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Концентричный92",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Совпадение113",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Концентричный81",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Совпадение91",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Концентричный79",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Совпадение114",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Совпадение92",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Концентричный80",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Концентричный93",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Совпадение115",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Концентричный97",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Эскиз1",
+        "type": "ProfileFeature",
+        "code": 51
+      }
+    ]
+  },
+  {
+    "assembly": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD_восстановленный\\Шнек\\PT.SHT.01.21.00.00 СБ 'Труба в сборе' — восстановлено.SLDASM",
+    "errors": []
+  },
+  {
+    "assembly": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD_восстановленный\\Шнек\\Обойма нижняя\\PT.SHT.01.23.00.00 СБ 'Обойма нижняя' — восстановлено.SLDASM",
+    "errors": [
+      {
+        "name": "Группа сопряжений1",
+        "type": "MateGroup",
+        "code": 1
+      },
+      {
+        "name": "Совпадение48",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Концентричный25",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Совпадение49",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Концентричный27",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Совпадение50",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Совпадение58",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Концентричный32",
+        "type": "MateConcentric",
+        "code": 48
+      },
+      {
+        "name": "Концентричный33",
+        "type": "MateConcentric",
+        "code": 48
+      }
+    ]
+  },
+  {
+    "assembly": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD_восстановленный\\Опора шнека\\PT.SHT.01.25.00.00 СБ 'Опора шнековая' — восстановлено.SLDASM",
+    "errors": [
+      {
+        "name": "Группа сопряжений1",
+        "type": "MateGroup",
+        "code": 1
+      },
+      {
+        "name": "Совпадение18",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Расстояние5",
+        "type": "MateDistanceDim",
+        "code": 48
+      },
+      {
+        "name": "Совпадение22",
+        "type": "MateCoincident",
+        "code": 48
+      },
+      {
+        "name": "Расстояние6",
+        "type": "MateDistanceDim",
+        "code": 48
+      },
+      {
+        "name": "Расстояние8",
+        "type": "MateDistanceDim",
+        "code": 48
+      },
+      {
+        "name": "Расстояние9",
+        "type": "MateDistanceDim",
+        "code": 48
+      }
+    ]
+  }
+]

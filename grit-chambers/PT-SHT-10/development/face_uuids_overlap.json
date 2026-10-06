@@ -1,0 +1,29 @@
+{
+  "CFD_inlet_flange_lid-2": {
+    "uuid": "f8cfa90b-9cd0-4931-bc50-3a523d229a4f",
+    "created": true,
+    "point": [
+      0.2515,
+      0.7195,
+      0.333
+    ]
+  },
+  "CFD_outlet_flange_lid-2": {
+    "uuid": "06b38827-a859-4039-8cd0-d7ab2b6b8fc0",
+    "created": true,
+    "point": [
+      0,
+      0.458,
+      0.353
+    ]
+  },
+  "CFD_bottom_flange_lid-2": {
+    "uuid": "6aeb3b37-d5ac-49ba-958a-347b8a1bef56",
+    "created": true,
+    "point": [
+      0,
+      0.004,
+      0
+    ]
+  }
+}

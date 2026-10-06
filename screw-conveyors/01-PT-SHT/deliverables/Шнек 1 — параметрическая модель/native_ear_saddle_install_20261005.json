@@ -1,0 +1,23 @@
+{
+  "equation": "\"D1@Седло корпуса — профиль@PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04<1>.Part\" = \"Диаметр трубы\"",
+  "backup": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\snapshots\\20261005-before-native-ear-saddle",
+  "volume_difference_mm3": -1.1519648082658485e-10,
+  "component_instances": 4,
+  "model_issues": [
+    0,
+    0,
+    []
+  ],
+  "positive_interferences": 0,
+  "saddle_surfaces": [
+    [
+      -0.025000000000000005,
+      0.086,
+      -0.03,
+      1.0,
+      -0.0,
+      -0.0,
+      0.0705
+    ]
+  ]
+}

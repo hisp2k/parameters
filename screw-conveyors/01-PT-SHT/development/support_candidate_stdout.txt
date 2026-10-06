@@ -1,0 +1,7 @@
+calculating C:\Users\adm\Documents\Codex\2026-10-01\x20\work\support_collision_trial\Опора — контроль.SLDASM
+{
+  "assembly": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\work\\support_collision_trial\\Опора — контроль.SLDASM",
+  "dirty": false,
+  "count": 0,
+  "interferences": []
+}

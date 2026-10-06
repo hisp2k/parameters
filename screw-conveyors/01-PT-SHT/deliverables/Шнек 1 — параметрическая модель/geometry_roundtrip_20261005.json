@@ -1,0 +1,59 @@
+[
+  {
+    "parameter": "working_length",
+    "before": 2510,
+    "tested": 2610,
+    "applied": true,
+    "snapshot": null,
+    "audit": {
+      "suppressed": 0,
+      "broken_mates": 0,
+      "feature_errors": [],
+      "contacts": 384,
+      "positive_interferences": []
+    },
+    "equations": {
+      "tube": "\"Длина трубы\"= 2610мм + 270",
+      "screw": "\"Длина вала\"= 2610мм + 270"
+    },
+    "restored_audit": {
+      "suppressed": 0,
+      "broken_mates": 0,
+      "feature_errors": [],
+      "contacts": 384,
+      "positive_interferences": []
+    }
+  },
+  {
+    "parameter": "tube_diameter",
+    "before": 141,
+    "tested": 145,
+    "applied": false,
+    "errors": [
+      "После изменения параметров обнаружены ошибки модели: подавлено 0, потерянные сопряжения 0, ошибки элементов [(\"PT.SHT.01.20.00.00 СБ 'Шнек 1' — восстановлено.SLDASM\", 'Концентричный2', 1), (\"PT.SHT.01.20.00.00 СБ 'Шнек 1' — восстановлено.SLDASM\", 'Расстояние1', 1), (\"PT.SHT.01.20.00.00 СБ 'Шнек 1' — восстановлено.SLDASM\", 'Совпадение21', 1), (\"PT.SHT.01.20.00.00 СБ 'Шнек 1' — восстановлено.SLDASM\", 'Совпадение22', 1), (\"PT.SHT.01.20.00.00 СБ 'Шнек 1' — восстановлено.SLDASM\", 'Концентричный72', 1), (\"PT.SHT.01.20.00.00 СБ 'Шнек 1' — восстановлено.SLDASM\", 'Совпадение86', 1), (\"PT.SHT.01.20.00.00 СБ 'Шнек 1' — восстановлено.SLDASM\", 'Концентричный83', 1), (\"PT.SHT.01.20.00.00 СБ 'Шнек 1' — восстановлено.SLDASM\", 'Концентричный96', 1), (\"PT.SHT.01.20.00.00 СБ 'Шнек 1' — восстановлено.SLDASM\", 'Концентричный102', 1), (\"PT.SHT.01.20.00.00 СБ 'Шнек 1' — восстановлено.SLDASM\", 'Концентричный113', 1), (\"PT.SHT.01.20.00.00 СБ 'Шнек 1' — восстановлено.SLDASM\", 'Совпадение103 — восстановлено', 1), (\"PT.SHT.01.20.00.00 СБ 'Шнек 1' — восстановлено.SLDASM\", 'Верхняя обойма — совпадение крепёжных отверстий', 47)]"
+    ],
+    "restored_audit": {
+      "suppressed": 0,
+      "broken_mates": 0,
+      "feature_errors": [],
+      "contacts": 384,
+      "positive_interferences": []
+    }
+  },
+  {
+    "parameter": "incline",
+    "before": 55,
+    "tested": 50,
+    "applied": false,
+    "errors": [
+      "Перестроение подсборки не удалось: {'tube': False, 'screw': True, 'support': True}"
+    ],
+    "restored_audit": {
+      "suppressed": 0,
+      "broken_mates": 0,
+      "feature_errors": [],
+      "contacts": 384,
+      "positive_interferences": []
+    }
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "bom_rows": 178,
+  "steps": [
+    {
+      "filename": "58.GR.00.00.00.00 СБ  Решетка грабельная (STEP 214 КТ)(2).STEP",
+      "bytes": 16770533,
+      "sha256": "18470407768fb87a66dd818df710b058ce9211ce95bda041c3329f09d970b082",
+      "product_count": 190,
+      "definition_count": 190,
+      "assembly_occurrences": 929,
+      "unresolved_edge_refs": 0,
+      "root_count": 1,
+      "roots": [
+        ".58.GR.00.00.00.00 СБ  Решетка грабельная (STEP 214 КТ)"
+      ],
+      "unique_leaf_products": 157,
+      "leaf_occurrences_from_roots": 949,
+      "mm_length_unit_declarations": 190,
+      "entity_counts": {
+        "MANIFOLD_SOLID_BREP": 0,
+        "CLOSED_SHELL": 0,
+        "ADVANCED_FACE": 0,
+        "SHAPE_REPRESENTATION": 190,
+        "PRODUCT": 190,
+        "NEXT_ASSEMBLY_USAGE_OCCURRENCE": 929
+      },
+      "designation_in_both": 121,
+      "designation_only_in_step": [],
+      "designation_only_in_bom": []
+    },
+    {
+      "filename": "58.GR.00.00.00.00 СБ  Решетка грабельная (STEP 214 ТТ)(2).STEP",
+      "bytes": 33185838,
+      "sha256": "3f0d679c15c2d81972175ae59eac016ced285bedd0ce722e65929b211817d16d",
+      "product_count": 190,
+      "definition_count": 190,
+      "assembly_occurrences": 929,
+      "unresolved_edge_refs": 0,
+      "root_count": 1,
+      "roots": [
+        ".58.GR.00.00.00.00 СБ  Решетка грабельная (STEP 214 ТТ)"
+      ],
+      "unique_leaf_products": 157,
+      "leaf_occurrences_from_roots": 949,
+      "mm_length_unit_declarations": 5484,
+      "entity_counts": {
+        "MANIFOLD_SOLID_BREP": 169,
+        "CLOSED_SHELL": 169,
+        "ADVANCED_FACE": 8718,
+        "SHAPE_REPRESENTATION": 190,
+        "PRODUCT": 190,
+        "NEXT_ASSEMBLY_USAGE_OCCURRENCE": 929
+      },
+      "designation_in_both": 121,
+      "designation_only_in_step": [],
+      "designation_only_in_bom": []
+    }
+  ]
+}

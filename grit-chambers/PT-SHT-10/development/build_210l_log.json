@@ -1,0 +1,146 @@
+[
+  {
+    "name": "CAD210_outer_lower-1",
+    "file": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\CADparts\\CAD210_outer_lower.SLDPRT",
+    "box": [
+      -0.30000000000000004,
+      0.3829,
+      -0.30000000000000004,
+      0.30010000000000003,
+      0.6000000000000001,
+      0.30010000000000003
+    ]
+  },
+  {
+    "name": "CAD210_outer_upper-1",
+    "file": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\CADparts\\CAD210_outer_upper.SLDPRT",
+    "box": [
+      -0.30000000000000004,
+      0.7750000000000001,
+      -0.30000000000000004,
+      0.30010000000000003,
+      1.0081,
+      0.30000000000000004
+    ]
+  },
+  {
+    "name": "CAD210_return_insert175-1",
+    "file": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\CADparts\\CAD210_return_insert175.SLDPRT",
+    "box": [
+      -0.038,
+      0.5999,
+      -0.038,
+      0.038,
+      0.7751,
+      0.038
+    ]
+  },
+  {
+    "name": "CAD210_return_lower-1",
+    "file": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\CADparts\\CAD210_return_lower.SLDPRT",
+    "box": [
+      -0.038,
+      0.5580000000000003,
+      -0.03799999999999417,
+      0.038,
+      0.6000000000000001,
+      0.03800000000000627
+    ]
+  },
+  {
+    "name": "CAD210_return_upper-1",
+    "file": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\CADparts\\CAD210_return_upper.SLDPRT",
+    "box": [
+      -0.038,
+      0.7750000000000001,
+      -0.03799999999999373,
+      0.038,
+      0.9630000000000005,
+      0.03800000000000828
+    ]
+  },
+  {
+    "name": "CAD210_shift_03-1",
+    "file": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\CADparts\\CAD210_shift_03.SLDPRT",
+    "box": [
+      -0.30100000000000005,
+      1.0079,
+      -0.30100000000000005,
+      0.30100000000000005,
+      1.0090999999999999,
+      0.30100000000000005
+    ]
+  },
+  {
+    "name": "CAD210_shift_04-1",
+    "file": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\CADparts\\CAD210_shift_04.SLDPRT",
+    "box": [
+      0.2219,
+      0.8649000000000001,
+      0.3205,
+      0.2811,
+      0.9241,
+      0.3305
+    ]
+  },
+  {
+    "name": "CAD210_shift_05-1",
+    "file": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\CADparts\\CAD210_shift_05.SLDPRT",
+    "box": [
+      -0.334,
+      1.0109,
+      -0.334,
+      0.334,
+      1.0141,
+      0.334
+    ]
+  },
+  {
+    "name": "CAD210_shift_06-1",
+    "file": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\CADparts\\CAD210_shift_06.SLDPRT",
+    "box": [
+      0.22599000000000002,
+      0.86899,
+      0.329,
+      0.27701,
+      0.9200100000000001,
+      0.334
+    ]
+  },
+  {
+    "name": "CAD210_shift_07-1",
+    "file": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\CADparts\\CAD210_shift_07.SLDPRT",
+    "box": [
+      -0.334,
+      1.0089999999999997,
+      -0.334,
+      0.334,
+      1.011,
+      0.334
+    ]
+  },
+  {
+    "name": "CAD210_shift_14-1",
+    "file": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\CADparts\\CAD210_shift_14.SLDPRT",
+    "box": [
+      0.1815,
+      0.8245,
+      0.321,
+      0.3215,
+      0.9645000000000001,
+      0.334
+    ]
+  },
+  {
+    "name": "CAD210_shift_15-1",
+    "file": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\CADparts\\CAD210_shift_15.SLDPRT",
+    "box": [
+      0.22299999999999998,
+      0.8660000000000001,
+      0.0990403957988858,
+      0.28,
+      0.923,
+      0.33
+    ]
+  }
+]

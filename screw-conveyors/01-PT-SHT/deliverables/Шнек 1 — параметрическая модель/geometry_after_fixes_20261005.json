@@ -1,0 +1,72 @@
+[
+  {
+    "parameter": "tube_diameter",
+    "before": 141,
+    "tested": 145,
+    "baseline_geometry": {
+      "tube_outer_diameter_mm": 141.0,
+      "tube_full_length_mm": 2780.0,
+      "world_axis": [
+        0.0,
+        -0.5735764363510445,
+        0.8191520442889932
+      ],
+      "inclination_to_horizontal_deg": 34.99999999999989
+    },
+    "applied": false,
+    "errors": [
+      "После перестроения обнаружены объёмные пересечения (более 0,001 мм³): [{'components': [\"PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04-1\", \"PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-2\"], 'volume_mm3': 444.5003869719202}, {'components': [\"PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04-1\", \"PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-4\"], 'volume_mm3': 444.50038697190956}, {'components': [\"PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04-1\", \"PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-3\"], 'volume_mm3': 444.5003869718807}, {'components': [\"PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04-1\", \"PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено-1/PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04-1\"], 'volume_mm3': 444.5003869718652}]"
+    ],
+    "restored_issues": [
+      0,
+      0,
+      []
+    ],
+    "restored_interferences": [],
+    "restored_geometry": {
+      "tube_outer_diameter_mm": 141.0,
+      "tube_full_length_mm": 2780.0,
+      "world_axis": [
+        0.0,
+        -0.5735764363510445,
+        0.8191520442889932
+      ],
+      "inclination_to_horizontal_deg": 34.99999999999989
+    }
+  },
+  {
+    "parameter": "incline",
+    "before": 35.0,
+    "tested": 50,
+    "baseline_geometry": {
+      "tube_outer_diameter_mm": 141.0,
+      "tube_full_length_mm": 2780.0,
+      "world_axis": [
+        0.0,
+        -0.5735764363510445,
+        0.8191520442889932
+      ],
+      "inclination_to_horizontal_deg": 34.99999999999989
+    },
+    "applied": false,
+    "errors": [
+      "Перестроение подсборки не удалось: {'tube': False}; ошибки узлов: {'tube': (0, 0, [(\"PT.SHT.01.21.00.00 СБ 'Труба в сборе' — исправлено.SLDASM\", \"PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04-1\", 1), (\"PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04.SLDPRT\", 'Вырез-Вытянуть8', 31)])}"
+    ],
+    "restored_issues": [
+      0,
+      0,
+      []
+    ],
+    "restored_interferences": [],
+    "restored_geometry": {
+      "tube_outer_diameter_mm": 141.0,
+      "tube_full_length_mm": 2780.0,
+      "world_axis": [
+        0.0,
+        -0.5735764363510443,
+        0.819152044288993
+      ],
+      "inclination_to_horizontal_deg": 34.99999999999987
+    }
+  }
+]

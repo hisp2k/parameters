@@ -1,0 +1,164 @@
+[
+  {
+    "diameter_mm": 0.1,
+    "grid_mm": 15,
+    "seed_count": 128,
+    "wall_mode": "hoppertrap",
+    "free_settling_m_s": 0.007970511741778976,
+    "tau_stokes_s": 0.001469765068979902,
+    "fractions": {
+      "bottom_outlet": 0.0,
+      "main_outlet": 0.015637017517881754,
+      "inlet_backflow": 0.0,
+      "hopper_wall": 0.8671907452857704,
+      "other_wall": 0.0,
+      "unresolved": 0.11717223719634778
+    },
+    "counts": {
+      "bottom_outlet": 0,
+      "main_outlet": 2,
+      "inlet_backflow": 0,
+      "hopper_wall": 111,
+      "other_wall": 0,
+      "unresolved": 15
+    },
+    "mean_residence_s": 8.624556028064465,
+    "max_steps": 9276,
+    "max_collisions": 201
+  },
+  {
+    "diameter_mm": 0.15,
+    "grid_mm": 15,
+    "seed_count": 128,
+    "wall_mode": "hoppertrap",
+    "free_settling_m_s": 0.01590541207578293,
+    "tau_stokes_s": 0.0033069714052047783,
+    "fractions": {
+      "bottom_outlet": 0.0,
+      "main_outlet": 0.01562078431153829,
+      "inlet_backflow": 0.0,
+      "hopper_wall": 0.929678699744438,
+      "other_wall": 0.0,
+      "unresolved": 0.05470051594402382
+    },
+    "counts": {
+      "bottom_outlet": 0,
+      "main_outlet": 2,
+      "inlet_backflow": 0,
+      "hopper_wall": 119,
+      "other_wall": 0,
+      "unresolved": 7
+    },
+    "mean_residence_s": 4.433789957419249,
+    "max_steps": 1821,
+    "max_collisions": 201
+  },
+  {
+    "diameter_mm": 0.2,
+    "grid_mm": 15,
+    "seed_count": 128,
+    "wall_mode": "hoppertrap",
+    "free_settling_m_s": 0.02480957501828632,
+    "tau_stokes_s": 0.005879060275919608,
+    "fractions": {
+      "bottom_outlet": 0.0,
+      "main_outlet": 0.007822999133288695,
+      "inlet_backflow": 0.0,
+      "hopper_wall": 0.9921770008667115,
+      "other_wall": 0.0,
+      "unresolved": 0.0
+    },
+    "counts": {
+      "bottom_outlet": 0,
+      "main_outlet": 1,
+      "inlet_backflow": 0,
+      "hopper_wall": 127,
+      "other_wall": 0,
+      "unresolved": 0
+    },
+    "mean_residence_s": 3.6595817206267656,
+    "max_steps": 916,
+    "max_collisions": 200
+  },
+  {
+    "diameter_mm": 0.25,
+    "grid_mm": 15,
+    "seed_count": 128,
+    "wall_mode": "hoppertrap",
+    "free_settling_m_s": 0.03403245405463008,
+    "tau_stokes_s": 0.009186031681124385,
+    "fractions": {
+      "bottom_outlet": 0.0,
+      "main_outlet": 0.007811104302468127,
+      "inlet_backflow": 0.0,
+      "hopper_wall": 0.992188895697532,
+      "other_wall": 0.0,
+      "unresolved": 0.0
+    },
+    "counts": {
+      "bottom_outlet": 0,
+      "main_outlet": 1,
+      "inlet_backflow": 0,
+      "hopper_wall": 127,
+      "other_wall": 0,
+      "unresolved": 0
+    },
+    "mean_residence_s": 3.4146987121738945,
+    "max_steps": 1145,
+    "max_collisions": 192
+  },
+  {
+    "diameter_mm": 0.3,
+    "grid_mm": 15,
+    "seed_count": 128,
+    "wall_mode": "hoppertrap",
+    "free_settling_m_s": 0.04326379086290774,
+    "tau_stokes_s": 0.013227885620819113,
+    "fractions": {
+      "bottom_outlet": 0.0,
+      "main_outlet": 0.0,
+      "inlet_backflow": 0.0,
+      "hopper_wall": 0.9922127349641899,
+      "other_wall": 0.0,
+      "unresolved": 0.007787265035810184
+    },
+    "counts": {
+      "bottom_outlet": 0,
+      "main_outlet": 0,
+      "inlet_backflow": 0,
+      "hopper_wall": 127,
+      "other_wall": 0,
+      "unresolved": 1
+    },
+    "mean_residence_s": 3.006634718148595,
+    "max_steps": 808,
+    "max_collisions": 201
+  },
+  {
+    "diameter_mm": 0.6,
+    "grid_mm": 15,
+    "seed_count": 128,
+    "wall_mode": "hoppertrap",
+    "free_settling_m_s": 0.09503350491234158,
+    "tau_stokes_s": 0.05291154248327645,
+    "fractions": {
+      "bottom_outlet": 0.0,
+      "main_outlet": 0.0,
+      "inlet_backflow": 0.0,
+      "hopper_wall": 1.0000000000000002,
+      "other_wall": 0.0,
+      "unresolved": 0.0
+    },
+    "counts": {
+      "bottom_outlet": 0,
+      "main_outlet": 0,
+      "inlet_backflow": 0,
+      "hopper_wall": 128,
+      "other_wall": 0,
+      "unresolved": 0
+    },
+    "mean_residence_s": 1.8365646019994089,
+    "max_steps": 395,
+    "max_collisions": 94
+  }
+]

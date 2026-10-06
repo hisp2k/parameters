@@ -1,0 +1,27 @@
+{
+  "original_path": "screw-conveyors/25-SHT-G/original-sources/source-order/25.SHT - Заказ №2377 Промстрой/25.SHT.G.00.00.00.00 СБ Изм.5.rar",
+  "size": 51715994,
+  "sha256": "969e1a93ee180c817a0561dbdbc26d802ef816ff3c65333eb4368c3bb65f5b72",
+  "parts": [
+    {
+      "path": "screw-conveyors/25-SHT-G/original-sources/source-order/25.SHT - Заказ №2377 Промстрой/25.SHT.G.00.00.00.00 СБ Изм.5.rar.parts/part-001",
+      "size": 16777216,
+      "sha256": "b9c55bb3cf083bb620b87c097ab7886e9b12fc20d5ae5450cf2a82f3597f324f"
+    },
+    {
+      "path": "screw-conveyors/25-SHT-G/original-sources/source-order/25.SHT - Заказ №2377 Промстрой/25.SHT.G.00.00.00.00 СБ Изм.5.rar.parts/part-002",
+      "size": 16777216,
+      "sha256": "564dcf1fc9e1976eb5194f807af3ea0a74645456f80ce6ca35945a92dd8826c1"
+    },
+    {
+      "path": "screw-conveyors/25-SHT-G/original-sources/source-order/25.SHT - Заказ №2377 Промстрой/25.SHT.G.00.00.00.00 СБ Изм.5.rar.parts/part-003",
+      "size": 16777216,
+      "sha256": "9168216b6f6a29b81655536286b40963414c2367fda306bd3e93ecd8cc89ae1f"
+    },
+    {
+      "path": "screw-conveyors/25-SHT-G/original-sources/source-order/25.SHT - Заказ №2377 Промстрой/25.SHT.G.00.00.00.00 СБ Изм.5.rar.parts/part-004",
+      "size": 1384346,
+      "sha256": "23f56f3cdda53834ae884aad878df90754a22c2d43ce116e80b054756cf156e5"
+    }
+  ]
+}

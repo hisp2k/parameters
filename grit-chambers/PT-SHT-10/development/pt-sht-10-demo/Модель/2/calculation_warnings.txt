@@ -1,0 +1,7 @@
+2026-Sep-30 06:23:06
+Computer name:	DESKTOP-8IAKTG3
+Number of cores used in calculation:	24
+Configuration name:	По умолчанию
+Project name:	PT-SHT-10-demo-Q10-sealed
+
+Warnings on last iteration: 

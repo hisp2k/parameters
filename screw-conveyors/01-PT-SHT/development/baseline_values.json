@@ -1,0 +1,15 @@
+{
+  "working_length": 2510,
+  "tube_diameter": 141,
+  "tube_wall": 5,
+  "incline": 55,
+  "inlet_diameter": 100,
+  "inlet_length": 200,
+  "inlet_wall": 3,
+  "screw_diameter": 130,
+  "pitch": 105,
+  "blade_thickness": 5,
+  "shaft_diameter": 36,
+  "shaft_wall": 3,
+  "turns": 26
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "status": "validated_questionnaire",
+  "saved_at": "2026-09-29T10:50:11+04:00",
+  "inputs": {
+    "general": {
+      "working_length_mm": 3000.0,
+      "inclination_deg": 10.0,
+      "throughput_m3_h": 10.0,
+      "batch_volume_m3": 1.0
+    },
+    "screw": {
+      "diameter_mode": "manual",
+      "diameter_mm": 200.0,
+      "pitch_mode": "gost",
+      "pitch_mm": 200.0
+    },
+    "inlets": [
+      {
+        "position_mm": 500.0,
+        "shape": "rectangular",
+        "diameter_mm": null,
+        "length_mm": 200.0,
+        "width_mm": 200.0,
+        "flow_m3_h": 6.0
+      },
+      {
+        "position_mm": 1200.0,
+        "shape": "round",
+        "diameter_mm": 150.0,
+        "length_mm": null,
+        "width_mm": null,
+        "flow_m3_h": 4.0
+      }
+    ],
+    "inlets_simultaneous": "yes",
+    "outlets": [
+      {
+        "position_mm": 2750.0,
+        "shape": "round",
+        "diameter_mm": 150.0,
+        "length_mm": null,
+        "width_mm": null,
+        "direction": "down",
+        "side": null,
+        "flow_m3_h": 10.0
+      }
+    ],
+    "outlets_simultaneous": null,
+    "material": {
+      "name": "Тестовый материал",
+      "source": "manual",
+      "catalog_code": "",
+      "bulk_density_kg_m3": 1000.0,
+      "max_lump_mm": 10.0,
+      "max_moisture_pct": 5.0,
+      "abrasion": "low",
+      "flowability": "free",
+      "temperature_c": 25.0,
+      "corrosion": "no",
+      "corrosion_note": ""
+    },
+    "installation": {
+      "height_source": "manual",
+      "axis_height_mm": 1000.0,
+      "supports_free": "yes",
+      "support_positions": "",
+      "environment": "inside",
+      "site_location": "",
+      "special_requirements": ""
+    },
+    "operation": {
+      "duty": "continuous",
+      "hours_per_day": 8.0,
+      "starts_per_hour": 2,
+      "loaded_start": "yes",
+      "reverse": "no",
+      "blockage": "no",
+      "overload_protection": null,
+      "hopper": "no",
+      "hopper_head_mm": null,
+      "design_life_h": 8500.0
+    },
+    "strength": {
+      "torque_nm": "100",
+      "axial_force_n": "1000",
+      "simulation_material": "Plain Carbon Steel",
+      "yield_strength_mpa": "220",
+      "required_safety_factor": "1.5",
+      "mesh_size_mm": "5.7"
+    }
+  },
+  "engineering_warnings": [],
+  "note": "Опросный лист не является результатом расчёта прочности."
+}

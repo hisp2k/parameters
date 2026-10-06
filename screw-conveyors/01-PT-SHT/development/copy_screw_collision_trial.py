@@ -1,0 +1,18 @@
+exec(open('work/general_mate_geometry.py',encoding='utf-8-sig').read().split('for m in mates(doc):')[0])
+d=next(c.GetModelDoc2 for c in doc.GetComponents(True) if 'Шнековый вал' in c.Name2)
+target=Path('work/screw_collision_trial/Шнековый вал — контроль.SLDASM').resolve();target.parent.mkdir(exist_ok=True)
+assert not target.exists()
+e=w.VARIANT(pythoncom.VT_BYREF|pythoncom.VT_I4,0);q=w.VARIANT(pythoncom.VT_BYREF|pythoncom.VT_I4,0)
+sw.ActivateDoc3(d.GetTitle,False,2,e)
+assert d.Extension.SaveAs2(str(target),0,7,w.VARIANT(pythoncom.VT_DISPATCH,None),'_SCR04',False,e,q)
+spec=sw.GetOpenDocSpec(str(target));spec.DocumentType=2;spec.Silent=True;trial=sw.OpenDoc7(spec)
+assert trial and all(Path(c.GetPathName).is_relative_to(target.parent) for c in trial.GetComponents(False))
+sw.ActivateDoc3(trial.GetTitle,False,2,e)
+eq=trial.GetEquationMgr
+eq.Equation(5,'"Число витков"=24')
+eq.Equation(18,'"D1@Расстояние2"=85мм + "Шаг винта шнека" * "Число витков"')
+dim=trial.Parameter('D1@Расстояние7');dim.SystemValue=.080
+eq.EvaluateAll;trial.ForceRebuild3(False)
+print('save',trial.Save3(1,e,q),e.value,q.value,flush=True)
+for c in trial.GetComponents(True): print(c.Name2,list(c.Transform2.ArrayData[9:12]),flush=True)
+print('errors',[(m.Name,m.GetErrorCode) for m in mates(trial) if m.GetErrorCode],flush=True)

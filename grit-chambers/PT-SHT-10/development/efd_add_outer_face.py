@@ -1,0 +1,7 @@
+exec(open('work/efd_project_inspect.py',encoding='utf-8').read().split("print('project'")[0])
+f=typed(p.GetFeatures(),'IProjectFeatures')
+for b in f.GetFeatures2(True,0) or []:print('remove',b.GetName(),f.RemoveFeature(b.GetUUID()),flush=True)
+b=typed(f.CreateFeature(0),'IBoundaryCondition');b.SetName('CFD Inlet 10 m3h outer');b.put_FCType(1);b.GetParameter(18).SetValue(10/3600)
+b.AddTopologicalReferenceUUIDAndName('','CFD_inlet_lid-1/Бобышка-Вытянуть1//Поверхность<1>')
+print('add start',flush=True)
+print('added',f.AddUpdateFeature(p,b),flush=True)

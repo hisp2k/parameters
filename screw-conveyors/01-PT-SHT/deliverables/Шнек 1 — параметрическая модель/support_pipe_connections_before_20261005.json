@@ -1,0 +1,4474 @@
+{
+  "components": [
+    {
+      "name": "PT.SHT.01.01.02.03  Опора_SPCR04_SPR04-2",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.01.02.03  Опора_SPCR04_SPR04.SLDPRT",
+      "fixed": false,
+      "transform": [
+        0.96361137499428,
+        -0.25819888974716176,
+        -0.06918418399436468,
+        0.2588190451025213,
+        0.9659258262890681,
+        1.7785045038170835e-17,
+        0.06682679009089164,
+        -0.017906184437618614,
+        0.9976039037037866,
+        0.00897537917938207,
+        -1.185510774144107,
+        -0.3322089407054685,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "box": [
+        -0.05,
+        0.0,
+        -0.03,
+        0.06,
+        0.003,
+        0.03
+      ]
+    },
+    {
+      "name": "PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04.SLDPRT",
+      "fixed": false,
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        -1.6263032587282567e-18,
+        -0.9056689728302533,
+        1.5506785710360188e-15,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "box": [
+        -0.020000000000000004,
+        -0.010000000000000002,
+        -0.25,
+        0.020000000000000004,
+        0.010000000000000002,
+        0.25
+      ],
+      "features": [
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Связь проектов",
+          "type": "DocsFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Примечания",
+          "type": "DetailCabinet",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Источники света и камеры",
+          "type": "EnvFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Твердые тела",
+          "type": "SolidBodyFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Тела поверхности",
+          "type": "SurfaceBodyFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Датчики",
+          "type": "SensorFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Заметки",
+          "type": "CommentsFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Уравнения",
+          "type": "EqnFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Ст 3 ГОСТ 380-88",
+          "type": "MaterialFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Спереди",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Сверху",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Справа",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Исходная точка",
+          "type": "OriginProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Эскиз1",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Эскиз1@PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04.Part",
+              "value": 0.02
+            },
+            {
+              "name": "D2@Эскиз1@PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04.Part",
+              "value": 0.04
+            },
+            {
+              "name": "D3@Эскиз1@PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04.Part",
+              "value": 0.006
+            },
+            {
+              "name": "D4@Эскиз1@PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04.Part",
+              "value": 0.006
+            }
+          ]
+        },
+        {
+          "name": "Бобышка-Вытянуть1",
+          "type": "Extrusion",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Бобышка-Вытянуть1@PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04.Part",
+              "value": 0.25
+            },
+            {
+              "name": "D2@Бобышка-Вытянуть1@PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04.Part",
+              "value": 0.25
+            },
+            {
+              "name": "D1@Эскиз1@PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04.Part",
+              "value": 0.02
+            },
+            {
+              "name": "D2@Эскиз1@PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04.Part",
+              "value": 0.04
+            },
+            {
+              "name": "D3@Эскиз1@PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04.Part",
+              "value": 0.006
+            },
+            {
+              "name": "D4@Эскиз1@PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04.Part",
+              "value": 0.006
+            }
+          ]
+        },
+        {
+          "name": "Оболочка1",
+          "type": "Shell",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Оболочка1@PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04.Part",
+              "value": 0.003
+            }
+          ]
+        },
+        {
+          "name": "Фаска1",
+          "type": "Chamfer",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Фаска1@PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04.Part",
+              "value": 0.02
+            },
+            {
+              "name": "D2@Фаска1@PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04.Part",
+              "value": 0.26179938779915
+            }
+          ]
+        }
+      ],
+      "planes": [
+        {
+          "params": [
+            0.0,
+            -1.0,
+            0.0,
+            -0.013999999999999957,
+            -0.01,
+            -0.25
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "area_mm2": 13999.999999999956
+        },
+        {
+          "params": [
+            -1.0,
+            0.0,
+            0.0,
+            -0.02,
+            0.003999999999999958,
+            -0.25
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "area_mm2": 3957.128129210976
+        },
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            -0.013999999999999957,
+            0.01,
+            -0.25
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "area_mm2": 13699.896904477095
+        },
+        {
+          "params": [
+            1.0,
+            0.0,
+            -0.0,
+            0.02,
+            0.0039999999999999584,
+            -0.25
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "area_mm2": 3957.128129210978
+        },
+        {
+          "params": [
+            0.0,
+            -1.0,
+            0.0,
+            -0.013999999999999957,
+            -0.007,
+            -0.25
+          ],
+          "normal": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "area_mm2": 13954.984535671534
+        },
+        {
+          "params": [
+            -1.0,
+            0.0,
+            0.0,
+            -0.017,
+            0.003999999999999958,
+            -0.25
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            -0.0
+          ],
+          "area_mm2": 3957.1281292109875
+        },
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            -0.013999999999999957,
+            0.007,
+            -0.25
+          ],
+          "normal": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "area_mm2": 13744.912368805533
+        },
+        {
+          "params": [
+            1.0,
+            0.0,
+            -0.0,
+            0.017,
+            0.0039999999999999584,
+            -0.25
+          ],
+          "normal": [
+            -1.0,
+            -0.0,
+            0.0
+          ],
+          "area_mm2": 3957.128129210988
+        },
+        {
+          "params": [
+            0.0,
+            0.2588190451025181,
+            -0.9659258262890692,
+            -0.013999999999999957,
+            0.01,
+            -0.24464101615137748
+          ],
+          "normal": [
+            0.0,
+            0.2588190451025181,
+            -0.9659258262890692
+          ],
+          "area_mm2": 311.4333889051497
+        },
+        {
+          "params": [
+            -0.0,
+            -0.25881904510251935,
+            -0.9659258262890689,
+            0.014000000000000002,
+            -0.010000000000000462,
+            0.25
+          ],
+          "normal": [
+            0.0,
+            0.25881904510251935,
+            0.9659258262890689
+          ],
+          "area_mm2": 311.4333889051433
+        }
+      ]
+    },
+    {
+      "name": "PT.SHT.01.01.02.03  Опора_SPCR04_SPR04-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.01.02.03  Опора_SPCR04_SPR04.SLDPRT",
+      "fixed": false,
+      "transform": [
+        0.96361137499428,
+        -0.2581988897471619,
+        0.06918418399436478,
+        0.2588190451025215,
+        0.9659258262890681,
+        -1.9503139734452468e-18,
+        -0.06682679009089172,
+        0.017906184437618648,
+        0.9976039037037866,
+        0.008975379179377407,
+        -1.1855107741440976,
+        0.3322089407054689,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "box": [
+        -0.05,
+        0.0,
+        -0.03,
+        0.06,
+        0.003,
+        0.03
+      ]
+    },
+    {
+      "name": "PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.SLDPRT",
+      "fixed": false,
+      "transform": [
+        0.3907311284892747,
+        0.9205048534524399,
+        -7.163615500828468e-18,
+        -0.9205048534524399,
+        0.3907311284892747,
+        1.2035504427337488e-17,
+        1.3877787807814454e-17,
+        1.8914966099484968e-18,
+        1.0,
+        -0.45962666587138634,
+        -0.3856725658119243,
+        0.014999999999999998,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "box": [
+        -0.015000000000000013,
+        -0.5973671222431439,
+        -0.11500000000000009,
+        0.11211368801698196,
+        7.37257477290143e-18,
+        0.12607695363045104
+      ],
+      "features": [
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Связь проектов",
+          "type": "DocsFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Примечания",
+          "type": "DetailCabinet",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Источники света и камеры",
+          "type": "EnvFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Твердые тела",
+          "type": "SolidBodyFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Тела поверхности",
+          "type": "SurfaceBodyFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Датчики",
+          "type": "SensorFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Заметки",
+          "type": "CommentsFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Уравнения",
+          "type": "EqnFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Ст 3 ГОСТ 380-88",
+          "type": "MaterialFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Спереди",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Сверху",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Справа",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Исходная точка",
+          "type": "OriginProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Вспомогательная геометрия",
+          "type": "FtrFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Ось1",
+          "type": "RefAxis",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Плоскость1",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Плоскость1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.19198621771937668
+            }
+          ]
+        },
+        {
+          "name": "Плоскость2",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Плоскость2@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.591
+            }
+          ]
+        },
+        {
+          "name": "Ось2",
+          "type": "RefAxis",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Плоскость3",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Плоскость3@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.4014257279586967
+            }
+          ]
+        },
+        {
+          "name": "Плоскость4",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Папка1___EndTag___",
+          "type": "FtrFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Эскиз1",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Плоскость1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.19198621771937668
+            },
+            {
+              "name": "D1@Эскиз1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.03
+            },
+            {
+              "name": "D2@Эскиз1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.02
+            },
+            {
+              "name": "D4@Эскиз1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 1.5
+            }
+          ]
+        },
+        {
+          "name": "Бобышка-Вытянуть1",
+          "type": "Extrusion",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Плоскость1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.19198621771937668
+            },
+            {
+              "name": "D1@Бобышка-Вытянуть1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.01
+            },
+            {
+              "name": "D2@Бобышка-Вытянуть1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.01
+            },
+            {
+              "name": "D1@Эскиз1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.03
+            },
+            {
+              "name": "D2@Эскиз1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.02
+            },
+            {
+              "name": "D4@Эскиз1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 1.5
+            }
+          ]
+        },
+        {
+          "name": "Сечение1",
+          "type": "SurfCut",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Сечение3",
+          "type": "SurfCut",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Скругление2",
+          "type": "Fillet",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Скругление2@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.006
+            }
+          ]
+        },
+        {
+          "name": "Эскиз2",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Эскиз2@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.018
+            }
+          ]
+        },
+        {
+          "name": "Вырез-Вытянуть1",
+          "type": "ICE",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Эскиз2@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.018
+            }
+          ]
+        },
+        {
+          "name": "Оболочка3",
+          "type": "Shell",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Оболочка3@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.003
+            }
+          ]
+        },
+        {
+          "name": "Фаска1",
+          "type": "Chamfer",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Фаска1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.015
+            },
+            {
+              "name": "D2@Фаска1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.26179938779915
+            }
+          ]
+        },
+        {
+          "name": "Подрезка подкоса по стойкам и балкам",
+          "type": "Cavity",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Обход корпуса — верхний переход — профиль",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Обход корпуса — верхний переход",
+          "type": "ICE",
+          "suppressed": true,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Обход корпуса — верхний переход@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.015
+            },
+            {
+              "name": "D2@Обход корпуса — верхний переход@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.015
+            }
+          ]
+        },
+        {
+          "name": "Обход корпуса — наружная ветвь — профиль",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Обход корпуса — наружная ветвь",
+          "type": "ICE",
+          "suppressed": true,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Обход корпуса — наружная ветвь@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.015
+            },
+            {
+              "name": "D2@Обход корпуса — наружная ветвь@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.015
+            }
+          ]
+        },
+        {
+          "name": "Обход корпуса — нижний переход — профиль",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Обход корпуса — нижний переход",
+          "type": "ICE",
+          "suppressed": true,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Обход корпуса — нижний переход@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.015
+            },
+            {
+              "name": "D2@Обход корпуса — нижний переход@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.015
+            }
+          ]
+        },
+        {
+          "name": "Полость обхода — верхний переход — профиль",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Полость обхода — верхний переход",
+          "type": "ICE",
+          "suppressed": true,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Полость обхода — верхний переход@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.012
+            },
+            {
+              "name": "D2@Полость обхода — верхний переход@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.012
+            }
+          ]
+        },
+        {
+          "name": "Полость обхода — наружная ветвь — профиль",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Полость обхода — наружная ветвь",
+          "type": "ICE",
+          "suppressed": true,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Полость обхода — наружная ветвь@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.012
+            },
+            {
+              "name": "D2@Полость обхода — наружная ветвь@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.012
+            }
+          ]
+        },
+        {
+          "name": "Полость обхода — нижний переход — профиль",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Полость обхода — нижний переход",
+          "type": "ICE",
+          "suppressed": true,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Полость обхода — нижний переход@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.012
+            },
+            {
+              "name": "D2@Полость обхода — нижний переход@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.012
+            }
+          ]
+        },
+        {
+          "name": "Ось корпуса 55 градусов — базовые точки",
+          "type": "3DProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Проход корпуса — поперечная плоскость",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Проход корпуса — профиль",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Проход корпуса — профиль@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.147
+            }
+          ]
+        },
+        {
+          "name": "Проход корпуса — выборка для 55 градусов",
+          "type": "ICE",
+          "suppressed": true,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Проход корпуса — профиль@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.147
+            }
+          ]
+        }
+      ],
+      "planes": [
+        {
+          "params": [
+            -0.39073112848927455,
+            0.9205048534524399,
+            0.0,
+            0.2125649110000717,
+            -0.5007715484706331,
+            0.0
+          ],
+          "normal": [
+            0.39073112848927455,
+            -0.9205048534524399,
+            -0.0
+          ],
+          "area_mm2": 37.34688818359368
+        },
+        {
+          "params": [
+            -0.39073112848927455,
+            0.9205048534524399,
+            0.0,
+            0.2125649110000717,
+            -0.5007715484706331,
+            0.0
+          ],
+          "normal": [
+            0.39073112848927455,
+            -0.9205048534524399,
+            -0.0
+          ],
+          "area_mm2": 45.26120092763183
+        },
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "area_mm2": 6.304194957347901
+        },
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "area_mm2": 6.304194957347976
+        },
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "area_mm2": 6.304194925607585
+        },
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "area_mm2": 6.304194925607554
+        },
+        {
+          "params": [
+            -1.0,
+            -0.0,
+            0.0,
+            -0.015,
+            0.02154063362271873,
+            0.006000091926945734
+          ],
+          "normal": [
+            -1.0,
+            -0.0,
+            0.0
+          ],
+          "area_mm2": 4745.21916879302
+        },
+        {
+          "params": [
+            1.0,
+            0.0,
+            0.0,
+            0.015,
+            0.02154063362271873,
+            0.006000091926945734
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "area_mm2": 4640.594782405817
+        },
+        {
+          "params": [
+            -0.0,
+            -0.19080899537654522,
+            -0.9816271834476639,
+            -0.0,
+            0.0019080899537654524,
+            0.009816271834476639
+          ],
+          "normal": [
+            0.0,
+            0.19080899537654522,
+            0.9816271834476639
+          ],
+          "area_mm2": 10707.533962364989
+        },
+        {
+          "params": [
+            -0.0,
+            -0.19080899537654522,
+            -0.9816271834476639,
+            0.0,
+            -0.0019080899537654524,
+            -0.009816271834476639
+          ],
+          "normal": [
+            -0.0,
+            -0.19080899537654522,
+            -0.9816271834476639
+          ],
+          "area_mm2": 10705.453708779407
+        },
+        {
+          "params": [
+            -0.39073112848927455,
+            0.9205048534524399,
+            0.0,
+            0.2125649110000717,
+            -0.5007715484706331,
+            0.0
+          ],
+          "normal": [
+            0.39073112848927455,
+            -0.9205048534524399,
+            -0.0
+          ],
+          "area_mm2": 65.10760782719319
+        },
+        {
+          "params": [
+            -1.0,
+            -0.0,
+            0.0,
+            -0.012,
+            0.02154063362271873,
+            0.006000091926945734
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "area_mm2": 4825.948901636692
+        },
+        {
+          "params": [
+            1.0,
+            0.0,
+            0.0,
+            0.012,
+            0.02154063362271873,
+            0.006000091926945734
+          ],
+          "normal": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "area_mm2": 4742.186759797102
+        },
+        {
+          "params": [
+            -0.0,
+            -0.19080899537654522,
+            -0.9816271834476639,
+            -0.0,
+            0.0013356629676358168,
+            0.006871390284133647
+          ],
+          "normal": [
+            -0.0,
+            -0.19080899537654522,
+            -0.9816271834476639
+          ],
+          "area_mm2": 10705.434217203414
+        },
+        {
+          "params": [
+            -0.0,
+            -0.19080899537654522,
+            -0.9816271834476639,
+            0.0,
+            -0.0013356629676358168,
+            -0.006871390284133647
+          ],
+          "normal": [
+            0.0,
+            0.19080899537654522,
+            0.9816271834476639
+          ],
+          "area_mm2": 10707.181516809687
+        },
+        {
+          "params": [
+            0.9659258262890664,
+            -0.2588190451025277,
+            0.0,
+            -0.015,
+            -0.01500000000000003,
+            0.006000091926945734
+          ],
+          "normal": [
+            -0.9659258262890664,
+            0.2588190451025277,
+            -0.0
+          ],
+          "area_mm2": 212.70595396143892
+        },
+        {
+          "params": [
+            -0.9659258262890664,
+            -0.2588190451025277,
+            0.0,
+            0.015,
+            -0.01500000000000003,
+            0.006000091926945734
+          ],
+          "normal": [
+            0.9659258262890664,
+            0.2588190451025277,
+            -0.0
+          ],
+          "area_mm2": 212.69286998571025
+        },
+        {
+          "params": [
+            -0.3907311284892747,
+            0.9205048534524399,
+            -1.3877787807814454e-17,
+            0.4215496235630252,
+            -0.4118424915639211,
+            0.004482877360840264
+          ],
+          "normal": [
+            0.3907311284892747,
+            -0.9205048534524399,
+            1.3877787807814454e-17
+          ],
+          "area_mm2": 31.104667582626
+        },
+        {
+          "params": [
+            -0.3907311284892747,
+            0.9205048534524399,
+            -1.3877787807814454e-17,
+            0.4215496235630252,
+            -0.4118424915639211,
+            0.004482877360840264
+          ],
+          "normal": [
+            0.3907311284892747,
+            -0.9205048534524399,
+            1.3877787807814454e-17
+          ],
+          "area_mm2": 26.954615313714317
+        },
+        {
+          "params": [
+            -0.238244187182794,
+            -0.10112865756742347,
+            -0.9659258262890691,
+            0.0012128784025716172,
+            -0.6272011070438287,
+            0.11000000000000018
+          ],
+          "normal": [
+            -0.238244187182794,
+            -0.10112865756742347,
+            -0.9659258262890691
+          ],
+          "area_mm2": 1.7558939869503822
+        },
+        {
+          "params": [
+            -0.3907311284892747,
+            0.9205048534524399,
+            -1.3877787807814454e-17,
+            0.0008150879822706172,
+            -0.5904337062275958,
+            -0.13999999999999982
+          ],
+          "normal": [
+            0.3907311284892747,
+            -0.9205048534524399,
+            1.3877787807814454e-17
+          ],
+          "area_mm2": 19.42519726159179
+        }
+      ]
+    },
+    {
+      "name": "PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04.SLDPRT",
+      "fixed": false,
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        -0.45962666587138634,
+        -0.3856725658119243,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "box": [
+        -0.009,
+        -0.009,
+        -0.03,
+        0.009,
+        0.009,
+        0.03
+      ]
+    },
+    {
+      "name": "PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04.SLDPRT",
+      "fixed": true,
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "box": [
+        -0.009,
+        -0.009,
+        -0.03,
+        0.009,
+        0.009,
+        0.03
+      ]
+    },
+    {
+      "name": "PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.SLDPRT",
+      "fixed": false,
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.015,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "box": [
+        -0.020000000000000004,
+        -1.1853589838486225,
+        -0.010352761804100833,
+        0.020000000000000004,
+        8.673617379884035e-19,
+        0.3275528831260015
+      ],
+      "features": [
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Связь проектов",
+          "type": "DocsFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Примечания",
+          "type": "DetailCabinet",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Источники света и камеры",
+          "type": "EnvFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Твердые тела",
+          "type": "SolidBodyFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Тела поверхности",
+          "type": "SurfaceBodyFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Датчики",
+          "type": "SensorFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Заметки",
+          "type": "CommentsFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Уравнения",
+          "type": "EqnFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Ст 3 ГОСТ 380-88",
+          "type": "MaterialFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Спереди",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Сверху",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Справа",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Исходная точка",
+          "type": "OriginProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Вспомогательная геометрия",
+          "type": "FtrFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Ось1",
+          "type": "RefAxis",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Плоскость1",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Плоскость1@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.26179938779915
+            }
+          ]
+        },
+        {
+          "name": "Плоскость2",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Плоскость2@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 1.18
+            }
+          ]
+        },
+        {
+          "name": "Ось2",
+          "type": "RefAxis",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Плоскость3",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Плоскость3@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.26179938779915
+            }
+          ]
+        },
+        {
+          "name": "Плоскость4",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Плоскость4@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 1.5707963267949
+            }
+          ]
+        },
+        {
+          "name": "Папка1___EndTag___",
+          "type": "FtrFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Эскиз1",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Плоскость1@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.26179938779915
+            },
+            {
+              "name": "D1@Эскиз1@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.04
+            },
+            {
+              "name": "D2@Эскиз1@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.02
+            },
+            {
+              "name": "D4@Эскиз1@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 2.5
+            }
+          ]
+        },
+        {
+          "name": "Бобышка-Вытянуть1",
+          "type": "Extrusion",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Плоскость1@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.26179938779915
+            },
+            {
+              "name": "D1@Бобышка-Вытянуть1@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.01
+            },
+            {
+              "name": "D2@Бобышка-Вытянуть1@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.01
+            },
+            {
+              "name": "D1@Эскиз1@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.04
+            },
+            {
+              "name": "D2@Эскиз1@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.02
+            },
+            {
+              "name": "D4@Эскиз1@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 2.5
+            }
+          ]
+        },
+        {
+          "name": "Сечение1",
+          "type": "SurfCut",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Сечение3",
+          "type": "SurfCut",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Скругление2",
+          "type": "Fillet",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Скругление2@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.006
+            }
+          ]
+        },
+        {
+          "name": "Эскиз2",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Эскиз2@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.018
+            }
+          ]
+        },
+        {
+          "name": "Вырез-Вытянуть1",
+          "type": "ICE",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Эскиз2@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.018
+            }
+          ]
+        },
+        {
+          "name": "Оболочка3",
+          "type": "Shell",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Оболочка3@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.003
+            }
+          ]
+        },
+        {
+          "name": "Фаска2",
+          "type": "Chamfer",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Фаска2@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.01
+            },
+            {
+              "name": "D2@Фаска2@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 1.221730476396033
+            }
+          ]
+        }
+      ],
+      "planes": [
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "area_mm2": 3.1058285412296436
+        },
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "area_mm2": 3.105828541229644
+        },
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "area_mm2": 3.1058285412296436
+        },
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "area_mm2": 3.1058285412296494
+        },
+        {
+          "params": [
+            -1.0,
+            -0.0,
+            0.0,
+            -0.02,
+            0.021906706976806578,
+            0.004482877360840255
+          ],
+          "normal": [
+            -1.0,
+            -0.0,
+            0.0
+          ],
+          "area_mm2": 9501.07108214765
+        },
+        {
+          "params": [
+            1.0,
+            0.0,
+            0.0,
+            0.02,
+            0.021906706976806578,
+            0.004482877360840255
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "area_mm2": 9589.839535422556
+        },
+        {
+          "params": [
+            -0.0,
+            -0.25881904510252135,
+            -0.9659258262890681,
+            -0.0,
+            0.0025881904510252135,
+            0.009659258262890682
+          ],
+          "normal": [
+            0.0,
+            0.25881904510252135,
+            0.9659258262890681
+          ],
+          "area_mm2": 34028.33320334627
+        },
+        {
+          "params": [
+            -0.0,
+            -0.25881904510252135,
+            -0.9659258262890681,
+            0.0,
+            -0.0025881904510252135,
+            -0.009659258262890682
+          ],
+          "normal": [
+            -0.0,
+            -0.25881904510252135,
+            -0.9659258262890681
+          ],
+          "area_mm2": 34028.333203346265
+        },
+        {
+          "params": [
+            0.25881904510252135,
+            0.9659258262890681,
+            0.0,
+            -0.29500000000000054,
+            -1.1009549882328185,
+            0.0
+          ],
+          "normal": [
+            -0.25881904510252135,
+            -0.9659258262890681,
+            -0.0
+          ],
+          "area_mm2": 322.4191963112702
+        },
+        {
+          "params": [
+            -1.0,
+            -0.0,
+            0.0,
+            -0.017,
+            0.021906706976806578,
+            0.004482877360840255
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "area_mm2": 9575.994266429174
+        },
+        {
+          "params": [
+            1.0,
+            0.0,
+            0.0,
+            0.017,
+            0.021906706976806578,
+            0.004482877360840255
+          ],
+          "normal": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "area_mm2": 9651.447451712758
+        },
+        {
+          "params": [
+            -0.0,
+            -0.25881904510252135,
+            -0.9659258262890681,
+            -0.0,
+            0.0018117333157176493,
+            0.0067614807840234775
+          ],
+          "normal": [
+            -0.0,
+            -0.25881904510252135,
+            -0.9659258262890681
+          ],
+          "area_mm2": 34028.333203346265
+        },
+        {
+          "params": [
+            -0.0,
+            -0.25881904510252135,
+            -0.9659258262890681,
+            0.0,
+            -0.0018117333157176493,
+            -0.0067614807840234775
+          ],
+          "normal": [
+            0.0,
+            0.25881904510252135,
+            0.9659258262890681
+          ],
+          "area_mm2": 34028.33320334633
+        },
+        {
+          "params": [
+            0.9396926207859094,
+            -0.3420201433256659,
+            0.0,
+            -0.02,
+            -0.02747477419454701,
+            0.004482877360840255
+          ],
+          "normal": [
+            -0.9396926207859094,
+            0.3420201433256659,
+            -0.0
+          ],
+          "area_mm2": 273.70166235062345
+        },
+        {
+          "params": [
+            -0.9396926207859094,
+            -0.3420201433256659,
+            0.0,
+            0.02,
+            -0.02747477419454701,
+            0.004482877360840255
+          ],
+          "normal": [
+            0.9396926207859094,
+            0.3420201433256659,
+            -0.0
+          ],
+          "area_mm2": 273.76119182697454
+        }
+      ]
+    },
+    {
+      "name": "PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04-1",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04.SLDPRT",
+      "fixed": false,
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        3.469446951953614e-18,
+        -0.43916262188414423,
+        1.8504996341163826e-16,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "box": [
+        -0.02,
+        -0.010000000000000002,
+        -0.125,
+        0.02,
+        0.010000000000000002,
+        0.125
+      ],
+      "features": [
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Связь проектов",
+          "type": "DocsFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Примечания",
+          "type": "DetailCabinet",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Источники света и камеры",
+          "type": "EnvFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Твердые тела",
+          "type": "SolidBodyFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Тела поверхности",
+          "type": "SurfaceBodyFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Датчики",
+          "type": "SensorFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Заметки",
+          "type": "CommentsFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Уравнения",
+          "type": "EqnFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Ст 3 ГОСТ 380-88",
+          "type": "MaterialFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Спереди",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Сверху",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Справа",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Исходная точка",
+          "type": "OriginProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Эскиз1",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Эскиз1@PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04.Part",
+              "value": 0.02
+            },
+            {
+              "name": "D2@Эскиз1@PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04.Part",
+              "value": 0.04
+            },
+            {
+              "name": "D3@Эскиз1@PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04.Part",
+              "value": 0.006
+            },
+            {
+              "name": "D4@Эскиз1@PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04.Part",
+              "value": 0.006
+            }
+          ]
+        },
+        {
+          "name": "Бобышка-Вытянуть1",
+          "type": "Extrusion",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Бобышка-Вытянуть1@PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04.Part",
+              "value": 0.125
+            },
+            {
+              "name": "D2@Бобышка-Вытянуть1@PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04.Part",
+              "value": 0.125
+            },
+            {
+              "name": "D1@Эскиз1@PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04.Part",
+              "value": 0.02
+            },
+            {
+              "name": "D2@Эскиз1@PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04.Part",
+              "value": 0.04
+            },
+            {
+              "name": "D3@Эскиз1@PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04.Part",
+              "value": 0.006
+            },
+            {
+              "name": "D4@Эскиз1@PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04.Part",
+              "value": 0.006
+            }
+          ]
+        },
+        {
+          "name": "Оболочка1",
+          "type": "Shell",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Оболочка1@PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04.Part",
+              "value": 0.003
+            }
+          ]
+        },
+        {
+          "name": "Фаска1",
+          "type": "Chamfer",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Фаска1@PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04.Part",
+              "value": 0.02
+            },
+            {
+              "name": "D2@Фаска1@PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04.Part",
+              "value": 0.26179938779915
+            }
+          ]
+        }
+      ],
+      "planes": [
+        {
+          "params": [
+            0.0,
+            -1.0,
+            0.0,
+            -0.013999999999999957,
+            -0.01,
+            -0.125
+          ],
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "area_mm2": 6999.999999999978
+        },
+        {
+          "params": [
+            -1.0,
+            0.0,
+            0.0,
+            -0.02,
+            0.003999999999999958,
+            -0.125
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "area_mm2": 1957.1281292109988
+        },
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            -0.013999999999999957,
+            0.01,
+            -0.125
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "area_mm2": 6699.896904477121
+        },
+        {
+          "params": [
+            1.0,
+            0.0,
+            -0.0,
+            0.02,
+            0.0039999999999999584,
+            -0.125
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "area_mm2": 1957.1281292109993
+        },
+        {
+          "params": [
+            0.0,
+            -1.0,
+            0.0,
+            -0.013999999999999957,
+            -0.007,
+            -0.125
+          ],
+          "normal": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "area_mm2": 6954.984535671553
+        },
+        {
+          "params": [
+            -1.0,
+            0.0,
+            0.0,
+            -0.017,
+            0.003999999999999958,
+            -0.125
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            -0.0
+          ],
+          "area_mm2": 1957.1281292110045
+        },
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            -0.013999999999999957,
+            0.007,
+            -0.125
+          ],
+          "normal": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "area_mm2": 6744.912368805555
+        },
+        {
+          "params": [
+            1.0,
+            0.0,
+            -0.0,
+            0.017,
+            0.0039999999999999584,
+            -0.125
+          ],
+          "normal": [
+            -1.0,
+            -0.0,
+            0.0
+          ],
+          "area_mm2": 1957.1281292110045
+        },
+        {
+          "params": [
+            0.0,
+            0.25881904510251824,
+            -0.9659258262890691,
+            -0.013999999999999957,
+            0.01,
+            -0.11964101615137754
+          ],
+          "normal": [
+            0.0,
+            0.25881904510251824,
+            -0.9659258262890691
+          ],
+          "area_mm2": 311.43338890514434
+        },
+        {
+          "params": [
+            -0.0,
+            -0.25881904510251824,
+            -0.9659258262890691,
+            0.014000000000000002,
+            -0.01000000000000024,
+            0.125
+          ],
+          "normal": [
+            0.0,
+            0.25881904510251824,
+            0.9659258262890691
+          ],
+          "area_mm2": 311.4333889051448
+        }
+      ]
+    },
+    {
+      "name": "PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04-2",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.SLDPRT",
+      "fixed": false,
+      "transform": [
+        0.3907311284892747,
+        0.9205048534524399,
+        -7.163615500828468e-18,
+        -0.9205048534524399,
+        0.3907311284892747,
+        1.2035504427337488e-17,
+        1.3877787807814454e-17,
+        1.8914966099484968e-18,
+        1.0,
+        -0.45962666587138634,
+        -0.3856725658119243,
+        -0.014999999999999984,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "box": [
+        -0.11211368801698196,
+        -0.5973671222431439,
+        -0.12607695363045104,
+        0.015039688226497658,
+        7.37257477290143e-18,
+        0.11500000000000009
+      ],
+      "features": [
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Связь проектов",
+          "type": "DocsFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Примечания",
+          "type": "DetailCabinet",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Источники света и камеры",
+          "type": "EnvFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Твердые тела",
+          "type": "SolidBodyFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Тела поверхности",
+          "type": "SurfaceBodyFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Датчики",
+          "type": "SensorFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Заметки",
+          "type": "CommentsFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Уравнения",
+          "type": "EqnFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Ст 3 ГОСТ 380-88",
+          "type": "MaterialFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Спереди",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Сверху",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Справа",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Исходная точка",
+          "type": "OriginProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Спереди-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Сверху-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Справа-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Ось1-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefAxis",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Плоскость1-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Плоскость2-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Ось2-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefAxis",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Плоскость3-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Плоскость4-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Эскиз1-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Эскиз1-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.03
+            },
+            {
+              "name": "D2@Эскиз1-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.02
+            },
+            {
+              "name": "D4@Эскиз1-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 1.5
+            }
+          ]
+        },
+        {
+          "name": "Эскиз2-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Эскиз2-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.018
+            }
+          ]
+        },
+        {
+          "name": "Обход корпуса — верхний переход — профиль-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Обход корпуса — наружная ветвь — профиль-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Обход корпуса — нижний переход — профиль-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Полость обхода — верхний переход — профиль-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Полость обхода — наружная ветвь — профиль-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Полость обхода — нижний переход — профиль-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Ось корпуса 55 градусов — базовые точки-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "3DProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Проход корпуса — поперечная плоскость-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Проход корпуса — профиль-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Проход корпуса — профиль-PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.147
+            }
+          ]
+        },
+        {
+          "name": "PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "MirrorStock",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1.Плоскость1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.19198621771937668
+            },
+            {
+              "name": "D1.Плоскость2@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.591
+            },
+            {
+              "name": "D1.Плоскость3@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.4014257279586967
+            },
+            {
+              "name": "D1.Бобышка-Вытянуть1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.01
+            },
+            {
+              "name": "D2.Бобышка-Вытянуть1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.01
+            },
+            {
+              "name": "D1.Эскиз1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.03
+            },
+            {
+              "name": "D2.Эскиз1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.02
+            },
+            {
+              "name": "D4.Эскиз1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 1.5
+            },
+            {
+              "name": "D1.Скругление2@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.006
+            },
+            {
+              "name": "D1.Эскиз2@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.018
+            },
+            {
+              "name": "D1.Оболочка3@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.003
+            },
+            {
+              "name": "D1.Фаска1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.015
+            },
+            {
+              "name": "D2.Фаска1@PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.09-01 'Подкос 1'_SPCR04_SPR04.Part",
+              "value": 0.26179938779915
+            }
+          ]
+        }
+      ],
+      "planes": [
+        {
+          "params": [
+            -0.39073112848927455,
+            0.9205048534524399,
+            0.0,
+            0.2125649110000717,
+            -0.5007715484706331,
+            0.0
+          ],
+          "normal": [
+            0.39073112848927455,
+            -0.9205048534524399,
+            -0.0
+          ],
+          "area_mm2": 37.346843945898435
+        },
+        {
+          "params": [
+            -0.39073112848927455,
+            0.9205048534524399,
+            0.0,
+            0.2125649110000717,
+            -0.5007715484706331,
+            0.0
+          ],
+          "normal": [
+            0.39073112848927455,
+            -0.9205048534524399,
+            -0.0
+          ],
+          "area_mm2": 45.26117666392893
+        },
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "area_mm2": 6.30419492560749
+        },
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "area_mm2": 6.304194925607573
+        },
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "area_mm2": 6.304194957348006
+        },
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "area_mm2": 6.3041949573479545
+        },
+        {
+          "params": [
+            -1.0,
+            0.0,
+            -0.0,
+            -0.015,
+            0.02154063362271873,
+            -0.006000091926945734
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          "area_mm2": 4745.219168792982
+        },
+        {
+          "params": [
+            1.0,
+            0.0,
+            0.0,
+            0.015,
+            0.02154063362271873,
+            -0.006000091926945734
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "area_mm2": 4640.5947824058185
+        },
+        {
+          "params": [
+            -0.0,
+            -0.19080899537654522,
+            0.9816271834476639,
+            0.0,
+            0.0019080899537654524,
+            -0.009816271834476639
+          ],
+          "normal": [
+            0.0,
+            0.19080899537654522,
+            -0.9816271834476639
+          ],
+          "area_mm2": 10707.53396236499
+        },
+        {
+          "params": [
+            -0.0,
+            -0.19080899537654522,
+            0.9816271834476639,
+            0.0,
+            -0.0019080899537654524,
+            0.009816271834476639
+          ],
+          "normal": [
+            -0.0,
+            -0.19080899537654522,
+            0.9816271834476639
+          ],
+          "area_mm2": 10705.453708779412
+        },
+        {
+          "params": [
+            -0.39073112848927455,
+            0.9205048534524399,
+            0.0,
+            0.2125649110000717,
+            -0.5007715484706331,
+            0.0
+          ],
+          "normal": [
+            0.39073112848927455,
+            -0.9205048534524399,
+            -0.0
+          ],
+          "area_mm2": 65.10761500379681
+        },
+        {
+          "params": [
+            -1.0,
+            0.0,
+            -0.0,
+            -0.012,
+            0.02154063362271873,
+            -0.006000091926945734
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "area_mm2": 4825.94890163659
+        },
+        {
+          "params": [
+            1.0,
+            0.0,
+            0.0,
+            0.012,
+            0.02154063362271873,
+            -0.006000091926945734
+          ],
+          "normal": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "area_mm2": 4742.1867597971
+        },
+        {
+          "params": [
+            -0.0,
+            -0.19080899537654522,
+            0.9816271834476639,
+            0.0,
+            0.0013356629676358168,
+            -0.006871390284133647
+          ],
+          "normal": [
+            -0.0,
+            -0.19080899537654522,
+            0.9816271834476639
+          ],
+          "area_mm2": 10705.434217203414
+        },
+        {
+          "params": [
+            -0.0,
+            -0.19080899537654522,
+            0.9816271834476639,
+            0.0,
+            -0.0013356629676358168,
+            0.006871390284133647
+          ],
+          "normal": [
+            0.0,
+            0.19080899537654522,
+            -0.9816271834476639
+          ],
+          "area_mm2": 10707.181516809691
+        },
+        {
+          "params": [
+            0.9659258262890664,
+            -0.2588190451025277,
+            0.0,
+            -0.015,
+            -0.01500000000000003,
+            -0.006000091926945734
+          ],
+          "normal": [
+            -0.9659258262890664,
+            0.2588190451025277,
+            -0.0
+          ],
+          "area_mm2": 212.6928699857101
+        },
+        {
+          "params": [
+            -0.9659258262890664,
+            -0.2588190451025277,
+            -0.0,
+            0.015,
+            -0.01500000000000003,
+            -0.006000091926945734
+          ],
+          "normal": [
+            0.9659258262890664,
+            0.2588190451025277,
+            0.0
+          ],
+          "area_mm2": 212.69617566965562
+        },
+        {
+          "params": [
+            -0.3907311284892747,
+            0.9205048534524399,
+            1.3877787807814454e-17,
+            0.4215496235630252,
+            -0.4118424915639211,
+            -0.004482877360840264
+          ],
+          "normal": [
+            0.3907311284892747,
+            -0.9205048534524399,
+            -1.3877787807814454e-17
+          ],
+          "area_mm2": 31.10467384329905
+        },
+        {
+          "params": [
+            -0.3907311284892747,
+            0.9205048534524399,
+            1.3877787807814454e-17,
+            0.4215496235630252,
+            -0.4118424915639211,
+            -0.004482877360840264
+          ],
+          "normal": [
+            0.3907311284892747,
+            -0.9205048534524399,
+            -1.3877787807814454e-17
+          ],
+          "area_mm2": 26.95461531371462
+        },
+        {
+          "params": [
+            -0.238244187182794,
+            -0.10112865756742347,
+            0.9659258262890691,
+            0.0012128784025716172,
+            -0.6272011070438287,
+            -0.11000000000000018
+          ],
+          "normal": [
+            -0.238244187182794,
+            -0.10112865756742347,
+            0.9659258262890691
+          ],
+          "area_mm2": 1.7558939869503922
+        },
+        {
+          "params": [
+            -0.3907311284892747,
+            0.9205048534524399,
+            1.3877787807814454e-17,
+            0.0008150879822706172,
+            -0.5904337062275958,
+            0.13999999999999982
+          ],
+          "normal": [
+            0.3907311284892747,
+            -0.9205048534524399,
+            -1.3877787807814454e-17
+          ],
+          "area_mm2": 19.425197261591787
+        }
+      ]
+    },
+    {
+      "name": "PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04-3",
+      "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-01\\x20\\outputs\\Шнек 1 — параметрическая модель\\CAD_восстановленный\\Опора — исправлено 20261004\\PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.SLDPRT",
+      "fixed": false,
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        5.653860336418407e-19,
+        3.122502256758253e-17,
+        -0.014999999999999895,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "box": [
+        -0.020000000000000004,
+        -1.1853589838486225,
+        -0.3275528831260015,
+        0.020000000000000004,
+        8.673617379884035e-19,
+        0.010352761804100833
+      ],
+      "features": [
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Связь проектов",
+          "type": "DocsFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Примечания",
+          "type": "DetailCabinet",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Источники света и камеры",
+          "type": "EnvFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Твердые тела",
+          "type": "SolidBodyFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Тела поверхности",
+          "type": "SurfaceBodyFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Датчики",
+          "type": "SensorFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Заметки",
+          "type": "CommentsFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Уравнения",
+          "type": "EqnFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Ст 3 ГОСТ 380-88",
+          "type": "MaterialFolder",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Спереди",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Сверху",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Справа",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Исходная точка",
+          "type": "OriginProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Спереди-PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Сверху-PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Справа-PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Ось1-PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefAxis",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Плоскость1-PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Плоскость2-PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Ось2-PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefAxis",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Плоскость3-PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "Эскиз1-PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Эскиз1-PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.04
+            },
+            {
+              "name": "D2@Эскиз1-PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.02
+            },
+            {
+              "name": "D4@Эскиз1-PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 2.5
+            }
+          ]
+        },
+        {
+          "name": "Эскиз2-PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "ProfileFeature",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1@Эскиз2-PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.018
+            }
+          ]
+        },
+        {
+          "name": "Плоскость4-PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "RefPlane",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": []
+        },
+        {
+          "name": "PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1",
+          "type": "MirrorStock",
+          "suppressed": false,
+          "error": 0,
+          "dimensions": [
+            {
+              "name": "D1.Плоскость1@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.26179938779915
+            },
+            {
+              "name": "D1.Плоскость2@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 1.18
+            },
+            {
+              "name": "D1.Бобышка-Вытянуть1@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.01
+            },
+            {
+              "name": "D2.Бобышка-Вытянуть1@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.01
+            },
+            {
+              "name": "D1.Эскиз1@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.04
+            },
+            {
+              "name": "D2.Эскиз1@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.02
+            },
+            {
+              "name": "D4.Эскиз1@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 2.5
+            },
+            {
+              "name": "D1.Скругление2@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.006
+            },
+            {
+              "name": "D1.Эскиз2@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.018
+            },
+            {
+              "name": "D1.Оболочка3@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.003
+            },
+            {
+              "name": "D1.Фаска2@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.01
+            },
+            {
+              "name": "D2.Фаска2@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 1.221730476396033
+            },
+            {
+              "name": "D1.Плоскость3@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 0.26179938779915
+            },
+            {
+              "name": "D1.Плоскость4@PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04_Зеркально отражен1@PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04.Part",
+              "value": 1.5707963267949
+            }
+          ]
+        }
+      ],
+      "planes": [
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "area_mm2": 3.1058285412296436
+        },
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "area_mm2": 3.105828541229644
+        },
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "area_mm2": 3.1058285412296436
+        },
+        {
+          "params": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "area_mm2": 3.1058285412296494
+        },
+        {
+          "params": [
+            -1.0,
+            0.0,
+            -0.0,
+            -0.02,
+            0.021906706976806578,
+            -0.004482877360840255
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          "area_mm2": 9501.07108214765
+        },
+        {
+          "params": [
+            1.0,
+            0.0,
+            0.0,
+            0.02,
+            0.021906706976806578,
+            -0.004482877360840255
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "area_mm2": 9589.83953542256
+        },
+        {
+          "params": [
+            -0.0,
+            -0.25881904510252135,
+            0.9659258262890681,
+            0.0,
+            0.0025881904510252135,
+            -0.009659258262890682
+          ],
+          "normal": [
+            0.0,
+            0.25881904510252135,
+            -0.9659258262890681
+          ],
+          "area_mm2": 34028.333203346265
+        },
+        {
+          "params": [
+            -0.0,
+            -0.25881904510252135,
+            0.9659258262890681,
+            0.0,
+            -0.0025881904510252135,
+            0.009659258262890682
+          ],
+          "normal": [
+            -0.0,
+            -0.25881904510252135,
+            0.9659258262890681
+          ],
+          "area_mm2": 34028.33320334628
+        },
+        {
+          "params": [
+            0.25881904510252135,
+            0.9659258262890681,
+            0.0,
+            -0.29500000000000054,
+            -1.1009549882328185,
+            -0.0
+          ],
+          "normal": [
+            -0.25881904510252135,
+            -0.9659258262890681,
+            -0.0
+          ],
+          "area_mm2": 322.41919688613166
+        },
+        {
+          "params": [
+            -1.0,
+            0.0,
+            -0.0,
+            -0.017,
+            0.021906706976806578,
+            -0.004482877360840255
+          ],
+          "normal": [
+            1.0,
+            -0.0,
+            0.0
+          ],
+          "area_mm2": 9575.994266429188
+        },
+        {
+          "params": [
+            1.0,
+            0.0,
+            0.0,
+            0.017,
+            0.021906706976806578,
+            -0.004482877360840255
+          ],
+          "normal": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "area_mm2": 9651.447451712758
+        },
+        {
+          "params": [
+            -0.0,
+            -0.25881904510252135,
+            0.9659258262890681,
+            0.0,
+            0.0018117333157176493,
+            -0.0067614807840234775
+          ],
+          "normal": [
+            -0.0,
+            -0.25881904510252135,
+            0.9659258262890681
+          ],
+          "area_mm2": 34028.333203346265
+        },
+        {
+          "params": [
+            -0.0,
+            -0.25881904510252135,
+            0.9659258262890681,
+            0.0,
+            -0.0018117333157176493,
+            0.0067614807840234775
+          ],
+          "normal": [
+            0.0,
+            0.25881904510252135,
+            -0.9659258262890681
+          ],
+          "area_mm2": 34028.33320334633
+        },
+        {
+          "params": [
+            0.9396926207859094,
+            -0.3420201433256659,
+            0.0,
+            -0.02,
+            -0.02747477419454701,
+            -0.004482877360840255
+          ],
+          "normal": [
+            -0.9396926207859094,
+            0.3420201433256659,
+            -0.0
+          ],
+          "area_mm2": 273.6781286547495
+        },
+        {
+          "params": [
+            -0.9396926207859094,
+            -0.3420201433256659,
+            -0.0,
+            0.02,
+            -0.02747477419454701,
+            -0.004482877360840255
+          ],
+          "normal": [
+            0.9396926207859094,
+            0.3420201433256659,
+            0.0
+          ],
+          "area_mm2": 273.68270346070716
+        }
+      ]
+    }
+  ],
+  "mates": [
+    {
+      "name": "Совпадение2",
+      "type": "MateCoincident",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04-1",
+          "type": 4,
+          "name": "Справа",
+          "parameters": [
+            0.0,
+            0.0,
+            0.015,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено",
+          "type": 4,
+          "name": "Справа",
+          "parameters": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Совпадение3",
+      "type": "MateCoincident",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04-1",
+          "type": 4,
+          "name": "Сверху",
+          "parameters": [
+            0.0,
+            0.0,
+            0.015,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено",
+          "type": 4,
+          "name": "Сверху",
+          "parameters": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Совпадение4",
+      "type": "MateCoincident",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04-1",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            0.02,
+            0.021906706976806578,
+            0.019482877360840256,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04-1",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            0.020000000000000004,
+            -0.4351626218841443,
+            -0.12499999999999982,
+            1.0,
+            0.0,
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Совпадение5",
+      "type": "MateCoincident",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04-3",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            5.653860336418407e-19,
+            -0.0025881904510251822,
+            -0.0053407417371092135,
+            -0.0,
+            -0.25881904510252135,
+            0.9659258262890681,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04-1",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            -0.013999999999999953,
+            -0.4291626218841442,
+            -0.11964101615137736,
+            0.0,
+            0.25881904510251824,
+            -0.9659258262890691,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Совпадение6",
+      "type": "MateCoincident",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04-1",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            0.0,
+            -0.0025881904510252135,
+            0.005340741737109318,
+            -0.0,
+            -0.25881904510252135,
+            -0.9659258262890681,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.01 'Балка 1'_SPCR04_SPR04-1",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            0.014000000000000005,
+            -0.44916262188414446,
+            0.1250000000000002,
+            0.0,
+            0.25881904510251824,
+            0.9659258262890691,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Совпадение7",
+      "type": "MateCoincident",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04-1",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            0.02,
+            0.021906706976806578,
+            0.019482877360840256,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04-1",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            0.02,
+            -0.9016689728302533,
+            -0.24999999999999845,
+            1.0,
+            0.0,
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Совпадение8",
+      "type": "MateCoincident",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04-1",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            0.0,
+            -0.0025881904510252135,
+            0.005340741737109318,
+            -0.0,
+            -0.25881904510252135,
+            -0.9659258262890681,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04-1",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            0.014,
+            -0.9156689728302537,
+            0.25000000000000155,
+            0.0,
+            0.25881904510251935,
+            0.9659258262890689,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Совпадение9",
+      "type": "MateCoincident",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04-3",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            5.653860336418407e-19,
+            -0.0025881904510251822,
+            -0.0053407417371092135,
+            -0.0,
+            -0.25881904510252135,
+            0.9659258262890681,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.03 'Балка 2'_SPCR04_SPR04-1",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            -0.013999999999999959,
+            -0.8956689728302533,
+            -0.24464101615137593,
+            0.0,
+            0.2588190451025181,
+            -0.9659258262890692,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Расстояние4",
+      "type": "MateDistanceDim",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04-1",
+          "type": 4,
+          "name": "Спереди",
+          "parameters": [
+            -0.45962666587138634,
+            -0.3856725658119243,
+            0.014999999999999998,
+            1.3877787807814454e-17,
+            1.8914966099484968e-18,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено",
+          "type": 4,
+          "name": "Спереди",
+          "parameters": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Параллельность2",
+      "type": "MateParallel",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04-1",
+          "type": 4,
+          "name": "Плоскость4",
+          "parameters": [
+            -0.45962666587138634,
+            -0.6165946627490855,
+            0.014999999999999998,
+            -1.6653345369377348e-16,
+            -1.0,
+            1.8914966099484983e-18,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено",
+          "type": 4,
+          "name": "Сверху",
+          "parameters": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Совпадение15",
+      "type": "MateCoincident",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+          "type": 4,
+          "name": "Спереди",
+          "parameters": [
+            -0.45962666587138634,
+            -0.3856725658119243,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено",
+          "type": 4,
+          "name": "Спереди",
+          "parameters": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Совпадение16",
+      "type": "MateCoincident",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+          "type": 5,
+          "name": "",
+          "parameters": [
+            -0.45962666587138634,
+            -0.3856725658119243,
+            -0.03,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.00 СБ 'Опора шнековая' — исправлено",
+          "type": 5,
+          "name": "Ось2",
+          "parameters": [
+            -0.45962666587138634,
+            -0.3856725658119243,
+            -0.08899,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Архив — Совпадение17",
+      "type": "MateCoincident",
+      "suppressed": true,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04-1",
+          "type": 5,
+          "name": "",
+          "parameters": [
+            -0.45962666587138634,
+            -0.3856725658119243,
+            0.020395719052692288,
+            1.3877787807814454e-17,
+            1.8914966099484968e-18,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+          "type": 5,
+          "name": "",
+          "parameters": [
+            -0.45962666587138634,
+            -0.3856725658119243,
+            -0.03,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Совпадение18 — восстановлено",
+      "type": "MateCoincident",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04-1",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            -0.29500000000000054,
+            -1.1009549882328185,
+            0.015,
+            -0.25881904510252135,
+            -0.9659258262890681,
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.01.02.03  Опора_SPCR04_SPR04-1",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            0.009751836314684972,
+            -1.1826129966652303,
+            0.3322089407054689,
+            0.2588190451025215,
+            0.9659258262890681,
+            -1.9503139734452468e-18,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Совпадение22 — восстановлено",
+      "type": "MateCoincident",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04-3",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            -0.29500000000000054,
+            -1.1009549882328185,
+            -0.014999999999999895,
+            -0.25881904510252135,
+            -0.9659258262890681,
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.01.02.03  Опора_SPCR04_SPR04-2",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            0.009751836314689634,
+            -1.18261299666524,
+            -0.3322089407054685,
+            0.25881904510252135,
+            0.9659258262890683,
+            1.7785045038170838e-17,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Расстояние5 — восстановлено",
+      "type": "MateDistanceDim",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04-1",
+          "type": 1,
+          "name": null,
+          "parameters": [
+            -0.014000000000000012,
+            -1.1762487113059643,
+            0.34052765409668345,
+            0.9636113749942798,
+            -0.2581988897471621,
+            0.06918418399436482,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.01.02.03  Опора_SPCR04_SPR04-1",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            -0.04043353613775578,
+            -1.1691658666447438,
+            0.35867784861686425,
+            -0.06682679009089172,
+            0.017906184437618648,
+            0.9976039037037866,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Расстояние6 — восстановлено",
+      "type": "MateDistanceDim",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.25.00.07-01 'Стойка 1'_SPCR04_SPR04-3",
+          "type": 1,
+          "name": null,
+          "parameters": [
+            -0.014000000000000012,
+            -1.1762487113059643,
+            -0.34052765409668334,
+            0.9636113749942798,
+            -0.2581988897471621,
+            -0.06918418399436482,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.01.02.03  Опора_SPCR04_SPR04-2",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            -0.040433536137751115,
+            -1.1691658666447533,
+            -0.3586778486168639,
+            -0.06682679009089164,
+            0.017906184437618614,
+            -0.9976039037037866,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Расстояние8 — восстановлено",
+      "type": "MateDistanceDim",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.01.02.03  Опора_SPCR04_SPR04-1",
+          "type": 5,
+          "name": "Ось отверстия пластины — восстановлено",
+          "parameters": [
+            0.04751983417914861,
+            -1.195838729733984,
+            0.3349763080652435,
+            0.2588190451025215,
+            0.9659258262890681,
+            -1.9503139734452468e-18,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04-1",
+          "type": 4,
+          "name": "Плоскость4",
+          "parameters": [
+            0.29499999999999726,
+            -0.07904501176717955,
+            0.015,
+            -0.965925826289069,
+            0.25881904510251796,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Расстояние9 — восстановлено",
+      "type": "MateDistanceDim",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.01.02.03  Опора_SPCR04_SPR04-2",
+          "type": 5,
+          "name": "Ось отверстия пластины — восстановлено",
+          "parameters": [
+            0.04751983417915327,
+            -1.1958387297339936,
+            -0.3349763080652431,
+            0.25881904510252135,
+            0.9659258262890683,
+            1.7785045038170838e-17,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.07 'Стойка 1'_SPCR04_SPR04-1",
+          "type": 4,
+          "name": "Плоскость4",
+          "parameters": [
+            0.29499999999999726,
+            -0.07904501176717955,
+            0.015,
+            -0.965925826289069,
+            0.25881904510251796,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    },
+    {
+      "name": "Подкос 1 — втулка 2 — соосность",
+      "type": "MateConcentric",
+      "suppressed": false,
+      "error": 0,
+      "entities": [
+        {
+          "component": "PT.SHT.01.25.00.09 'Подкос 1'_SPCR04_SPR04-1",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            -0.45962666587138634,
+            -0.3856725658119243,
+            0.004812833050447855,
+            1.3877787807814454e-17,
+            1.8914966099484968e-18,
+            1.0,
+            0.009,
+            0.0
+          ],
+          "reference_present": true
+        },
+        {
+          "component": "PT.SHT.01.25.00.05 'Втулка'_SPCR04_SPR04-2",
+          "type": 2,
+          "name": null,
+          "parameters": [
+            -0.45962666587138634,
+            -0.3856725658119243,
+            -0.03,
+            0.0,
+            0.0,
+            1.0,
+            0.009,
+            0.0
+          ],
+          "reference_present": true
+        }
+      ]
+    }
+  ]
+}

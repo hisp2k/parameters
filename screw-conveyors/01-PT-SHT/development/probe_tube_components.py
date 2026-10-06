@@ -1,0 +1,6 @@
+exec(open('work/general_mate_geometry.py',encoding='utf-8-sig').read().split('for m in mates(doc):')[0])
+tube=next(c.GetModelDoc2 for c in doc.GetComponents(True) if 'Труба в сборе' in c.Name2)
+for c in tube.GetComponents(True):print(c.Name2,c.GetSuppression,c.GetPathName,flush=True)
+old=json.loads(Path('work/audit_current_assembly.json').read_text(encoding='utf-8'))
+print('original root keys',old['components'][0].keys())
+print('new rootnames',[c.Name2 for c in doc.GetComponents(True)])

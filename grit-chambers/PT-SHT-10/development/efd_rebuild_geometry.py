@@ -1,0 +1,5 @@
+exec(open('work/efd_project_inspect.py',encoding='utf-8').read().split("print('project'")[0])
+print('rebuild geometry start',flush=True)
+try:print('rebuild',p.Rebuild(True,True,True,False,False,False),flush=True)
+except Exception as e:print('ERR',repr(e),flush=True)
+print('last',p.GetLastRebuildError(),flush=True)

@@ -1,0 +1,120 @@
+{
+  "baseline": {
+    "working_length": 2510,
+    "tube_diameter": 141,
+    "tube_wall": 5,
+    "incline": 55,
+    "inlet_diameter": 100,
+    "inlet_length": 200,
+    "inlet_wall": 3,
+    "screw_diameter": 130,
+    "pitch": 105,
+    "blade_thickness": 5,
+    "shaft_diameter": 36,
+    "shaft_wall": 3,
+    "turns": 26
+  },
+  "body_candidate": {
+    "working_length": 2520,
+    "tube_diameter": 144,
+    "tube_wall": 5.5,
+    "incline": 56,
+    "inlet_diameter": 101,
+    "inlet_length": 205,
+    "inlet_wall": 3.5,
+    "screw_diameter": 130,
+    "pitch": 105,
+    "blade_thickness": 5,
+    "shaft_diameter": 36,
+    "shaft_wall": 3,
+    "turns": 26
+  },
+  "screw_candidate": {
+    "working_length": 2520,
+    "tube_diameter": 144,
+    "tube_wall": 5.5,
+    "incline": 56,
+    "inlet_diameter": 101,
+    "inlet_length": 205,
+    "inlet_wall": 3.5,
+    "screw_diameter": 130.5,
+    "pitch": 104,
+    "blade_thickness": 5.5,
+    "shaft_diameter": 37,
+    "shaft_wall": 3.5,
+    "turns": 25
+  },
+  "checks": [
+    {
+      "scenario": "body",
+      "ok": true,
+      "saved_files": 14,
+      "rebuilds": {
+        "tube": true,
+        "screw": true
+      },
+      "save_errors": []
+    },
+    {
+      "scenario": "screw",
+      "ok": true,
+      "saved_files": 14,
+      "rebuilds": {
+        "tube": true,
+        "screw": true
+      },
+      "save_errors": []
+    }
+  ],
+  "reopened_files": {
+    "tube_part": {
+      "box": [
+        -0.072,
+        0.0,
+        -0.072,
+        0.072,
+        2.79,
+        0.072
+      ]
+    },
+    "screw_part": {
+      "box": [
+        -0.06552953745424776,
+        -2.5000000000177658e-05,
+        -0.06558237780317301,
+        0.06552953745424776,
+        2.600883362759997,
+        0.06558237780317301
+      ]
+    },
+    "tube_assembly": {
+      "box": null,
+      "globals": [
+        "\"Толщина стенки трубы\"= 5.5мм",
+        "\"Диаметр трубы\"= 144мм",
+        "\"Длина трубы\"= 2520мм + 270",
+        "\"Угол наклона\"= 56градусов",
+        "\"Диаметр патрубка\"= 101мм",
+        "\"Длина патрубка\"= 205мм",
+        "\"Толщина стенки патрубка\"= 3.5мм",
+        "\"Толщина фланца\"= 5мм",
+        "\"Отверстие М8\"= 8мм",
+        "\"Диаметр сбрасывателя\"= 110мм",
+        "\"Толщина стенки сбрасывателя\"= 3мм",
+        "\"Длина сбрасывателя\"= 200мм"
+      ]
+    },
+    "screw_assembly": {
+      "box": null,
+      "globals": [
+        "\"Диаметр вала шнека\"= 37мм",
+        "\"Диаметр винта шнека\"= 130.5мм",
+        "\"Шаг винта шнека\"= 104мм",
+        "\"Толщина лопасти\"= 5.5мм",
+        "\"Длина вала\"= 2520мм + 270",
+        "\"Число витков\"= 25",
+        "\"Толщина стенки вала\"= 3.5мм"
+      ]
+    }
+  }
+}

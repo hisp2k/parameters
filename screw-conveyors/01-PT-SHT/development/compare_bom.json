@@ -1,0 +1,32 @@
+{
+  "bom_path": "C:\\Users\\adm\\Desktop\\РАЗРАБОТКА\\01.PT.SHT.01.20.00.00 СБ 'Шнек 1'\\01.PT.SHT.01.20.00.00 СБ 'Шнек 1'\\01.PT.SHT BOM.xlsx",
+  "bom_positions": 58,
+  "bom_quantity_total_including_subassemblies": 203,
+  "assembly_occurrences": 205,
+  "quantity_mismatches": [
+    {
+      "position": "53",
+      "designation": "Стопорное кольцо D80 DIN 472 А2",
+      "quantity_bom": 1,
+      "quantity_model": 2,
+      "key": "стопорноекольцоd80din472"
+    },
+    {
+      "position": "57",
+      "designation": "Шайба пружинная М8 DIN128 А2",
+      "quantity_bom": 40,
+      "quantity_model": 0,
+      "key": "шайбапружиннаям8din128"
+    }
+  ],
+  "unlisted_in_bom": [
+    {
+      "designation": "PT.SHT.01.21.00.07 'Сбрасыватель'",
+      "quantity_model": 1
+    },
+    {
+      "designation": "Шайба пружинная М8 DIN127 А2",
+      "quantity_model": 40
+    }
+  ]
+}

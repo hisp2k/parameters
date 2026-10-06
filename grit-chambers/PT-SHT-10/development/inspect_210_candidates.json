@@ -1,0 +1,672 @@
+[
+  {
+    "file": "01.PT.SHT.01.01.00.03  Цилиндр внутренний.SLDPRT",
+    "path": "<bound method GetPathName of <COMObject <unknown>>>",
+    "box": [
+      -0.2,
+      0.0,
+      -0.2,
+      0.2,
+      0.43,
+      0.2
+    ],
+    "features": [
+      {
+        "name": "Favorites",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "History",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Selection Sets",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Связь проектов",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Примечания",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Markups",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Источники света и камеры",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Твердые тела",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Тела поверхности",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Датчики",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Заметки",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Уравнения",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "AISI 304",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Спереди",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Сверху",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Справа",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Исходная точка",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Эскиз1",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>",
+        "dimensions": [
+          {
+            "name": "D1@Эскиз1@01.PT.SHT.01.01.00.03  Цилиндр внутренний.Part",
+            "value": 0.4
+          }
+        ]
+      },
+      {
+        "name": "Бобышка-Вытянуть1",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>",
+        "dimensions": [
+          {
+            "name": "D1@Бобышка-Вытянуть1@01.PT.SHT.01.01.00.03  Цилиндр внутренний.Part",
+            "value": 0.43
+          },
+          {
+            "name": "D1@Эскиз1@01.PT.SHT.01.01.00.03  Цилиндр внутренний.Part",
+            "value": 0.4
+          }
+        ]
+      },
+      {
+        "name": "Оболочка1",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>",
+        "dimensions": [
+          {
+            "name": "D1@Оболочка1@01.PT.SHT.01.01.00.03  Цилиндр внутренний.Part",
+            "value": 0.003
+          }
+        ]
+      },
+      {
+        "name": "Эскиз2",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>",
+        "dimensions": [
+          {
+            "name": "D1@Эскиз2@01.PT.SHT.01.01.00.03  Цилиндр внутренний.Part",
+            "value": 0.076
+          },
+          {
+            "name": "D2@Эскиз2@01.PT.SHT.01.01.00.03  Цилиндр внутренний.Part",
+            "value": 0.075
+          }
+        ]
+      },
+      {
+        "name": "Вырез-Вытянуть1",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>",
+        "dimensions": [
+          {
+            "name": "D1@Эскиз2@01.PT.SHT.01.01.00.03  Цилиндр внутренний.Part",
+            "value": 0.076
+          },
+          {
+            "name": "D2@Эскиз2@01.PT.SHT.01.01.00.03  Цилиндр внутренний.Part",
+            "value": 0.075
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "01.PT.SHT.01.01.00.06  Труба входная.SLDPRT",
+    "path": "<bound method GetPathName of <COMObject <unknown>>>",
+    "box": [
+      -0.028500000000000008,
+      0.0,
+      -0.028500000000000008,
+      0.028500000000000008,
+      0.23095960420111422,
+      0.028500000000000008
+    ],
+    "features": [
+      {
+        "name": "Favorites",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "History",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Selection Sets",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Связь проектов",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Примечания",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Markups",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Источники света и камеры",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Твердые тела",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Тела поверхности",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Датчики",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Заметки",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Уравнения",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "AISI 304",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Спереди",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Сверху",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Справа",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Исходная точка",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Эскиз1",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>",
+        "dimensions": [
+          {
+            "name": "D1@Эскиз1@01.PT.SHT.01.01.00.06  Труба входная.Part",
+            "value": 0.057
+          }
+        ]
+      },
+      {
+        "name": "Вытянуть-Тонкостенный1",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>",
+        "dimensions": [
+          {
+            "name": "D1@Вытянуть-Тонкостенный1@01.PT.SHT.01.01.00.06  Труба входная.Part",
+            "value": 0.33
+          },
+          {
+            "name": "D5@Вытянуть-Тонкостенный1@01.PT.SHT.01.01.00.06  Труба входная.Part",
+            "value": 0.003
+          },
+          {
+            "name": "D1@Эскиз1@01.PT.SHT.01.01.00.06  Труба входная.Part",
+            "value": 0.057
+          }
+        ]
+      },
+      {
+        "name": "Эскиз3",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>",
+        "dimensions": [
+          {
+            "name": "D2@Эскиз3@01.PT.SHT.01.01.00.06  Труба входная.Part",
+            "value": 0.2515
+          },
+          {
+            "name": "D3@Эскиз3@01.PT.SHT.01.01.00.06  Труба входная.Part",
+            "value": 0.33
+          },
+          {
+            "name": "D1@Эскиз3@01.PT.SHT.01.01.00.06  Труба входная.Part",
+            "value": 0.594
+          }
+        ]
+      },
+      {
+        "name": "Вырез-Вытянуть1",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>",
+        "dimensions": [
+          {
+            "name": "D2@Эскиз3@01.PT.SHT.01.01.00.06  Труба входная.Part",
+            "value": 0.2515
+          },
+          {
+            "name": "D3@Эскиз3@01.PT.SHT.01.01.00.06  Труба входная.Part",
+            "value": 0.33
+          },
+          {
+            "name": "D1@Эскиз3@01.PT.SHT.01.01.00.06  Труба входная.Part",
+            "value": 0.594
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CFD_cylinder_welded.SLDPRT",
+    "path": "<bound method GetPathName of <COMObject <unknown>>>",
+    "box": [
+      -0.30000000000000004,
+      0.3829,
+      -0.30000000000000004,
+      0.30010000000000003,
+      0.8331,
+      0.30010000000000003
+    ],
+    "features": [
+      {
+        "name": "Favorites",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "History",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Selection Sets",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Связь проектов",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Примечания",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Markups",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Источники света и камеры",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Твердые тела",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Тела поверхности",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Датчики",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Заметки",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Уравнения",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Материал <не указан>",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Спереди",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Сверху",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Справа",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Исходная точка",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Tables",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Импортированный1",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      }
+    ]
+  },
+  {
+    "file": "CFD_inlet_lid.SLDPRT",
+    "path": "<bound method GetPathName of <COMObject <unknown>>>",
+    "box": [
+      -0.02551,
+      -0.02551,
+      0.0,
+      0.02551,
+      0.02551,
+      0.005
+    ],
+    "features": [
+      {
+        "name": "Favorites",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "History",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Selection Sets",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Связь проектов",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Примечания",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Markups",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Источники света и камеры",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Твердые тела",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Тела поверхности",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Датчики",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Заметки",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Уравнения",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Материал <не указан>",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Спереди",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Сверху",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Справа",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Исходная точка",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Tables",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Эскиз1",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Бобышка-Вытянуть1",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>",
+        "dimensions": [
+          {
+            "name": "D1@Бобышка-Вытянуть1@CFD_inlet_lid.Part",
+            "value": 0.005
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CFD_outlet_lid.SLDPRT",
+    "path": "<bound method GetPathName of <COMObject <unknown>>>",
+    "box": [
+      -0.03501,
+      -0.03501,
+      0.0,
+      0.03501,
+      0.03501,
+      0.005
+    ],
+    "features": [
+      {
+        "name": "Favorites",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "History",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Selection Sets",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Связь проектов",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Примечания",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Markups",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Источники света и камеры",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Твердые тела",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Тела поверхности",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Датчики",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Заметки",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Уравнения",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Материал <не указан>",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Спереди",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Сверху",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Справа",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Исходная точка",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Tables",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Эскиз1",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Бобышка-Вытянуть1",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>",
+        "dimensions": [
+          {
+            "name": "D1@Бобышка-Вытянуть1@CFD_outlet_lid.Part",
+            "value": 0.005
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CFD_top_cover_sealed.SLDPRT",
+    "path": "<bound method GetPathName of <COMObject <unknown>>>",
+    "box": [
+      -0.334,
+      0.8358999999999999,
+      -0.334,
+      0.334,
+      0.8391,
+      0.334
+    ],
+    "features": [
+      {
+        "name": "Favorites",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "History",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Selection Sets",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Связь проектов",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Примечания",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Markups",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Источники света и камеры",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Твердые тела",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Тела поверхности",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Датчики",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Заметки",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Уравнения",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Материал <не указан>",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Спереди",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Сверху",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Справа",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Исходная точка",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Tables",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      },
+      {
+        "name": "Импортированный1",
+        "type": "<bound method GetTypeName2 of <COMObject <unknown>>>"
+      }
+    ]
+  }
+]

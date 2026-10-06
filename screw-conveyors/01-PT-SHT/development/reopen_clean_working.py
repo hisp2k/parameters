@@ -1,0 +1,10 @@
+exec(open('work/general_mate_geometry.py',encoding='utf-8-sig').read().split('for m in mates(doc):')[0])
+all_docs=list(sw.GetDocuments or []);root=Path('.').resolve()
+assert all(d.GetPathName and Path(d.GetPathName).is_relative_to(root) for d in all_docs),'Unrelated user document is open'
+print('close own documents',len(all_docs),flush=True)
+print(sw.CloseAllDocuments(True),flush=True)
+spec=sw.GetOpenDocSpec(str(path));spec.DocumentType=2;spec.Silent=True;doc=sw.OpenDoc7(spec)
+e=w.VARIANT(pythoncom.VT_BYREF|pythoncom.VT_I4,0);sw.ActivateDoc3(doc.GetTitle,False,2,e)
+print('reopened',len(doc.GetComponents(False)),flush=True)
+doc.ForceRebuild3(False)
+print('rebuilt',len(doc.GetComponents(False)),flush=True)

@@ -1,0 +1,700 @@
+{
+  "scope": "demonstration Q=10 m3/h, fully flooded, no measured boundary conditions or size distribution",
+  "native_flow_file": "work/pt-sht-10-demo/Модель/2/2.fld",
+  "native_particle_study_completed": false,
+  "particle_tracker_type": "independent one-way Lagrangian model using native SOLIDWORKS Flow velocity field",
+  "capture_efficiency_d_Q_Hs": "TO_BE_CALCULATED",
+  "mesh_independence_gate": "BLOCKED — MESH DEPENDENCE",
+  "contact_is_capture": false,
+  "fine_grid_particle_diagnostics": [
+    {
+      "diameter_mm": 0.1,
+      "grid_mm": 12,
+      "seed_count": 128,
+      "wall_mode": "reflect",
+      "collision_limit": 5000,
+      "max_spatial_step_m": 0.005,
+      "free_settling_m_s": 0.007970511741778976,
+      "tau_stokes_s": 0.001469765068979902,
+      "fractions": {
+        "bottom_outlet": 0.8679815332187418,
+        "main_outlet": 0.00871539862505021,
+        "inlet_backflow": 0.0,
+        "hopper_wall": 0.0,
+        "other_wall": 0.0,
+        "unresolved": 0.12330306815620795
+      },
+      "counts": {
+        "bottom_outlet": 109,
+        "main_outlet": 1,
+        "inlet_backflow": 0,
+        "hopper_wall": 0,
+        "other_wall": 0,
+        "unresolved": 18
+      },
+      "mean_residence_s": 30.627687714230326,
+      "max_steps": 10000,
+      "max_collisions": 4326,
+      "max_particle_time_s": 180.02208778967565
+    },
+    {
+      "diameter_mm": 0.15,
+      "grid_mm": 12,
+      "seed_count": 128,
+      "wall_mode": "reflect",
+      "collision_limit": 5000,
+      "max_spatial_step_m": 0.005,
+      "free_settling_m_s": 0.01590541207578293,
+      "tau_stokes_s": 0.0033069714052047783,
+      "fractions": {
+        "bottom_outlet": 0.9770933662722449,
+        "main_outlet": 0.01603515553374721,
+        "inlet_backflow": 0.0,
+        "hopper_wall": 0.0,
+        "other_wall": 0.0,
+        "unresolved": 0.006871478194007915
+      },
+      "counts": {
+        "bottom_outlet": 125,
+        "main_outlet": 2,
+        "inlet_backflow": 0,
+        "hopper_wall": 0,
+        "other_wall": 0,
+        "unresolved": 1
+      },
+      "mean_residence_s": 18.075942497384574,
+      "max_steps": 5171,
+      "max_collisions": 4384,
+      "max_particle_time_s": 180.02169143047183
+    },
+    {
+      "diameter_mm": 0.2,
+      "grid_mm": 12,
+      "seed_count": 128,
+      "wall_mode": "reflect",
+      "collision_limit": 5000,
+      "max_spatial_step_m": 0.005,
+      "free_settling_m_s": 0.02480957501828632,
+      "tau_stokes_s": 0.005879060275919608,
+      "fractions": {
+        "bottom_outlet": 0.9844328167407829,
+        "main_outlet": 0.003404756305454067,
+        "inlet_backflow": 0.0,
+        "hopper_wall": 0.0,
+        "other_wall": 0.0,
+        "unresolved": 0.012162426953763097
+      },
+      "counts": {
+        "bottom_outlet": 125,
+        "main_outlet": 1,
+        "inlet_backflow": 0,
+        "hopper_wall": 0,
+        "other_wall": 0,
+        "unresolved": 2
+      },
+      "mean_residence_s": 17.321912435344267,
+      "max_steps": 4903,
+      "max_collisions": 4514,
+      "max_particle_time_s": 180.01972985994598
+    },
+    {
+      "diameter_mm": 0.25,
+      "grid_mm": 12,
+      "seed_count": 128,
+      "wall_mode": "reflect",
+      "collision_limit": 5000,
+      "max_spatial_step_m": 0.005,
+      "free_settling_m_s": 0.03403245405463008,
+      "tau_stokes_s": 0.009186031681124385,
+      "fractions": {
+        "bottom_outlet": 0.7720365432969052,
+        "main_outlet": 0.008715230757280163,
+        "inlet_backflow": 0.0,
+        "hopper_wall": 0.0,
+        "other_wall": 0.0,
+        "unresolved": 0.2192482259458147
+      },
+      "counts": {
+        "bottom_outlet": 99,
+        "main_outlet": 1,
+        "inlet_backflow": 0,
+        "hopper_wall": 0,
+        "other_wall": 0,
+        "unresolved": 28
+      },
+      "mean_residence_s": 49.680813747687125,
+      "max_steps": 4981,
+      "max_collisions": 4472,
+      "max_particle_time_s": 180.03877373778883
+    },
+    {
+      "diameter_mm": 0.3,
+      "grid_mm": 12,
+      "seed_count": 128,
+      "wall_mode": "reflect",
+      "collision_limit": 5000,
+      "max_spatial_step_m": 0.005,
+      "free_settling_m_s": 0.04326379086290774,
+      "tau_stokes_s": 0.013227885620819113,
+      "fractions": {
+        "bottom_outlet": 0.4969925357116277,
+        "main_outlet": 0.008715981923167094,
+        "inlet_backflow": 0.0,
+        "hopper_wall": 0.0,
+        "other_wall": 0.0,
+        "unresolved": 0.4942914823652052
+      },
+      "counts": {
+        "bottom_outlet": 64,
+        "main_outlet": 1,
+        "inlet_backflow": 0,
+        "hopper_wall": 0,
+        "other_wall": 0,
+        "unresolved": 63
+      },
+      "mean_residence_s": 94.646547174049,
+      "max_steps": 4989,
+      "max_collisions": 4486,
+      "max_particle_time_s": 180.03991046750645
+    },
+    {
+      "diameter_mm": 0.6,
+      "grid_mm": 12,
+      "seed_count": 128,
+      "wall_mode": "reflect",
+      "collision_limit": 5000,
+      "max_spatial_step_m": 0.005,
+      "free_settling_m_s": 0.09503350491234158,
+      "tau_stokes_s": 0.05291154248327645,
+      "fractions": {
+        "bottom_outlet": 0.7640293397880232,
+        "main_outlet": 0.0,
+        "inlet_backflow": 0.0,
+        "hopper_wall": 0.0,
+        "other_wall": 0.0,
+        "unresolved": 0.23597066021197668
+      },
+      "counts": {
+        "bottom_outlet": 100,
+        "main_outlet": 0,
+        "inlet_backflow": 0,
+        "hopper_wall": 0,
+        "other_wall": 0,
+        "unresolved": 28
+      },
+      "mean_residence_s": 46.89128312992875,
+      "max_steps": 4816,
+      "max_collisions": 4511,
+      "max_particle_time_s": 180.0396061403187
+    }
+  ],
+  "coarse_grid_particle_diagnostics": [
+    {
+      "diameter_mm": 0.1,
+      "grid_mm": 15,
+      "seed_count": 128,
+      "wall_mode": "reflect",
+      "collision_limit": 5000,
+      "max_spatial_step_m": 0.005,
+      "free_settling_m_s": 0.007970511741778976,
+      "tau_stokes_s": 0.001469765068979902,
+      "fractions": {
+        "bottom_outlet": 0.8827827806325358,
+        "main_outlet": 0.015637017517881754,
+        "inlet_backflow": 0.0,
+        "hopper_wall": 0.0,
+        "other_wall": 0.0,
+        "unresolved": 0.10158020184958252
+      },
+      "counts": {
+        "bottom_outlet": 113,
+        "main_outlet": 2,
+        "inlet_backflow": 0,
+        "hopper_wall": 0,
+        "other_wall": 0,
+        "unresolved": 13
+      },
+      "mean_residence_s": 24.452504450492018,
+      "max_steps": 10000,
+      "max_collisions": 418,
+      "max_particle_time_s": 76.365397047091
+    },
+    {
+      "diameter_mm": 0.15,
+      "grid_mm": 15,
+      "seed_count": 128,
+      "wall_mode": "reflect",
+      "collision_limit": 5000,
+      "max_spatial_step_m": 0.005,
+      "free_settling_m_s": 0.01590541207578293,
+      "tau_stokes_s": 0.0033069714052047783,
+      "fractions": {
+        "bottom_outlet": 0.9453064492078741,
+        "main_outlet": 0.01562078431153829,
+        "inlet_backflow": 0.0,
+        "hopper_wall": 0.0,
+        "other_wall": 0.0,
+        "unresolved": 0.039072766480587634
+      },
+      "counts": {
+        "bottom_outlet": 121,
+        "main_outlet": 2,
+        "inlet_backflow": 0,
+        "hopper_wall": 0,
+        "other_wall": 0,
+        "unresolved": 5
+      },
+      "mean_residence_s": 18.30495931817649,
+      "max_steps": 10000,
+      "max_collisions": 1331,
+      "max_particle_time_s": 76.5612804447033
+    },
+    {
+      "diameter_mm": 0.2,
+      "grid_mm": 15,
+      "seed_count": 128,
+      "wall_mode": "reflect",
+      "collision_limit": 5000,
+      "max_spatial_step_m": 0.005,
+      "free_settling_m_s": 0.02480957501828632,
+      "tau_stokes_s": 0.005879060275919608,
+      "fractions": {
+        "bottom_outlet": 0.9921770008667115,
+        "main_outlet": 0.007822999133288695,
+        "inlet_backflow": 0.0,
+        "hopper_wall": 0.0,
+        "other_wall": 0.0,
+        "unresolved": 0.0
+      },
+      "counts": {
+        "bottom_outlet": 127,
+        "main_outlet": 1,
+        "inlet_backflow": 0,
+        "hopper_wall": 0,
+        "other_wall": 0,
+        "unresolved": 0
+      },
+      "mean_residence_s": 14.268402751979526,
+      "max_steps": 1262,
+      "max_collisions": 398,
+      "max_particle_time_s": 20.607683522866164
+    },
+    {
+      "diameter_mm": 0.25,
+      "grid_mm": 15,
+      "seed_count": 128,
+      "wall_mode": "reflect",
+      "collision_limit": 5000,
+      "max_spatial_step_m": 0.005,
+      "free_settling_m_s": 0.03403245405463008,
+      "tau_stokes_s": 0.009186031681124385,
+      "fractions": {
+        "bottom_outlet": 0.992188895697532,
+        "main_outlet": 0.007811104302468127,
+        "inlet_backflow": 0.0,
+        "hopper_wall": 0.0,
+        "other_wall": 0.0,
+        "unresolved": 0.0
+      },
+      "counts": {
+        "bottom_outlet": 127,
+        "main_outlet": 1,
+        "inlet_backflow": 0,
+        "hopper_wall": 0,
+        "other_wall": 0,
+        "unresolved": 0
+      },
+      "mean_residence_s": 13.086581933336245,
+      "max_steps": 1410,
+      "max_collisions": 392,
+      "max_particle_time_s": 21.020663754301427
+    },
+    {
+      "diameter_mm": 0.3,
+      "grid_mm": 15,
+      "seed_count": 128,
+      "wall_mode": "reflect",
+      "collision_limit": 5000,
+      "max_spatial_step_m": 0.005,
+      "free_settling_m_s": 0.04326379086290774,
+      "tau_stokes_s": 0.013227885620819113,
+      "fractions": {
+        "bottom_outlet": 1.0000000000000002,
+        "main_outlet": 0.0,
+        "inlet_backflow": 0.0,
+        "hopper_wall": 0.0,
+        "other_wall": 0.0,
+        "unresolved": 0.0
+      },
+      "counts": {
+        "bottom_outlet": 128,
+        "main_outlet": 0,
+        "inlet_backflow": 0,
+        "hopper_wall": 0,
+        "other_wall": 0,
+        "unresolved": 0
+      },
+      "mean_residence_s": 11.358371278806889,
+      "max_steps": 964,
+      "max_collisions": 330,
+      "max_particle_time_s": 14.66695130737599
+    },
+    {
+      "diameter_mm": 0.6,
+      "grid_mm": 15,
+      "seed_count": 128,
+      "wall_mode": "reflect",
+      "collision_limit": 5000,
+      "max_spatial_step_m": 0.005,
+      "free_settling_m_s": 0.09503350491234158,
+      "tau_stokes_s": 0.05291154248327645,
+      "fractions": {
+        "bottom_outlet": 1.0000000000000002,
+        "main_outlet": 0.0,
+        "inlet_backflow": 0.0,
+        "hopper_wall": 0.0,
+        "other_wall": 0.0,
+        "unresolved": 0.0
+      },
+      "counts": {
+        "bottom_outlet": 128,
+        "main_outlet": 0,
+        "inlet_backflow": 0,
+        "hopper_wall": 0,
+        "other_wall": 0,
+        "unresolved": 0
+      },
+      "mean_residence_s": 6.702327341408468,
+      "max_steps": 563,
+      "max_collisions": 254,
+      "max_particle_time_s": 9.625481371356067
+    }
+  ],
+  "first_lower_region_contact_diagnostics": [
+    {
+      "diameter_mm": 0.1,
+      "grid_mm": 12,
+      "seed_count": 128,
+      "wall_mode": "hoppertrap",
+      "collision_limit": 5000,
+      "max_spatial_step_m": 0.005,
+      "free_settling_m_s": 0.007970511741778976,
+      "tau_stokes_s": 0.001469765068979902,
+      "fractions": {
+        "bottom_outlet": 0.0,
+        "main_outlet": 0.00871539862505021,
+        "inlet_backflow": 0.0,
+        "hopper_wall": 0.8964949820509502,
+        "other_wall": 0.0,
+        "unresolved": 0.09478961932399962
+      },
+      "counts": {
+        "bottom_outlet": 0,
+        "main_outlet": 1,
+        "inlet_backflow": 0,
+        "hopper_wall": 113,
+        "other_wall": 0,
+        "unresolved": 14
+      },
+      "mean_residence_s": 12.383645732589597,
+      "max_steps": 10000,
+      "max_collisions": 636,
+      "max_particle_time_s": 85.22841567785976
+    },
+    {
+      "diameter_mm": 0.15,
+      "grid_mm": 12,
+      "seed_count": 128,
+      "wall_mode": "hoppertrap",
+      "collision_limit": 5000,
+      "max_spatial_step_m": 0.005,
+      "free_settling_m_s": 0.01590541207578293,
+      "tau_stokes_s": 0.0033069714052047783,
+      "fractions": {
+        "bottom_outlet": 0.0,
+        "main_outlet": 0.01603515553374721,
+        "inlet_backflow": 0.0,
+        "hopper_wall": 0.9839648444662529,
+        "other_wall": 0.0,
+        "unresolved": 0.0
+      },
+      "counts": {
+        "bottom_outlet": 0,
+        "main_outlet": 2,
+        "inlet_backflow": 0,
+        "hopper_wall": 126,
+        "other_wall": 0,
+        "unresolved": 0
+      },
+      "mean_residence_s": 5.191386897691969,
+      "max_steps": 3100,
+      "max_collisions": 413,
+      "max_particle_time_s": 26.27762625573737
+    },
+    {
+      "diameter_mm": 0.2,
+      "grid_mm": 12,
+      "seed_count": 128,
+      "wall_mode": "hoppertrap",
+      "collision_limit": 5000,
+      "max_spatial_step_m": 0.005,
+      "free_settling_m_s": 0.02480957501828632,
+      "tau_stokes_s": 0.005879060275919608,
+      "fractions": {
+        "bottom_outlet": 0.0,
+        "main_outlet": 0.003404756305454067,
+        "inlet_backflow": 0.0,
+        "hopper_wall": 0.9965952436945459,
+        "other_wall": 0.0,
+        "unresolved": 0.0
+      },
+      "counts": {
+        "bottom_outlet": 0,
+        "main_outlet": 1,
+        "inlet_backflow": 0,
+        "hopper_wall": 127,
+        "other_wall": 0,
+        "unresolved": 0
+      },
+      "mean_residence_s": 4.143677634042937,
+      "max_steps": 950,
+      "max_collisions": 219,
+      "max_particle_time_s": 9.03763514622891
+    },
+    {
+      "diameter_mm": 0.25,
+      "grid_mm": 12,
+      "seed_count": 128,
+      "wall_mode": "hoppertrap",
+      "collision_limit": 5000,
+      "max_spatial_step_m": 0.005,
+      "free_settling_m_s": 0.03403245405463008,
+      "tau_stokes_s": 0.009186031681124385,
+      "fractions": {
+        "bottom_outlet": 0.0,
+        "main_outlet": 0.008715230757280163,
+        "inlet_backflow": 0.0,
+        "hopper_wall": 0.9912847692427199,
+        "other_wall": 0.0,
+        "unresolved": 0.0
+      },
+      "counts": {
+        "bottom_outlet": 0,
+        "main_outlet": 1,
+        "inlet_backflow": 0,
+        "hopper_wall": 127,
+        "other_wall": 0,
+        "unresolved": 0
+      },
+      "mean_residence_s": 3.7924946957465657,
+      "max_steps": 1054,
+      "max_collisions": 183,
+      "max_particle_time_s": 12.479362559721617
+    },
+    {
+      "diameter_mm": 0.3,
+      "grid_mm": 12,
+      "seed_count": 128,
+      "wall_mode": "hoppertrap",
+      "collision_limit": 5000,
+      "max_spatial_step_m": 0.005,
+      "free_settling_m_s": 0.04326379086290774,
+      "tau_stokes_s": 0.013227885620819113,
+      "fractions": {
+        "bottom_outlet": 0.0,
+        "main_outlet": 0.008715981923167094,
+        "inlet_backflow": 0.0,
+        "hopper_wall": 0.991284018076833,
+        "other_wall": 0.0,
+        "unresolved": 0.0
+      },
+      "counts": {
+        "bottom_outlet": 0,
+        "main_outlet": 1,
+        "inlet_backflow": 0,
+        "hopper_wall": 127,
+        "other_wall": 0,
+        "unresolved": 0
+      },
+      "mean_residence_s": 3.223306507680003,
+      "max_steps": 701,
+      "max_collisions": 181,
+      "max_particle_time_s": 8.045916615807144
+    },
+    {
+      "diameter_mm": 0.6,
+      "grid_mm": 12,
+      "seed_count": 128,
+      "wall_mode": "hoppertrap",
+      "collision_limit": 5000,
+      "max_spatial_step_m": 0.005,
+      "free_settling_m_s": 0.09503350491234158,
+      "tau_stokes_s": 0.05291154248327645,
+      "fractions": {
+        "bottom_outlet": 0.0,
+        "main_outlet": 0.0,
+        "inlet_backflow": 0.0,
+        "hopper_wall": 1.0,
+        "other_wall": 0.0,
+        "unresolved": 0.0
+      },
+      "counts": {
+        "bottom_outlet": 0,
+        "main_outlet": 0,
+        "inlet_backflow": 0,
+        "hopper_wall": 128,
+        "other_wall": 0,
+        "unresolved": 0
+      },
+      "mean_residence_s": 2.018507093770319,
+      "max_steps": 341,
+      "max_collisions": 69,
+      "max_particle_time_s": 2.8710217886768907
+    }
+  ],
+  "particle_analytical": [
+    {
+      "diameter_mm": "0.05",
+      "particle_density_kg_m3": "2650.0",
+      "sphericity_assumed": "1.0",
+      "Re_p": "0.10839105038437934",
+      "C_D": "228.63737596784432",
+      "terminal_speed_m_s": "0.002176724980542919",
+      "stokes_speed_m_s": "0.0022476721875743133",
+      "stokes_overestimate_percent": "3.2593555761784243",
+      "force_residual_relative": "2.7287819927294206e-15"
+    },
+    {
+      "diameter_mm": "0.075",
+      "particle_density_kg_m3": "2650.0",
+      "sphericity_assumed": "1.0",
+      "Re_p": "0.35197641332345836",
+      "C_D": "73.1780329327282",
+      "terminal_speed_m_s": "0.004712294657330154",
+      "stokes_speed_m_s": "0.005057262422042205",
+      "stokes_overestimate_percent": "7.320589856906334",
+      "force_residual_relative": "2.720696712750964e-12"
+    },
+    {
+      "diameter_mm": "0.1",
+      "particle_density_kg_m3": "2650.0",
+      "sphericity_assumed": "1.0",
+      "Re_p": "0.7937908073058191",
+      "C_D": "34.1045193888152",
+      "terminal_speed_m_s": "0.007970511741792828",
+      "stokes_speed_m_s": "0.008990688750297253",
+      "stokes_overestimate_percent": "12.799391576769125",
+      "force_residual_relative": "7.796519979226916e-16"
+    },
+    {
+      "diameter_mm": "0.15",
+      "particle_density_kg_m3": "2650.0",
+      "sphericity_assumed": "1.0",
+      "Re_p": "2.3760525612155234",
+      "C_D": "12.846527593466893",
+      "terminal_speed_m_s": "0.015905412075811545",
+      "stokes_speed_m_s": "0.02022904968816882",
+      "stokes_overestimate_percent": "27.183436629928792",
+      "force_residual_relative": "0.0"
+    },
+    {
+      "diameter_mm": "0.2",
+      "particle_density_kg_m3": "2650.0",
+      "sphericity_assumed": "1.0",
+      "Re_p": "4.941618109525851",
+      "C_D": "7.040049150458345",
+      "terminal_speed_m_s": "0.024809575018331875",
+      "stokes_speed_m_s": "0.03596275500118901",
+      "stokes_overestimate_percent": "44.95514322440437",
+      "force_residual_relative": "1.949129994806729e-16"
+    },
+    {
+      "diameter_mm": "0.25",
+      "particle_density_kg_m3": "2650.0",
+      "sphericity_assumed": "1.0",
+      "Re_p": "8.473310765278962",
+      "C_D": "4.676681786857127",
+      "terminal_speed_m_s": "0.034032454054608925",
+      "stokes_speed_m_s": "0.05619180468935784",
+      "stokes_overestimate_percent": "65.11240887651455",
+      "force_residual_relative": "7.464700088911018e-14"
+    },
+    {
+      "diameter_mm": "0.3",
+      "particle_density_kg_m3": "2650.0",
+      "sphericity_assumed": "1.0",
+      "Re_p": "12.92604562387892",
+      "C_D": "3.472613579400928",
+      "terminal_speed_m_s": "0.043263790859356756",
+      "stokes_speed_m_s": "0.08091619875267528",
+      "stokes_overestimate_percent": "87.02983983932455",
+      "force_residual_relative": "2.3100799938450133e-16"
+    },
+    {
+      "diameter_mm": "0.5",
+      "particle_density_kg_m3": "2650.0",
+      "sphericity_assumed": "1.0",
+      "Re_p": "39.10730705522829",
+      "C_D": "1.756379075055182",
+      "terminal_speed_m_s": "0.0785358679402055",
+      "stokes_speed_m_s": "0.22476721875743136",
+      "stokes_overestimate_percent": "186.19689913984442",
+      "force_residual_relative": "2.6146409402335385e-14"
+    },
+    {
+      "diameter_mm": "0.6",
+      "particle_density_kg_m3": "2650.0",
+      "sphericity_assumed": "1.0",
+      "Re_p": "56.786821826199116",
+      "C_D": "1.4394039446065658",
+      "terminal_speed_m_s": "0.09503344079637326",
+      "stokes_speed_m_s": "0.3236647950107011",
+      "stokes_overestimate_percent": "240.57989724292196",
+      "force_residual_relative": "2.3100799938450133e-16"
+    },
+    {
+      "diameter_mm": "0.75",
+      "particle_density_kg_m3": "2650.0",
+      "sphericity_assumed": "1.0",
+      "Re_p": "88.56940214788004",
+      "C_D": "1.1556875316857012",
+      "terminal_speed_m_s": "0.11857758211793352",
+      "stokes_speed_m_s": "0.5057262422042206",
+      "stokes_overestimate_percent": "326.4939739631739",
+      "force_residual_relative": "0.0"
+    },
+    {
+      "diameter_mm": "1",
+      "particle_density_kg_m3": "2650.0",
+      "sphericity_assumed": "1.0",
+      "Re_p": "154.67665963492428",
+      "C_D": "0.8982029867175816",
+      "terminal_speed_m_s": "0.15531196890347498",
+      "stokes_speed_m_s": "0.8990688750297254",
+      "stokes_overestimate_percent": "478.8793235816158",
+      "force_residual_relative": "1.9959091146820905e-16"
+    },
+    {
+      "diameter_mm": "1.5",
+      "particle_density_kg_m3": "2650.0",
+      "sphericity_assumed": "1.0",
+      "Re_p": "332.2079116934922",
+      "C_D": "0.6571702561250143",
+      "terminal_speed_m_s": "0.22238160117243808",
+      "stokes_speed_m_s": "2.0229049688168823",
+      "stokes_overestimate_percent": "809.6548267265559",
+      "force_residual_relative": "2.2709010371494013e-14"
+    },
+    {
+      "diameter_mm": "2",
+      "particle_density_kg_m3": "2650.0",
+      "sphericity_assumed": "1.0",
+      "Re_p": "565.4580301467399",
+      "C_D": "0.5376668975117376",
+      "terminal_speed_m_s": "0.2838902786032928",
+      "stokes_speed_m_s": "3.5962755001189017",
+      "stokes_overestimate_percent": "1166.7836030920678",
+      "force_residual_relative": "1.9959091146820905e-16"
+    }
+  ]
+}

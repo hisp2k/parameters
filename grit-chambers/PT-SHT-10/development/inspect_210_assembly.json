@@ -1,0 +1,912 @@
+[
+  {
+    "name": "CFD_bottom_flange_lid-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\CFD_bottom_flange_lid.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "CFD_inlet_flange_lid-2",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\CFD_inlet_flange_lid.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "CFD_outlet_flange_lid-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\CFD_outlet_flange_lid.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "Шайба DIN 125 А2-4",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Шайба DIN 125 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "Шайба пружинная М8 DIN127 А2-10",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "Винт М8х16 DIN 7984 А2-5",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Винт М8х16 DIN 7984 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "Шайба DIN 125 А2-5",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Шайба DIN 125 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "Шайба DIN 125 А2-3",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Шайба DIN 125 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "Шайба пружинная М8 DIN127 А2-9",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "Шайба пружинная М8 DIN127 А2-8",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "Винт М8х16 DIN 7984 А2-4",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Винт М8х16 DIN 7984 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "Винт М8х16 DIN 7984 А2-2",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Винт М8х16 DIN 7984 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "Шайба пружинная М8 DIN127 А2-12",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "Шайба пружинная М8 DIN127 А2-11",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "Шайба DIN 125 А2-2",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Шайба DIN 125 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "Шайба DIN 125 А2-6",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Шайба DIN 125 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "Винт М8х16 DIN 7984 А2-3",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Винт М8х16 DIN 7984 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "Винт М8х16 DIN 7984 А2-6",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Винт М8х16 DIN 7984 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "CFD_cylinder_welded-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\CFD_cylinder_welded.SLDPRT",
+    "suppression": 2,
+    "box": [
+      -0.30000000000000004,
+      0.3829,
+      -0.30000000000000004,
+      0.30010000000000003,
+      0.8331,
+      0.30010000000000003
+    ],
+    "body": true
+  },
+  {
+    "name": "CFD_top_seal_v2-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\CFD_top_seal_v2.SLDPRT",
+    "suppression": 2,
+    "box": [
+      -0.30100000000000005,
+      0.8329,
+      -0.30100000000000005,
+      0.30100000000000005,
+      0.8341000000000001,
+      0.30100000000000005
+    ],
+    "body": true
+  },
+  {
+    "name": "CFD_inlet_joint_seal_v2-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\CFD_inlet_joint_seal_v2.SLDPRT",
+    "suppression": 2,
+    "box": [
+      0.2219,
+      0.6899000000000001,
+      0.3205,
+      0.2811,
+      0.7491,
+      0.3305
+    ],
+    "body": true
+  },
+  {
+    "name": "CFD_top_cover_sealed-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\CFD_top_cover_sealed.SLDPRT",
+    "suppression": 2,
+    "box": [
+      -0.334,
+      0.8358999999999999,
+      -0.334,
+      0.334,
+      0.8391,
+      0.334
+    ],
+    "body": true
+  },
+  {
+    "name": "CFD_inlet_lid-2",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\CFD_inlet_lid.SLDPRT",
+    "suppression": 2,
+    "box": [
+      0.22599,
+      0.69399,
+      0.329,
+      0.27701,
+      0.7450100000000001,
+      0.334
+    ],
+    "body": true
+  },
+  {
+    "name": "CFD_bottom_pipe_extended-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\CFD_bottom_pipe_extended.SLDPRT",
+    "suppression": 2,
+    "box": [
+      -0.054,
+      0.0030000000000000027,
+      -0.054,
+      0.054,
+      0.036000000000000004,
+      0.054
+    ],
+    "body": true
+  },
+  {
+    "name": "CFD_outlet_flange_lid-2",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\CFD_outlet_flange_lid.SLDPRT",
+    "suppression": 2,
+    "box": [
+      -0.03901,
+      0.41899000000000003,
+      0.353,
+      0.03901,
+      0.49701,
+      0.358
+    ],
+    "body": true
+  },
+  {
+    "name": "CFD_bottom_joint_seal_v2-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\CFD_bottom_joint_seal_v2.SLDPRT",
+    "suppression": 2,
+    "box": [
+      -0.0551,
+      0.0024999999999999996,
+      -0.0551,
+      0.0551,
+      0.0085,
+      0.0551
+    ],
+    "body": true
+  },
+  {
+    "name": "CFD_outlet_joint_seal_v2-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\CFD_outlet_joint_seal_v2.SLDPRT",
+    "suppression": 2,
+    "box": [
+      -0.0391,
+      0.4189,
+      0.33949999999999997,
+      0.0391,
+      0.49710000000000004,
+      0.3505
+    ],
+    "body": true
+  },
+  {
+    "name": "CFD_bottom_flange_lid-2",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\CFD_bottom_flange_lid.SLDPRT",
+    "suppression": 2,
+    "box": [
+      -0.05501,
+      -0.001,
+      -0.05501,
+      0.05501,
+      0.004,
+      0.05501
+    ],
+    "body": true
+  },
+  {
+    "name": "CFD_inlet_flange_lid-3",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\CFD_inlet_flange_lid.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "CFD_cone_welded-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\CFD_cone_welded.SLDPRT",
+    "suppression": 2,
+    "box": [
+      -0.2999920679630821,
+      0.032899999999999985,
+      -0.30147,
+      0.29999839284378105,
+      0.38489999999999996,
+      0.2999960210077741
+    ],
+    "body": true
+  },
+  {
+    "name": "01.PT.SHT.01.00.00.01  Прокладка-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\01.PT.SHT.01.00.00.01  Прокладка.SLDPRT",
+    "suppression": 2,
+    "box": [
+      -0.334,
+      0.834,
+      -0.334,
+      0.334,
+      0.836,
+      0.334
+    ],
+    "body": true
+  },
+  {
+    "name": "CFD_bottom_lid-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\CFD_bottom_lid.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "CFD_inlet_flange_lid-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\CFD_inlet_flange_lid.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "Винт М8х16 DIN 7984 А2-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Винт М8х16 DIN 7984 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "Шайба пружинная М8 DIN127 А2-7",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Шайба пружинная М8 DIN127 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "CFD_крышка_боковая-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\CFD_крышка_боковая.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "CFD_крышка_боковая-2",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\CFD_крышка_боковая.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "CFD_крышка_нижняя-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\CFD_крышка_нижняя.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.02.00.00 СБ  Крышка бункера-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\01.PT.SHT.01.02.00.00 СБ  Крышка бункера.SLDASM",
+    "suppression": 2,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.02.00.00 СБ  Крышка бункера-1/Винт М6х16 DIN 931 А2-3",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Винт М6х16 DIN 931 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.02.00.00 СБ  Крышка бункера-1/Шайба пружинная М6 DIN128-2",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Шайба пружинная М6 DIN128.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.02.00.00 СБ  Крышка бункера-1/01.PT.SHT.01.02.00.01  Крышка глухая-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.02.00.01  Крышка глухая.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.02.00.00 СБ  Крышка бункера-1/Ручка скоба с втулками-3",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Ручка скоба с втулками.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.02.00.00 СБ  Крышка бункера-1/Винт М6х16 DIN 931 А2-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Винт М6х16 DIN 931 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.02.00.00 СБ  Крышка бункера-1/Винт М6х16 DIN 931 А2-2",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Винт М6х16 DIN 931 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.02.00.00 СБ  Крышка бункера-1/Винт М6х16 DIN 931 А2-4",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Винт М6х16 DIN 931 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.02.00.00 СБ  Крышка бункера-1/Шайба пружинная М6 DIN128-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Шайба пружинная М6 DIN128.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.02.00.00 СБ  Крышка бункера-1/Шайба пружинная М6 DIN128-3",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Шайба пружинная М6 DIN128.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.02.00.00 СБ  Крышка бункера-1/Шайба пружинная М6 DIN128-4",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Шайба пружинная М6 DIN128.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.02.00.00 СБ  Крышка бункера-1/Ручка скоба с втулками-4",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Ручка скоба с втулками.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "CFD_inlet_lid-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\CFD_inlet_lid.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "Шайба DIN 125 А2-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\Шайба DIN 125 А2.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\01.PT.SHT.01.01.00.00 СБ  Бункер.SLDASM",
+    "suppression": 2,
+    "box": [
+      -0.20000000000000004,
+      0.0030000000000000027,
+      -0.20000000000000004,
+      0.3215,
+      0.813,
+      0.3540000000000082
+    ],
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.07  Опора-5",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.07  Опора.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.08  Косынка-2",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.08  Косынка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.08  Косынка-3",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.08  Косынка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.07  Опора-2",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.07  Опора.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.07  Опора-3",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.07  Опора.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.07  Опора-6",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.07  Опора.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.01  Цилиндр внешний-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.01  Цилиндр внешний.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.04  Конус обратный-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\01.PT.SHT.01.01.00.04  Конус обратный.SLDPRT",
+    "suppression": 2,
+    "box": [
+      -0.15,
+      0.243,
+      -0.15,
+      0.15,
+      0.383,
+      0.15
+    ],
+    "body": true
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.01.00 СБ  Патрубок выходной-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\01.PT.SHT.01.01.01.00 СБ  Патрубок выходной.SLDASM",
+    "suppression": 2,
+    "box": [
+      -0.08000000000000002,
+      0.37799999999999634,
+      -0.03799999999999609,
+      0.08000000000000002,
+      0.7880000000000005,
+      0.3540000000000082
+    ],
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.01.00 СБ  Патрубок выходной-1/01.PT.SHT.01.01.01.01  Труба внешняя-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\01.PT.SHT.01.01.01.01  Труба внешняя.SLDPRT",
+    "suppression": 2,
+    "box": [
+      -0.038,
+      0.4199999999999964,
+      0.10000000000000436,
+      0.038,
+      0.495999999999999,
+      0.35000000000000514
+    ],
+    "body": true
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.01.00 СБ  Патрубок выходной-1/Отвод 76х3.0 AISI 304 90 гр.-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\Отвод 76х3.0 AISI 304 90 гр..SLDPRT",
+    "suppression": 2,
+    "box": [
+      -0.038,
+      0.419999999999999,
+      -0.037999999999995634,
+      0.038,
+      0.5580000000000005,
+      0.10000000000000582
+    ],
+    "body": true
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.01.00 СБ  Патрубок выходной-1/01.PT.SHT.01.01.01.02  Труба внутренняя-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\01.PT.SHT.01.01.01.02  Труба внутренняя.SLDPRT",
+    "suppression": 2,
+    "box": [
+      -0.038,
+      0.5579999999999996,
+      -0.03799999999999417,
+      0.038,
+      0.7880000000000005,
+      0.03800000000000827
+    ],
+    "body": true
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.01.00 СБ  Патрубок выходной-1/Фланец 65-1-01-1-В AISI 304 ГОСТ 33259-2015-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\Фланец 65-1-01-1-В AISI 304 ГОСТ 33259-2015.SLDPRT",
+    "suppression": 2,
+    "box": [
+      -0.08000000000000002,
+      0.37799999999999634,
+      0.3400000000000039,
+      0.08000000000000002,
+      0.5379999999999965,
+      0.3540000000000056
+    ],
+    "body": true
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.02.00 СБ  Опора бункера-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\01.PT.SHT.01.01.02.00 СБ  Опора бункера.SLDASM",
+    "suppression": 2,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.02.00 СБ  Опора бункера-1/01.PT.SHT.01.01.02.02  Заглушка-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.02.02  Заглушка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.02.00 СБ  Опора бункера-1/01.PT.SHT.01.01.02.03  Опора-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.02.03  Опора.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.02.00 СБ  Опора бункера-1/01.PT.SHT.01.01.02.01  Стойка-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.02.01  Стойка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.02  Конус-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.02  Конус.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.03  Цилиндр внутренний-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\01.PT.SHT.01.01.00.03  Цилиндр внутренний.SLDPRT",
+    "suppression": 2,
+    "box": [
+      -0.2,
+      0.383,
+      -0.2,
+      0.2,
+      0.813,
+      0.2
+    ],
+    "body": true
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.05  Отвод-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.05  Отвод.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.07  Опора-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.07  Опора.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.08  Косынка-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.08  Косынка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.09  Кронштейн опорный-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.09  Кронштейн опорный.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.10  Ручка-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.10  Ручка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.11  Фланец присоединительный-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\01.PT.SHT.01.01.00.11  Фланец присоединительный.SLDPRT",
+    "suppression": 2,
+    "box": [
+      -0.08,
+      0.0029999999999999996,
+      -0.08,
+      0.08,
+      0.008,
+      0.08
+    ],
+    "body": true
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.07  Опора-4",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.07  Опора.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.12  Обвязка-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.12  Обвязка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/Фланец 50-1-01-1-В AISI 304 ГОСТ 33259-2015-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\Фланец 50-1-01-1-В AISI 304 ГОСТ 33259-2015.SLDPRT",
+    "suppression": 2,
+    "box": [
+      0.18149999999999997,
+      0.6495,
+      0.321,
+      0.3215,
+      0.7895000000000001,
+      0.334
+    ],
+    "body": true
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.06  Труба входная-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\01.PT.SHT.01.01.00.06  Труба входная.SLDPRT",
+    "suppression": 2,
+    "box": [
+      0.223,
+      0.6910000000000002,
+      0.0990403957988858,
+      0.28,
+      0.7480000000000001,
+      0.33
+    ],
+    "body": true
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.12  Обвязка-3",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.12  Обвязка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.02.00 СБ  Опора бункера-4",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\01.PT.SHT.01.01.02.00 СБ  Опора бункера.SLDASM",
+    "suppression": 2,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.02.00 СБ  Опора бункера-4/01.PT.SHT.01.01.02.02  Заглушка-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.02.02  Заглушка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.02.00 СБ  Опора бункера-4/01.PT.SHT.01.01.02.03  Опора-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.02.03  Опора.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.02.00 СБ  Опора бункера-4/01.PT.SHT.01.01.02.01  Стойка-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.02.01  Стойка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.09  Кронштейн опорный-5",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.09  Кронштейн опорный.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.09  Кронштейн опорный-4",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.09  Кронштейн опорный.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.08  Косынка-4",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.08  Косынка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.09  Кронштейн опорный-3",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.09  Кронштейн опорный.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.08  Косынка-5",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.08  Косынка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.12  Обвязка-4",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.12  Обвязка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.09  Кронштейн опорный-6",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.09  Кронштейн опорный.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.02.00 СБ  Опора бункера-2",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\01.PT.SHT.01.01.02.00 СБ  Опора бункера.SLDASM",
+    "suppression": 2,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.02.00 СБ  Опора бункера-2/01.PT.SHT.01.01.02.02  Заглушка-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.02.02  Заглушка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.02.00 СБ  Опора бункера-2/01.PT.SHT.01.01.02.03  Опора-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.02.03  Опора.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.02.00 СБ  Опора бункера-2/01.PT.SHT.01.01.02.01  Стойка-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.02.01  Стойка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.08  Косынка-6",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.08  Косынка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.10  Ручка-3",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.10  Ручка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.09  Кронштейн опорный-2",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.09  Кронштейн опорный.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.02.00 СБ  Опора бункера-3",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-210l\\Модель\\01.PT.SHT.01.01.02.00 СБ  Опора бункера.SLDASM",
+    "suppression": 2,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.02.00 СБ  Опора бункера-3/01.PT.SHT.01.01.02.02  Заглушка-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.02.02  Заглушка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.02.00 СБ  Опора бункера-3/01.PT.SHT.01.01.02.03  Опора-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.02.03  Опора.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.02.00 СБ  Опора бункера-3/01.PT.SHT.01.01.02.01  Стойка-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.02.01  Стойка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "01.PT.SHT.01.01.00.00 СБ  Бункер-1/01.PT.SHT.01.01.00.12  Обвязка-2",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.01.00.12  Обвязка.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  },
+  {
+    "name": "CFD_outlet_lid-1",
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\CFD_outlet_lid.SLDPRT",
+    "suppression": 0,
+    "box": null,
+    "body": false
+  }
+]

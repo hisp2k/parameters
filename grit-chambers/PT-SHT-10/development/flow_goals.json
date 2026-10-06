@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Inlet_Q",
+    "uuid": "3d906688-b5d7-4b31-a2b0-a8631c3d7877",
+    "type": 17,
+    "calc": 0
+  },
+  {
+    "name": "Inlet_MassFlow",
+    "uuid": "e1d801a3-cbdc-4904-9c24-22207fc35e8c",
+    "type": 4,
+    "calc": 0
+  },
+  {
+    "name": "Inlet_StaticP",
+    "uuid": "5c15f47e-eeba-4f04-84f1-c4d244c70f2d",
+    "type": 1,
+    "calc": 2
+  },
+  {
+    "name": "Inlet_TotalP",
+    "uuid": "94b5ca8f-cdcb-40b1-b06e-082c014fbeb5",
+    "type": 18,
+    "calc": 4
+  },
+  {
+    "name": "MainOutlet_Q",
+    "uuid": "e85d7acd-c1a3-4b3b-b6b9-c7f780b772cf",
+    "type": 17,
+    "calc": 0
+  },
+  {
+    "name": "MainOutlet_MassFlow",
+    "uuid": "dbae40cd-09f8-4504-8f95-36098f85af2f",
+    "type": 4,
+    "calc": 0
+  },
+  {
+    "name": "MainOutlet_StaticP",
+    "uuid": "f247c9d9-4b4f-49eb-8d88-cb1850cd77e3",
+    "type": 1,
+    "calc": 2
+  },
+  {
+    "name": "MainOutlet_TotalP",
+    "uuid": "9c5d9412-5ca7-40eb-88fb-2f2cab65bf49",
+    "type": 18,
+    "calc": 4
+  },
+  {
+    "name": "Global_Velocity_Max",
+    "uuid": "251d2a47-e40f-44b9-883d-508f831d83c3",
+    "type": 21,
+    "calc": 3
+  }
+]

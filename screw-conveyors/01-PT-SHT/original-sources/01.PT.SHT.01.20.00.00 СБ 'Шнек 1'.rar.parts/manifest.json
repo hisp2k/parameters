@@ -1,0 +1,27 @@
+{
+  "original_path": "screw-conveyors/01-PT-SHT/original-sources/01.PT.SHT.01.20.00.00 СБ 'Шнек 1'.rar",
+  "size": 54359941,
+  "sha256": "a33133be3b715aa88d02e5828a1a5282bdce47dfa0bd4c4170479ba32e13df6e",
+  "parts": [
+    {
+      "path": "screw-conveyors/01-PT-SHT/original-sources/01.PT.SHT.01.20.00.00 СБ 'Шнек 1'.rar.parts/part-001",
+      "size": 16777216,
+      "sha256": "5fe26f516aa2f4adcbdcc8bee398b426ffdf97e971e744d53ad844f08ff8d80c"
+    },
+    {
+      "path": "screw-conveyors/01-PT-SHT/original-sources/01.PT.SHT.01.20.00.00 СБ 'Шнек 1'.rar.parts/part-002",
+      "size": 16777216,
+      "sha256": "b9fef0a847ebc91d55b1e0532f7789a0646cd9ada5873feec29481a666fe887d"
+    },
+    {
+      "path": "screw-conveyors/01-PT-SHT/original-sources/01.PT.SHT.01.20.00.00 СБ 'Шнек 1'.rar.parts/part-003",
+      "size": 16777216,
+      "sha256": "3734811772d4df2a6297cf99b96c2319d571b4290eba743bfa2d4b31c6e9c670"
+    },
+    {
+      "path": "screw-conveyors/01-PT-SHT/original-sources/01.PT.SHT.01.20.00.00 СБ 'Шнек 1'.rar.parts/part-004",
+      "size": 4028293,
+      "sha256": "51a0a78ac84a83454588292cf1d96b5afd95dacd8a4e9de6fa3f1a2bb6b19b30"
+    }
+  ]
+}

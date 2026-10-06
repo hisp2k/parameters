@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "status": "draft_from_existing_cad",
+  "source_model": "25.SHT.G.00.00.00.00",
+  "known_values": {
+    "screw_diameter_mm": {
+      "value": 200,
+      "source": "CAD shaft and screw drawing"
+    },
+    "screw_pitch_mm": {
+      "value": 200,
+      "source": "CAD helix parameter"
+    },
+    "working_trough_length_mm": {
+      "value": 2885,
+      "source": "user correction"
+    },
+    "lead_ore_bulk_density": {
+      "value_kg_m3": 4325,
+      "range_lb_ft3": [
+        200,
+        270
+      ],
+      "basis": "upper bound",
+      "source_url": "https://www.kwsmfg.com/engineering-guides/screw-conveyor/bulk-material-table/",
+      "particle_size_reference": "less than 1/8 in; user confirmation pending",
+      "particle_size_design_mm": 3.2
+    }
+  },
+  "inputs": {
+    "general": {
+      "working_length_mm": "2885",
+      "inclination_deg": "",
+      "throughput_m3_h": "",
+      "batch_volume_m3": ""
+    },
+    "screw": {
+      "diameter_mode": "manual",
+      "diameter_mm": "200",
+      "pitch_mode": "gost",
+      "pitch_mm": "200"
+    },
+    "inlet_count": "1",
+    "inlets": [],
+    "outlet_count": "1",
+    "outlets": [],
+    "purchased_items": [
+      {
+        "id": "BOM-41",
+        "category": "Ручки",
+        "designation": "Ручка скоба с втулками пластиковая-12",
+        "quantity": 4,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 41
+      },
+      {
+        "id": "BOM-42",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "DIN 7984 - M6 x 20 --- 17C",
+        "quantity": 8,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 42
+      },
+      {
+        "id": "BOM-43",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "Шайба М6 DIN 125 А2",
+        "quantity": 44,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 43
+      },
+      {
+        "id": "BOM-44",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "Гайка М6 DIN 934",
+        "quantity": 44,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 44
+      },
+      {
+        "id": "BOM-63",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "Стопорное кольцо D65 ГОСТ 13942-86",
+        "quantity": 2,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 63
+      },
+      {
+        "id": "BOM-64",
+        "category": "Подшипники",
+        "designation": "Подшипник NSK 7213BEA",
+        "quantity": 4,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 64
+      },
+      {
+        "id": "BOM-65",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "Стопорное кольцо D100 ГОСТ 13943-86",
+        "quantity": 2,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 65
+      },
+      {
+        "id": "BOM-66",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "Стопорное кольцо D120 ГОСТ 13943-86",
+        "quantity": 2,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 66
+      },
+      {
+        "id": "BOM-67",
+        "category": "Привод",
+        "designation": "Мотор-редуктор UD-FA87-88.01 (PAM60) М1 3Кв",
+        "quantity": 1,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 67
+      },
+      {
+        "id": "BOM-68",
+        "category": "Уплотнения",
+        "designation": "Манжета 2 -75х100-5 ГОСТ 8752-79",
+        "quantity": 2,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 68
+      },
+      {
+        "id": "BOM-69",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "Шпонка 18х11х110 ГОСТ 23360-78",
+        "quantity": 1,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 69
+      },
+      {
+        "id": "BOM-70",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "Шпонка 16х10х40 ГОСТ 23360-78",
+        "quantity": 1,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 70
+      },
+      {
+        "id": "BOM-71",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "Шпонка 14х9х40 ГОСТ 23360-78",
+        "quantity": 1,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 71
+      },
+      {
+        "id": "BOM-72",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "Шайба М16 DIN 125 ОЦ",
+        "quantity": 33,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 72
+      },
+      {
+        "id": "BOM-73",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "M16x50",
+        "quantity": 20,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 73
+      },
+      {
+        "id": "BOM-74",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "Шайба М16 DIN 127 А2",
+        "quantity": 34,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 74
+      },
+      {
+        "id": "BOM-75",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "M16x45",
+        "quantity": 7,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 75
+      },
+      {
+        "id": "BOM-76",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "DIN 7984 - M16 x 40 --- 34C",
+        "quantity": 6,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 76
+      },
+      {
+        "id": "BOM-77",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "Болт М8 DIN 931 A2",
+        "quantity": 16,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 77
+      },
+      {
+        "id": "BOM-78",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "Шайба М8 DIN125 А2",
+        "quantity": 32,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 78
+      },
+      {
+        "id": "BOM-79",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "DIN 7991 - M6 x 20 --- 13.7C",
+        "quantity": 36,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 79
+      },
+      {
+        "id": "BOM-80",
+        "category": "Муфты",
+        "designation": "Муфта BM 42-55 B-B Red (Сталь 45)",
+        "quantity": 1,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 80
+      },
+      {
+        "id": "BOM-81",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "Болт М16x35 DIN 933 ОЦ",
+        "quantity": 1,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 81
+      },
+      {
+        "id": "BOM-82",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "Болт М8 DIN 931 A2",
+        "quantity": 16,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 82
+      },
+      {
+        "id": "BOM-83",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "Шайба М8 DIN 127 А2",
+        "quantity": 16,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 83
+      },
+      {
+        "id": "BOM-84",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "Hexagon Flange Nut DIN 6923 - M8 - C",
+        "quantity": 32,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 84
+      },
+      {
+        "id": "BOM-85",
+        "category": "Крепёж и стандартные изделия",
+        "designation": "Hexagon Flange Nut DIN 6923 - M16 - C",
+        "quantity": 27,
+        "selected": true,
+        "note": "",
+        "source": "25.SHT.G.00.00.00.00 СБ, исходная спецификация",
+        "source_position": 85
+      }
+    ],
+    "material": {
+      "name": "Свинцовая руда, мелкая",
+      "source": "catalog",
+      "bulk_density_kg_m3": "4325",
+      "max_lump_mm": "3.2",
+      "catalog_code": "KWS_LEAD_ORE_FINE",
+      "max_moisture_pct": "80",
+      "moisture_basis": "wet"
+    },
+    "body_support_layout": {
+      "rule": "maximum_span",
+      "maximum_span_mm": 3000.0,
+      "span_count": 1,
+      "station_count": 2,
+      "support_01_01_count": 2,
+      "support_08_00_count": 2,
+      "calculated_equal_span_mm": 2885.0,
+      "geometry_status": "quantity_plan_only_actual_support_positions_require_CAD_mapping"
+    }
+  },
+  "requirements": {
+    "purchased_items_baseline": "editable",
+    "quantity_recalculation": "automatic_on_length_and_support_count_change",
+    "support_types_for_quantity_recalculation": [
+      "body_supports",
+      "bearing_end_units"
+    ],
+    "intermediate_shaft_supports": "only_for_tubular_conveyors",
+    "body_supports_baseline": {
+      "25.SHT.G.01.01.00.00": 2,
+      "25.SHT.G.08.00.00.00": 2,
+      "working_length_mm": 2885
+    },
+    "body_supports_count_rule": "equal_counts_01_01_and_08_00",
+    "body_support_pair_selection": "maximum_3000_mm_span",
+    "bulk_density_source": "published_reference_after_material_identification",
+    "transported_material_selection": "variable_by_configuration_select_from_reference",
+    "bulk_density_reference": "https://www.kwsmfg.com/engineering-guides/screw-conveyor/bulk-material-table/",
+    "materials_per_configuration": 1,
+    "baseline_verification_material": "heaviest_permitted_material_pending_scope",
+    "moisture_basis": "wet_mass_fraction",
+    "density_at_80_percent_moisture": "requires_confirmation",
+    "maximum_body_support_span_mm": 3000
+  }
+}

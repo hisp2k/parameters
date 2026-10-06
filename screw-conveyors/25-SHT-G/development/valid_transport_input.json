@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "status": "draft",
+  "inputs": {
+    "general": {
+      "working_length_mm": "3000",
+      "inclination_deg": "10",
+      "throughput_m3_h": "10",
+      "batch_volume_m3": "1"
+    },
+    "screw": {
+      "diameter_mode": "manual",
+      "diameter_mm": "200",
+      "pitch_mode": "gost",
+      "pitch_mm": "200"
+    },
+    "inlet_count": "2",
+    "inlets_simultaneous": "yes",
+    "inlets": [
+      {
+        "position_mm": "500",
+        "shape": "rectangular",
+        "length_mm": "200",
+        "width_mm": "200",
+        "flow_m3_h": "6"
+      },
+      {
+        "position_mm": "1200",
+        "shape": "round",
+        "diameter_mm": "150",
+        "flow_m3_h": "4"
+      }
+    ],
+    "outlet_count": "1",
+    "outlets_simultaneous": "",
+    "outlets": [
+      {
+        "position_mm": "2750",
+        "shape": "round",
+        "diameter_mm": "150",
+        "direction": "down"
+      }
+    ],
+    "material": {
+      "name": "Тестовый материал",
+      "source": "manual",
+      "bulk_density_kg_m3": "1000",
+      "max_lump_mm": "10",
+      "max_moisture_pct": "5",
+      "abrasion": "low",
+      "flowability": "free",
+      "temperature_c": "25",
+      "corrosion": "no"
+    },
+    "installation": {
+      "height_source": "manual",
+      "axis_height_mm": "1000",
+      "supports_free": "yes",
+      "environment": "inside"
+    },
+    "operation": {
+      "duty": "continuous",
+      "hours_per_day": "8",
+      "starts_per_hour": "2",
+      "loaded_start": "yes",
+      "reverse": "no",
+      "blockage": "no",
+      "hopper": "no",
+      "design_life_h": "8500"
+    }
+  }
+}

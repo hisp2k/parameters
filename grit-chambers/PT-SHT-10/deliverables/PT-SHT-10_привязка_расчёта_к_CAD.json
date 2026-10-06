@@ -1,0 +1,413 @@
+{
+  "product": "Vökker PT-SHT-10 tangential grit separator, order 2418.1",
+  "scope": "available source assembly is bunker module 01.PT.SHT.01.00.00.00, not complete product",
+  "source_model": {
+    "path": "C:\\Users\\adm\\Desktop\\РАБОТА\\песколовка\\01.PT.SHT (Заказ №2418 - НПСК) предварительный\\01.PT.SHT (Заказ №2418 - НПСК)\\Модель\\01.PT.SHT.01.00.00.00 СБ  Бункер в сборе.SLDASM",
+    "sha256": "ea09fd30397ecb065d6b042b8dc58d089441ff8fe27c5db4e3b066889424ef89",
+    "configuration": null,
+    "revisions_confirmed": false
+  },
+  "demo_cfd_model": {
+    "path": "work\\pt-sht-10-demo\\Модель\\01.PT.SHT.01.00.00.00 СБ  Бункер в сборе.SLDASM",
+    "sha256": "f298e60717c27d86a378d843deb77c3d78aeefee40ab4397464a997361206709",
+    "configuration": "По умолчанию",
+    "flow_project": "PT-SHT-10-demo-Q10-sealed",
+    "flow_file": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\work\\pt-sht-10-demo\\Модель\\2\\2.fld",
+    "flow_sha256": "d704850d5fec5733a6c508e95b533cabeda31cf2b7150aba46853ff776b67269",
+    "working_assembly_saved_after_solver_archive": true
+  },
+  "solved_project_snapshot": {
+    "archive_path": "C:\\Users\\adm\\Documents\\Codex\\2026-09-29\\c-users-adm-desktop-01-pt\\outputs\\PT-SHT-10_демо_проект_Flow.zip",
+    "archive_sha256": "f9ef3e3b909913afb086d61b6e6cec025ee54ee9b082ee322607d72da84a4c52",
+    "assembly_entry": "pt-sht-10-demo/Модель/01.PT.SHT.01.00.00.00 СБ  Бункер в сборе.SLDASM",
+    "assembly_sha256": "01cc6ce74898723d79a90c4875c7154576ba6cfe1eeb5427532b10f05fe68560",
+    "flow_entry": "pt-sht-10-demo/Модель/2/2.fld",
+    "flow_sha256": "d704850d5fec5733a6c508e95b533cabeda31cf2b7150aba46853ff776b67269"
+  },
+  "source_inventory_date": "2026-10-01T09:50:01.104344+00:00",
+  "source_files": {
+    "total": 33,
+    "byte_identical_demo": [],
+    "binary_different_demo": [
+      "01.PT.SHT.01.00.00.00 СБ  Бункер в сборе.SLDASM",
+      "01.PT.SHT.01.00.00.01  Прокладка.SLDPRT",
+      "01.PT.SHT.01.01.00.00 СБ  Бункер.SLDASM",
+      "01.PT.SHT.01.01.00.01  Цилиндр внешний.SLDPRT",
+      "01.PT.SHT.01.01.00.02  Конус.SLDPRT",
+      "01.PT.SHT.01.01.00.03  Цилиндр внутренний.SLDPRT",
+      "01.PT.SHT.01.01.00.04  Конус обратный.SLDPRT",
+      "01.PT.SHT.01.01.00.05  Отвод.SLDPRT",
+      "01.PT.SHT.01.01.00.06  Труба входная.SLDPRT",
+      "01.PT.SHT.01.01.00.07  Опора.SLDPRT",
+      "01.PT.SHT.01.01.00.08  Косынка.SLDPRT",
+      "01.PT.SHT.01.01.00.09  Кронштейн опорный.SLDPRT",
+      "01.PT.SHT.01.01.00.10  Ручка.SLDPRT",
+      "01.PT.SHT.01.01.00.11  Фланец присоединительный.SLDPRT",
+      "01.PT.SHT.01.01.00.12  Обвязка.SLDPRT",
+      "01.PT.SHT.01.01.01.00 СБ  Патрубок выходной.SLDASM",
+      "01.PT.SHT.01.01.01.01  Труба внешняя.SLDPRT",
+      "01.PT.SHT.01.01.01.02  Труба внутренняя.SLDPRT",
+      "01.PT.SHT.01.01.02.00 СБ  Опора бункера.SLDASM",
+      "01.PT.SHT.01.01.02.01  Стойка.SLDPRT",
+      "01.PT.SHT.01.01.02.02  Заглушка.SLDPRT",
+      "01.PT.SHT.01.01.02.03  Опора.SLDPRT",
+      "01.PT.SHT.01.02.00.00 СБ  Крышка бункера.SLDASM",
+      "01.PT.SHT.01.02.00.01  Крышка глухая.SLDPRT",
+      "Винт М6х16 DIN 931 А2.SLDPRT",
+      "Винт М8х16 DIN 7984 А2.SLDPRT",
+      "Отвод 76х3.0 AISI 304 90 гр..SLDPRT",
+      "Ручка скоба с втулками.SLDPRT",
+      "Фланец 50-1-01-1-В AISI 304 ГОСТ 33259-2015.SLDPRT",
+      "Фланец 65-1-01-1-В AISI 304 ГОСТ 33259-2015.SLDPRT",
+      "Шайба DIN 125 А2.SLDPRT",
+      "Шайба пружинная М6 DIN128.SLDPRT",
+      "Шайба пружинная М8 DIN127 А2.SLDPRT"
+    ],
+    "missing_demo": [],
+    "current_matches_inventory": 33,
+    "details": [
+      {
+        "file_name": "01.PT.SHT.01.00.00.00 СБ  Бункер в сборе.SLDASM",
+        "source_sha256": "ea09fd30397ecb065d6b042b8dc58d089441ff8fe27c5db4e3b066889424ef89",
+        "inventory_sha256": "ea09fd30397ecb065d6b042b8dc58d089441ff8fe27c5db4e3b066889424ef89",
+        "inventory_still_matches": true,
+        "demo_sha256": "f298e60717c27d86a378d843deb77c3d78aeefee40ab4397464a997361206709",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.00.00.01  Прокладка.SLDPRT",
+        "source_sha256": "efebdf012beb8d99df8de7df99b5cb4f0df2cc49145139a306afce32a913cd5f",
+        "inventory_sha256": "efebdf012beb8d99df8de7df99b5cb4f0df2cc49145139a306afce32a913cd5f",
+        "inventory_still_matches": true,
+        "demo_sha256": "dfcff192e85d816f554cfc491a3798ad6c9e2574e814771ddc5cfe1d2cc2db01",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.00.00 СБ  Бункер.SLDASM",
+        "source_sha256": "bc3bf54af9e63766801d30ed136c7324d45dbad0a09bcd882f9265c8d5d75470",
+        "inventory_sha256": "bc3bf54af9e63766801d30ed136c7324d45dbad0a09bcd882f9265c8d5d75470",
+        "inventory_still_matches": true,
+        "demo_sha256": "f3a7e778c343cf0213a9dcf141b2e950f5b395c7bb6e0330fadda410cc0e1941",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.00.01  Цилиндр внешний.SLDPRT",
+        "source_sha256": "e6ec8ab035d1fd3606f493640e737898540c99f1df5600180f331ef34c530f9e",
+        "inventory_sha256": "e6ec8ab035d1fd3606f493640e737898540c99f1df5600180f331ef34c530f9e",
+        "inventory_still_matches": true,
+        "demo_sha256": "7a4daa2cf16f1472096d909a5f65d507d07363e3b9b510de87766c9a35d13982",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.00.02  Конус.SLDPRT",
+        "source_sha256": "d8d538b6f7c4a6a86e8967933df403e6517225d2f77f7a480a4de1dd727c48e5",
+        "inventory_sha256": "d8d538b6f7c4a6a86e8967933df403e6517225d2f77f7a480a4de1dd727c48e5",
+        "inventory_still_matches": true,
+        "demo_sha256": "5eb2dbffc93f8c23bcea7f97058f2d1b9c6ffa86f9ab9f8b853674cf812acd70",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.00.03  Цилиндр внутренний.SLDPRT",
+        "source_sha256": "a14c0538dc07d45bcd48e5c0d7a3b5d737e3fab3b4adc5d0973a4bb1a1c2ea4a",
+        "inventory_sha256": "a14c0538dc07d45bcd48e5c0d7a3b5d737e3fab3b4adc5d0973a4bb1a1c2ea4a",
+        "inventory_still_matches": true,
+        "demo_sha256": "58bd688fb962fe98e08cee64db1e2c32fb664cfca64005d8ffd02b445d817343",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.00.04  Конус обратный.SLDPRT",
+        "source_sha256": "9bf20244bb77c2187a5fc2f70366519c57962dc1f4b9555afb44a1755685f070",
+        "inventory_sha256": "9bf20244bb77c2187a5fc2f70366519c57962dc1f4b9555afb44a1755685f070",
+        "inventory_still_matches": true,
+        "demo_sha256": "0bdc712e3a3a4432d00b5b6aba2be9edb72cd290e413d54e7396cdec67ea5ff1",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.00.05  Отвод.SLDPRT",
+        "source_sha256": "17697f90674422d94538f996c912c515aad63239b1e72ea261145e0ee78aaaae",
+        "inventory_sha256": "17697f90674422d94538f996c912c515aad63239b1e72ea261145e0ee78aaaae",
+        "inventory_still_matches": true,
+        "demo_sha256": "80d3088dcfcc743c0ebf1690e5a8bb190b0f741c073a21e5e92816bfabc048ba",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.00.06  Труба входная.SLDPRT",
+        "source_sha256": "cf45c2ae63133e941cc762e91f3e02344f262028744a87196b99b1bcf6e13995",
+        "inventory_sha256": "cf45c2ae63133e941cc762e91f3e02344f262028744a87196b99b1bcf6e13995",
+        "inventory_still_matches": true,
+        "demo_sha256": "c0457f185f83e7f70ca9fc23433731f040c766e7507e8114910ac3a710b503a1",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.00.07  Опора.SLDPRT",
+        "source_sha256": "1f4d33ee4fa721a652c5837d8c1b5396d0dcd94bc10b0f844d3d398a2b3e5bf7",
+        "inventory_sha256": "1f4d33ee4fa721a652c5837d8c1b5396d0dcd94bc10b0f844d3d398a2b3e5bf7",
+        "inventory_still_matches": true,
+        "demo_sha256": "99d032bdd6554a3d123a25728efe67f574502e2c0c6e2a673de728f2f1e98026",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.00.08  Косынка.SLDPRT",
+        "source_sha256": "e3341b55e9c1c2a809bfbff5f9dd25ca512a2a7de3f4bed3ca0c8c3b4823b591",
+        "inventory_sha256": "e3341b55e9c1c2a809bfbff5f9dd25ca512a2a7de3f4bed3ca0c8c3b4823b591",
+        "inventory_still_matches": true,
+        "demo_sha256": "36bcacb0824a3df2810c39b5020398e5f31c1b1c2e55c99889decbe886cc28f3",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.00.09  Кронштейн опорный.SLDPRT",
+        "source_sha256": "4f2aea937c19e1aaa595415bda6007265822c94c4d2260c9d28f60d3c6c1c35e",
+        "inventory_sha256": "4f2aea937c19e1aaa595415bda6007265822c94c4d2260c9d28f60d3c6c1c35e",
+        "inventory_still_matches": true,
+        "demo_sha256": "e03d8a247157654b0fa5532ff9d2e8cfb8049e578e2579494c354acaf4b2f745",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.00.10  Ручка.SLDPRT",
+        "source_sha256": "2255b73c083b09913719b0dbfdefa695c85e12271a745ccfbd37839103d8ffd4",
+        "inventory_sha256": "2255b73c083b09913719b0dbfdefa695c85e12271a745ccfbd37839103d8ffd4",
+        "inventory_still_matches": true,
+        "demo_sha256": "fe3b90b2b48a12c874d456cb4d048b50695d51b7c13ac2bb788a8f8891188a9f",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.00.11  Фланец присоединительный.SLDPRT",
+        "source_sha256": "285e1143429f68c8eedc600e43a9015c136d3e3b0122139ec96ff653059111dd",
+        "inventory_sha256": "285e1143429f68c8eedc600e43a9015c136d3e3b0122139ec96ff653059111dd",
+        "inventory_still_matches": true,
+        "demo_sha256": "2f3744a703d0f7725a2f52ca898bbcede8ccf0c1f6030865bbdebeb7b2e3337c",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.00.12  Обвязка.SLDPRT",
+        "source_sha256": "f861eb2d8ee09e0ee1ce9720faea0805445cd35db428393fc765c404ac07e454",
+        "inventory_sha256": "f861eb2d8ee09e0ee1ce9720faea0805445cd35db428393fc765c404ac07e454",
+        "inventory_still_matches": true,
+        "demo_sha256": "1679dd996b1f66ff2fdef14e0993ff4cd904fa0897e0a23f4042f1bce722d262",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.01.00 СБ  Патрубок выходной.SLDASM",
+        "source_sha256": "7257d72c3e429dd27dd3841a8ae027da0de4ea2b4e372c50852fb372fcf1707d",
+        "inventory_sha256": "7257d72c3e429dd27dd3841a8ae027da0de4ea2b4e372c50852fb372fcf1707d",
+        "inventory_still_matches": true,
+        "demo_sha256": "ee63a439a7b91a62ce927b2b7879a2edfb364e30f098e82b25031dc7932737f8",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.01.01  Труба внешняя.SLDPRT",
+        "source_sha256": "1ba1f51c17b8b36b28bee2475d4313ff0368a827f37776136aa829e4380feb18",
+        "inventory_sha256": "1ba1f51c17b8b36b28bee2475d4313ff0368a827f37776136aa829e4380feb18",
+        "inventory_still_matches": true,
+        "demo_sha256": "d634b2788ef5e3be256d2d25c11ad0d9c609a6a1a4e902cf00a876bdec010dba",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.01.02  Труба внутренняя.SLDPRT",
+        "source_sha256": "fc0fc0e10dbe254d0dc28f6e49e64fadf973b49f16690bfd91088c42bf063638",
+        "inventory_sha256": "fc0fc0e10dbe254d0dc28f6e49e64fadf973b49f16690bfd91088c42bf063638",
+        "inventory_still_matches": true,
+        "demo_sha256": "de2d3801302389757352f69a05bade11661416d263686ff5feb57d020b5af659",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.02.00 СБ  Опора бункера.SLDASM",
+        "source_sha256": "4e4b3359e583b79fb86372188d66340799f0631cc1d764a0ee3225b78560007e",
+        "inventory_sha256": "4e4b3359e583b79fb86372188d66340799f0631cc1d764a0ee3225b78560007e",
+        "inventory_still_matches": true,
+        "demo_sha256": "441219fb0fa501403d812e47a3ee23ae16520f14b546ddec359ba3dacaee6059",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.02.01  Стойка.SLDPRT",
+        "source_sha256": "96f34dd0a6b774817c971bca522b7a1239b519da0b674fab8706307aefece1b1",
+        "inventory_sha256": "96f34dd0a6b774817c971bca522b7a1239b519da0b674fab8706307aefece1b1",
+        "inventory_still_matches": true,
+        "demo_sha256": "da0387f391708b91440c847f77644f9a5cb720915f3661ff9660e52968322d46",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.02.02  Заглушка.SLDPRT",
+        "source_sha256": "2831fe2acd70c48eed504fcde9a69cc91e1c28f46b69e113cefc5d796377ae9a",
+        "inventory_sha256": "2831fe2acd70c48eed504fcde9a69cc91e1c28f46b69e113cefc5d796377ae9a",
+        "inventory_still_matches": true,
+        "demo_sha256": "1b4dd5cd7c890acfea2ed7361e5ce5fafdfd0b21058c009b9f6d55c6923d3a5a",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.01.02.03  Опора.SLDPRT",
+        "source_sha256": "305c18045180da8f5b6d151b2d15a831e849376d8f526e717e6d36c9bca4b2ce",
+        "inventory_sha256": "305c18045180da8f5b6d151b2d15a831e849376d8f526e717e6d36c9bca4b2ce",
+        "inventory_still_matches": true,
+        "demo_sha256": "95476fe0a7aa1cf4b6fa1284b5f9547fc96459e0b85c2ff990d3a55523bb71ce",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.02.00.00 СБ  Крышка бункера.SLDASM",
+        "source_sha256": "f032dbfd352a1e6227cb65d9be23288be4dffda0d1386b75b35486a15cd6d56c",
+        "inventory_sha256": "f032dbfd352a1e6227cb65d9be23288be4dffda0d1386b75b35486a15cd6d56c",
+        "inventory_still_matches": true,
+        "demo_sha256": "28539ea86a424df12296f41e801758d70fa907f6dd924e671c579f5b3ef019e8",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "01.PT.SHT.01.02.00.01  Крышка глухая.SLDPRT",
+        "source_sha256": "e2822c7be55d860a874045c9327a08c0c7966203c267d94d9e50f60368adf736",
+        "inventory_sha256": "e2822c7be55d860a874045c9327a08c0c7966203c267d94d9e50f60368adf736",
+        "inventory_still_matches": true,
+        "demo_sha256": "f7db22fdcf327d499e2981933b8d8398f8693696a051e05fc8748d03ae682c9b",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "Винт М6х16 DIN 931 А2.SLDPRT",
+        "source_sha256": "c5e7ae40a08cf6500b1180f50b37ee5ce05d9b38b9ad28c7373097f8cc1a1ca9",
+        "inventory_sha256": "c5e7ae40a08cf6500b1180f50b37ee5ce05d9b38b9ad28c7373097f8cc1a1ca9",
+        "inventory_still_matches": true,
+        "demo_sha256": "80f12fcef043db7817c1958e5851ee68ab86b4affd3ed91d6ed00c51870e13ea",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "Винт М8х16 DIN 7984 А2.SLDPRT",
+        "source_sha256": "03b3d5271af721d40bb73b717a6088f9a28721d124ca637cc62d8b862f71982b",
+        "inventory_sha256": "03b3d5271af721d40bb73b717a6088f9a28721d124ca637cc62d8b862f71982b",
+        "inventory_still_matches": true,
+        "demo_sha256": "c8c32519557eccaf8c4346ec514c46ac119b62aa79b688c931a45ea855ae0498",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "Отвод 76х3.0 AISI 304 90 гр..SLDPRT",
+        "source_sha256": "651b605d2f523add2e8adb8eeb46f385144312dda71637aca3bf94ae09987754",
+        "inventory_sha256": "651b605d2f523add2e8adb8eeb46f385144312dda71637aca3bf94ae09987754",
+        "inventory_still_matches": true,
+        "demo_sha256": "d3463780699179ff14abf791f64bb0f05d4517cf6482f75b7aebeaf504a23210",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "Ручка скоба с втулками.SLDPRT",
+        "source_sha256": "37397936822d8db462551a74b9e6d4c4b1a69431d949b9f606e619671a9383b0",
+        "inventory_sha256": "37397936822d8db462551a74b9e6d4c4b1a69431d949b9f606e619671a9383b0",
+        "inventory_still_matches": true,
+        "demo_sha256": "84ba21206ffd544a18788e973f300d76d556fe98c510b076ac0b6f4b7c6a38dd",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "Фланец 50-1-01-1-В AISI 304 ГОСТ 33259-2015.SLDPRT",
+        "source_sha256": "baf10e432a927d68603405324741eb4b2f10b3f2a3e508641d3e98d16e7a1be0",
+        "inventory_sha256": "baf10e432a927d68603405324741eb4b2f10b3f2a3e508641d3e98d16e7a1be0",
+        "inventory_still_matches": true,
+        "demo_sha256": "88341597f68cede6c76f2a734ea749aee749b38856ee1de33c2c1c010f87bcb5",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "Фланец 65-1-01-1-В AISI 304 ГОСТ 33259-2015.SLDPRT",
+        "source_sha256": "0e3a92fcb154ea1425982804d96f9c4b4f4a0a2f2dcc65f1a1153d33409ab5d2",
+        "inventory_sha256": "0e3a92fcb154ea1425982804d96f9c4b4f4a0a2f2dcc65f1a1153d33409ab5d2",
+        "inventory_still_matches": true,
+        "demo_sha256": "7ccc0e6b39fed3d2d0780fd1c0d0a92a843e1d99f46531025f97c155d3955042",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "Шайба DIN 125 А2.SLDPRT",
+        "source_sha256": "7ba78536aa95e6ed677652b24c3adfe14f8ce86d97ced354f6b3a54914bf3205",
+        "inventory_sha256": "7ba78536aa95e6ed677652b24c3adfe14f8ce86d97ced354f6b3a54914bf3205",
+        "inventory_still_matches": true,
+        "demo_sha256": "93ff284ba35d1fb520a178a548089241465e636772a997842e83c7bf3c4e08ef",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "Шайба пружинная М6 DIN128.SLDPRT",
+        "source_sha256": "4426ca64f0d51870160fbeb2b770c3df1a0374155a416ed8d24272b127656184",
+        "inventory_sha256": "4426ca64f0d51870160fbeb2b770c3df1a0374155a416ed8d24272b127656184",
+        "inventory_still_matches": true,
+        "demo_sha256": "1410c0f48c7d548f08353c276f2bc81a896d85dddc0335546bd3dea8c429b3a1",
+        "comparison": "binary_different_in_demo"
+      },
+      {
+        "file_name": "Шайба пружинная М8 DIN127 А2.SLDPRT",
+        "source_sha256": "837a49924a6e97a646b20be1a00b59dfe5c18fe93348a8e1d7150d1db555c235",
+        "inventory_sha256": "837a49924a6e97a646b20be1a00b59dfe5c18fe93348a8e1d7150d1db555c235",
+        "inventory_still_matches": true,
+        "demo_sha256": "2e1cde9bffb7bc258cd8efa10226103cfb74748d91cf822c704110abf1b33b00",
+        "comparison": "binary_different_in_demo"
+      }
+    ]
+  },
+  "demo_added_cad_files": [
+    "CFD_bottom_flange_lid.SLDPRT",
+    "CFD_bottom_joint_seal_v2.SLDPRT",
+    "CFD_bottom_lid.SLDPRT",
+    "CFD_bottom_pipe_extended.SLDPRT",
+    "CFD_cone_welded.SLDPRT",
+    "CFD_cylinder_welded.SLDPRT",
+    "CFD_inlet_flange_lid.SLDPRT",
+    "CFD_inlet_joint_seal_v2.SLDPRT",
+    "CFD_inlet_lid.SLDPRT",
+    "CFD_outlet_flange_lid.SLDPRT",
+    "CFD_outlet_joint_seal_v2.SLDPRT",
+    "CFD_outlet_lid.SLDPRT",
+    "CFD_top_cover_sealed.SLDPRT",
+    "CFD_top_seal.SLDPRT",
+    "CFD_top_seal_v2.SLDPRT",
+    "CFD_крышка_боковая.SLDPRT",
+    "CFD_крышка_нижняя.SLDPRT"
+  ],
+  "fluid_domain": {
+    "method": "Native SOLIDWORKS Boolean fluid extraction, not Flow Check Geometry",
+    "volume_m3": 0.16254310539050704,
+    "vertical_axis": "y",
+    "gravity_m_s2": [
+      0,
+      -9.81,
+      0
+    ],
+    "native_flow_check_geometry_proven": false
+  },
+  "boundaries": [
+    {
+      "port": "inlet",
+      "center_m": [
+        0.2515,
+        0.7195,
+        0.329
+      ],
+      "flow_entity": "CFD_inlet_lid-2/Бобышка-Вытянуть1//Поверхность<2>",
+      "flow_entity_uuid": "9240b80f-79c2-40b0-a3f0-881333d0e76c",
+      "assigned_condition": "10 m3/h",
+      "stored_value_SI": 0.002777777777777778,
+      "face_area_m2": 0.002042820622996763
+    },
+    {
+      "port": "main_outlet",
+      "center_m": [
+        0.0,
+        0.458,
+        0.353
+      ],
+      "flow_entity": "CFD_outlet_flange_lid-2/Бобышка-Вытянуть1//Поверхность<2>",
+      "flow_entity_uuid": "293e650b-8a15-443f-b01c-8f73c55aea3a",
+      "assigned_condition": "101325 Pa absolute (about 0 Pa gauge at main outlet)",
+      "stored_value_SI": 101325.0,
+      "face_area_m2": 0.004778362426110075
+    },
+    {
+      "port": "bottom_outlet",
+      "center_m": [
+        0.0,
+        0.004,
+        0.0
+      ],
+      "flow_entity": "CFD_bottom_flange_lid-2/Бобышка-Вытянуть1//Поверхность<1>",
+      "flow_entity_uuid": "6aeb3b37-d5ac-49ba-958a-347b8a1bef56",
+      "assigned_condition": "0.10 m3/h",
+      "stored_value_SI": 2.777777777777778e-05,
+      "face_area_m2": 0.008171282491987052
+    }
+  ],
+  "inlet_offset_ratio_to_inner_radius": 0.8468013468013469,
+  "model_limitations": [
+    "Full 4000x1500x3000 mm product assembly unavailable",
+    "Screw, external pipes, actual discharge backpressure and fill state absent",
+    "Demo seals and lids are not validated production geometry",
+    "Native Check Geometry and particle capture efficiency not confirmed"
+  ]
+}

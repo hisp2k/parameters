@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-10-04T14:15:49.231158+00:00",
+  "status": "NO_FLOW_SOLUTION",
+  "solidworks_revision": "34.3.2",
+  "solidworks_pid": 10044,
+  "cad_file": "C:\\Users\\adm\\Documents\\Codex\\2026-10-03\\new-chat\\work\\GRIT_CFD_BASE_CLEAN_TEST_20261004.SLDPRT",
+  "cad_configuration": "BASE_700x900",
+  "solid_body_count": 9,
+  "flow_addin_available": true,
+  "flow_api_available": true,
+  "flow_demo_version": false,
+  "flow_project_count": 0,
+  "solver_run": false,
+  "particle_study_run": false,
+  "capture_efficiency_0_20_percent": null
+}

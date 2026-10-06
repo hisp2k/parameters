@@ -1,0 +1,137 @@
+{
+  "finished": true,
+  "mesh": {
+    "cells_total": 51323,
+    "cells_fluid": 51323,
+    "cells_solid": 25707,
+    "cells_fluid_containing_solid": 22408
+  },
+  "iteration": 211,
+  "rho_kg_m3": 997.5744250027426,
+  "Q_m3_h": [
+    10.000000000000002,
+    -9.90007549899949,
+    -0.1000000000152567
+  ],
+  "imbalance_percent": 0.0007549901474547358,
+  "inlet_to_main_total_head_drop_m": 0.190597915553465,
+  "goals": {
+    "Global_Velocity_Max": {
+      "name": "Global_Velocity_Max",
+      "unit": "speed and velocity",
+      "value": 1.6347406403830251,
+      "progress": 100.0,
+      "criteria": 0.014999300726453453,
+      "delta": 0.011385499324862769,
+      "use_in_convergence": true
+    },
+    "Inlet_Q": {
+      "name": "Inlet_Q",
+      "unit": "volumetric flow",
+      "value": 0.0027777777777777783,
+      "progress": 0.0,
+      "criteria": 1e-08,
+      "delta": 0.0,
+      "use_in_convergence": false
+    },
+    "Inlet_MassFlow": {
+      "name": "Inlet_MassFlow",
+      "unit": "mass flow",
+      "value": 2.7710400694520634,
+      "progress": 0.0,
+      "criteria": 0.0027710400694520637,
+      "delta": 0.0,
+      "use_in_convergence": false
+    },
+    "Inlet_StaticP": {
+      "name": "Inlet_StaticP",
+      "unit": "pressure and stress",
+      "value": 95339.7728445731,
+      "progress": 0.0,
+      "criteria": 19.86461191406648,
+      "delta": 19.211633084734785,
+      "use_in_convergence": false
+    },
+    "Inlet_TotalP": {
+      "name": "Inlet_TotalP",
+      "unit": "pressure and stress",
+      "value": 96353.32621633433,
+      "progress": 100.0,
+      "criteria": 19.864611914066042,
+      "delta": 19.211633084720233,
+      "use_in_convergence": true
+    },
+    "MainOutlet_Q": {
+      "name": "MainOutlet_Q",
+      "unit": "volumetric flow",
+      "value": -0.002750020971944303,
+      "progress": 0.0,
+      "criteria": 1e-08,
+      "delta": 8.938184910094182e-09,
+      "use_in_convergence": false
+    },
+    "MainOutlet_MassFlow": {
+      "name": "MainOutlet_MassFlow",
+      "unit": "mass flow",
+      "value": -2.743350512800625,
+      "progress": 0.0,
+      "criteria": 0.002743350512800625,
+      "delta": 8.918625782783351e-06,
+      "use_in_convergence": false
+    },
+    "MainOutlet_StaticP": {
+      "name": "MainOutlet_StaticP",
+      "unit": "pressure and stress",
+      "value": 96843.21950710194,
+      "progress": 0.0,
+      "criteria": 0.0009684321950710194,
+      "delta": 0.0,
+      "use_in_convergence": false
+    },
+    "MainOutlet_TotalP": {
+      "name": "MainOutlet_TotalP",
+      "unit": "pressure and stress",
+      "value": 97047.1885574034,
+      "progress": 0.0,
+      "criteria": 0.7917514288515667,
+      "delta": 0.22244381294876803,
+      "use_in_convergence": false
+    },
+    "BottomOutlet_Q": {
+      "name": "BottomOutlet_Q",
+      "unit": "volumetric flow",
+      "value": -2.7777777782015753e-05,
+      "progress": 0.0,
+      "criteria": 0.0001154128160581099,
+      "delta": 1.7445084005834888e-15,
+      "use_in_convergence": false
+    },
+    "BottomOutlet_MassFlow": {
+      "name": "BottomOutlet_MassFlow",
+      "unit": "mass flow",
+      "value": -0.027710399451491827,
+      "progress": 0.0,
+      "criteria": 2.771039945149183e-05,
+      "delta": 1.8236616383671134e-10,
+      "use_in_convergence": false
+    },
+    "BottomOutlet_StaticP": {
+      "name": "BottomOutlet_StaticP",
+      "unit": "pressure and stress",
+      "value": 102075.13343548964,
+      "progress": 0.0,
+      "criteria": 8.263121552841476,
+      "delta": 10.674353427719325,
+      "use_in_convergence": false
+    },
+    "BottomOutlet_TotalP": {
+      "name": "BottomOutlet_TotalP",
+      "unit": "pressure and stress",
+      "value": 102075.99918880557,
+      "progress": 0.0,
+      "criteria": 8.263131774246721,
+      "delta": 10.78571646931232,
+      "use_in_convergence": false
+    }
+  }
+}

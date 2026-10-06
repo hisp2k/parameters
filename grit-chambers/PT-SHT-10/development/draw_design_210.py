@@ -1,0 +1,63 @@
+import sys
+sys.path.insert(0, 'work/plotdeps')
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from matplotlib.patches import Circle, Rectangle, FancyArrowPatch
+
+plt.rcParams['font.family'] = 'DejaVu Sans'
+fig, (ax, plan) = plt.subplots(1, 2, figsize=(13, 8), gridspec_kw={'width_ratios': [1.15, 1]})
+fig.suptitle('PT-SHT-10 — эскиз внутренней геометрии 210 л', fontsize=16)
+
+# Vertical section, dimensions in mm from the original CAD origin.
+ax.plot([-51, -297, -297, 297, 297, 51], [4, 385, 1011, 1011, 385, 4], color='#183b56', lw=2.3)
+ax.plot([-51, 51], [4, 4], color='#183b56', lw=2.3)
+ax.plot([-200, -200], [385, 985], color='#527d9b', lw=2.3)
+ax.plot([200, 200], [385, 985], color='#527d9b', lw=2.3)
+ax.plot([-200, 200], [985, 985], color='#527d9b', lw=1.0, ls='--')
+ax.plot([-145, -70], [385, 240], color='#527d9b', lw=2.1)
+ax.plot([145, 70], [385, 240], color='#527d9b', lw=2.1)
+ax.plot([70, 200, 340], [420, 420, 420], color='#527d9b', lw=1.5)
+ax.plot([70, 200, 340], [496, 496, 496], color='#527d9b', lw=1.5)
+ax.add_patch(Rectangle((-297, 600), 594, 175, color='#67adce', alpha=.16, lw=0))
+ax.plot([-297, 297], [600, 600], color='#2279a4', ls=':', lw=1.3)
+ax.plot([-297, 297], [775, 775], color='#2279a4', ls=':', lw=1.3)
+ax.add_patch(FancyArrowPatch((390, 894.5), (285, 894.5), arrowstyle='-|>', mutation_scale=15, lw=2, color='#008e76'))
+ax.add_patch(FancyArrowPatch((230, 458), (375, 458), arrowstyle='-|>', mutation_scale=15, lw=2, color='#d97521'))
+ax.text(365, 910, 'Вход Ø51\n10 м³/ч', va='bottom', ha='right', color='#00755f')
+ax.text(375, 478, 'Выход Ø78', va='bottom', ha='right', color='#ad5b14')
+ax.text(0, 685, '+175 мм', ha='center', va='center', fontsize=13, color='#126889', weight='bold')
+ax.text(0, 170, 'Накопитель ≈10 л', ha='center', fontsize=10)
+ax.annotate('', xy=(-380, 385), xytext=(-380, 1011), arrowprops={'arrowstyle':'<->', 'color':'black'})
+ax.text(-400, 698, '626 мм', rotation=90, ha='center', va='center')
+ax.annotate('', xy=(-380, 4), xytext=(-380, 385), arrowprops={'arrowstyle':'<->', 'color':'black'})
+ax.text(-400, 195, '381 мм', rotation=90, ha='center', va='center')
+ax.annotate('', xy=(-297, 1060), xytext=(297, 1060), arrowprops={'arrowstyle':'<->', 'color':'black'})
+ax.text(0, 1073, 'Ø594 мм внутри', ha='center')
+ax.set_xlim(-480, 490)
+ax.set_ylim(-30, 1120)
+ax.set_aspect('equal')
+ax.set_title('Вертикальное сечение, схематично')
+ax.set_xlabel('Поперечный размер, мм')
+ax.set_ylabel('Отметка CAD y, мм')
+ax.grid(alpha=.2)
+
+plan.add_patch(Circle((0, 0), 297, fill=False, lw=2.3, ec='#183b56'))
+plan.add_patch(Circle((0, 0), 200, fill=False, lw=2.3, ec='#527d9b'))
+plan.plot([0, 251.5], [0, 0], color='#444', ls='--', lw=1)
+plan.add_patch(FancyArrowPatch((251.5, 350), (251.5, 205), arrowstyle='-|>', mutation_scale=18, lw=2, color='#008e76'))
+plan.text(265, 330, 'Ø51, направление −z', fontsize=10, color='#00755f')
+plan.text(90, 10, '251,5 мм', ha='center', fontsize=10)
+plan.text(0, -335, 'Кольцевой зазор ≈97 мм', ha='center', fontsize=11)
+plan.set_xlim(-350, 420)
+plan.set_ylim(-360, 390)
+plan.set_aspect('equal')
+plan.set_title('План входа, схематично')
+plan.set_xlabel('x, мм')
+plan.set_ylabel('z, мм')
+plan.grid(alpha=.2)
+
+fig.text(.5, .02, 'Размеры жидкости по CAD-копии; толщина стенок и соединения на эскизе не заданы.',
+         ha='center', fontsize=10, color='#555')
+fig.tight_layout(rect=(0, .04, 1, .95))
+fig.savefig('outputs/PT-SHT-10_эскиз_210л.png', dpi=180)

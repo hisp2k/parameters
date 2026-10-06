@@ -1,0 +1,14 @@
+{
+  "id": "PT.SHT.01.20.00.00 СБ",
+  "name": "Шнек 1",
+  "description": "Шнековый транспортер",
+  "cargo": "Песок с очистных сооружений",
+  "operating_mode": "Прерывный, периодические пуски",
+  "cargo_particle_min_mm": 0.2,
+  "cargo_particle_max_mm": 2.0,
+  "cargo_moisture_reported_percent": 90,
+  "cargo_moisture_basis": "массовая доля воды в общей массе смеси",
+  "starts_per_hour": null,
+  "loaded_start": null,
+  "target_incline_deg": 55
+}

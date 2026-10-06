@@ -1,0 +1,16 @@
+import pythoncom,win32com.client as w
+s=w.Dispatch('SldWorks.Application')
+l=pythoncom.LoadTypeLib(r'C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\sldworks.tlb')
+t=next(l.GetTypeInfo(i) for i in range(l.GetTypeInfoCount()) if l.GetDocumentation(i)[0]=='ISldWorks')
+s=w.dynamic.Dispatch(s._oleobj_,typeinfo=t)
+for i in range(t.GetTypeAttr().cFuncs):
+ f=t.GetFuncDesc(i);n=t.GetNames(f.memid)
+ if n[0] in ['GetCommandID','GetRunningCommandInfo','GetCommandManager']:print(n,f.args)
+try:print('running',s.GetRunningCommandInfo(None,None,None))
+except Exception as e:print('err',repr(e))
+fl=pythoncom.LoadTypeLib(r'C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS Flow Simulation\binCFW\FW03.dll')
+ft=next(fl.GetTypeInfo(i) for i in range(fl.GetTypeInfoCount()) if fl.GetDocumentation(i)[0]=='IApp')
+a=w.dynamic.Dispatch(s.GetAddInObject('{85914DF7-BA25-4A2A-808A-769E28ADDA94}'),typeinfo=ft)
+print('check',a.TB_CheckGeometry(),flush=True)
+try:print('running after',s.GetRunningCommandInfo(None,None,None),flush=True)
+except Exception as e:print('err after',repr(e),flush=True)

@@ -1,0 +1,7 @@
+2026-Oct-03 17:33:43
+Computer name:	DESKTOP-8IAKTG3
+Number of cores used in calculation:	24
+Configuration name:	По умолчанию
+Project name:	PT-SHT-10-210L-cloned
+
+Warnings on last iteration: 

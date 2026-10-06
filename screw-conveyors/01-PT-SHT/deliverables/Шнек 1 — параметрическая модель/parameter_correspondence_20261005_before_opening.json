@@ -1,0 +1,1287 @@
+{
+  "timestamp": "2026-10-05T11:23:09+04:00",
+  "requested_values": {
+    "working_length": 2510,
+    "tube_diameter": 141,
+    "tube_wall": 5,
+    "incline": 35.0,
+    "inlet_diameter": 100,
+    "inlet_length": 200,
+    "inlet_wall": 3,
+    "flange_thickness": 5,
+    "mounting_hole_diameter": 8,
+    "screw_diameter": 130,
+    "pitch": 105,
+    "blade_thickness": 5,
+    "shaft_diameter": 36,
+    "shaft_wall": 3,
+    "turns": 24,
+    "support_short_beam_length": 250,
+    "support_long_beam_length": 500,
+    "opening_diameter": 110
+  },
+  "parameters": [
+    {
+      "parameter": "working_length",
+      "requested": 2510,
+      "expected_native": 2510,
+      "native": 2510.0,
+      "dimensions_match": true,
+      "feature_active": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "parameter": "tube_diameter",
+      "requested": 141,
+      "expected_native": 141,
+      "native": 141.0,
+      "dimensions_match": true,
+      "feature_active": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "parameter": "tube_wall",
+      "requested": 5,
+      "expected_native": 5,
+      "native": 5.0,
+      "dimensions_match": true,
+      "feature_active": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "parameter": "incline",
+      "requested": 35.0,
+      "expected_native": 35.0,
+      "native": 34.99999999999989,
+      "dimensions_match": true,
+      "feature_active": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "parameter": "inlet_diameter",
+      "requested": 100,
+      "expected_native": 100,
+      "native": 100.0,
+      "dimensions_match": true,
+      "feature_active": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "parameter": "inlet_length",
+      "requested": 200,
+      "expected_native": 200,
+      "native": 200.0,
+      "dimensions_match": true,
+      "feature_active": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "parameter": "inlet_wall",
+      "requested": 3,
+      "expected_native": 3,
+      "native": 3.0,
+      "dimensions_match": true,
+      "feature_active": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "parameter": "flange_thickness",
+      "requested": 5,
+      "expected_native": 5,
+      "native": 5.0,
+      "dimensions_match": true,
+      "feature_active": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "parameter": "mounting_hole_diameter",
+      "requested": 8,
+      "expected_native": 8.8,
+      "native": 8.8,
+      "dimensions_match": true,
+      "feature_active": true,
+      "match": true,
+      "note": "M nominal; clearance hole is M + 0.8 mm"
+    },
+    {
+      "parameter": "screw_diameter",
+      "requested": 130,
+      "expected_native": 130,
+      "native": 130.0,
+      "dimensions_match": true,
+      "feature_active": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "parameter": "pitch",
+      "requested": 105,
+      "expected_native": 105,
+      "native": 105.0,
+      "dimensions_match": true,
+      "feature_active": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "parameter": "blade_thickness",
+      "requested": 5,
+      "expected_native": 5,
+      "native": 5.0,
+      "dimensions_match": true,
+      "feature_active": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "parameter": "shaft_diameter",
+      "requested": 36,
+      "expected_native": 36,
+      "native": 36.0,
+      "dimensions_match": true,
+      "feature_active": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "parameter": "shaft_wall",
+      "requested": 3,
+      "expected_native": 3,
+      "native": 3.0,
+      "dimensions_match": true,
+      "feature_active": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "parameter": "turns",
+      "requested": 24,
+      "expected_native": 24,
+      "native": 24.0,
+      "dimensions_match": true,
+      "feature_active": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "parameter": "support_short_beam_length",
+      "requested": 250,
+      "expected_native": 250,
+      "native": 250.0,
+      "dimensions_match": true,
+      "feature_active": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "parameter": "support_long_beam_length",
+      "requested": 500,
+      "expected_native": 500,
+      "native": 500.0,
+      "dimensions_match": true,
+      "feature_active": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "parameter": "opening_diameter",
+      "requested": 110,
+      "expected_native": 110,
+      "native": 110.0,
+      "dimensions_match": true,
+      "feature_active": false,
+      "match": false,
+      "note": "Sketch dimension exists; cut is suppressed, so the opening is absent"
+    }
+  ],
+  "globals": [
+    {
+      "parameter": "working_length",
+      "kind": "tube",
+      "variable": "Длина трубы",
+      "expected": 2780.0,
+      "actual": 2780.0,
+      "match": true
+    },
+    {
+      "parameter": "working_length",
+      "kind": "screw",
+      "variable": "Длина вала",
+      "expected": 2780.0,
+      "actual": 2780.0,
+      "match": true
+    },
+    {
+      "parameter": "tube_diameter",
+      "kind": "tube",
+      "variable": "Диаметр трубы",
+      "expected": 141.0,
+      "actual": 141.0,
+      "match": true
+    },
+    {
+      "parameter": "tube_wall",
+      "kind": "tube",
+      "variable": "Толщина стенки трубы",
+      "expected": 5.0,
+      "actual": 5.0,
+      "match": true
+    },
+    {
+      "parameter": "incline",
+      "kind": "tube",
+      "variable": "Угол наклона",
+      "expected": 55.0,
+      "actual": 55.0,
+      "match": true
+    },
+    {
+      "parameter": "inlet_diameter",
+      "kind": "tube",
+      "variable": "Диаметр патрубка",
+      "expected": 100.0,
+      "actual": 100.0,
+      "match": true
+    },
+    {
+      "parameter": "inlet_length",
+      "kind": "tube",
+      "variable": "Длина патрубка",
+      "expected": 200.0,
+      "actual": 200.0,
+      "match": true
+    },
+    {
+      "parameter": "inlet_wall",
+      "kind": "tube",
+      "variable": "Толщина стенки патрубка",
+      "expected": 3.0,
+      "actual": 3.0,
+      "match": true
+    },
+    {
+      "parameter": "flange_thickness",
+      "kind": "tube",
+      "variable": "Толщина фланца",
+      "expected": 5.0,
+      "actual": 5.0,
+      "match": true
+    },
+    {
+      "parameter": "mounting_hole_diameter",
+      "kind": "tube",
+      "variable": "Отверстие М8",
+      "expected": 8.0,
+      "actual": 8.0,
+      "match": true
+    },
+    {
+      "parameter": "opening_diameter",
+      "kind": "tube",
+      "variable": "Диаметр отверстия корпуса",
+      "expected": 110.0,
+      "actual": 110.0,
+      "match": true
+    },
+    {
+      "parameter": "screw_diameter",
+      "kind": "screw",
+      "variable": "Диаметр винта шнека",
+      "expected": 130.0,
+      "actual": 130.0,
+      "match": true
+    },
+    {
+      "parameter": "pitch",
+      "kind": "screw",
+      "variable": "Шаг винта шнека",
+      "expected": 105.0,
+      "actual": 105.0,
+      "match": true
+    },
+    {
+      "parameter": "blade_thickness",
+      "kind": "screw",
+      "variable": "Толщина лопасти",
+      "expected": 5.0,
+      "actual": 5.0,
+      "match": true
+    },
+    {
+      "parameter": "shaft_diameter",
+      "kind": "screw",
+      "variable": "Диаметр вала шнека",
+      "expected": 36.0,
+      "actual": 36.0,
+      "match": true
+    },
+    {
+      "parameter": "shaft_wall",
+      "kind": "screw",
+      "variable": "Толщина стенки вала",
+      "expected": 3.0,
+      "actual": 3.0,
+      "match": true
+    },
+    {
+      "parameter": "turns",
+      "kind": "screw",
+      "variable": "Число витков",
+      "expected": 24.0,
+      "actual": 24.0,
+      "match": true
+    }
+  ],
+  "bindings": [
+    {
+      "kind": "tube",
+      "dimension": "D1@Вытянуть-Тонкостенный1@PT.SHT.01.21.00.05 'Патрубок шнека'_TCR04_TR04<1>.Part",
+      "equation": "\"D1@Вытянуть-Тонкостенный1@PT.SHT.01.21.00.05 'Патрубок шнека'_TCR04_TR04<1>.Part\" = \"Длина патрубка\"",
+      "expected": 200.0,
+      "actual": 200.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D5@Вытянуть-Тонкостенный1@PT.SHT.01.21.00.05 'Патрубок шнека'_TCR04_TR04<1>.Part",
+      "equation": "\"D5@Вытянуть-Тонкостенный1@PT.SHT.01.21.00.05 'Патрубок шнека'_TCR04_TR04<1>.Part\" = \"Толщина стенки патрубка\"",
+      "expected": 3.0,
+      "actual": 3.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Эскиз1@PT.SHT.01.21.00.05 'Патрубок шнека'_TCR04_TR04<1>.Part",
+      "equation": "\"D1@Эскиз1@PT.SHT.01.21.00.05 'Патрубок шнека'_TCR04_TR04<1>.Part\" = \"Диаметр патрубка\"",
+      "expected": 100.0,
+      "actual": 100.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Эскиз2@PT.SHT.01.21.00.05 'Патрубок шнека'_TCR04_TR04<1>.Part",
+      "equation": "\"D1@Эскиз2@PT.SHT.01.21.00.05 'Патрубок шнека'_TCR04_TR04<1>.Part\" = \"Диаметр трубы\" - \"Толщина стенки трубы\" * 2",
+      "expected": 131.0,
+      "actual": 131.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Эскиз1@PT.SHT.01.21.00.13 'Фланец трубы шнека'_TCR04_TR04<1>.Part",
+      "equation": "\"D1@Эскиз1@PT.SHT.01.21.00.13 'Фланец трубы шнека'_TCR04_TR04<1>.Part\" = \"Диаметр трубы\"",
+      "expected": 141.0,
+      "actual": 141.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D3@Эскиз1@PT.SHT.01.21.00.13 'Фланец трубы шнека'_TCR04_TR04<1>.Part",
+      "equation": "\"D3@Эскиз1@PT.SHT.01.21.00.13 'Фланец трубы шнека'_TCR04_TR04<1>.Part\" = \"Диаметр трубы\" + 60мм",
+      "expected": 201.0,
+      "actual": 201.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D2@Эскиз1@PT.SHT.01.21.00.13 'Фланец трубы шнека'_TCR04_TR04<1>.Part",
+      "equation": "\"D2@Эскиз1@PT.SHT.01.21.00.13 'Фланец трубы шнека'_TCR04_TR04<1>.Part\" = 170мм",
+      "expected": 170.0,
+      "actual": 170.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Бобышка-Вытянуть1@PT.SHT.01.21.00.13 'Фланец трубы шнека'_TCR04_TR04<1>.Part",
+      "equation": "\"D1@Бобышка-Вытянуть1@PT.SHT.01.21.00.13 'Фланец трубы шнека'_TCR04_TR04<1>.Part\" = \"Толщина фланца\"",
+      "expected": 5.0,
+      "actual": 5.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D4@Эскиз1@PT.SHT.01.21.00.13 'Фланец трубы шнека'_TCR04_TR04<1>.Part",
+      "equation": "\"D4@Эскиз1@PT.SHT.01.21.00.13 'Фланец трубы шнека'_TCR04_TR04<1>.Part\" = \"Отверстие М8\" + 0.8мм",
+      "expected": 8.8,
+      "actual": 8.8,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Эскиз2@PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04<1>.Part",
+      "equation": "\"D1@Эскиз2@PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04<1>.Part\" = \"Диаметр трубы\"",
+      "expected": 141.0,
+      "actual": 141.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D5@Вытянуть-Тонкостенный1@PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04<1>.Part",
+      "equation": "\"D5@Вытянуть-Тонкостенный1@PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04<1>.Part\" = \"Толщина стенки трубы\"",
+      "expected": 5.0,
+      "actual": 5.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Вытянуть-Тонкостенный1@PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04<1>.Part",
+      "equation": "\"D1@Вытянуть-Тонкостенный1@PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04<1>.Part\" = \"Длина трубы\"",
+      "expected": 2780.0,
+      "actual": 2780.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Эскиз7@PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04<1>.Part",
+      "equation": "\"D1@Эскиз7@PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04<1>.Part\" = \"Диаметр патрубка\"",
+      "expected": 100.0,
+      "actual": 100.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Расстояние7",
+      "equation": "\"D1@Расстояние7\"=\"Длина трубы\" - \"Толщина фланца\"",
+      "expected": 2775.0,
+      "actual": 2775.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Эскиз10@PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04<1>.Part",
+      "equation": "\"D1@Эскиз10@PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04<1>.Part\" = \"Диаметр отверстия корпуса\"",
+      "expected": 110.0,
+      "actual": 110.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D2@Эскиз10@PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04<1>.Part",
+      "equation": "\"D2@Эскиз10@PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04<1>.Part\" = \"Длина трубы\" - 150мм",
+      "expected": 2630.0,
+      "actual": 2630.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Плоскость1@PT.SHT.01.21.00.05 'Патрубок шнека'_TCR04_TR04<1>.Part",
+      "equation": "\"D1@Плоскость1@PT.SHT.01.21.00.05 'Патрубок шнека'_TCR04_TR04<1>.Part\" = \"Угол наклона\"",
+      "expected": 55.0,
+      "actual": 55.00000000000012,
+      "unit": "degrees",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Плоскость5@PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04<1>.Part",
+      "equation": "\"D1@Плоскость5@PT.SHT.01.21.00.09 'Труба шнека'_TCR04_TR04<1>.Part\" = \"Угол наклона\" + 90градусов",
+      "expected": 145.0,
+      "actual": 145.0000000000003,
+      "unit": "degrees",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@ПЛОСКОСТЬ1",
+      "equation": "\"D1@ПЛОСКОСТЬ1\"=\"Угол наклона\"",
+      "expected": 55.0,
+      "actual": 55.00000000000012,
+      "unit": "degrees",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@ПЛОСКОСТЬ3",
+      "equation": "\"D1@ПЛОСКОСТЬ3\"=\"Угол наклона\" + 90градусов",
+      "expected": 145.0,
+      "actual": 145.0000000000003,
+      "unit": "degrees",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Эскиз2@PT.SHT.01.21.00.03 'Патрубок промывки'_TCR04_TR04<1>.Part",
+      "equation": "\"D1@Эскиз2@PT.SHT.01.21.00.03 'Патрубок промывки'_TCR04_TR04<1>.Part\" = \"Диаметр трубы\" - \"Толщина стенки трубы\" * 2",
+      "expected": 131.0,
+      "actual": 131.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D2@Эскиз2@PT.SHT.01.21.00.03 'Патрубок промывки'_TCR04_TR04<1>.Part",
+      "equation": "\"D2@Эскиз2@PT.SHT.01.21.00.03 'Патрубок промывки'_TCR04_TR04<1>.Part\" = \"Диаметр трубы\" / 2 + 66мм",
+      "expected": 136.5,
+      "actual": 136.5,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Расстояние22",
+      "equation": "\"D1@Расстояние22\"=\"Диаметр трубы\"/2 + 66мм",
+      "expected": 136.5,
+      "actual": 136.5,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Расстояние24",
+      "equation": "\"D1@Расстояние24\"=\"Диаметр трубы\"/2 + 66мм",
+      "expected": 136.5,
+      "actual": 136.5,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Угол1",
+      "equation": "\"D1@Угол1\"=90градусов - \"Угол наклона\"",
+      "expected": 35.0,
+      "actual": 35.00000000000008,
+      "unit": "degrees",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Угол2",
+      "equation": "\"D1@Угол2\"=\"Угол наклона\"",
+      "expected": 55.0,
+      "actual": 55.00000000000012,
+      "unit": "degrees",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Расстояние21",
+      "equation": "\"D1@Расстояние21\"=\"Длина трубы\"/2 - 280мм",
+      "expected": 1110.0,
+      "actual": 1110.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Расстояние20",
+      "equation": "\"D1@Расстояние20\"=180мм - \"Диаметр трубы\"/2",
+      "expected": 109.5,
+      "actual": 109.5,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Расстояние28",
+      "equation": "\"D1@Расстояние28\"=180мм - \"Диаметр трубы\"/2",
+      "expected": 109.5,
+      "actual": 109.5,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Расстояние29",
+      "equation": "\"D1@Расстояние29\"=\"Длина трубы\" - 150мм - 280мм",
+      "expected": 2350.0,
+      "actual": 2350.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "tube",
+      "dimension": "D1@Седло корпуса — профиль@PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04<1>.Part",
+      "equation": "\"D1@Седло корпуса — профиль@PT.SHT.01.21.00.11 'Ухо'_TCR04_TR04<1>.Part\" = \"Диаметр трубы\"",
+      "expected": 141.0,
+      "actual": 141.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "screw",
+      "dimension": "D1@Эскиз1@PT.SHT.01.24.00.07 'Сердечник'_SCR04_SR04<1>.Part",
+      "equation": "\"D1@Эскиз1@PT.SHT.01.24.00.07 'Сердечник'_SCR04_SR04<1>.Part\" = \"Диаметр вала шнека\"",
+      "expected": 36.0,
+      "actual": 36.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "screw",
+      "dimension": "D5@Вытянуть-Тонкостенный1@PT.SHT.01.24.00.07 'Сердечник'_SCR04_SR04<1>.Part",
+      "equation": "\"D5@Вытянуть-Тонкостенный1@PT.SHT.01.24.00.07 'Сердечник'_SCR04_SR04<1>.Part\" = \"Толщина стенки вала\"",
+      "expected": 3.0,
+      "actual": 3.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "screw",
+      "dimension": "D1@Вытянуть-Тонкостенный1@PT.SHT.01.24.00.07 'Сердечник'_SCR04_SR04<1>.Part",
+      "equation": "\"D1@Вытянуть-Тонкостенный1@PT.SHT.01.24.00.07 'Сердечник'_SCR04_SR04<1>.Part\" = \"Длина вала\"",
+      "expected": 2780.0,
+      "actual": 2780.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "screw",
+      "dimension": "D1@Поверхность-Вытянуть1@PT.SHT.01.24.00.05 'Винт шнека'_SCR04_SR04<1>.Part",
+      "equation": "\"D1@Поверхность-Вытянуть1@PT.SHT.01.24.00.05 'Винт шнека'_SCR04_SR04<1>.Part\" = \"Длина вала\"",
+      "expected": 2780.0,
+      "actual": 2780.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "screw",
+      "dimension": "D1@Эскиз1@PT.SHT.01.24.00.05 'Винт шнека'_SCR04_SR04<1>.Part",
+      "equation": "\"D1@Эскиз1@PT.SHT.01.24.00.05 'Винт шнека'_SCR04_SR04<1>.Part\" = \"Диаметр вала шнека\"",
+      "expected": 36.0,
+      "actual": 36.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "screw",
+      "dimension": "D1@Эскиз5@PT.SHT.01.24.00.05 'Винт шнека'_SCR04_SR04<1>.Part",
+      "equation": "\"D1@Эскиз5@PT.SHT.01.24.00.05 'Винт шнека'_SCR04_SR04<1>.Part\" =  ( \"Диаметр винта шнека\" - \"Диаметр вала шнека\" )  / 2",
+      "expected": 47.0,
+      "actual": 47.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "screw",
+      "dimension": "D3@Линейный массив1@PT.SHT.01.24.00.05 'Винт шнека'_SCR04_SR04<1>.Part",
+      "equation": "\"D3@Линейный массив1@PT.SHT.01.24.00.05 'Винт шнека'_SCR04_SR04<1>.Part\" = \"Шаг винта шнека\"",
+      "expected": 105.0,
+      "actual": 105.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "screw",
+      "dimension": "D1@Линейный массив1@PT.SHT.01.24.00.05 'Винт шнека'_SCR04_SR04<1>.Part",
+      "equation": "\"D1@Линейный массив1@PT.SHT.01.24.00.05 'Винт шнека'_SCR04_SR04<1>.Part\" = \"Число витков\"",
+      "expected": 24.0,
+      "actual": 24.0,
+      "unit": "count",
+      "match": true
+    },
+    {
+      "kind": "screw",
+      "dimension": "D2@Эскиз1@PT.SHT.01.24.00.09 'Торец шнека'_SCR04_SR04<1>.Part",
+      "equation": "\"D2@Эскиз1@PT.SHT.01.24.00.09 'Торец шнека'_SCR04_SR04<1>.Part\" = \"Диаметр вала шнека\"",
+      "expected": 36.0,
+      "actual": 36.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "screw",
+      "dimension": "D1@Эскиз1@PT.SHT.01.24.00.09 'Торец шнека'_SCR04_SR04<1>.Part",
+      "equation": "\"D1@Эскиз1@PT.SHT.01.24.00.09 'Торец шнека'_SCR04_SR04<1>.Part\" = \"Диаметр винта шнека\"",
+      "expected": 130.0,
+      "actual": 130.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "screw",
+      "dimension": "D1@Бобышка-Вытянуть1@PT.SHT.01.24.00.09 'Торец шнека'_SCR04_SR04<1>.Part",
+      "equation": "\"D1@Бобышка-Вытянуть1@PT.SHT.01.24.00.09 'Торец шнека'_SCR04_SR04<1>.Part\" = \"Толщина лопасти\"",
+      "expected": 5.0,
+      "actual": 5.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "screw",
+      "dimension": "D1@Расстояние2",
+      "equation": "\"D1@Расстояние2\"=85мм + \"Шаг винта шнека\" * \"Число витков\" + \"Толщина лопасти\"",
+      "expected": 2610.0,
+      "actual": 2610.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "screw",
+      "dimension": "D2@Эскиз5@PT.SHT.01.24.00.05 'Винт шнека'_SCR04_SR04<1>.Part",
+      "equation": "\"D2@Эскиз5@PT.SHT.01.24.00.05 'Винт шнека'_SCR04_SR04<1>.Part\" = \"Толщина лопасти\"",
+      "expected": 5.0,
+      "actual": 5.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "screw",
+      "dimension": "D1@Эскиз1@PT.SHT.01.24.00.01 'Вал шнека верхний'_SCR04_SR04<1>.Part",
+      "equation": "\"D1@Эскиз1@PT.SHT.01.24.00.01 'Вал шнека верхний'_SCR04_SR04<1>.Part\" = \"Диаметр вала шнека\" / 2 - \"Толщина стенки вала\"",
+      "expected": 15.0,
+      "actual": 15.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "screw",
+      "dimension": "D1@Расстояние3",
+      "equation": "\"D1@Расстояние3\"=\"Длина вала\"",
+      "expected": 2780.0,
+      "actual": 2780.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "screw",
+      "dimension": "D1@Эскиз1@PT.SHT.01.24.00.03 'Вал шнека нижний'_SCR04_SR04<1>.Part",
+      "equation": "\"D1@Эскиз1@PT.SHT.01.24.00.03 'Вал шнека нижний'_SCR04_SR04<1>.Part\" = \"Диаметр вала шнека\" / 2 - \"Толщина стенки вала\"",
+      "expected": 15.0,
+      "actual": 15.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "screw",
+      "dimension": "D2@Эскиз2@PT.SHT.01.24.00.07 'Сердечник'_SCR04_SR04<1>.Part",
+      "equation": "\"D2@Эскиз2@PT.SHT.01.24.00.07 'Сердечник'_SCR04_SR04<1>.Part\" = \"Длина вала\" - 50мм",
+      "expected": 2730.0,
+      "actual": 2730.0,
+      "unit": "mm",
+      "match": true
+    },
+    {
+      "kind": "screw",
+      "dimension": "D4@Спираль1@PT.SHT.01.24.00.05 'Винт шнека'_SCR04_SR04<1>.Part",
+      "equation": "\"D4@Спираль1@PT.SHT.01.24.00.05 'Винт шнека'_SCR04_SR04<1>.Part\"=\"Шаг винта шнека\"",
+      "expected": 105.0,
+      "actual": 105.0,
+      "unit": "mm",
+      "match": true
+    }
+  ],
+  "verification": {
+    "timestamp": "2026-10-05T11:21:34+04:00",
+    "components": 204,
+    "suppressed": 0,
+    "broken_mates": 0,
+    "feature_errors": 0,
+    "positive_interferences": 0,
+    "threshold_mm3": 0.001,
+    "measured_geometry": {
+      "tube_diameter": 141.0,
+      "working_length": 2510.0,
+      "incline": 34.99999999999989,
+      "world_axis": [
+        0.0,
+        -0.5735764363510445,
+        0.8191520442889931
+      ],
+      "horizontal_plane": "XZ; нормаль Y соответствует плоскости опор"
+    },
+    "representation": "Сборочная — резьба условно"
+  },
+  "physical": {
+    "pipe": {
+      "cylinders": [
+        [
+          0.0,
+          2.7800000000000047,
+          -1.1102230246251565e-16,
+          0.0,
+          -1.0,
+          0.0,
+          0.07050000000000001
+        ],
+        [
+          0.0,
+          2.7800000000000047,
+          -1.1102230246251565e-16,
+          0.0,
+          -1.0,
+          0.0,
+          0.0655
+        ],
+        [
+          -0.07050000000000001,
+          0.08000000000000013,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.010000000000000016
+        ],
+        [
+          -0.07050000000000001,
+          0.08000000000000013,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.010000000000000016
+        ],
+        [
+          0.0,
+          0.16528471272979195,
+          0.016169591142201095,
+          0.0,
+          0.5735764363510417,
+          0.819152044288995,
+          0.04999999999999999
+        ],
+        [
+          0.0,
+          2.737563382431468,
+          0.10021443951761222,
+          -0.0,
+          -0.5735764363510417,
+          -0.819152044288995,
+          0.05250000000000011
+        ]
+      ],
+      "bbox": [
+        -0.07050000000000001,
+        0.0,
+        -0.07050000000000001,
+        0.07050000000000001,
+        2.78,
+        0.07050000000000001
+      ],
+      "axis_y_length_mm": 2780.0000000000045
+    },
+    "port": {
+      "cylinders": [
+        [
+          0.0,
+          0.2,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          0.05
+        ],
+        [
+          0.0,
+          0.2,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          0.047
+        ],
+        [
+          0.0,
+          0.23673766915909916,
+          0.02427600711854462,
+          0.0,
+          -0.5735764363510433,
+          -0.8191520442889937,
+          0.06550000000000002
+        ]
+      ],
+      "bbox": [
+        -0.05,
+        0.0,
+        -0.05,
+        0.05,
+        0.18284122555869609,
+        0.05
+      ],
+      "axis_y_length_mm": 177.42807998098166
+    },
+    "core": {
+      "cylinders": [
+        [
+          0.0,
+          2.78,
+          0.0,
+          -0.0,
+          -1.0,
+          -0.0,
+          0.018
+        ],
+        [
+          0.0,
+          2.78,
+          0.0,
+          -0.0,
+          -1.0,
+          -0.0,
+          0.015
+        ],
+        [
+          0.0,
+          0.044,
+          -0.018,
+          -0.0,
+          -0.0,
+          1.0,
+          0.003000000000000001
+        ],
+        [
+          0.0,
+          0.044,
+          -0.018,
+          -0.0,
+          -0.0,
+          1.0,
+          0.003000000000000001
+        ],
+        [
+          0.0,
+          2.73,
+          -0.018,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0029999999999994454
+        ],
+        [
+          0.0,
+          2.73,
+          -0.018,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0029999999999994454
+        ],
+        [
+          0.0,
+          2.745,
+          -0.018,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0029999999999994454
+        ],
+        [
+          0.0,
+          2.745,
+          -0.018,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0029999999999994454
+        ],
+        [
+          0.0,
+          0.074,
+          -0.018,
+          -0.0,
+          -0.0,
+          1.0,
+          0.003000000000000001
+        ],
+        [
+          0.0,
+          0.074,
+          -0.018,
+          -0.0,
+          -0.0,
+          1.0,
+          0.003000000000000001
+        ],
+        [
+          0.0,
+          2.76,
+          -0.018,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0029999999999994454
+        ],
+        [
+          0.0,
+          2.76,
+          -0.018,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0029999999999994454
+        ],
+        [
+          0.0,
+          0.059,
+          -0.018,
+          -0.0,
+          -0.0,
+          1.0,
+          0.003000000000000001
+        ],
+        [
+          0.0,
+          0.059,
+          -0.018,
+          -0.0,
+          -0.0,
+          1.0,
+          0.003000000000000001
+        ],
+        [
+          0.018,
+          0.059,
+          6.28466640991764e-17,
+          -1.0,
+          0.0,
+          -3.4914813388431334e-15,
+          0.003000000000000001
+        ],
+        [
+          0.018,
+          0.044,
+          6.28466640991764e-17,
+          -1.0,
+          0.0,
+          -3.4914813388431334e-15,
+          0.003000000000000001
+        ],
+        [
+          0.018,
+          0.044,
+          6.28466640991764e-17,
+          -1.0,
+          0.0,
+          -3.4914813388431334e-15,
+          0.003000000000000001
+        ],
+        [
+          0.018,
+          2.73,
+          6.28466640991764e-17,
+          -1.0,
+          0.0,
+          -3.4914813388431334e-15,
+          0.0029999999999994454
+        ],
+        [
+          0.018,
+          2.73,
+          6.28466640991764e-17,
+          -1.0,
+          0.0,
+          -3.4914813388431334e-15,
+          0.0029999999999994454
+        ],
+        [
+          0.018,
+          2.745,
+          6.28466640991764e-17,
+          -1.0,
+          0.0,
+          -3.4914813388431334e-15,
+          0.0029999999999994454
+        ],
+        [
+          0.018,
+          2.745,
+          6.28466640991764e-17,
+          -1.0,
+          0.0,
+          -3.4914813388431334e-15,
+          0.0029999999999994454
+        ],
+        [
+          0.018,
+          0.074,
+          6.28466640991764e-17,
+          -1.0,
+          0.0,
+          -3.4914813388431334e-15,
+          0.003000000000000001
+        ],
+        [
+          0.018,
+          0.074,
+          6.28466640991764e-17,
+          -1.0,
+          0.0,
+          -3.4914813388431334e-15,
+          0.003000000000000001
+        ],
+        [
+          0.018,
+          2.76,
+          6.28466640991764e-17,
+          -1.0,
+          0.0,
+          -3.4914813388431334e-15,
+          0.0029999999999994454
+        ],
+        [
+          0.018,
+          2.76,
+          6.28466640991764e-17,
+          -1.0,
+          0.0,
+          -3.4914813388431334e-15,
+          0.0029999999999994454
+        ],
+        [
+          0.018,
+          0.059,
+          6.28466640991764e-17,
+          -1.0,
+          0.0,
+          -3.4914813388431334e-15,
+          0.003000000000000001
+        ]
+      ],
+      "bbox": [
+        -0.018,
+        0.02400000000000001,
+        -0.018,
+        0.018,
+        2.78,
+        0.018
+      ],
+      "axis_y_length_mm": 2756.0
+    },
+    "flange": {
+      "cylinders": [
+        [
+          0.0,
+          0.005,
+          0.0,
+          -0.0,
+          -1.0,
+          -0.0,
+          0.1005
+        ],
+        [
+          0.0,
+          0.005,
+          0.0,
+          -0.0,
+          -1.0,
+          -0.0,
+          0.07050000000000001
+        ],
+        [
+          0.085,
+          0.005,
+          0.0,
+          -0.0,
+          -1.0,
+          -0.0,
+          0.004399999999999998
+        ],
+        [
+          0.060104076400856535,
+          0.005,
+          0.06010407640085654,
+          -0.0,
+          -1.0,
+          -0.0,
+          0.004399999999999969
+        ],
+        [
+          -5.204748896376254e-18,
+          0.005,
+          0.08499999999999999,
+          -0.0,
+          -1.0,
+          -0.0,
+          0.004399999999999995
+        ],
+        [
+          -0.06010407640085655,
+          0.005,
+          0.06010407640085653,
+          -0.0,
+          -1.0,
+          -0.0,
+          0.004400000000000004
+        ],
+        [
+          -0.085,
+          0.005,
+          -1.0409497792752508e-17,
+          -0.0,
+          -1.0,
+          -0.0,
+          0.004399999999999998
+        ],
+        [
+          -0.06010407640085655,
+          0.005,
+          -0.060104076400856556,
+          -0.0,
+          -1.0,
+          -0.0,
+          0.004400000000000004
+        ],
+        [
+          -5.204748896376249e-18,
+          0.005,
+          -0.08500000000000002,
+          -0.0,
+          -1.0,
+          -0.0,
+          0.0043999999999999985
+        ],
+        [
+          0.06010407640085656,
+          0.005,
+          -0.060104076400856535,
+          -0.0,
+          -1.0,
+          -0.0,
+          0.004399999999999998
+        ]
+      ],
+      "bbox": [
+        -0.1005,
+        0.0,
+        -0.1005,
+        0.1005,
+        0.005,
+        0.1005
+      ],
+      "axis_y_length_mm": 5.0
+    },
+    "blade": {
+      "solid_bodies": 24,
+      "bbox_approximate": [
+        -0.06509415164799419,
+        -2.5000000000177658e-05,
+        -0.0651748063700744,
+        0.06509415164799416,
+        2.5248683728110115,
+        0.06509365140109437
+      ]
+    }
+  },
+  "project_angle": {
+    "requested": 55,
+    "actual": 34.99999999999989,
+    "match": false
+  },
+  "opening_cut": {
+    "name": "Вырез-Вытянуть5",
+    "suppressed": true,
+    "error": 0
+  }
+}

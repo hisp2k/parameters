@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "code": "KWS_LEAD_ORE_FINE",
+      "name": "Свинцовая руда, мелкая",
+      "bulk_density_min_kg_m3": 3204,
+      "bulk_density_max_kg_m3": 4325,
+      "max_lump_mm": 3.2,
+      "density_source_range_lb_ft3": "200-270",
+      "particle_size_note": "Таблица KWS: менее 1/8 дюйма; 3,2 мм принято пользователем как расчётное округление",
+      "source_url": "https://www.kwsmfg.com/engineering-guides/screw-conveyor/bulk-material-table/",
+      "status": "reference_values_not_sample_measurement"
+    }
+  ]
+}
