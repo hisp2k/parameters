@@ -1,0 +1,3 @@
+using System;using System.Runtime.InteropServices;using System.Runtime.InteropServices.ComTypes;
+class InspectROT{[DllImport("ole32.dll")]static extern int GetRunningObjectTable(int reserved,out IRunningObjectTable rot);[DllImport("ole32.dll")]static extern int CreateBindCtx(int reserved,out IBindCtx ctx);
+[STAThread]static void Main(){IRunningObjectTable rot;GetRunningObjectTable(0,out rot);IEnumMoniker en;rot.EnumRunning(out en);IMoniker[] ms=new IMoniker[1];while(en.Next(1,ms,IntPtr.Zero)==0){IBindCtx ctx;CreateBindCtx(0,out ctx);string name;ms[0].GetDisplayName(ctx,null,out name);if(name.IndexOf("SolidWorks",StringComparison.OrdinalIgnoreCase)>=0||name.IndexOf("SldWorks",StringComparison.OrdinalIgnoreCase)>=0)Console.WriteLine(name);}}}

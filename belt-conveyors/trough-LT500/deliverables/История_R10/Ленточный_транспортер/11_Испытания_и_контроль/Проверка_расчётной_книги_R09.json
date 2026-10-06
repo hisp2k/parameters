@@ -1,0 +1,14 @@
+{
+  "five_sag_reaction_cases_match_Python": true,
+  "nine_shell_bearing_and_shaft_bound_cases_match_Python": true,
+  "unknown_zero_half_meter_footprint_checked": true,
+  "zero_peak_and_missing_half_E_checked": true,
+  "inputs_restored": true,
+  "engine": "Artifact Tool; Microsoft Excel not tested",
+  "all_sheets_visually_checked": true,
+  "preview_regions_checked": 4,
+  "formula_scan_zero_matches": true,
+  "formula_count": 99,
+  "exported_cached_errors": [],
+  "formulas_without_cached_values": []
+}

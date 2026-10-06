@@ -1,0 +1,15 @@
+{
+  "revision": "R08",
+  "force_balance_all486": true,
+  "capstan_and_sag_constraints_all486": true,
+  "single_peak_position_bounds": true,
+  "finite_difference_string_nodes": 1001,
+  "sag_difference_equation_max_residual_N_m": 5.3055714488436934e-08,
+  "deflection_target_m": 0.0075,
+  "component_selected": false,
+  "simulation_performed": false,
+  "scenarios": 486,
+  "fixed_mean_states": 1458,
+  "CAD_updated": false,
+  "not_for_manufacturing": true
+}

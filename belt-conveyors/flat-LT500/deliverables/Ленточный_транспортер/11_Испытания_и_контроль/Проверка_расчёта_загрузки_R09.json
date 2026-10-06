@@ -1,0 +1,71 @@
+{
+  "revision": "R09",
+  "green_function_cases": [
+    {
+      "pitch_m": 0.25,
+      "footprint_m": 0,
+      "T_integrated_N": 4748.468354454968,
+      "reaction_integrated_N": 232.82812576682426
+    },
+    {
+      "pitch_m": 0.25,
+      "footprint_m": 0.25,
+      "T_integrated_N": 2910.3515720853034,
+      "reaction_integrated_N": 196.06579011943094
+    },
+    {
+      "pitch_m": 0.25,
+      "footprint_m": 0.5,
+      "T_integrated_N": 1991.2931809004706,
+      "reaction_integrated_N": 159.30345447203766
+    },
+    {
+      "pitch_m": 0.25,
+      "footprint_m": 0.75,
+      "T_integrated_N": 1684.9403838388596,
+      "reaction_integrated_N": 134.79523070710877
+    },
+    {
+      "pitch_m": 0.25,
+      "footprint_m": 1.0,
+      "T_integrated_N": 1531.7639853080545,
+      "reaction_integrated_N": 122.54111882464436
+    },
+    {
+      "pitch_m": 0.75,
+      "footprint_m": 0,
+      "T_integrated_N": 6892.9379338862445,
+      "reaction_integrated_N": 404.3856921213263
+    },
+    {
+      "pitch_m": 0.75,
+      "footprint_m": 0.25,
+      "T_integrated_N": 6280.232339763023,
+      "reaction_integrated_N": 392.1315802388619
+    },
+    {
+      "pitch_m": 0.75,
+      "footprint_m": 0.5,
+      "T_integrated_N": 5667.526745639801,
+      "reaction_integrated_N": 379.87746835639746
+    },
+    {
+      "pitch_m": 0.75,
+      "footprint_m": 0.75,
+      "T_integrated_N": 5054.821151516579,
+      "reaction_integrated_N": 367.6233564739331
+    },
+    {
+      "pitch_m": 0.75,
+      "footprint_m": 1.0,
+      "T_integrated_N": 4595.291955924164,
+      "reaction_integrated_N": 355.36924459146866
+    }
+  ],
+  "green_and_influence_match": true,
+  "shaft_81_nodes_cases": 27,
+  "shaft_equilibrium_passed": true,
+  "simulation_performed": false,
+  "shaft_midpoint_independent_analytic_check": true,
+  "limits": "Нет подтверждения допускаемых напряжений/контактов/усталости/основания"
+}

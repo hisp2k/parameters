@@ -1,0 +1,289 @@
+{
+  "revision": "R05",
+  "scope": "Геометрия наклонного седла, местная жёсткость и узел стыка; предварительный расчёт",
+  "constants": {
+    "E_MPa_assumed": 200000.0,
+    "rho_kg_m3": 7850.0,
+    "g": 9.80665
+  },
+  "load_from_R04_N": 1418.0686894766482,
+  "seat": {
+    "length_mm": 100.0,
+    "width_mm": 60.0,
+    "t_min_mm": 10.0,
+    "theta_deg": 1.5,
+    "deflection_target_mm_proposed": 0.05,
+    "selected": {
+      "t_min_mm": 10.0,
+      "t_centre_mm": 11.309296078459347,
+      "t_max_mm": 12.618592156918693,
+      "volume_one_m3": 6.78557764707561e-05,
+      "load_one_seat_upper_N": 1428.516063726781,
+      "seat_strip_I_mm4": 3166.6666666666665,
+      "seat_strip_sigma_MPa": 47.36658527094063,
+      "seat_strip_delta_mm": 0.027851552139313094
+    }
+  },
+  "seat_candidates": [
+    {
+      "t_min_mm": 6.0,
+      "t_centre_mm": 7.309296078459346,
+      "t_max_mm": 8.618592156918693,
+      "volume_one_m3": 4.385577647075608e-05,
+      "load_one_seat_upper_N": 1424.820918006781,
+      "seat_strip_I_mm4": 684.0,
+      "seat_strip_sigma_MPa": 131.23350560588773,
+      "seat_strip_delta_mm": 0.12860883549376997
+    },
+    {
+      "t_min_mm": 8.0,
+      "t_centre_mm": 9.309296078459347,
+      "t_max_mm": 10.618592156918693,
+      "volume_one_m3": 5.5855776470756086e-05,
+      "load_one_seat_upper_N": 1426.6684908667812,
+      "seat_strip_I_mm4": 1621.3333333333333,
+      "seat_strip_sigma_MPa": 73.91456819457831,
+      "seat_strip_delta_mm": 0.05432720762301505
+    },
+    {
+      "t_min_mm": 10.0,
+      "t_centre_mm": 11.309296078459347,
+      "t_max_mm": 12.618592156918693,
+      "volume_one_m3": 6.78557764707561e-05,
+      "load_one_seat_upper_N": 1428.516063726781,
+      "seat_strip_I_mm4": 3166.6666666666665,
+      "seat_strip_sigma_MPa": 47.36658527094063,
+      "seat_strip_delta_mm": 0.027851552139313094
+    }
+  ],
+  "variants": [
+    {
+      "angle_deg": 1.0,
+      "t_centre_mm": 10.872753246410879,
+      "t_max_mm": 11.74550649282176,
+      "leg_depth_m": 0.5311272467535891,
+      "stand_volume_m3": 0.0019273222158090334,
+      "stand_mass_kg": 15.129479394100912,
+      "with_reference_rails_volume_m3": 0.0029363098177853427,
+      "with_reference_rails_mass_kg": 23.05003206961494,
+      "wedge_centroid_relative_seat_plane_mm": [
+        -1.3378292609540232,
+        -5.424700674899029
+      ],
+      "stations": [
+        {
+          "x_mm": 200,
+          "belt_mm": 883.7843116554444,
+          "rail_seating_plane_y_mm": 713.7843116554444,
+          "crossbeam_top_mm": 702.9115584090335,
+          "leg_length_mm": 614.9115584090335
+        },
+        {
+          "x_mm": 2600,
+          "belt_mm": 841.8921558277223,
+          "rail_seating_plane_y_mm": 671.8921558277223,
+          "crossbeam_top_mm": 661.0194025813114,
+          "leg_length_mm": 573.0194025813114
+        },
+        {
+          "x_mm": 5000,
+          "belt_mm": 800.0,
+          "rail_seating_plane_y_mm": 630.0,
+          "crossbeam_top_mm": 619.1272467535891,
+          "leg_length_mm": 531.1272467535891
+        },
+        {
+          "x_mm": 7400,
+          "belt_mm": 758.1078441722777,
+          "rail_seating_plane_y_mm": 588.1078441722777,
+          "crossbeam_top_mm": 577.2350909258669,
+          "leg_length_mm": 489.23509092586687
+        },
+        {
+          "x_mm": 9800,
+          "belt_mm": 716.2156883445556,
+          "rail_seating_plane_y_mm": 546.2156883445556,
+          "crossbeam_top_mm": 535.3429350981447,
+          "leg_length_mm": 447.3429350981447
+        }
+      ]
+    },
+    {
+      "angle_deg": 1.5,
+      "t_centre_mm": 11.309296078459347,
+      "t_max_mm": 12.618592156918693,
+      "leg_depth_m": 0.5306907039215407,
+      "stand_volume_m3": 0.0019320885449840633,
+      "stand_mass_kg": 15.166895078124897,
+      "with_reference_rails_volume_m3": 0.0029410761469603726,
+      "with_reference_rails_mass_kg": 23.087447753638926,
+      "wedge_centroid_relative_seat_plane_mm": [
+        -1.929527811126907,
+        -5.629384807265806
+      ],
+      "stations": [
+        {
+          "x_mm": 200,
+          "belt_mm": 925.6924235320972,
+          "rail_seating_plane_y_mm": 755.6924235320972,
+          "crossbeam_top_mm": 744.3831274536378,
+          "leg_length_mm": 656.3831274536378
+        },
+        {
+          "x_mm": 2600,
+          "belt_mm": 862.8462117660487,
+          "rail_seating_plane_y_mm": 692.8462117660487,
+          "crossbeam_top_mm": 681.5369156875893,
+          "leg_length_mm": 593.5369156875893
+        },
+        {
+          "x_mm": 5000,
+          "belt_mm": 800.0,
+          "rail_seating_plane_y_mm": 630.0,
+          "crossbeam_top_mm": 618.6907039215406,
+          "leg_length_mm": 530.6907039215406
+        },
+        {
+          "x_mm": 7400,
+          "belt_mm": 737.1537882339513,
+          "rail_seating_plane_y_mm": 567.1537882339513,
+          "crossbeam_top_mm": 555.8444921554919,
+          "leg_length_mm": 467.84449215549193
+        },
+        {
+          "x_mm": 9800,
+          "belt_mm": 674.3075764679028,
+          "rail_seating_plane_y_mm": 504.3075764679028,
+          "crossbeam_top_mm": 492.99828038944344,
+          "leg_length_mm": 404.99828038944344
+        }
+      ]
+    },
+    {
+      "angle_deg": 2.0,
+      "t_centre_mm": 11.746038474587387,
+      "t_max_mm": 13.492076949174773,
+      "leg_depth_m": 0.5302539615254126,
+      "stand_volume_m3": 0.001936857053070359,
+      "stand_mass_kg": 15.204327866602318,
+      "with_reference_rails_volume_m3": 0.0029458446550466684,
+      "with_reference_rails_mass_kg": 23.124880542116347,
+      "wedge_centroid_relative_seat_plane_mm": [
+        -2.477485605558205,
+        -5.829761385418283
+      ],
+      "stations": [
+        {
+          "x_mm": 200,
+          "belt_mm": 967.6196935603891,
+          "rail_seating_plane_y_mm": 797.6196935603891,
+          "crossbeam_top_mm": 785.8736550858017,
+          "leg_length_mm": 697.8736550858017
+        },
+        {
+          "x_mm": 2600,
+          "belt_mm": 883.8098467801946,
+          "rail_seating_plane_y_mm": 713.8098467801946,
+          "crossbeam_top_mm": 702.0638083056072,
+          "leg_length_mm": 614.0638083056072
+        },
+        {
+          "x_mm": 5000,
+          "belt_mm": 800.0,
+          "rail_seating_plane_y_mm": 630.0,
+          "crossbeam_top_mm": 618.2539615254126,
+          "leg_length_mm": 530.2539615254126
+        },
+        {
+          "x_mm": 7400,
+          "belt_mm": 716.1901532198054,
+          "rail_seating_plane_y_mm": 546.1901532198054,
+          "crossbeam_top_mm": 534.444114745218,
+          "leg_length_mm": 446.44411474521803
+        },
+        {
+          "x_mm": 9800,
+          "belt_mm": 632.3803064396109,
+          "rail_seating_plane_y_mm": 462.3803064396109,
+          "crossbeam_top_mm": 450.63426796502347,
+          "leg_length_mm": 362.63426796502347
+        }
+      ]
+    }
+  ],
+  "contacts": {
+    "rail_flat_width_mm": 38,
+    "seat_bottom_supported_straight_width_mm": 84,
+    "seat_bottom_area_mm2": 5040.0,
+    "rail_half_seat_surface_area_mm2": 1900.651305732649,
+    "mean_pressure_full_load_on_half_contact_MPa": 0.751335367325182,
+    "scope": "Площадь номинального контакта в идеальной геометрии; не фактическое распределение давления и не расчёт контакта в Simulation."
+  },
+  "top_wall": {
+    "clear_span_mm": 92.0,
+    "loaded_width_mm": 84,
+    "effective_transverse_width_mm": 60,
+    "t_mm": 4.0,
+    "sigma_MPa": 111.60281747865479,
+    "delta_mm": 0.2456192008009394,
+    "scope": "Одномерный упругий ориентир: опирание полосы по краям, равномерная центральная площадка. Реальный контакт, углы трубы и распределение по ширине не решены."
+  },
+  "top_wall_sensitivity": [
+    {
+      "spreading_width_mm": 38,
+      "span_mm": 84,
+      "sigma_MPa": 148.02057897168947,
+      "delta_mm": 0.27198781386047943
+    },
+    {
+      "spreading_width_mm": 38,
+      "span_mm": 92,
+      "sigma_MPa": 176.214974966297,
+      "delta_mm": 0.38781979073832534
+    },
+    {
+      "spreading_width_mm": 60,
+      "span_mm": 84,
+      "sigma_MPa": 93.74636668207002,
+      "delta_mm": 0.17225894877830364
+    },
+    {
+      "spreading_width_mm": 60,
+      "span_mm": 92,
+      "sigma_MPa": 111.60281747865479,
+      "delta_mm": 0.2456192008009394
+    }
+  ],
+  "restraint": {
+    "sliding_component_N_at_2deg": 49.854491655502464,
+    "belt_axial_force_N": null,
+    "friction_assumed": false,
+    "positive_restraint_required": true
+  },
+  "blank_proposal": {
+    "size_mm": [
+      104,
+      64,
+      16
+    ],
+    "minimum_top_allowance_at_2deg_mm": 2.5079230508252266,
+    "scope": "Кандидат заготовки для обсуждения фрезеровки; не заказ и не выпущенный маршрут."
+  },
+  "checks": {
+    "independent_top_wall_virtual_work_delta_mm": 0.2456192007984789,
+    "closed_form_matches_virtual_work": true,
+    "manufacturing_approved": false,
+    "simulation_performed": false
+  },
+  "assumptions": [
+    "Седла сплошные, верх наклонён вдоль транспортёра, нижняя поверхность горизонтальна. В CAD отсутствуют фиксаторы седел и крепления балок.",
+    "Минимальная толщина 10 мм выбрана по предлагаемому пределу прогиба отдельного седла 0,05 мм, не по утверждённому нормативу. Сравнены 6/8/10 мм.",
+    "Условная нагрузка 1418,07 Н из R04 плюс вес двух седел целиком направлена на одно седло; совместность q и локальных 15 кг неизвестна.",
+    "Радиусы трубы ограничивают плоскую опорную поверхность: нижняя плоскость рельса 38 мм вместо наружных 50 мм, верх трубы 84 мм вместо наружных 100 мм.",
+    "На стыке контакт каждой половины седла имеет номинальную длину по горизонтали 50 мм. Торцы рельсов в CAD лежат в одной плоскости без заданного эксплуатационного зазора.",
+    "Предложенные высоты исправлены на толщину седла; 170 мм между рабочей поверхностью ленты и плоскостью опирания рельса остаётся допущением.",
+    "Прочность верхней стенки поперечины не подтверждена. Одномерный расчёт показан как ориентир для выбора следующей проверки, а не как заменитель контактов/Simulation.",
+    "Полная рама, барабаны, привод, натяжение, связи, швы, болты, анкеры и бетон пока не рассчитаны.",
+    "Сборочный узел представлен многотельной деталью: семь тел опоры и четыре коротких справочных участка рельса. Они не являются деталями полного транспортёра."
+  ]
+}

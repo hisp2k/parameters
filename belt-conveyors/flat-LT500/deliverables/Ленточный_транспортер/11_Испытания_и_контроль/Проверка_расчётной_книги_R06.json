@@ -1,0 +1,12 @@
+{
+  "all36_cases_match_Python": true,
+  "mass_deflection_weld_stress_match": true,
+  "angle1_2_and_E_and_weld_leg_recalculated": true,
+  "missing_E_handled": true,
+  "restored": true,
+  "engine": "Artifact Tool; Microsoft Excel not tested",
+  "visual_review_all_three_sheets_six_images": true,
+  "formula_error_scan_zero_matches": true,
+  "exported_formula_count": 224,
+  "exported_cached_errors": []
+}

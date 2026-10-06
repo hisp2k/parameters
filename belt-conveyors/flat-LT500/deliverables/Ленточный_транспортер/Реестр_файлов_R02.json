@@ -1,0 +1,62 @@
+{
+  "revision": "R02",
+  "status": "PRELIMINARY NOT FOR MANUFACTURING",
+  "cad_revision_retained": "R01",
+  "files": [
+    {
+      "path": "00_Исходные_данные\\Первоначальное_задание.txt",
+      "bytes": 24045,
+      "sha256": "06d0be50dd90fa3ac9e6461bf242dea7b0e10bb6e7965ab118e23c8298a5f317"
+    },
+    {
+      "path": "00_Исходные_данные\\Реестр_исходных_данных_R02.json",
+      "bytes": 24090,
+      "sha256": "909beac941c7f786062694a7b769daaa03da1969eb2d23b9591af4d236c812c3"
+    },
+    {
+      "path": "01_Техническое_задание\\ЛТ500_Предварительный_проект_R02.pdf",
+      "bytes": 108888,
+      "sha256": "417e419fb8148e120fa65bf0be714e861e4a2019677c28443ff3a1aee4a42bf6"
+    },
+    {
+      "path": "02_Расчеты\\ЛТ500_Расчётный_паспорт_R02.xlsx",
+      "bytes": 17943,
+      "sha256": "110a104200640242df912bcf8a2b1abfbb02c20fdaf8de2fa4baf4d115bff61f"
+    },
+    {
+      "path": "03_Модели_SolidWorks\\master_creation_report_R01.json",
+      "bytes": 903,
+      "sha256": "86840c24585179d86e44e395fd4b951be9524719f3f43b046c7da803fdbf903c"
+    },
+    {
+      "path": "03_Модели_SolidWorks\\master_inspection_report_R01.json",
+      "bytes": 2126,
+      "sha256": "f3fc48f31142982da687fbe0ff318e3cceeea38114f886afc443075f367c567b"
+    },
+    {
+      "path": "03_Модели_SolidWorks\\~$ЛТ500_MASTER_исходная_геометрия_R01.SLDPRT",
+      "bytes": 4,
+      "sha256": "c468ac0d5f4abc0f8336aaceeb92989b1243d72f1502f631c7d3fbb08cd622ef"
+    },
+    {
+      "path": "03_Модели_SolidWorks\\ЛТ500_MASTER_исходная_геометрия_R01.SLDPRT",
+      "bytes": 79624,
+      "sha256": "4b23c20d841f9e041091907a6406289166f180613ee376be2147ab41af1f0c47"
+    },
+    {
+      "path": "11_Испытания_и_контроль\\Проверки_пуск_и_балка_R02.json",
+      "bytes": 219,
+      "sha256": "260b93f35753cacd64a912e4178f47b5cb5b1ef694438435a8f78cda346d0624"
+    },
+    {
+      "path": "11_Испытания_и_контроль\\Расчётные_проверки_R02.json",
+      "bytes": 557,
+      "sha256": "7a0ba7ab344c7f0edac043e6b8caf8b97485c6a0958b81be509da0ac9f668aa6"
+    },
+    {
+      "path": "СТАТУС_КОМПЛЕКТА_R02.txt",
+      "bytes": 2918,
+      "sha256": "4e53b59711ee3224fabb191bf016f51ac057c87e14c9ff70b632a179c5cc99e5"
+    }
+  ]
+}

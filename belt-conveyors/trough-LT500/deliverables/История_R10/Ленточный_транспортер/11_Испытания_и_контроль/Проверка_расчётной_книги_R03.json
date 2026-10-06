@@ -1,0 +1,7 @@
+{
+  "all24CasesMatchIndependentPython": true,
+  "EAndDeadMassRecalculation": true,
+  "missingEPropagation": true,
+  "restored": true,
+  "engine": "Artifact Tool; native Excel not tested"
+}

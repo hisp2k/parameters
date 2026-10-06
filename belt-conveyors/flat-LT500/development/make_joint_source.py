@@ -1,0 +1,33 @@
+from pathlib import Path
+B=Path(r'C:\Users\adm\Documents\Codex\2026-10-04\new-chat-2');s=(B/'work/CreateReinforcePrototype.cs').read_text(encoding='utf-8-sig').replace('class ReinforcePrototype','class JointPrototype')
+s=s.replace('tc=.010+.050*Math.Tan(a)','tc=.024+.050*Math.Tan(a)')
+s=s.replace('Finish(app,doc,sm,tr,segs,2,.06,z-.03,name);','foreach(double x in new double[]{-.030,.030}) Circle(app,sm,tr,segs,x,.04-tc+.012,0,.00525);Finish(app,doc,sm,tr,segs,2,.080,z-.040,name);')
+s=s.replace('.120,.080,0,0,.012,.04-tc-.012,"CAP_"+side','.160,.120,0,0,.012,.04-tc-.012,"CAP_"+side')
+s=s.replace('.003,.006,.3,start,nm)', '.003,.006,.298,start<0?-.3:.002,nm)')
+end='R(Convert.ToBoolean(C(mv,"IFeature","ModifyDefinition",def,doc,null)),"Move definition update");}}'
+new=end[:-1]+r'''
+foreach(double x in new double[]{-.035,.035}) CutRail(app,doc,pls[0],x,.04+.05/Math.Cos(a)-x*Math.Tan(a),z-.025,"RAIL_HOLE_"+side+(x<0?"_IN":"_OUT"));
+foreach(double dz in new double[]{-.045,.045})Guide(app,doc,pls[0],z+dz,a,tc,"GUIDE_"+side+(dz<0?"_MINUS":"_PLUS"));
+foreach(double x in new double[]{-.030,.030}) Fastener(app,doc,pls[0],x,.04-tc+.012,z,.006,.010,.0065,.110,.010,.004,.005,.018,side+"_SEAT_"+(x<0?"IN":"OUT"));
+foreach(double x in new double[]{-.035,.035}) Fastener(app,doc,pls[0],x,.04+.05/Math.Cos(a)-x*Math.Tan(a),z,.010,.020,.011,.120,.017,.006,.008,.024,side+"_MODULE_"+(x<0?"IN":"OUT"));
+}
+'''
+assert end in s;s=s.replace(end,new)
+start=s.index('R(Convert.ToBoolean(C(doc,"IModelDoc2","ForceRebuild3",false)),"Rebuild failed");R(');stop=s.index('return doc;}',start)
+s=s[:start]+'R(Convert.ToBoolean(C(doc,"IModelDoc2","ForceRebuild3",false)),"Rebuild failed");R(((Array)C(doc,"IPartDoc","GetBodies2",0,false)).Length==69,"Expected 69 bodies");'+s[stop:]
+s=s.replace('new double[]{1,2,1.5}','new double[]{1.5}').replace('type,"R06"','type,"R07"')
+ss=s.index('"13 support bodies');se=s.index('",replace);',ss)
+s=s[:ss]+'"R07 joint candidate: 69 bodies including simplified fastener envelopes. 160x120x12 caps, 160x100x6 guides, 100x80 seats min24mm. M10 module bolts with 20x11x97 sleeves, M6 seat bolts with 10x6.5x97 sleeves. One round, one 33x21 longitudinal slot. Nominal gap4mm. Welds and production tolerances not defined. NOT FOR MANUFACTURING.'+s[se:]
+helpers=r'''
+static void Circle(object app,object sm,object tr,List<object>seg,double x,double y,double z,double r){double[]q=Point(app,tr,x,y,z);object c=C(sm,"ISketchManager","CreateCircleByRadius",q[0],q[1],0d,r);R(c!=null,"Circle failed");seg.Add(c);}
+static void Slot(object app,object sm,object tr,List<object>seg,double x,double y,double length,double height){double[]q=Point(app,tr,x,y,0);double dx=(length-height)/2,r=height/2;Line(sm,seg,q[0]-dx,q[1]-r,q[0]+dx,q[1]-r);Arc(sm,seg,q[0]+dx,q[1]-r,q[0]+dx,q[1]+r,q[0]+dx+r,q[1]);Line(sm,seg,q[0]+dx,q[1]+r,q[0]-dx,q[1]+r);Arc(sm,seg,q[0]-dx,q[1]+r,q[0]-dx,q[1]-r,q[0]-dx-r,q[1]);}
+static object Begin(object doc,object plane,out object sm,out object tr){C(doc,"IModelDoc2","ClearSelection2",true);C(plane,"IFeature","Select2",false,0);sm=G(doc,"IModelDoc2","SketchManager");C(sm,"ISketchManager","InsertSketch",true);tr=G(G(sm,"ISketchManager","ActiveSketch"),"ISketch","ModelToSketchTransform");S(sm,"ISketchManager","AddToDB",true);return sm;}
+static void Guide(object app,object doc,object plane,double z,double a,double tc,string name){object sm,tr;Begin(doc,plane,out sm,out tr);var seg=new List<object>();double y=.04-tc;double[]q=Point(app,tr,0,y+.05,0);Line(sm,seg,q[0]-.08,q[1]-.05,q[0]+.08,q[1]-.05);Line(sm,seg,q[0]+.08,q[1]-.05,q[0]+.08,q[1]+.05);Line(sm,seg,q[0]+.08,q[1]+.05,q[0]-.08,q[1]+.05);Line(sm,seg,q[0]-.08,q[1]+.05,q[0]-.08,q[1]-.05);foreach(double x in new double[]{-.03,.03})Circle(app,sm,tr,seg,x,y+.012,0,.00525);Circle(app,sm,tr,seg,-.035,.04+.05/Math.Cos(a)+.035*Math.Tan(a),0,.0105);Slot(app,sm,tr,seg,.035,.04+.05/Math.Cos(a)-.035*Math.Tan(a),.033,.021);Finish(app,doc,sm,tr,seg,2,.006,z-.003,name);}
+static void Ring(object app,object doc,object plane,double x,double y,double od,double id,double length,double start,string name){object sm,tr;Begin(doc,plane,out sm,out tr);var seg=new List<object>();Circle(app,sm,tr,seg,x,y,0,od/2);if(id>0)Circle(app,sm,tr,seg,x,y,0,id/2);Finish(app,doc,sm,tr,seg,2,length,start,name);}
+static void Hex(object app,object doc,object plane,double x,double y,double af,double id,double length,double start,string name){object sm,tr;Begin(doc,plane,out sm,out tr);var seg=new List<object>();double[]q=Point(app,tr,x,y,0);double r=af/Math.Sqrt(3);for(int j=0;j<6;j++){double a=j*Math.PI/3,b=(j+1)*Math.PI/3;Line(sm,seg,q[0]+r*Math.Cos(a),q[1]+r*Math.Sin(a),q[0]+r*Math.Cos(b),q[1]+r*Math.Sin(b));}if(id>0)Circle(app,sm,tr,seg,x,y,0,id/2);Finish(app,doc,sm,tr,seg,2,length,start,name);}
+static void Fastener(object app,object doc,object plane,double x,double y,double z,double d,double od,double id,double boltlen,double af,double hh,double nh,double wd,string name){Ring(app,doc,plane,x,y,od,id,.097,z-.0485,"SLEEVE_"+name);Ring(app,doc,plane,x,y,d,0,boltlen,z-.0505,"SHAFT_"+name);Hex(app,doc,plane,x,y,af,0,hh,z-.0505-hh,"HEAD_"+name);Hex(app,doc,plane,x,y,af,d,nh,z+.0505,"NUT_"+name);foreach(double dz in new double[]{-.0495,.0495})Ring(app,doc,plane,x,y,wd,id,.002,z+dz-.001,"WASHER_"+name+(dz<0?"_MINUS":"_PLUS"));}
+static void CutRail(object app,object doc,object plane,double x,double y,double start,string name){object sm,tr;Begin(doc,plane,out sm,out tr);var seg=new List<object>();Circle(app,sm,tr,seg,x,y,0,.01025);S(sm,"ISketchManager","AddToDB",false);C(doc,"IModelDoc2","ClearSelection2",true);foreach(object sg in seg)C(sg,"ISketchSegment","Select4",true,null);C(doc,"IModelDoc2","SketchAddConstraints","sgFIXED");C(doc,"IModelDoc2","ClearSelection2",true);object inv=C(tr,"IMathTransform","Inverse");double[]p0=Point(app,inv,0,0,0),pn=Point(app,inv,0,0,1);double normal=pn[2]-p0[2];C(sm,"ISketchManager","InsertSketch",true);object sf=C(doc,"IModelDoc2","FeatureByPositionReverse",0);S(sf,"IFeature","Name",name+"_PROFILE");C(sf,"IFeature","Select2",false,0);object cut=C(G(doc,"IModelDoc2","FeatureManager"),"IFeatureManager","FeatureCut3",true,false,normal<0,0,0,.050,0d,false,false,false,false,0d,0d,false,false,false,false,false,false,true,false,false,false,E("swStartConditions_e","swStartOffset"),Math.Abs(start),start*normal<0);R(cut!=null,"Rail cut failed "+name);S(cut,"IFeature","Name",name);}
+'''
+s=s.replace('static List<object> Data(object doc)',helpers+'\nstatic List<object> Data(object doc)')
+(B/'work/CreateJointPrototype.cs').write_text(s,encoding='utf-8-sig')
+print('R07 CAD source prepared')

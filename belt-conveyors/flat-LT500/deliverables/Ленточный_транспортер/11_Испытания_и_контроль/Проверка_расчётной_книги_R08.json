@@ -1,0 +1,14 @@
+{
+  "active3_and_selected27_match_Python": true,
+  "missing_zero_mu_handled": true,
+  "missing_start_time_handled": true,
+  "peak_zero_and_jam_torque_recalculated": true,
+  "restored": true,
+  "engine": "Artifact Tool; Microsoft Excel not tested",
+  "all_three_sheets_visually_checked": true,
+  "preview_regions_checked": 8,
+  "formula_scan_zero_matches": true,
+  "exported_formula_count": 471,
+  "exported_cached_errors": [],
+  "formulas_without_cached_values": []
+}

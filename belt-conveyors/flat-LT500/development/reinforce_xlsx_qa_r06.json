@@ -1,0 +1,8 @@
+{
+  "all36_cases_match_Python": true,
+  "mass_deflection_weld_stress_match": true,
+  "angle1_2_and_E_and_weld_leg_recalculated": true,
+  "missing_E_handled": true,
+  "restored": true,
+  "engine": "Artifact Tool; Microsoft Excel not tested"
+}

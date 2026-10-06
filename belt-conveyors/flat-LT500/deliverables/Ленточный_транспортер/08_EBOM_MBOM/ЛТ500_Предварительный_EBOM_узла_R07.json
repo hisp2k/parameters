@@ -1,0 +1,210 @@
+{
+  "revision": "R07",
+  "scope": "Одна средняя поперечная опора с креплением; справочные рельсы исключены из EBOM",
+  "status": "PRELIMINARY NOT FOR MANUFACTURING",
+  "material_and_fastener_specification_unconfirmed": true,
+  "CAD_threads_replaced_by_cylinders": true,
+  "items": [
+    {
+      "position": 1,
+      "name": "Поперечина 80×100×4, L700",
+      "quantity": 1,
+      "status": "изготавливаемая",
+      "model_bodies": [
+        "CROSSBEAM"
+      ],
+      "mass_sum_kg": 7.334706478310846
+    },
+    {
+      "position": 2,
+      "name": "Стойка 50×50×3, L504,691",
+      "quantity": 2,
+      "status": "изготавливаемая",
+      "model_bodies": [
+        "LEG_LEFT",
+        "LEG_RIGHT"
+      ],
+      "mass_sum_kg": 4.285288959950903
+    },
+    {
+      "position": 3,
+      "name": "Опорная плита 120×150×8",
+      "quantity": 2,
+      "status": "изготавливаемая",
+      "model_bodies": [
+        "PLATE_LEFT",
+        "PLATE_RIGHT"
+      ],
+      "mass_sum_kg": 2.2608
+    },
+    {
+      "position": 4,
+      "name": "Седло 100×80, t минимум24; отверстия Ø10,5",
+      "quantity": 2,
+      "status": "изготавливаемая",
+      "model_bodies": [
+        "SEAT_LEFT",
+        "SEAT_RIGHT"
+      ],
+      "mass_sum_kg": 2.961333136897898
+    },
+    {
+      "position": 5,
+      "name": "Пластина 160×120×12",
+      "quantity": 2,
+      "status": "изготавливаемая",
+      "model_bodies": [
+        "CAP_LEFT",
+        "CAP_RIGHT"
+      ],
+      "mass_sum_kg": 3.61728
+    },
+    {
+      "position": 6,
+      "name": "Щека 6×80×80",
+      "quantity": 4,
+      "status": "изготавливаемая",
+      "model_bodies": [
+        "WEB_LEFT_MINUS",
+        "WEB_LEFT_PLUS",
+        "WEB_RIGHT_MINUS",
+        "WEB_RIGHT_PLUS"
+      ],
+      "mass_sum_kg": 1.20576
+    },
+    {
+      "position": 7,
+      "name": "Направляющая 160×100×6; Ø21/паз33×21; 2×Ø10,5",
+      "quantity": 4,
+      "status": "изготавливаемая",
+      "model_bodies": [
+        "GUIDE_LEFT_MINUS",
+        "GUIDE_LEFT_PLUS",
+        "GUIDE_RIGHT_MINUS",
+        "GUIDE_RIGHT_PLUS"
+      ],
+      "mass_sum_kg": 2.8037873620825526
+    },
+    {
+      "position": 8,
+      "name": "Болт M10×120",
+      "quantity": 4,
+      "status": "покупной кандидат, поставщик/исполнение не утверждены",
+      "model_bodies": [
+        "SHAFT_LEFT_MODULE_IN",
+        "HEAD_LEFT_MODULE_IN",
+        "SHAFT_LEFT_MODULE_OUT",
+        "HEAD_LEFT_MODULE_OUT",
+        "SHAFT_RIGHT_MODULE_IN",
+        "HEAD_RIGHT_MODULE_IN",
+        "SHAFT_RIGHT_MODULE_OUT",
+        "HEAD_RIGHT_MODULE_OUT"
+      ],
+      "mass_sum_kg": 0.3430910327432521
+    },
+    {
+      "position": 9,
+      "name": "Втулка Ø20/11×97",
+      "quantity": 4,
+      "status": "изготавливаемая",
+      "model_bodies": [
+        "SLEEVE_LEFT_MODULE_IN",
+        "SLEEVE_LEFT_MODULE_OUT",
+        "SLEEVE_RIGHT_MODULE_IN",
+        "SLEEVE_RIGHT_MODULE_OUT"
+      ],
+      "mass_sum_kg": 0.6674142375751895
+    },
+    {
+      "position": 10,
+      "name": "Гайка M10",
+      "quantity": 4,
+      "status": "покупной кандидат, стопорение не утверждено",
+      "model_bodies": [
+        "NUT_LEFT_MODULE_IN",
+        "NUT_LEFT_MODULE_OUT",
+        "NUT_RIGHT_MODULE_IN",
+        "NUT_RIGHT_MODULE_OUT"
+      ],
+      "mass_sum_kg": 0.04314147116891423
+    },
+    {
+      "position": 11,
+      "name": "Шайба Ø24/11×2",
+      "quantity": 8,
+      "status": "условная геометрия, тип/поставщик не утверждены",
+      "model_bodies": [
+        "WASHER_LEFT_MODULE_IN_MINUS",
+        "WASHER_LEFT_MODULE_IN_PLUS",
+        "WASHER_LEFT_MODULE_OUT_MINUS",
+        "WASHER_LEFT_MODULE_OUT_PLUS",
+        "WASHER_RIGHT_MODULE_IN_MINUS",
+        "WASHER_RIGHT_MODULE_IN_PLUS",
+        "WASHER_RIGHT_MODULE_OUT_MINUS",
+        "WASHER_RIGHT_MODULE_OUT_PLUS"
+      ],
+      "mass_sum_kg": 0.04488393424183738
+    },
+    {
+      "position": 12,
+      "name": "Болт M6×110",
+      "quantity": 4,
+      "status": "покупной кандидат, поставщик/исполнение не утверждены",
+      "model_bodies": [
+        "SHAFT_LEFT_SEAT_IN",
+        "HEAD_LEFT_SEAT_IN",
+        "SHAFT_LEFT_SEAT_OUT",
+        "HEAD_LEFT_SEAT_OUT",
+        "SHAFT_RIGHT_SEAT_IN",
+        "HEAD_RIGHT_SEAT_IN",
+        "SHAFT_RIGHT_SEAT_OUT",
+        "HEAD_RIGHT_SEAT_OUT"
+      ],
+      "mass_sum_kg": 0.10853682830102487
+    },
+    {
+      "position": 13,
+      "name": "Втулка Ø10/6,5×97",
+      "quantity": 4,
+      "status": "изготавливаемая",
+      "model_bodies": [
+        "SLEEVE_LEFT_SEAT_IN",
+        "SLEEVE_LEFT_SEAT_OUT",
+        "SLEEVE_RIGHT_SEAT_IN",
+        "SLEEVE_RIGHT_SEAT_OUT"
+      ],
+      "mass_sum_kg": 0.138147570680886
+    },
+    {
+      "position": 14,
+      "name": "Гайка M6",
+      "quantity": 4,
+      "status": "покупной кандидат, стопорение не утверждено",
+      "model_bodies": [
+        "NUT_LEFT_SEAT_IN",
+        "NUT_LEFT_SEAT_OUT",
+        "NUT_RIGHT_SEAT_IN",
+        "NUT_RIGHT_SEAT_OUT"
+      ],
+      "mass_sum_kg": 0.009157528419893306
+    },
+    {
+      "position": 15,
+      "name": "Шайба Ø18/6,5×2",
+      "quantity": 8,
+      "status": "условная геометрия, тип/поставщик не утверждены",
+      "model_bodies": [
+        "WASHER_LEFT_SEAT_IN_MINUS",
+        "WASHER_LEFT_SEAT_IN_PLUS",
+        "WASHER_LEFT_SEAT_OUT_MINUS",
+        "WASHER_LEFT_SEAT_OUT_PLUS",
+        "WASHER_RIGHT_SEAT_IN_MINUS",
+        "WASHER_RIGHT_SEAT_IN_PLUS",
+        "WASHER_RIGHT_SEAT_OUT_MINUS",
+        "WASHER_RIGHT_SEAT_OUT_PLUS"
+      ],
+      "mass_sum_kg": 0.02779351312667622
+    }
+  ],
+  "support_mass_kg": 25.85112205349987
+}

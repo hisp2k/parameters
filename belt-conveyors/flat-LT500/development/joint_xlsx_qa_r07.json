@@ -1,0 +1,8 @@
+{
+  "ten_cases_match_Python": true,
+  "missing_actual_force_not_zero": true,
+  "zero_and_1000_force_recalculated": true,
+  "E_half_and_blank_tested": true,
+  "restored": true,
+  "engine": "Artifact Tool; native Excel not tested"
+}

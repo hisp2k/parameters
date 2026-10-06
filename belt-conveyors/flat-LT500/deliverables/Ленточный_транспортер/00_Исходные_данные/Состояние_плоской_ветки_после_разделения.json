@@ -1,0 +1,23 @@
+{
+  "branch": "Плоский ленточный транспортёр",
+  "active_revision": "R09",
+  "current_thread_id": "01a10632-587f-73f1-8f3d-51dd67318862",
+  "active_documents": [
+    "СТАТУС_КОМПЛЕКТА_R09.txt",
+    "01_Техническое_задание/ЛТ500_Опоры_зон_загрузки_R09.pdf",
+    "02_Расчеты/ЛТ500_Расчёт_опор_загрузки_R09.xlsx",
+    "03_Модели_SolidWorks/ЛТ500_Ролики_зоны_загрузки_R09.SLDPRT"
+  ],
+  "middle_joint_candidate": "R07, без изменений желобчатой ветки",
+  "traction_candidate": "R08, исходные условны; интеграция R09 и ресурс ещё открыты",
+  "belt_width_mm": 500,
+  "seat_to_working_belt_candidate_mm": 170,
+  "trough_revision_R10_not_applied": true,
+  "separate_trough_thread": {
+    "id": "01a107bb-4b19-7ca1-af5d-162c6c4c6d5f",
+    "title": "Спроектировать Желобчатый ленточный транспортер",
+    "workspace": "C:\\Users\\adm\\Documents\\Codex\\2026-10-04\\lt500-trough"
+  },
+  "next_stage": "Фиксация осей, уплотнения и регулировка плоских роликов; интеграция в общую раму, обновление массы/инерции",
+  "status": "ПРЕДВАРИТЕЛЬНО — НЕ ДЛЯ ИЗГОТОВЛЕНИЯ"
+}

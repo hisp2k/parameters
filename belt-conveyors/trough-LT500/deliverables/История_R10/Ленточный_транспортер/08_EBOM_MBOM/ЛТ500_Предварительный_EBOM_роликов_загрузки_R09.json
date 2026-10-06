@@ -1,0 +1,87 @@
+{
+  "revision": "R09",
+  "scope": "4 роликовые станции одного типового участка; справочные трубы исключены",
+  "items": [
+    {
+      "name": "Оболочка Ø76/70×510",
+      "quantity": 4,
+      "model_bodies": [
+        "SHELL_1",
+        "SHELL_2",
+        "SHELL_3",
+        "SHELL_4"
+      ],
+      "mass_total_kg": 11.017772781254543,
+      "status": "изготавливаемый геометрический кандидат; материал/допуски/швы не выпущены"
+    },
+    {
+      "name": "Держатель подшипника, габарит Ø76/52×15",
+      "quantity": 8,
+      "model_bodies": [
+        "CARRIER_1_LEFT",
+        "CARRIER_1_RIGHT",
+        "CARRIER_2_LEFT",
+        "CARRIER_2_RIGHT",
+        "CARRIER_3_LEFT",
+        "CARRIER_3_RIGHT",
+        "CARRIER_4_LEFT",
+        "CARRIER_4_RIGHT"
+      ],
+      "mass_total_kg": 2.2728040547954573,
+      "status": "изготавливаемый геометрический кандидат; материал/допуски/швы не выпущены"
+    },
+    {
+      "name": "Стационарная ось Ø25×620, без ступеней/фиксации",
+      "quantity": 4,
+      "model_bodies": [
+        "SHAFT_1",
+        "SHAFT_2",
+        "SHAFT_3",
+        "SHAFT_4"
+      ],
+      "mass_total_kg": 9.556332153138452,
+      "status": "изготавливаемый геометрический кандидат; материал/допуски/швы не выпущены"
+    },
+    {
+      "name": "Опорная вилка60×45×8, открытый пазR12,5",
+      "quantity": 8,
+      "model_bodies": [
+        "FORK_1_LEFT",
+        "FORK_1_RIGHT",
+        "FORK_2_LEFT",
+        "FORK_2_RIGHT",
+        "FORK_3_LEFT",
+        "FORK_3_RIGHT",
+        "FORK_4_LEFT",
+        "FORK_4_RIGHT"
+      ],
+      "mass_total_kg": 0.9694124883466005,
+      "status": "изготавливаемый геометрический кандидат; материал/допуски/швы не выпущены"
+    },
+    {
+      "name": "Подшипник25×52×15, габаритный кандидат6205-2RSH",
+      "quantity": 8,
+      "model_bodies": [
+        "BEARING_ENV_1_LEFT",
+        "BEARING_ENV_1_RIGHT",
+        "BEARING_ENV_2_LEFT",
+        "BEARING_ENV_2_RIGHT",
+        "BEARING_ENV_3_LEFT",
+        "BEARING_ENV_3_RIGHT",
+        "BEARING_ENV_4_LEFT",
+        "BEARING_ENV_4_RIGHT"
+      ],
+      "catalog_mass_estimate_each_kg": 0.13,
+      "mass_total_kg": 1.04,
+      "status": "покупной кандидат; исполнение/ресурс/уплотнения не утверждены; CAD представляет сплошной габарит"
+    }
+  ],
+  "total_mass_estimate_kg": 24.856321477535054,
+  "missing_parts": [
+    "фиксаторы оси от подъёма/вращения/осевого перемещения",
+    "крышки и уплотнения",
+    "осевые упоры и посадочные ступени",
+    "регулировка роликов и соединение с общей рамой"
+  ],
+  "status": "PRELIMINARY NOT FOR MANUFACTURING"
+}

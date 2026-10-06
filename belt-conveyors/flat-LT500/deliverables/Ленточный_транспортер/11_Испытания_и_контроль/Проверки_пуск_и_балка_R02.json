@@ -1,0 +1,12 @@
+{
+  "separateBeamCases": "passed",
+  "localAndFallingMassSeparated": "passed",
+  "impactStartProbe": [
+    49.033249999999995,
+    5001.3915,
+    300,
+    15,
+    1.5000000000000002
+  ],
+  "blankRestoration": "passed"
+}

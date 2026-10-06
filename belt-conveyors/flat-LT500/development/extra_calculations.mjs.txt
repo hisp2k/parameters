@@ -1,0 +1,36 @@
+baseStyle(beam,'A1:H18',[15,12,20,20,24,24,23,26]);
+beam.getRange('A2').values=[['Сравнение пролётов. Статика материала, не полный расчёт рамы']];beam.getRange('A2:H2').merge();
+beam.getRange('A3:H3').merge();beam.getRange('A3').values=[['Одна шарнирно опёртая балка. Порция 15 кг целиком в середине пролёта, дополнительно к q. Собственный вес и удар исключены.']];beam.getRange('A3:H3').format.wrapText=true;beam.getRange('A3:H3').format.rowHeight=42;
+beam.getRange('A5:H5').values=[['Пролёт s, м','Доля β','w, Н/м','P, Н','Mmax, Н·м','K=δEI, Н·м³','Wтреб, мм³','Iтреб, мм⁴']];header(beam,'A5:H5');
+let br=6;for(const fraction of [0.5,1])for(const span of [2,2.5,10/3,5]){beam.getRange(`A${br}:B${br}`).values=[[span,fraction]];beam.getRange(`C${br}:H${br}`).formulas=[[
+ `=B${br}*'Расчёты'!B7`,"='Исходные данные'!C36*'Исходные данные'!C11",`=C${br}*A${br}^2/8+D${br}*A${br}/4`,
+ `=5*C${br}*A${br}^4/384+D${br}*A${br}^3/48`,
+ `=IF(ISBLANK('Исходные данные'!C43),"не задано",IF('Исходные данные'!C43>0,E${br}*1000/'Исходные данные'!C43,"ошибка σ"))`,
+ `=IF(OR(ISBLANK('Исходные данные'!C42),ISBLANK('Исходные данные'!C44)),"не задано",IF(AND('Исходные данные'!C42>0,'Исходные данные'!C44>0),F${br}*10^9/('Исходные данные'!C42*'Исходные данные'!C44),"ошибка E/δ"))`
+ ]];br++;}
+beam.getRange('A6:H13').setNumberFormat('0.000');beam.getRange('A6:H13').format.rowHeight=34;beam.getRange('A6:B13').format.fill='#FFF0C2';
+beam.getRange('A14:H14').merge();beam.getRange('A14').values=[['M=w·s²/8+P·s/4; δ=(5w·s⁴/384+P·s³/48)/(EI). Наклонная нормальная нагрузка для сравнения ограничена значением при 0°.']];beam.getRange('A14:H14').format.wrapText=true;beam.getRange('A14:H14').format.rowHeight=46;
+baseStyle(start,'A1:E18',[43,24,15,48,61]);start.getRange('A2').values=[['Нагруженный повторный пуск и порция']];
+start.getRange('A4:E4').values=[['Показатель','Результат','Единица','Зависимость','Ограничение']];header(start,'A4:E4');
+start.getRange('A5:E14').values=[
+ ['Масса разовой порции',null,'кг','mп','Принято суммарно; распределение и длительность сброса неизвестны'],
+ ['Статический вес порции',null,'Н','mп × g','Это не сила удара'],
+ ['Энергия падения',null,'Дж','mп × g × Hп','Высота падения отсутствует'],
+ ['Средняя контактная сила в простой модели',null,'Н','mп × g × (1 + Hп/sт)','Торможение вниз на пути sт; без упругого отскока. Пиковая сила не определена'],
+ ['Масса материала при условных 10 м',null,'кг','q × 10','Расчётный сценарий остатка; не утверждённая рабочая длина'],
+ ['Разгон материала',null,'Н','m × v / t','Равномерное ускорение. Массы ленты и вращения не включены'],
+ ['Кинетическая энергия материала',null,'Дж','0,5 × m × v²','Не энергия всего механизма'],
+ ['Сопротивления качения и барабанов','не задано','Н','По принятой методике','Тип ленты, ролики, массы и коэффициенты неизвестны'],
+ ['Сопротивление очистителя','не задано','Н','По характеристике узла','Усилие и конструкция не выбраны'],
+ ['Полное усилие и мощность привода','не определено','Н; кВт','Полный баланс + КПД','Выбор мотор-редуктора пока не выполнен']];
+start.getRange('B5:B11').formulas=[['=\'Исходные данные\'!C36'],['=B5*\'Исходные данные\'!C11'],['=IF(ISBLANK(\'Исходные данные\'!C39),"не задано",IF(\'Исходные данные\'!C39>=0,B6*\'Исходные данные\'!C39,"ошибка H"))'],['=IF(OR(ISBLANK(\'Исходные данные\'!C39),ISBLANK(\'Исходные данные\'!C40)),"не задано",IF(AND(\'Исходные данные\'!C39>=0,\'Исходные данные\'!C40>0),B6*(1+\'Исходные данные\'!C39/\'Исходные данные\'!C40),"ошибка H/s"))'],['=\'Расчёты\'!B8'],['=IF(OR(ISBLANK(\'Исходные данные\'!C12),ISBLANK(\'Исходные данные\'!C41)),"не задано",IF(AND(\'Исходные данные\'!C12>0,\'Исходные данные\'!C41>0),B9*\'Исходные данные\'!C12/\'Исходные данные\'!C41,"ошибка v/t"))'],['=IF(ISBLANK(\'Исходные данные\'!C12),"не задано",IF(\'Исходные данные\'!C12>0,0.5*B9*\'Исходные данные\'!C12^2,"ошибка v"))']];
+start.getRange('A5:E14').format.wrapText=true;start.getRange('A5:E14').format.rowHeight=63;start.getRange('B5:B11').setNumberFormat('0.000');
+wb.recalculate();
+if(Math.abs(beam.getRange('E6').values[0][0]-147.09975)>1e-7||Math.abs(beam.getRange('F6').values[0][0]-55.16240625)>1e-7)throw Error('Beam anchor case failed');
+inp.getRange('C12').values=[[0.1]];inp.getRange('C39:C44').values=[[0.5],[0.01],[2],[200000],[120],[2]];wb.recalculate();
+const restartProbe=start.getRange('B7:B11').values.map(r=>r[0]);
+if(Math.abs(restartProbe[0]-73.549875)>1e-7||Math.abs(restartProbe[1]-7502.08725)>1e-7||Math.abs(restartProbe[3]-15)>1e-7||Math.abs(restartProbe[4]-1.5)>1e-7)throw Error('Impact/start scenario failed');
+if(Math.abs(beam.getRange('G6').values[0][0]-1225.83125)>1e-7||Math.abs(beam.getRange('H6').values[0][0]-137906.015625)>1e-6)throw Error('Beam stiffness units failed');
+inp.getRange('C12').values=[[null]];inp.getRange('C39:C44').values=[[null],[null],[null],[null],[null],[null]];wb.recalculate();
+if(beam.getRange('G6').values[0][0]!=='не задано'||start.getRange('B8').values[0][0]!=='не задано')throw Error('Restored missing data failed');
+await fs.writeFile(path.join(base,'work/extra_qa_r01.json'),JSON.stringify({beamAnchor:'passed',impactStartProbe:restartProbe,unitsAndBlankRestoration:'passed'},null,2));

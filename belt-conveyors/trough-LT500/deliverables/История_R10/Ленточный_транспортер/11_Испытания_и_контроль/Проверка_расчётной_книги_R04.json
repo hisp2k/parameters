@@ -1,0 +1,10 @@
+{
+  "independent_reactions_heights_deflection_Euler_match": true,
+  "recalculation_half_E_missing_E_angle_and_extra_mass": true,
+  "restored": true,
+  "engine": "Artifact Tool; Microsoft Excel not tested",
+  "visual_review_all_sheets": true,
+  "formula_error_scan_zero_matches": true,
+  "exported_xlsx_formula_count": 117,
+  "exported_cached_errors": []
+}

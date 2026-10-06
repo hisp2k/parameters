@@ -1,0 +1,1007 @@
+{
+  "revision": "R09",
+  "scope": "Опоры зон загрузки; провис при перемещении единственной локальной массы; геометрический роликовый кандидат",
+  "inputs": {
+    "material_q_kg_m": 30,
+    "belt_q_assumed_kg_m": 5,
+    "one_peak_kg": 15,
+    "angle_deg": 1.5,
+    "relative_sag_proposed": 0.01,
+    "regular_pitch_assumed_m": 0.75,
+    "loading_pitch_candidate_m": 0.25,
+    "actual_footprint_m": null,
+    "drop_height_m": null,
+    "actual_dynamic_factor": null,
+    "actual_loading_zone_positions": null
+  },
+  "cases": [
+    {
+      "footprint_m": 0,
+      "loading_pitch_m": 0.25,
+      "regular_pitch_m": 0.75,
+      "T_loading_N": 4748.468354454969,
+      "T_regular_N": 6892.937933886245,
+      "T_global_carry_N": 6892.937933886245,
+      "roller_loading_normal_N": 232.8281257668243,
+      "roller_regular_normal_N": 404.3856921213264
+    },
+    {
+      "footprint_m": 0.25,
+      "loading_pitch_m": 0.25,
+      "regular_pitch_m": 0.75,
+      "T_loading_N": 2910.3515720853034,
+      "T_regular_N": 6280.232339763023,
+      "T_global_carry_N": 6280.232339763023,
+      "roller_loading_normal_N": 196.06579011943097,
+      "roller_regular_normal_N": 392.13158023886194
+    },
+    {
+      "footprint_m": 0.5,
+      "loading_pitch_m": 0.25,
+      "regular_pitch_m": 0.75,
+      "T_loading_N": 1991.2931809004708,
+      "T_regular_N": 5667.526745639801,
+      "T_global_carry_N": 5667.526745639801,
+      "roller_loading_normal_N": 159.30345447203766,
+      "roller_regular_normal_N": 379.8774683563975
+    },
+    {
+      "footprint_m": 0.75,
+      "loading_pitch_m": 0.25,
+      "regular_pitch_m": 0.75,
+      "T_loading_N": 1684.9403838388598,
+      "T_regular_N": 5054.821151516579,
+      "T_global_carry_N": 5054.821151516579,
+      "roller_loading_normal_N": 134.7952307071088,
+      "roller_regular_normal_N": 367.6233564739331
+    },
+    {
+      "footprint_m": 1.0,
+      "loading_pitch_m": 0.25,
+      "regular_pitch_m": 0.75,
+      "T_loading_N": 1531.7639853080545,
+      "T_regular_N": 4595.291955924164,
+      "T_global_carry_N": 4595.291955924164,
+      "roller_loading_normal_N": 122.54111882464436,
+      "roller_regular_normal_N": 355.36924459146866
+    }
+  ],
+  "geometry": {
+    "loading_station_centers_mm": [
+      -375,
+      -125,
+      125,
+      375
+    ],
+    "pitch_mm": 250,
+    "roller_OD_mm": 76,
+    "shell_ID_mm": 70,
+    "shell_length_mm": 510,
+    "face_length_mm": 540,
+    "shaft_OD_mm": 25,
+    "shaft_length_mm": 620,
+    "shaft_support_spacing_mm": 600,
+    "bearing_centers_mm": [
+      87.5,
+      612.5
+    ],
+    "bearing_envelope_mm": [
+      25,
+      52,
+      15
+    ],
+    "belt_width_mm": 500,
+    "belt_thickness_assumed_mm": 8,
+    "seat_to_belt_top_assumed_mm": 170,
+    "roller_center_height_mm": 124,
+    "rail_top_height_mm": 100,
+    "bracket_width_mm": 60,
+    "bracket_height_mm": 45,
+    "bracket_thickness_mm": 8,
+    "bracket_notch_radius_mm": 12.5,
+    "bracket_bottom_ligament_mm": 11.5,
+    "rail_reference_length_mm": 1100,
+    "rail_centers_transverse_mm": [
+      50,
+      650
+    ],
+    "shell_to_rail_side_clearance_mm": 5,
+    "angle_deg": 1.5
+  },
+  "shaft_and_shell_screening": [
+    {
+      "deflection_max_mm": 0.07613503309821788,
+      "sigma_max_MPa": 5.060196515640891,
+      "left_support_N": 206.9599220769278,
+      "right_support_N": 84.41880326147384,
+      "max_equilibrium_residual_N": 2.0605511963367462e-08,
+      "pitch_m": 0.25,
+      "local_peak_multiplier_assumed": 1,
+      "transverse_peak_position_mm": -250,
+      "belt_normal_N": 232.8281257668243,
+      "shell_bound_total_force_N": 267.94982414466625,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 203.99840854355847,
+      "bearing_right_N": 63.951415601107776,
+      "shell_conservative_sigma_MPa": 2.9110778182579726,
+      "shell_conservative_deflection_mm": 0.008797870873435898,
+      "shaft_all_load_at_mid_bound_mm": 0.34190891419352537
+    },
+    {
+      "deflection_max_mm": 0.07582857287462337,
+      "sigma_max_MPa": 4.420672570117393,
+      "left_support_N": 145.68936266461697,
+      "right_support_N": 145.6893626740175,
+      "max_equilibrium_residual_N": 1.9266735762357712e-08,
+      "pitch_m": 0.25,
+      "local_peak_multiplier_assumed": 1,
+      "transverse_peak_position_mm": 0,
+      "belt_normal_N": 232.8281257668243,
+      "shell_bound_total_force_N": 267.94982414466625,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 133.97491207233313,
+      "bearing_right_N": 133.97491207233313,
+      "shell_conservative_sigma_MPa": 2.9110778182579726,
+      "shell_conservative_deflection_mm": 0.008797870873435898,
+      "shaft_all_load_at_mid_bound_mm": 0.34190891419352537
+    },
+    {
+      "deflection_max_mm": 0.07613503309861498,
+      "sigma_max_MPa": 5.060196516772434,
+      "left_support_N": 84.41880325253896,
+      "right_support_N": 206.95992208661937,
+      "max_equilibrium_residual_N": 1.6298145055770874e-08,
+      "pitch_m": 0.25,
+      "local_peak_multiplier_assumed": 1,
+      "transverse_peak_position_mm": 250,
+      "belt_normal_N": 232.8281257668243,
+      "shell_bound_total_force_N": 267.94982414466625,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 63.951415601107776,
+      "bearing_right_N": 203.99840854355847,
+      "shell_conservative_sigma_MPa": 2.9110778182579726,
+      "shell_conservative_deflection_mm": 0.008797870873435898,
+      "shaft_all_load_at_mid_bound_mm": 0.34190891419352537
+    },
+    {
+      "deflection_max_mm": 0.10889586723775985,
+      "sigma_max_MPa": 8.336716200665004,
+      "left_support_N": 341.7551527851292,
+      "right_support_N": 96.67291514933186,
+      "max_equilibrium_residual_N": 2.4418113753199577e-08,
+      "pitch_m": 0.25,
+      "local_peak_multiplier_assumed": 2,
+      "transverse_peak_position_mm": -250,
+      "belt_normal_N": 379.8774683563975,
+      "shell_bound_total_force_N": 414.9991667342395,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 347.54657630957047,
+      "bearing_right_N": 67.45259042466904,
+      "shell_conservative_sigma_MPa": 4.508660801446675,
+      "shell_conservative_deflection_mm": 0.013626092471477412,
+      "shaft_all_load_at_mid_bound_mm": 0.5144591956257102
+    },
+    {
+      "deflection_max_mm": 0.10801324451985402,
+      "sigma_max_MPa": 6.218071335274654,
+      "left_support_N": 219.21403396062396,
+      "right_support_N": 219.21403397418635,
+      "max_equilibrium_residual_N": 2.514570951461792e-08,
+      "pitch_m": 0.25,
+      "local_peak_multiplier_assumed": 2,
+      "transverse_peak_position_mm": 0,
+      "belt_normal_N": 379.8774683563975,
+      "shell_bound_total_force_N": 414.9991667342395,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 207.49958336711973,
+      "bearing_right_N": 207.49958336711973,
+      "shell_conservative_sigma_MPa": 4.508660801446675,
+      "shell_conservative_deflection_mm": 0.013626092471477412,
+      "shaft_all_load_at_mid_bound_mm": 0.5144591956257102
+    },
+    {
+      "deflection_max_mm": 0.10889586723854153,
+      "sigma_max_MPa": 8.33671620242874,
+      "left_support_N": 96.67291513629334,
+      "right_support_N": 341.7551527994483,
+      "max_equilibrium_residual_N": 1.3969838619232178e-08,
+      "pitch_m": 0.25,
+      "local_peak_multiplier_assumed": 2,
+      "transverse_peak_position_mm": 250,
+      "belt_normal_N": 379.8774683563975,
+      "shell_bound_total_force_N": 414.9991667342395,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 67.45259042466904,
+      "bearing_right_N": 347.54657630957047,
+      "shell_conservative_sigma_MPa": 4.508660801446675,
+      "shell_conservative_deflection_mm": 0.013626092471477412,
+      "shaft_all_load_at_mid_bound_mm": 0.5144591956257102
+    },
+    {
+      "deflection_max_mm": 0.14175777306018825,
+      "sigma_max_MPa": 11.63194726970913,
+      "left_support_N": 476.5503834933306,
+      "right_support_N": 108.92702703721898,
+      "max_equilibrium_residual_N": 3.026798367500305e-08,
+      "pitch_m": 0.25,
+      "local_peak_multiplier_assumed": 3,
+      "transverse_peak_position_mm": -250,
+      "belt_normal_N": 526.9268109459707,
+      "shell_bound_total_force_N": 562.0485093238127,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 491.09474407558235,
+      "bearing_right_N": 70.95376524823031,
+      "shell_conservative_sigma_MPa": 6.106243784635377,
+      "shell_conservative_deflection_mm": 0.018454314069518925,
+      "shaft_all_load_at_mid_bound_mm": 0.6870094770578947
+    },
+    {
+      "deflection_max_mm": 0.14019791616508473,
+      "sigma_max_MPa": 8.015470100431909,
+      "left_support_N": 292.73870525663096,
+      "right_support_N": 292.73870527467534,
+      "max_equilibrium_residual_N": 3.585591912269592e-08,
+      "pitch_m": 0.25,
+      "local_peak_multiplier_assumed": 3,
+      "transverse_peak_position_mm": 0,
+      "belt_normal_N": 526.9268109459707,
+      "shell_bound_total_force_N": 562.0485093238127,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 281.02425466190635,
+      "bearing_right_N": 281.02425466190635,
+      "shell_conservative_sigma_MPa": 6.106243784635377,
+      "shell_conservative_deflection_mm": 0.018454314069518925,
+      "shaft_all_load_at_mid_bound_mm": 0.6870094770578947
+    },
+    {
+      "deflection_max_mm": 0.14175777306131843,
+      "sigma_max_MPa": 11.631947271919163,
+      "left_support_N": 108.92702702004772,
+      "right_support_N": 476.5503835123063,
+      "max_equilibrium_residual_N": 3.114109858870506e-08,
+      "pitch_m": 0.25,
+      "local_peak_multiplier_assumed": 3,
+      "transverse_peak_position_mm": 250,
+      "belt_normal_N": 526.9268109459707,
+      "shell_bound_total_force_N": 562.0485093238127,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 70.95376524823031,
+      "bearing_right_N": 491.09474407558235,
+      "shell_conservative_sigma_MPa": 6.106243784635377,
+      "shell_conservative_deflection_mm": 0.018454314069518925,
+      "shaft_all_load_at_mid_bound_mm": 0.6870094770578947
+    },
+    {
+      "deflection_max_mm": 0.09486110870859411,
+      "sigma_max_MPa": 6.108679128544859,
+      "left_support_N": 249.8493136662555,
+      "right_support_N": 127.30819485336269,
+      "max_equilibrium_residual_N": 2.0372681319713593e-08,
+      "pitch_m": 0.5,
+      "local_peak_multiplier_assumed": 1,
+      "transverse_peak_position_mm": -250,
+      "belt_normal_N": 318.60690894407537,
+      "shell_bound_total_force_N": 353.72860732191737,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 246.887800132184,
+      "bearing_right_N": 106.84080718973331,
+      "shell_conservative_sigma_MPa": 3.8430012251180496,
+      "shell_conservative_deflection_mm": 0.01161433347229345,
+      "shaft_all_load_at_mid_bound_mm": 0.44256324502896655
+    },
+    {
+      "deflection_max_mm": 0.09460296466767458,
+      "sigma_max_MPa": 5.469155183123895,
+      "left_support_N": 188.57875425394468,
+      "right_support_N": 188.57875426573173,
+      "max_equilibrium_residual_N": 1.6065314412117004e-08,
+      "pitch_m": 0.5,
+      "local_peak_multiplier_assumed": 1,
+      "transverse_peak_position_mm": 0,
+      "belt_normal_N": 318.60690894407537,
+      "shell_bound_total_force_N": 353.72860732191737,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 176.86430366095865,
+      "bearing_right_N": 176.86430366095865,
+      "shell_conservative_sigma_MPa": 3.8430012251180496,
+      "shell_conservative_deflection_mm": 0.01161433347229345,
+      "shaft_all_load_at_mid_bound_mm": 0.44256324502896655
+    },
+    {
+      "deflection_max_mm": 0.09486110870897399,
+      "sigma_max_MPa": 6.108679129881471,
+      "left_support_N": 127.30819484186668,
+      "right_support_N": 249.8493136783045,
+      "max_equilibrium_residual_N": 1.4202669262886047e-08,
+      "pitch_m": 0.5,
+      "local_peak_multiplier_assumed": 1,
+      "transverse_peak_position_mm": 250,
+      "belt_normal_N": 318.60690894407537,
+      "shell_bound_total_force_N": 353.72860732191737,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 106.84080718973331,
+      "bearing_right_N": 246.887800132184,
+      "shell_conservative_sigma_MPa": 3.8430012251180496,
+      "shell_conservative_deflection_mm": 0.01161433347229345,
+      "shaft_all_load_at_mid_bound_mm": 0.44256324502896655
+    },
+    {
+      "deflection_max_mm": 0.12755989563577486,
+      "sigma_max_MPa": 9.385198813551346,
+      "left_support_N": 384.6445443744569,
+      "right_support_N": 139.5623067411043,
+      "max_equilibrium_residual_N": 2.584420144557953e-08,
+      "pitch_m": 0.5,
+      "local_peak_multiplier_assumed": 2,
+      "transverse_peak_position_mm": -250,
+      "belt_normal_N": 465.6562515336486,
+      "shell_bound_total_force_N": 500.77794991149057,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 390.435967898196,
+      "bearing_right_N": 110.34198201329457,
+      "shell_conservative_sigma_MPa": 5.440584208306752,
+      "shell_conservative_deflection_mm": 0.016442555070334965,
+      "shaft_all_load_at_mid_bound_mm": 0.6151135264611512
+    },
+    {
+      "deflection_max_mm": 0.12678763631290524,
+      "sigma_max_MPa": 7.266553948281158,
+      "left_support_N": 262.1034255499517,
+      "right_support_N": 262.1034255661916,
+      "max_equilibrium_residual_N": 2.0954757928848267e-08,
+      "pitch_m": 0.5,
+      "local_peak_multiplier_assumed": 2,
+      "transverse_peak_position_mm": 0,
+      "belt_normal_N": 465.6562515336486,
+      "shell_bound_total_force_N": 500.77794991149057,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 250.38897495574525,
+      "bearing_right_N": 250.38897495574525,
+      "shell_conservative_sigma_MPa": 5.440584208306752,
+      "shell_conservative_deflection_mm": 0.016442555070334965,
+      "shaft_all_load_at_mid_bound_mm": 0.6151135264611512
+    },
+    {
+      "deflection_max_mm": 0.12755989563653455,
+      "sigma_max_MPa": 9.385198815491378,
+      "left_support_N": 139.56230672544643,
+      "right_support_N": 384.64454439133715,
+      "max_equilibrium_residual_N": 1.6880221664905548e-08,
+      "pitch_m": 0.5,
+      "local_peak_multiplier_assumed": 2,
+      "transverse_peak_position_mm": 250,
+      "belt_normal_N": 465.6562515336486,
+      "shell_bound_total_force_N": 500.77794991149057,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 110.34198201329457,
+      "bearing_right_N": 390.435967898196,
+      "shell_conservative_sigma_MPa": 5.440584208306752,
+      "shell_conservative_deflection_mm": 0.016442555070334965,
+      "shaft_all_load_at_mid_bound_mm": 0.6151135264611512
+    },
+    {
+      "deflection_max_mm": 0.16034343798282155,
+      "sigma_max_MPa": 12.680429882595474,
+      "left_support_N": 519.4397750826583,
+      "right_support_N": 151.81641862875858,
+      "max_equilibrium_residual_N": 5.157198756933212e-08,
+      "pitch_m": 0.5,
+      "local_peak_multiplier_assumed": 3,
+      "transverse_peak_position_mm": -250,
+      "belt_normal_N": 612.7055941232218,
+      "shell_bound_total_force_N": 647.8272925010638,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 533.9841356642079,
+      "bearing_right_N": 113.84315683685584,
+      "shell_conservative_sigma_MPa": 7.038167191495453,
+      "shell_conservative_deflection_mm": 0.021270776668376477,
+      "shaft_all_load_at_mid_bound_mm": 0.7876638078933358
+    },
+    {
+      "deflection_max_mm": 0.1589723079581359,
+      "sigma_max_MPa": 9.063952713415647,
+      "left_support_N": 335.62809684584226,
+      "right_support_N": 335.628096866506,
+      "max_equilibrium_residual_N": 2.6542693376541138e-08,
+      "pitch_m": 0.5,
+      "local_peak_multiplier_assumed": 3,
+      "transverse_peak_position_mm": 0,
+      "belt_normal_N": 612.7055941232218,
+      "shell_bound_total_force_N": 647.8272925010638,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 323.9136462505319,
+      "bearing_right_N": 323.9136462505319,
+      "shell_conservative_sigma_MPa": 7.038167191495453,
+      "shell_conservative_deflection_mm": 0.021270776668376477,
+      "shaft_all_load_at_mid_bound_mm": 0.7876638078933358
+    },
+    {
+      "deflection_max_mm": 0.16034343798399042,
+      "sigma_max_MPa": 12.68042988504584,
+      "left_support_N": 151.81641860937543,
+      "right_support_N": 519.439775104137,
+      "max_equilibrium_residual_N": 3.716559149324894e-08,
+      "pitch_m": 0.5,
+      "local_peak_multiplier_assumed": 3,
+      "transverse_peak_position_mm": 250,
+      "belt_normal_N": 612.7055941232218,
+      "shell_bound_total_force_N": 647.8272925010638,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 113.84315683685584,
+      "bearing_right_N": 533.9841356642079,
+      "shell_conservative_sigma_MPa": 7.038167191495453,
+      "shell_conservative_deflection_mm": 0.021270776668376477,
+      "shaft_all_load_at_mid_bound_mm": 0.7876638078933358
+    },
+    {
+      "deflection_max_mm": 0.1135883187840359,
+      "sigma_max_MPa": 7.157161741448825,
+      "left_support_N": 292.7387052555832,
+      "right_support_N": 170.19758644525155,
+      "max_equilibrium_residual_N": 2.6542693376541138e-08,
+      "pitch_m": 0.75,
+      "local_peak_multiplier_assumed": 1,
+      "transverse_peak_position_mm": -250,
+      "belt_normal_N": 404.38569212132643,
+      "shell_bound_total_force_N": 439.5073904991684,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 289.7771917208096,
+      "bearing_right_N": 149.73019877835884,
+      "shell_conservative_sigma_MPa": 4.774924631978126,
+      "shell_conservative_deflection_mm": 0.014430796071151,
+      "shaft_all_load_at_mid_bound_mm": 0.5432175758644077
+    },
+    {
+      "deflection_max_mm": 0.1133773564607258,
+      "sigma_max_MPa": 6.517637796175924,
+      "left_support_N": 231.46814584350523,
+      "right_support_N": 231.46814585759148,
+      "max_equilibrium_residual_N": 2.2584572434425354e-08,
+      "pitch_m": 0.75,
+      "local_peak_multiplier_assumed": 1,
+      "transverse_peak_position_mm": 0,
+      "belt_normal_N": 404.38569212132643,
+      "shell_bound_total_force_N": 439.5073904991684,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 219.7536952495842,
+      "bearing_right_N": 219.7536952495842,
+      "shell_conservative_sigma_MPa": 4.774924631978126,
+      "shell_conservative_deflection_mm": 0.014430796071151,
+      "shaft_all_load_at_mid_bound_mm": 0.5432175758644077
+    },
+    {
+      "deflection_max_mm": 0.11358831878443532,
+      "sigma_max_MPa": 7.157161742970634,
+      "left_support_N": 170.1975864311362,
+      "right_support_N": 292.73870527019335,
+      "max_equilibrium_residual_N": 1.816079020500183e-08,
+      "pitch_m": 0.75,
+      "local_peak_multiplier_assumed": 1,
+      "transverse_peak_position_mm": 250,
+      "belt_normal_N": 404.38569212132643,
+      "shell_bound_total_force_N": 439.5073904991684,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 149.73019877835884,
+      "bearing_right_N": 289.7771917208096,
+      "shell_conservative_sigma_MPa": 4.774924631978126,
+      "shell_conservative_deflection_mm": 0.014430796071151,
+      "shaft_all_load_at_mid_bound_mm": 0.5432175758644077
+    },
+    {
+      "deflection_max_mm": 0.1462281285642122,
+      "sigma_max_MPa": 10.433681426440536,
+      "left_support_N": 427.53393596390106,
+      "right_support_N": 182.45169833293494,
+      "max_equilibrium_residual_N": 2.991873770952225e-08,
+      "pitch_m": 0.75,
+      "local_peak_multiplier_assumed": 2,
+      "transverse_peak_position_mm": -250,
+      "belt_normal_N": 551.4350347108996,
+      "shell_bound_total_force_N": 586.5567330887416,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 433.3253594868215,
+      "bearing_right_N": 153.23137360192013,
+      "shell_conservative_sigma_MPa": 6.372507615166828,
+      "shell_conservative_deflection_mm": 0.01925901766919251,
+      "shaft_all_load_at_mid_bound_mm": 0.7157678572965922
+    },
+    {
+      "deflection_max_mm": 0.14556202810595648,
+      "sigma_max_MPa": 8.31503656126489,
+      "left_support_N": 304.992817139163,
+      "right_support_N": 304.9928171581387,
+      "max_equilibrium_residual_N": 3.166496753692627e-08,
+      "pitch_m": 0.75,
+      "local_peak_multiplier_assumed": 2,
+      "transverse_peak_position_mm": 0,
+      "belt_normal_N": 551.4350347108996,
+      "shell_bound_total_force_N": 586.5567330887416,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 293.2783665443708,
+      "bearing_right_N": 293.2783665443708,
+      "shell_conservative_sigma_MPa": 6.372507615166828,
+      "shell_conservative_deflection_mm": 0.01925901766919251,
+      "shaft_all_load_at_mid_bound_mm": 0.7157678572965922
+    },
+    {
+      "deflection_max_mm": 0.14622812856500111,
+      "sigma_max_MPa": 10.433681428660725,
+      "left_support_N": 182.45169831489056,
+      "right_support_N": 427.5339359831096,
+      "max_equilibrium_residual_N": 3.4226104617118835e-08,
+      "pitch_m": 0.75,
+      "local_peak_multiplier_assumed": 2,
+      "transverse_peak_position_mm": 250,
+      "belt_normal_N": 551.4350347108996,
+      "shell_bound_total_force_N": 586.5567330887416,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 153.23137360192013,
+      "bearing_right_N": 433.3253594868215,
+      "shell_conservative_sigma_MPa": 6.372507615166828,
+      "shell_conservative_deflection_mm": 0.01925901766919251,
+      "shaft_all_load_at_mid_bound_mm": 0.7157678572965922
+    },
+    {
+      "deflection_max_mm": 0.1789847581733319,
+      "sigma_max_MPa": 13.728912495481818,
+      "left_support_N": 562.3291666719861,
+      "right_support_N": 194.70581022070564,
+      "max_equilibrium_residual_N": 5.7159923017024994e-08,
+      "pitch_m": 0.75,
+      "local_peak_multiplier_assumed": 3,
+      "transverse_peak_position_mm": -250,
+      "belt_normal_N": 698.4843773004728,
+      "shell_bound_total_force_N": 733.6060756783148,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 576.8735272528334,
+      "bearing_right_N": 156.73254842548138,
+      "shell_conservative_sigma_MPa": 7.9700905983555295,
+      "shell_conservative_deflection_mm": 0.024087239267234026,
+      "shaft_all_load_at_mid_bound_mm": 0.888318138728777
+    },
+    {
+      "deflection_max_mm": 0.17774669975118712,
+      "sigma_max_MPa": 10.112435326422146,
+      "left_support_N": 378.51748843517,
+      "right_support_N": 378.51748845845304,
+      "max_equilibrium_residual_N": 4.7963112592697144e-08,
+      "pitch_m": 0.75,
+      "local_peak_multiplier_assumed": 3,
+      "transverse_peak_position_mm": 0,
+      "belt_normal_N": 698.4843773004728,
+      "shell_bound_total_force_N": 733.6060756783148,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 366.8030378391574,
+      "bearing_right_N": 366.8030378391574,
+      "shell_conservative_sigma_MPa": 7.9700905983555295,
+      "shell_conservative_deflection_mm": 0.024087239267234026,
+      "shaft_all_load_at_mid_bound_mm": 0.888318138728777
+    },
+    {
+      "deflection_max_mm": 0.17898475817445408,
+      "sigma_max_MPa": 13.728912498129812,
+      "left_support_N": 194.70581019858673,
+      "right_support_N": 562.3291666959094,
+      "max_equilibrium_residual_N": 2.8870999813079834e-08,
+      "pitch_m": 0.75,
+      "local_peak_multiplier_assumed": 3,
+      "transverse_peak_position_mm": 250,
+      "belt_normal_N": 698.4843773004728,
+      "shell_bound_total_force_N": 733.6060756783148,
+      "rotating_mass_estimate_kg": 3.5826442090125,
+      "bearing_left_N": 156.73254842548138,
+      "bearing_right_N": 576.8735272528334,
+      "shell_conservative_sigma_MPa": 7.9700905983555295,
+      "shell_conservative_deflection_mm": 0.024087239267234026,
+      "shaft_all_load_at_mid_bound_mm": 0.888318138728777
+    }
+  ],
+  "expected_bodies": {
+    "REF_RAIL_LEFT": {
+      "volume_m3": 0.0009249053018116169,
+      "centroid_m": [
+        0.0013088474153936578,
+        0.04998286624877787,
+        0.05
+      ],
+      "kind": "reference"
+    },
+    "REF_RAIL_RIGHT": {
+      "volume_m3": 0.0009249053018116169,
+      "centroid_m": [
+        0.0013088474153936578,
+        0.04998286624877787,
+        0.65
+      ],
+      "kind": "reference"
+    },
+    "SHELL_1": {
+      "volume_m3": 0.000350884483479444,
+      "centroid_m": [
+        -0.3716255552756577,
+        0.13377386391242152,
+        0.35
+      ],
+      "kind": "candidate"
+    },
+    "SHAFT_1": {
+      "volume_m3": 0.0003043417883165112,
+      "centroid_m": [
+        -0.3716255552756577,
+        0.13377386391242152,
+        0.35
+      ],
+      "kind": "candidate"
+    },
+    "CARRIER_1_LEFT": {
+      "volume_m3": 3.619114736935442e-05,
+      "centroid_m": [
+        -0.3716255552756577,
+        0.13377386391242152,
+        0.0875
+      ],
+      "kind": "candidate"
+    },
+    "BEARING_ENV_1_LEFT": {
+      "volume_m3": 2.4492641725549427e-05,
+      "centroid_m": [
+        -0.3716255552756577,
+        0.13377386391242152,
+        0.0875
+      ],
+      "kind": "envelope"
+    },
+    "CARRIER_1_RIGHT": {
+      "volume_m3": 3.619114736935442e-05,
+      "centroid_m": [
+        -0.3716255552756577,
+        0.13377386391242152,
+        0.6125
+      ],
+      "kind": "candidate"
+    },
+    "BEARING_ENV_1_RIGHT": {
+      "volume_m3": 2.4492641725549427e-05,
+      "centroid_m": [
+        -0.3716255552756577,
+        0.13377386391242152,
+        0.6125
+      ],
+      "kind": "envelope"
+    },
+    "FORK_1_LEFT": {
+      "volume_m3": 1.5436504591506378e-05,
+      "centroid_m": [
+        -0.3717376182100108,
+        0.12949435310517463,
+        0.05
+      ],
+      "kind": "candidate"
+    },
+    "FORK_1_RIGHT": {
+      "volume_m3": 1.5436504591506378e-05,
+      "centroid_m": [
+        -0.3717376182100108,
+        0.12949435310517463,
+        0.65
+      ],
+      "kind": "candidate"
+    },
+    "SHELL_2": {
+      "volume_m3": 0.000350884483479444,
+      "centroid_m": [
+        -0.12171122403176839,
+        0.12722962683545325,
+        0.35
+      ],
+      "kind": "candidate"
+    },
+    "SHAFT_2": {
+      "volume_m3": 0.0003043417883165112,
+      "centroid_m": [
+        -0.12171122403176839,
+        0.12722962683545325,
+        0.35
+      ],
+      "kind": "candidate"
+    },
+    "CARRIER_2_LEFT": {
+      "volume_m3": 3.619114736935442e-05,
+      "centroid_m": [
+        -0.12171122403176839,
+        0.12722962683545325,
+        0.0875
+      ],
+      "kind": "candidate"
+    },
+    "BEARING_ENV_2_LEFT": {
+      "volume_m3": 2.4492641725549427e-05,
+      "centroid_m": [
+        -0.12171122403176839,
+        0.12722962683545325,
+        0.0875
+      ],
+      "kind": "envelope"
+    },
+    "CARRIER_2_RIGHT": {
+      "volume_m3": 3.619114736935442e-05,
+      "centroid_m": [
+        -0.12171122403176839,
+        0.12722962683545325,
+        0.6125
+      ],
+      "kind": "candidate"
+    },
+    "BEARING_ENV_2_RIGHT": {
+      "volume_m3": 2.4492641725549427e-05,
+      "centroid_m": [
+        -0.12171122403176839,
+        0.12722962683545325,
+        0.6125
+      ],
+      "kind": "envelope"
+    },
+    "FORK_2_LEFT": {
+      "volume_m3": 1.5436504591506378e-05,
+      "centroid_m": [
+        -0.12182328696612144,
+        0.12295011602820635,
+        0.05
+      ],
+      "kind": "candidate"
+    },
+    "FORK_2_RIGHT": {
+      "volume_m3": 1.5436504591506378e-05,
+      "centroid_m": [
+        -0.12182328696612144,
+        0.12295011602820635,
+        0.65
+      ],
+      "kind": "candidate"
+    },
+    "SHELL_3": {
+      "volume_m3": 0.000350884483479444,
+      "centroid_m": [
+        0.12820310721212091,
+        0.12068538975848495,
+        0.35
+      ],
+      "kind": "candidate"
+    },
+    "SHAFT_3": {
+      "volume_m3": 0.0003043417883165112,
+      "centroid_m": [
+        0.12820310721212091,
+        0.12068538975848495,
+        0.35
+      ],
+      "kind": "candidate"
+    },
+    "CARRIER_3_LEFT": {
+      "volume_m3": 3.619114736935442e-05,
+      "centroid_m": [
+        0.12820310721212091,
+        0.12068538975848495,
+        0.0875
+      ],
+      "kind": "candidate"
+    },
+    "BEARING_ENV_3_LEFT": {
+      "volume_m3": 2.4492641725549427e-05,
+      "centroid_m": [
+        0.12820310721212091,
+        0.12068538975848495,
+        0.0875
+      ],
+      "kind": "envelope"
+    },
+    "CARRIER_3_RIGHT": {
+      "volume_m3": 3.619114736935442e-05,
+      "centroid_m": [
+        0.12820310721212091,
+        0.12068538975848495,
+        0.6125
+      ],
+      "kind": "candidate"
+    },
+    "BEARING_ENV_3_RIGHT": {
+      "volume_m3": 2.4492641725549427e-05,
+      "centroid_m": [
+        0.12820310721212091,
+        0.12068538975848495,
+        0.6125
+      ],
+      "kind": "envelope"
+    },
+    "FORK_3_LEFT": {
+      "volume_m3": 1.5436504591506378e-05,
+      "centroid_m": [
+        0.12809104427776788,
+        0.11640587895123805,
+        0.05
+      ],
+      "kind": "candidate"
+    },
+    "FORK_3_RIGHT": {
+      "volume_m3": 1.5436504591506378e-05,
+      "centroid_m": [
+        0.12809104427776788,
+        0.11640587895123805,
+        0.65
+      ],
+      "kind": "candidate"
+    },
+    "SHELL_4": {
+      "volume_m3": 0.000350884483479444,
+      "centroid_m": [
+        0.37811743845601026,
+        0.11414115268151666,
+        0.35
+      ],
+      "kind": "candidate"
+    },
+    "SHAFT_4": {
+      "volume_m3": 0.0003043417883165112,
+      "centroid_m": [
+        0.37811743845601026,
+        0.11414115268151666,
+        0.35
+      ],
+      "kind": "candidate"
+    },
+    "CARRIER_4_LEFT": {
+      "volume_m3": 3.619114736935442e-05,
+      "centroid_m": [
+        0.37811743845601026,
+        0.11414115268151666,
+        0.0875
+      ],
+      "kind": "candidate"
+    },
+    "BEARING_ENV_4_LEFT": {
+      "volume_m3": 2.4492641725549427e-05,
+      "centroid_m": [
+        0.37811743845601026,
+        0.11414115268151666,
+        0.0875
+      ],
+      "kind": "envelope"
+    },
+    "CARRIER_4_RIGHT": {
+      "volume_m3": 3.619114736935442e-05,
+      "centroid_m": [
+        0.37811743845601026,
+        0.11414115268151666,
+        0.6125
+      ],
+      "kind": "candidate"
+    },
+    "BEARING_ENV_4_RIGHT": {
+      "volume_m3": 2.4492641725549427e-05,
+      "centroid_m": [
+        0.37811743845601026,
+        0.11414115268151666,
+        0.6125
+      ],
+      "kind": "envelope"
+    },
+    "FORK_4_LEFT": {
+      "volume_m3": 1.5436504591506378e-05,
+      "centroid_m": [
+        0.3780053755216572,
+        0.10986164187426976,
+        0.05
+      ],
+      "kind": "candidate"
+    },
+    "FORK_4_RIGHT": {
+      "volume_m3": 1.5436504591506378e-05,
+      "centroid_m": [
+        0.3780053755216572,
+        0.10986164187426976,
+        0.65
+      ],
+      "kind": "candidate"
+    }
+  },
+  "mass_estimates": {
+    "shell_kg": 2.7544431953136357,
+    "carrier_each_kg": 0.28410050684943217,
+    "shaft_kg": 2.389083038284613,
+    "bearings_pair_catalog_estimate_kg": 0.26,
+    "rotating_supported_mass_estimate_kg": 3.5826442090125,
+    "candidate_steel_without_envelopes_and_references_kg": 23.816321477535052,
+    "total_CAD_mass_at_uniform_7850_kg": 39.875472616341945
+  },
+  "checks": {
+    "green_function_cases": [
+      {
+        "pitch_m": 0.25,
+        "footprint_m": 0,
+        "T_integrated_N": 4748.468354454968,
+        "reaction_integrated_N": 232.82812576682426
+      },
+      {
+        "pitch_m": 0.25,
+        "footprint_m": 0.25,
+        "T_integrated_N": 2910.3515720853034,
+        "reaction_integrated_N": 196.06579011943094
+      },
+      {
+        "pitch_m": 0.25,
+        "footprint_m": 0.5,
+        "T_integrated_N": 1991.2931809004706,
+        "reaction_integrated_N": 159.30345447203766
+      },
+      {
+        "pitch_m": 0.25,
+        "footprint_m": 0.75,
+        "T_integrated_N": 1684.9403838388596,
+        "reaction_integrated_N": 134.79523070710877
+      },
+      {
+        "pitch_m": 0.25,
+        "footprint_m": 1.0,
+        "T_integrated_N": 1531.7639853080545,
+        "reaction_integrated_N": 122.54111882464436
+      },
+      {
+        "pitch_m": 0.75,
+        "footprint_m": 0,
+        "T_integrated_N": 6892.9379338862445,
+        "reaction_integrated_N": 404.3856921213263
+      },
+      {
+        "pitch_m": 0.75,
+        "footprint_m": 0.25,
+        "T_integrated_N": 6280.232339763023,
+        "reaction_integrated_N": 392.1315802388619
+      },
+      {
+        "pitch_m": 0.75,
+        "footprint_m": 0.5,
+        "T_integrated_N": 5667.526745639801,
+        "reaction_integrated_N": 379.87746835639746
+      },
+      {
+        "pitch_m": 0.75,
+        "footprint_m": 0.75,
+        "T_integrated_N": 5054.821151516579,
+        "reaction_integrated_N": 367.6233564739331
+      },
+      {
+        "pitch_m": 0.75,
+        "footprint_m": 1.0,
+        "T_integrated_N": 4595.291955924164,
+        "reaction_integrated_N": 355.36924459146866
+      }
+    ],
+    "green_and_influence_match": true,
+    "shaft_81_nodes_cases": 27,
+    "shaft_equilibrium_passed": true,
+    "simulation_performed": false
+  },
+  "sources": [
+    {
+      "title": "Habasit Fabric Conveyor Belts Engineering Guide, 6039, pp9–10,38",
+      "url": "https://www.habasit.com/-/media/Project/Habasit/NewWebsite/Downloads/Products/General-conveyor-belts/Fabric-Conveyor-Belts-Engineering-Guide.pdf",
+      "use": "Принципы опоры, влияние влаги на сплошное скольжение и организация загрузки; не подбор ленты для отбросов и не источник численных коэффициентов R09."
+    },
+    {
+      "title": "SKF Single row deep groove ball bearings, 6205-2RSH",
+      "url": "https://cdn.skfmediahub.skf.com/api/public/0901d196802809de/pdf_preview_medium/0901d196802809de_pdf_preview_medium.pdf",
+      "use": "Габарит25×52×15мм и масса0,13кг только для компоновочного кандидата. Исполнение/ресурс/уплотнения не утверждены."
+    }
+  ],
+  "limitations": [
+    "Частые ролики только под загрузкой не уменьшают глобальное натяжение, если15кг сохраняются компактной порцией на обычных пролётах. Сценарий точечной массы R08 остаётся действующим.",
+    "Длина пятна0,25–1м — предположение, не измеренная длина порции. Масса15кг учитывается единственная и не множится на3решётки.",
+    "Множители локальной нагрузки1/2/3 — чувствительность, не установленная ударная нагрузка. Высота падения неизвестна.",
+    "Ролик76×540, ось25×620 и подшипник25×52×15 — кандидат габаритов; не производственная конструкция или каталог выбранного ролика.",
+    "Открытые вилки показывают посадочное место; удержание оси от подъёма/вращения, осевая фиксация, крышки/уплотнения/посадки/швы и регулировка ещё не разработаны.",
+    "Колечки подшипников — сплошные габаритные тела; масса CAD при7850 не равна реальной массе подшипника. В оценке массы использовано0,13кг/шт из каталога.",
+    "Собственный вес оси620 распределён по расчётным600мм; консоли по10мм, осевые/касательные нагрузки и ослабления не моделируются.",
+    "Прочность/ресурс конструкции, контакт ленты, очистка, скрытые зазоры, коррозия/вода, фиксация и безопасность обслуживания не подтверждены.",
+    "Высота170мм от плоскости посадки трубы до верха ленты и толщина8мм условны. Новый участок не интегрирован в общую модель или средний узел R07."
+  ]
+}

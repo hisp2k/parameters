@@ -1,0 +1,12 @@
+{
+  "ten_cases_match_Python": true,
+  "missing_actual_force_not_zero": true,
+  "zero_and_1000_force_recalculated": true,
+  "E_half_and_blank_tested": true,
+  "restored": true,
+  "engine": "Artifact Tool; native Excel not tested",
+  "formula_scan_zero_matches": true,
+  "all_sheets_visually_checked": true,
+  "exported_formula_count": 93,
+  "exported_cached_errors": []
+}

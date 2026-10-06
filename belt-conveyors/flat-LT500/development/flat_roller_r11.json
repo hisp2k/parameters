@@ -1,0 +1,1028 @@
+{
+  "revision": "R11_FLAT",
+  "scope": "Одна плоская роликовая станция: наружная фиксация оси и геометрический лабиринт; развитие R09, отдельно от желоба R10",
+  "inputs": {
+    "belt_width_mm": 500,
+    "overall_length_mm": 10000,
+    "nominal_seat_to_belt_top_mm": 170,
+    "belt_thickness_assumed_mm": 8,
+    "roller_centre_height_mm": 124,
+    "downhill_example_deg": 1.5,
+    "q_material_orientation_kg_m": 30,
+    "q_belt_assumed_kg_m": 5,
+    "one_peak_kg": 15,
+    "actual_drop_height_m": null,
+    "actual_uplift_N": null,
+    "actual_axis_drag_torque_Nm": null,
+    "actual_wash_pressure": null
+  },
+  "geometry": {
+    "roller_OD_mm": 76,
+    "face_length_mm": 540,
+    "shell_length_mm": 486,
+    "shaft_diameter_mm": 25,
+    "shaft_length_mm": 620,
+    "shaft_flats_width_mm": 20,
+    "shaft_flats_length_each_mm": 24,
+    "fork_and_keeper_bore_width_mm": 20.5,
+    "fork_bore_radius_mm": 12.75,
+    "keeper_bore_radius_mm": 12.8,
+    "bore_centre_height_mm": 124.25,
+    "loaded_shaft_height_mm": 124,
+    "keeper_size_mm": [
+      60,
+      45,
+      8.5
+    ],
+    "blind_end_wall_mm": 2,
+    "shaft_axial_end_clearance_each_mm": 0.5,
+    "shaft_lift_clearance_mm": 0.55,
+    "keeper_M6_holes_pitch_mm": 44,
+    "bearing_centres_mm": [
+      99.5,
+      600.5
+    ],
+    "bearing_span_mm": 501,
+    "shaft_support_span_mm": 600,
+    "carrier_length_each_mm": 21,
+    "minimum_labyrinth_radial_gap_mm": 1,
+    "minimum_labyrinth_axial_gap_mm": 1,
+    "rotating_cap_shaft_radial_gap_mm": 0.75,
+    "static_shield_to_reference_rail_gap_mm": 2,
+    "nominal_anti_rotation_angular_clearance_each_deg": 1.9546913983998435
+  },
+  "section": {
+    "shaft_flat_area_mm2": 439.77975562550387,
+    "I_vertical_bending_flat_mm4": 18585.146704121285,
+    "I_horizontal_bending_flat_mm4": 12960.14670412118,
+    "I_circular_mm4": 19174.759848570513
+  },
+  "mass": {
+    "one_station_steel_excluding_refs_hardware_envelopes_kg": 6.877419985121023,
+    "shaft_kg": 2.3698307827242036,
+    "rotating_mass_with_bearing_pair_estimate_kg": 3.9895898243466315,
+    "bearing_pair_catalog_estimate_kg": 0.26
+  },
+  "shaft_cases": [
+    {
+      "pitch_m": 0.25,
+      "local_peak_multiplier_sensitivity": 1,
+      "eccentricity_mm": -250,
+      "bearing_left_N": 209.34753037634516,
+      "bearing_right_N": 62.591699448627345,
+      "support_left_N": 208.85624296578428,
+      "support_right_N": 86.31512412952108,
+      "shaft_max_deflection_mm": 0.09577075775810019,
+      "shaft_max_sigma_MPa": 6.708654363759893,
+      "seal_axis_relative_max_mm": 0.017135929747122157,
+      "equilibrium_error_N": 2.7124325896465962e-08,
+      "midpoint_virtual_work_error_mm": 4.210796988868282e-11
+    },
+    {
+      "pitch_m": 0.25,
+      "local_peak_multiplier_sensitivity": 1,
+      "eccentricity_mm": 0,
+      "bearing_left_N": 135.96961491248624,
+      "bearing_right_N": 135.96961491248624,
+      "support_left_N": 147.5856835538227,
+      "support_right_N": 147.58568354116252,
+      "shaft_max_deflection_mm": 0.09529934576193895,
+      "shaft_max_sigma_MPa": 5.523476111462242,
+      "seal_axis_relative_max_mm": 0.015076263874178914,
+      "equilibrium_error_N": 2.680421928857868e-08,
+      "midpoint_virtual_work_error_mm": 4.3807069083356964e-11
+    },
+    {
+      "pitch_m": 0.25,
+      "local_peak_multiplier_sensitivity": 1,
+      "eccentricity_mm": 250,
+      "bearing_left_N": 62.591699448627345,
+      "bearing_right_N": 209.34753037634516,
+      "support_left_N": 86.31512414215214,
+      "support_right_N": 208.85624295289128,
+      "shaft_max_deflection_mm": 0.09577075775698343,
+      "shaft_max_sigma_MPa": 6.7086543704499375,
+      "seal_axis_relative_max_mm": 0.017135929746547634,
+      "equilibrium_error_N": 2.6862398527782716e-08,
+      "midpoint_virtual_work_error_mm": 4.6530682085155206e-11
+    },
+    {
+      "pitch_m": 0.25,
+      "local_peak_multiplier_sensitivity": 2,
+      "eccentricity_mm": -250,
+      "bearing_left_N": 356.25011713499066,
+      "bearing_right_N": 62.73845527955506,
+      "support_left_N": 343.6514736820184,
+      "support_right_N": 98.56923601560376,
+      "shaft_max_deflection_mm": 0.13893330973951362,
+      "shaft_max_sigma_MPa": 11.058359375157346,
+      "seal_axis_relative_max_mm": 0.026025599090337997,
+      "equilibrium_error_N": 3.9867924073178074e-08,
+      "midpoint_virtual_work_error_mm": 6.234490701473305e-11
+    },
+    {
+      "pitch_m": 0.25,
+      "local_peak_multiplier_sensitivity": 2,
+      "eccentricity_mm": 0,
+      "bearing_left_N": 209.49428620727286,
+      "bearing_right_N": 209.49428620727286,
+      "support_left_N": 221.110354858328,
+      "support_right_N": 221.11035483900307,
+      "shaft_max_deflection_mm": 0.1376185380473929,
+      "shaft_max_sigma_MPa": 7.8960424830554645,
+      "seal_axis_relative_max_mm": 0.021906267344451537,
+      "equilibrium_error_N": 3.957682181976452e-08,
+      "midpoint_virtual_work_error_mm": 6.656264428528402e-11
+    },
+    {
+      "pitch_m": 0.25,
+      "local_peak_multiplier_sensitivity": 2,
+      "eccentricity_mm": 250,
+      "bearing_left_N": 62.73845527955506,
+      "bearing_right_N": 356.25011713499066,
+      "support_left_N": 98.56923603440484,
+      "support_right_N": 343.6514736625188,
+      "shaft_max_deflection_mm": 0.1389333097373051,
+      "shaft_max_sigma_MPa": 11.058359385065641,
+      "seal_axis_relative_max_mm": 0.026025599089420395,
+      "equilibrium_error_N": 3.916942503678911e-08,
+      "midpoint_virtual_work_error_mm": 6.996070389675424e-11
+    },
+    {
+      "pitch_m": 0.25,
+      "local_peak_multiplier_sensitivity": 3,
+      "eccentricity_mm": -250,
+      "bearing_left_N": 503.1527038936361,
+      "bearing_right_N": 62.885211110482786,
+      "support_left_N": 478.44670439895094,
+      "support_right_N": 110.82334790197748,
+      "shaft_max_deflection_mm": 0.1821932993662439,
+      "shaft_max_sigma_MPa": 15.40806438657734,
+      "seal_axis_relative_max_mm": 0.03491526843355385,
+      "equilibrium_error_N": 5.3601045379991774e-08,
+      "midpoint_virtual_work_error_mm": 8.504111304041828e-11
+    },
+    {
+      "pitch_m": 0.25,
+      "local_peak_multiplier_sensitivity": 3,
+      "eccentricity_mm": 0,
+      "bearing_left_N": 283.01895750205944,
+      "bearing_right_N": 283.01895750205944,
+      "support_left_N": 294.6350261622513,
+      "support_right_N": 294.6350261371638,
+      "shaft_max_deflection_mm": 0.17993773033284688,
+      "shaft_max_sigma_MPa": 10.268608854534861,
+      "seal_axis_relative_max_mm": 0.028736270814724144,
+      "equilibrium_error_N": 5.208766040709634e-08,
+      "midpoint_virtual_work_error_mm": 8.726927513968974e-11
+    },
+    {
+      "pitch_m": 0.25,
+      "local_peak_multiplier_sensitivity": 3,
+      "eccentricity_mm": 250,
+      "bearing_left_N": 62.885211110482786,
+      "bearing_right_N": 503.1527038936361,
+      "support_left_N": 110.82334792683216,
+      "support_right_N": 478.44670437235004,
+      "shaft_max_deflection_mm": 0.18219329936302367,
+      "shaft_max_sigma_MPa": 15.408064399744012,
+      "seal_axis_relative_max_mm": 0.034915268432293145,
+      "equilibrium_error_N": 5.1854772920023606e-08,
+      "midpoint_virtual_work_error_mm": 9.400549783045165e-11
+    },
+    {
+      "pitch_m": 0.5,
+      "local_peak_multiplier_sensitivity": 1,
+      "eccentricity_mm": -250,
+      "bearing_left_N": 252.2369219649707,
+      "bearing_right_N": 105.48109103725288,
+      "support_left_N": 251.74563455988502,
+      "support_right_N": 129.20451571980922,
+      "shaft_max_deflection_mm": 0.12036398353065769,
+      "shaft_max_sigma_MPa": 8.092651412923887,
+      "seal_axis_relative_max_mm": 0.021120098438114514,
+      "equilibrium_error_N": 3.4262146897390267e-08,
+      "midpoint_virtual_work_error_mm": 5.4698953699805486e-11
+    },
+    {
+      "pitch_m": 0.5,
+      "local_peak_multiplier_sensitivity": 1,
+      "eccentricity_mm": 0,
+      "bearing_left_N": 178.85900650111176,
+      "bearing_right_N": 178.85900650111176,
+      "support_left_N": 190.47507514803985,
+      "support_right_N": 190.4750751317417,
+      "shaft_max_deflection_mm": 0.11998554126178711,
+      "shaft_max_sigma_MPa": 6.907473161543109,
+      "seal_axis_relative_max_mm": 0.019060432565171277,
+      "equilibrium_error_N": 3.434950102132461e-08,
+      "midpoint_virtual_work_error_mm": 5.6807933357383433e-11
+    },
+    {
+      "pitch_m": 0.5,
+      "local_peak_multiplier_sensitivity": 1,
+      "eccentricity_mm": 250,
+      "bearing_left_N": 105.48109103725288,
+      "bearing_right_N": 252.2369219649707,
+      "support_left_N": 129.20451573607826,
+      "support_right_N": 251.74563454341225,
+      "shaft_max_deflection_mm": 0.12036398352957645,
+      "shaft_max_sigma_MPa": 8.09265142133948,
+      "seal_axis_relative_max_mm": 0.02112009843741927,
+      "equilibrium_error_N": 3.4058405873338415e-08,
+      "midpoint_virtual_work_error_mm": 5.850693540754293e-11
+    },
+    {
+      "pitch_m": 0.5,
+      "local_peak_multiplier_sensitivity": 2,
+      "eccentricity_mm": -250,
+      "bearing_left_N": 399.13950872361625,
+      "bearing_right_N": 105.6278468681806,
+      "support_left_N": 386.5408652761191,
+      "support_right_N": 141.45862760621205,
+      "shaft_max_deflection_mm": 0.1634263496299583,
+      "shaft_max_sigma_MPa": 12.442356424321341,
+      "seal_axis_relative_max_mm": 0.030009767781330368,
+      "equilibrium_error_N": 4.732583036570759e-08,
+      "midpoint_virtual_work_error_mm": 7.493577980355326e-11
+    },
+    {
+      "pitch_m": 0.5,
+      "local_peak_multiplier_sensitivity": 2,
+      "eccentricity_mm": 0,
+      "bearing_left_N": 252.3836777958984,
+      "bearing_right_N": 252.3836777958984,
+      "support_left_N": 263.9997464524288,
+      "support_right_N": 263.99974642955317,
+      "shaft_max_deflection_mm": 0.16230473354724106,
+      "shaft_max_sigma_MPa": 9.280039533113564,
+      "seal_axis_relative_max_mm": 0.025890436035443904,
+      "equilibrium_error_N": 4.6976641243645645e-08,
+      "midpoint_virtual_work_error_mm": 7.915376687428477e-11
+    },
+    {
+      "pitch_m": 0.5,
+      "local_peak_multiplier_sensitivity": 2,
+      "eccentricity_mm": 250,
+      "bearing_left_N": 105.6278468681806,
+      "bearing_right_N": 399.13950872361625,
+      "support_left_N": 141.45862762850558,
+      "support_right_N": 386.5408652531853,
+      "shaft_max_deflection_mm": 0.1634263496277937,
+      "shaft_max_sigma_MPa": 12.442356436017853,
+      "seal_axis_relative_max_mm": 0.030009767780292025,
+      "equilibrium_error_N": 4.668554609565945e-08,
+      "midpoint_virtual_work_error_mm": 8.255171546345252e-11
+    },
+    {
+      "pitch_m": 0.5,
+      "local_peak_multiplier_sensitivity": 3,
+      "eccentricity_mm": -250,
+      "bearing_left_N": 546.0420954822616,
+      "bearing_right_N": 105.77460269910831,
+      "support_left_N": 521.3360959930517,
+      "support_right_N": 153.71273949223652,
+      "shaft_max_deflection_mm": 0.20663037539723975,
+      "shaft_max_sigma_MPa": 16.792061435741335,
+      "seal_axis_relative_max_mm": 0.0388994371245462,
+      "equilibrium_error_N": 6.07097696558867e-08,
+      "midpoint_virtual_work_error_mm": 9.763212460711657e-11
+    },
+    {
+      "pitch_m": 0.5,
+      "local_peak_multiplier_sensitivity": 3,
+      "eccentricity_mm": 0,
+      "bearing_left_N": 325.90834909068496,
+      "bearing_right_N": 325.90834909068496,
+      "support_left_N": 337.5244177568177,
+      "support_right_N": 337.524417727481,
+      "shaft_max_deflection_mm": 0.20462392583269504,
+      "shaft_max_sigma_MPa": 11.652605904684025,
+      "seal_axis_relative_max_mm": 0.0327204395057165,
+      "equilibrium_error_N": 5.972025363121247e-08,
+      "midpoint_virtual_work_error_mm": 1.0149966978012515e-10
+    },
+    {
+      "pitch_m": 0.5,
+      "local_peak_multiplier_sensitivity": 3,
+      "eccentricity_mm": 250,
+      "bearing_left_N": 105.77460269910831,
+      "bearing_right_N": 546.0420954822616,
+      "support_left_N": 153.71273952081648,
+      "support_right_N": 521.3360959629001,
+      "shaft_max_deflection_mm": 0.2066303753939252,
+      "shaft_max_sigma_MPa": 16.792061450654444,
+      "seal_axis_relative_max_mm": 0.038899437123164765,
+      "equilibrium_error_N": 5.91381770220778e-08,
+      "midpoint_virtual_work_error_mm": 1.0618672607876078e-10
+    },
+    {
+      "pitch_m": 0.75,
+      "local_peak_multiplier_sensitivity": 1,
+      "eccentricity_mm": -250,
+      "bearing_left_N": 295.1263135535962,
+      "bearing_right_N": 148.37048262587842,
+      "support_left_N": 294.6350261541022,
+      "support_right_N": 172.093907310272,
+      "shaft_max_deflection_mm": 0.14498789916330493,
+      "shaft_max_sigma_MPa": 9.47664846209164,
+      "seal_axis_relative_max_mm": 0.02510426712910687,
+      "equilibrium_error_N": 4.169105594087341e-08,
+      "midpoint_virtual_work_error_mm": 6.769987348498319e-11
+    },
+    {
+      "pitch_m": 0.75,
+      "local_peak_multiplier_sensitivity": 1,
+      "eccentricity_mm": 0,
+      "bearing_left_N": 221.7483980897373,
+      "bearing_right_N": 221.7483980897373,
+      "support_left_N": 233.364466742257,
+      "support_right_N": 233.36446672200074,
+      "shaft_max_deflection_mm": 0.14467173676163522,
+      "shaft_max_sigma_MPa": 8.291470211623981,
+      "seal_axis_relative_max_mm": 0.02304460125616363,
+      "equilibrium_error_N": 4.157464061904648e-08,
+      "midpoint_virtual_work_error_mm": 6.98087976314099e-11
+    },
+    {
+      "pitch_m": 0.75,
+      "local_peak_multiplier_sensitivity": 1,
+      "eccentricity_mm": 250,
+      "bearing_left_N": 148.37048262587842,
+      "bearing_right_N": 295.1263135535962,
+      "support_left_N": 172.09390733052825,
+      "support_right_N": 294.63502613378773,
+      "shaft_max_deflection_mm": 0.1449878991621757,
+      "shaft_max_sigma_MPa": 9.476648472417018,
+      "seal_axis_relative_max_mm": 0.025104267128290905,
+      "equilibrium_error_N": 4.1632848279959944e-08,
+      "midpoint_virtual_work_error_mm": 7.232742182949892e-11
+    },
+    {
+      "pitch_m": 0.75,
+      "local_peak_multiplier_sensitivity": 2,
+      "eccentricity_mm": -250,
+      "bearing_left_N": 442.0289003122417,
+      "bearing_right_N": 148.51723845680613,
+      "support_left_N": 429.4302568705691,
+      "support_right_N": 184.34801919676212,
+      "shaft_max_deflection_mm": 0.18797241542858614,
+      "shaft_max_sigma_MPa": 13.826353473496605,
+      "seal_axis_relative_max_mm": 0.033993936472322725,
+      "equilibrium_error_N": 5.507489575506952e-08,
+      "midpoint_virtual_work_error_mm": 8.87565299034776e-11
+    },
+    {
+      "pitch_m": 0.75,
+      "local_peak_multiplier_sensitivity": 2,
+      "eccentricity_mm": 0,
+      "bearing_left_N": 295.2730693845239,
+      "bearing_right_N": 295.2730693845239,
+      "support_left_N": 306.8891380465295,
+      "support_right_N": 306.88913801998683,
+      "shaft_max_deflection_mm": 0.18699092904708922,
+      "shaft_max_sigma_MPa": 10.664036583171665,
+      "seal_axis_relative_max_mm": 0.029874604726436257,
+      "equilibrium_error_N": 5.4259988502280976e-08,
+      "midpoint_virtual_work_error_mm": 9.174475068540744e-11
+    },
+    {
+      "pitch_m": 0.75,
+      "local_peak_multiplier_sensitivity": 2,
+      "eccentricity_mm": 250,
+      "bearing_left_N": 148.51723845680613,
+      "bearing_right_N": 442.0289003122417,
+      "support_left_N": 184.34801922272274,
+      "support_right_N": 429.4302568437354,
+      "shaft_max_deflection_mm": 0.1879724154263501,
+      "shaft_max_sigma_MPa": 13.826353487011835,
+      "seal_axis_relative_max_mm": 0.03399393647116365,
+      "equilibrium_error_N": 5.420178084136751e-08,
+      "midpoint_virtual_work_error_mm": 9.555256585969119e-11
+    },
+    {
+      "pitch_m": 0.75,
+      "local_peak_multiplier_sensitivity": 3,
+      "eccentricity_mm": -250,
+      "bearing_left_N": 588.9314870708872,
+      "bearing_right_N": 148.66399428773386,
+      "support_left_N": 564.2254875878509,
+      "support_right_N": 196.602131082903,
+      "shaft_max_deflection_mm": 0.2310819415018164,
+      "shaft_max_sigma_MPa": 18.176058484927868,
+      "seal_axis_relative_max_mm": 0.04288360581553855,
+      "equilibrium_error_N": 6.892436843486394e-08,
+      "midpoint_virtual_work_error_mm": 1.1268200261760342e-10
+    },
+    {
+      "pitch_m": 0.75,
+      "local_peak_multiplier_sensitivity": 3,
+      "eccentricity_mm": 0,
+      "bearing_left_N": 368.79774067931055,
+      "bearing_right_N": 368.79774067931055,
+      "support_left_N": 380.413809350802,
+      "support_right_N": 380.4138093180893,
+      "shaft_max_deflection_mm": 0.22931012133254322,
+      "shaft_max_sigma_MPa": 13.036602954719353,
+      "seal_axis_relative_max_mm": 0.0367046081967089,
+      "equilibrium_error_N": 6.706169486392355e-08,
+      "midpoint_virtual_work_error_mm": 1.1368062047267813e-10
+    },
+    {
+      "pitch_m": 0.75,
+      "local_peak_multiplier_sensitivity": 3,
+      "eccentricity_mm": 250,
+      "bearing_left_N": 148.66399428773386,
+      "bearing_right_N": 588.9314870708872,
+      "support_left_N": 196.6021311153829,
+      "support_right_N": 564.2254875532756,
+      "shaft_max_deflection_mm": 0.23108194149860392,
+      "shaft_max_sigma_MPa": 18.176058501773753,
+      "seal_axis_relative_max_mm": 0.04288360581403639,
+      "equilibrium_error_N": 6.682886422026968e-08,
+      "midpoint_virtual_work_error_mm": 1.2041700969689373e-10
+    }
+  ],
+  "keeper_uplift_sensitivity": [
+    {
+      "uplift_one_keeper_scenario_N": 0,
+      "bridge_sigma_MPa": 0.0,
+      "bridge_deflection_mm": 0.0,
+      "bolt_nominal_shear_stress_on_smooth_6mm_shank_MPa": 0.0
+    },
+    {
+      "uplift_one_keeper_scenario_N": 250,
+      "bridge_sigma_MPa": 30.71360263578555,
+      "bridge_deflection_mm": 0.006232865272838659,
+      "bolt_nominal_shear_stress_on_smooth_6mm_shank_MPa": 4.420970641441537
+    },
+    {
+      "uplift_one_keeper_scenario_N": 500,
+      "bridge_sigma_MPa": 61.4272052715711,
+      "bridge_deflection_mm": 0.012465730545677319,
+      "bolt_nominal_shear_stress_on_smooth_6mm_shank_MPa": 8.841941282883074
+    },
+    {
+      "uplift_one_keeper_scenario_N": 1000,
+      "bridge_sigma_MPa": 122.8544105431422,
+      "bridge_deflection_mm": 0.024931461091354638,
+      "bolt_nominal_shear_stress_on_smooth_6mm_shank_MPa": 17.683882565766147
+    }
+  ],
+  "expected_bodies": {
+    "SHAFT": {
+      "volume_m3": 0.00030188927168461194,
+      "centroid_before_tilt_mm": [
+        0,
+        124,
+        350
+      ],
+      "centroid_m": [
+        0.0032459415901762707,
+        0.1239575082969691,
+        0.35
+      ],
+      "kind": "steel",
+      "service_group": "roller"
+    },
+    "SHELL": {
+      "volume_m3": 0.00033437227249217606,
+      "centroid_before_tilt_mm": [
+        0,
+        124,
+        350
+      ],
+      "centroid_m": [
+        0.0032459415901762707,
+        0.1239575082969691,
+        0.35
+      ],
+      "kind": "steel",
+      "service_group": "roller"
+    },
+    "CARRIER_LEFT": {
+      "volume_m3": 5.066760631709619e-05,
+      "centroid_before_tilt_mm": [
+        0,
+        124,
+        96.5
+      ],
+      "centroid_m": [
+        0.0032459415901762707,
+        0.1239575082969691,
+        0.0965
+      ],
+      "kind": "steel",
+      "service_group": "roller"
+    },
+    "BEARING_ENV_LEFT": {
+      "volume_m3": 2.4492641725549427e-05,
+      "centroid_before_tilt_mm": [
+        0,
+        124,
+        99.5
+      ],
+      "centroid_m": [
+        0.0032459415901762707,
+        0.1239575082969691,
+        0.0995
+      ],
+      "kind": "envelope",
+      "service_group": "roller"
+    },
+    "ROT_CAP_LEFT": {
+      "volume_m3": 1.9699749433416498e-05,
+      "centroid_before_tilt_mm": [
+        0.0,
+        124.0,
+        83.21369480713643
+      ],
+      "centroid_m": [
+        0.0032459415901762707,
+        0.1239575082969691,
+        0.08321369480713643
+      ],
+      "kind": "steel",
+      "service_group": "roller"
+    },
+    "STATOR_LEFT": {
+      "volume_m3": 1.4337843840400514e-05,
+      "centroid_before_tilt_mm": [
+        -0.08361823974337362,
+        124.00000000000001,
+        76.38900480109992
+      ],
+      "centroid_m": [
+        0.0031623520043152454,
+        0.12395969716730847,
+        0.07638900480109992
+      ],
+      "kind": "steel",
+      "service_group": "roller"
+    },
+    "M4_SET_ENV_LEFT": {
+      "volume_m3": 7.539822368615504e-08,
+      "centroid_before_tilt_mm": [
+        15.5,
+        124,
+        72
+      ],
+      "centroid_m": [
+        0.018740630127297406,
+        0.12355176559819707,
+        0.072
+      ],
+      "kind": "envelope",
+      "service_group": "roller"
+    },
+    "KEEPER_LEFT": {
+      "volume_m3": 1.938646647331649e-05,
+      "centroid_before_tilt_mm": [
+        0.0,
+        121.86551665202249,
+        41.59528272339099
+      ],
+      "centroid_m": [
+        0.0031900673299122477,
+        0.12182375638312504,
+        0.04159528272339099
+      ],
+      "kind": "steel",
+      "service_group": "keeper"
+    },
+    "FORK_LEFT": {
+      "volume_m3": 1.5829790199033808e-05,
+      "centroid_before_tilt_mm": [
+        0,
+        119.9318633773861,
+        50
+      ],
+      "centroid_m": [
+        0.003139450188096741,
+        0.11989076572317178,
+        0.05
+      ],
+      "kind": "steel",
+      "service_group": "fixed"
+    },
+    "M6_BOLT_LEFT_MINUS": {
+      "volume_m3": 1.1946401779830195e-06,
+      "centroid_before_tilt_mm": [
+        -22.0,
+        135.0,
+        45.97050503217054
+      ],
+      "centroid_m": [
+        -0.018458573127899384,
+        0.13552963173447344,
+        0.045970505032170546
+      ],
+      "kind": "hardware",
+      "service_group": "removed"
+    },
+    "M6_NUT_LEFT_MINUS": {
+      "volume_m3": 2.916410324806786e-07,
+      "centroid_before_tilt_mm": [
+        -22,
+        135,
+        58.1
+      ],
+      "centroid_m": [
+        -0.018458573127899384,
+        0.13552963173447344,
+        0.0581
+      ],
+      "kind": "hardware",
+      "service_group": "removed"
+    },
+    "M6_WASH_LEFT_MINUS_OUT": {
+      "volume_m3": 1.2786282100110458e-07,
+      "centroid_before_tilt_mm": [
+        -22,
+        135,
+        36.7
+      ],
+      "centroid_m": [
+        -0.018458573127899384,
+        0.13552963173447344,
+        0.0367
+      ],
+      "kind": "hardware",
+      "service_group": "removed"
+    },
+    "M6_WASH_LEFT_MINUS_IN": {
+      "volume_m3": 1.2786282100110458e-07,
+      "centroid_before_tilt_mm": [
+        -22,
+        135,
+        54.8
+      ],
+      "centroid_m": [
+        -0.018458573127899384,
+        0.13552963173447344,
+        0.054799999999999995
+      ],
+      "kind": "hardware",
+      "service_group": "removed"
+    },
+    "M6_BOLT_LEFT_PLUS": {
+      "volume_m3": 1.1946401779830195e-06,
+      "centroid_before_tilt_mm": [
+        22.0,
+        135.0,
+        45.97050503217054
+      ],
+      "centroid_m": [
+        0.025526349171025135,
+        0.13437784600892702,
+        0.045970505032170546
+      ],
+      "kind": "hardware",
+      "service_group": "removed"
+    },
+    "M6_NUT_LEFT_PLUS": {
+      "volume_m3": 2.916410324806786e-07,
+      "centroid_before_tilt_mm": [
+        22,
+        135,
+        58.1
+      ],
+      "centroid_m": [
+        0.025526349171025135,
+        0.13437784600892702,
+        0.0581
+      ],
+      "kind": "hardware",
+      "service_group": "removed"
+    },
+    "M6_WASH_LEFT_PLUS_OUT": {
+      "volume_m3": 1.2786282100110458e-07,
+      "centroid_before_tilt_mm": [
+        22,
+        135,
+        36.7
+      ],
+      "centroid_m": [
+        0.025526349171025135,
+        0.13437784600892702,
+        0.0367
+      ],
+      "kind": "hardware",
+      "service_group": "removed"
+    },
+    "M6_WASH_LEFT_PLUS_IN": {
+      "volume_m3": 1.2786282100110458e-07,
+      "centroid_before_tilt_mm": [
+        22,
+        135,
+        54.8
+      ],
+      "centroid_m": [
+        0.025526349171025135,
+        0.13437784600892702,
+        0.054799999999999995
+      ],
+      "kind": "hardware",
+      "service_group": "removed"
+    },
+    "CARRIER_RIGHT": {
+      "volume_m3": 5.066760631709619e-05,
+      "centroid_before_tilt_mm": [
+        0,
+        124,
+        603.5
+      ],
+      "centroid_m": [
+        0.0032459415901762707,
+        0.1239575082969691,
+        0.6035
+      ],
+      "kind": "steel",
+      "service_group": "roller"
+    },
+    "BEARING_ENV_RIGHT": {
+      "volume_m3": 2.4492641725549427e-05,
+      "centroid_before_tilt_mm": [
+        0,
+        124,
+        600.5
+      ],
+      "centroid_m": [
+        0.0032459415901762707,
+        0.1239575082969691,
+        0.6005
+      ],
+      "kind": "envelope",
+      "service_group": "roller"
+    },
+    "ROT_CAP_RIGHT": {
+      "volume_m3": 1.9699749433416498e-05,
+      "centroid_before_tilt_mm": [
+        0.0,
+        124.0,
+        616.7863051928636
+      ],
+      "centroid_m": [
+        0.0032459415901762707,
+        0.1239575082969691,
+        0.6167863051928636
+      ],
+      "kind": "steel",
+      "service_group": "roller"
+    },
+    "STATOR_RIGHT": {
+      "volume_m3": 1.4337843840400514e-05,
+      "centroid_before_tilt_mm": [
+        -0.08361823974337362,
+        124.00000000000001,
+        623.6109951989001
+      ],
+      "centroid_m": [
+        0.0031623520043152454,
+        0.12395969716730847,
+        0.6236109951989002
+      ],
+      "kind": "steel",
+      "service_group": "roller"
+    },
+    "M4_SET_ENV_RIGHT": {
+      "volume_m3": 7.539822368615504e-08,
+      "centroid_before_tilt_mm": [
+        15.5,
+        124,
+        628
+      ],
+      "centroid_m": [
+        0.018740630127297406,
+        0.12355176559819707,
+        0.628
+      ],
+      "kind": "envelope",
+      "service_group": "roller"
+    },
+    "KEEPER_RIGHT": {
+      "volume_m3": 1.938646647331649e-05,
+      "centroid_before_tilt_mm": [
+        0.0,
+        121.86551665202249,
+        658.404717276609
+      ],
+      "centroid_m": [
+        0.0031900673299122477,
+        0.12182375638312504,
+        0.658404717276609
+      ],
+      "kind": "steel",
+      "service_group": "keeper"
+    },
+    "FORK_RIGHT": {
+      "volume_m3": 1.5829790199033808e-05,
+      "centroid_before_tilt_mm": [
+        0,
+        119.9318633773861,
+        650
+      ],
+      "centroid_m": [
+        0.003139450188096741,
+        0.11989076572317178,
+        0.65
+      ],
+      "kind": "steel",
+      "service_group": "fixed"
+    },
+    "M6_BOLT_RIGHT_MINUS": {
+      "volume_m3": 1.1946401779830195e-06,
+      "centroid_before_tilt_mm": [
+        -22.0,
+        135.0,
+        654.0294949678295
+      ],
+      "centroid_m": [
+        -0.018458573127899384,
+        0.13552963173447344,
+        0.6540294949678295
+      ],
+      "kind": "hardware",
+      "service_group": "removed"
+    },
+    "M6_NUT_RIGHT_MINUS": {
+      "volume_m3": 2.916410324806786e-07,
+      "centroid_before_tilt_mm": [
+        -22,
+        135,
+        641.9
+      ],
+      "centroid_m": [
+        -0.018458573127899384,
+        0.13552963173447344,
+        0.6419
+      ],
+      "kind": "hardware",
+      "service_group": "removed"
+    },
+    "M6_WASH_RIGHT_MINUS_OUT": {
+      "volume_m3": 1.2786282100110458e-07,
+      "centroid_before_tilt_mm": [
+        -22,
+        135,
+        663.3
+      ],
+      "centroid_m": [
+        -0.018458573127899384,
+        0.13552963173447344,
+        0.6633
+      ],
+      "kind": "hardware",
+      "service_group": "removed"
+    },
+    "M6_WASH_RIGHT_MINUS_IN": {
+      "volume_m3": 1.2786282100110458e-07,
+      "centroid_before_tilt_mm": [
+        -22,
+        135,
+        645.2
+      ],
+      "centroid_m": [
+        -0.018458573127899384,
+        0.13552963173447344,
+        0.6452
+      ],
+      "kind": "hardware",
+      "service_group": "removed"
+    },
+    "M6_BOLT_RIGHT_PLUS": {
+      "volume_m3": 1.1946401779830195e-06,
+      "centroid_before_tilt_mm": [
+        22.0,
+        135.0,
+        654.0294949678295
+      ],
+      "centroid_m": [
+        0.025526349171025135,
+        0.13437784600892702,
+        0.6540294949678295
+      ],
+      "kind": "hardware",
+      "service_group": "removed"
+    },
+    "M6_NUT_RIGHT_PLUS": {
+      "volume_m3": 2.916410324806786e-07,
+      "centroid_before_tilt_mm": [
+        22,
+        135,
+        641.9
+      ],
+      "centroid_m": [
+        0.025526349171025135,
+        0.13437784600892702,
+        0.6419
+      ],
+      "kind": "hardware",
+      "service_group": "removed"
+    },
+    "M6_WASH_RIGHT_PLUS_OUT": {
+      "volume_m3": 1.2786282100110458e-07,
+      "centroid_before_tilt_mm": [
+        22,
+        135,
+        663.3
+      ],
+      "centroid_m": [
+        0.025526349171025135,
+        0.13437784600892702,
+        0.6633
+      ],
+      "kind": "hardware",
+      "service_group": "removed"
+    },
+    "M6_WASH_RIGHT_PLUS_IN": {
+      "volume_m3": 1.2786282100110458e-07,
+      "centroid_before_tilt_mm": [
+        22,
+        135,
+        645.2
+      ],
+      "centroid_m": [
+        0.025526349171025135,
+        0.13437784600892702,
+        0.6452
+      ],
+      "kind": "hardware",
+      "service_group": "removed"
+    },
+    "REF_RAIL_LEFT": {
+      "volume_m3": 0.00033632920065876983,
+      "centroid_before_tilt_mm": [
+        0,
+        50,
+        50
+      ],
+      "centroid_m": [
+        0.0013088474153936578,
+        0.04998286624877787,
+        0.05
+      ],
+      "kind": "reference",
+      "service_group": "fixed"
+    },
+    "REF_RAIL_RIGHT": {
+      "volume_m3": 0.00033632920065876983,
+      "centroid_before_tilt_mm": [
+        0,
+        50,
+        650
+      ],
+      "centroid_m": [
+        0.0013088474153936578,
+        0.04998286624877787,
+        0.65
+      ],
+      "kind": "reference",
+      "service_group": "fixed"
+    }
+  },
+  "service_sequence": [
+    "Снять натяжение и обеспечить локальный подъём/отвод ленты; источник движения отключён",
+    "Снять4 болта M6 и гайки/шайбы; конкретный инструмент и доступ ещё не подтверждены",
+    "Вывести каждую торцевую крышку наружу на15мм; это проверяемое геометрическое положение",
+    "Поднять ролик с осью и неподвижными крышками на35мм; лента должна быть поднята/отведена минимум на эту величину",
+    "Проверить регулировку и фиксацию после обратной сборки; порядок в составе полной машины ещё не отработан"
+  ],
+  "checks": {
+    "body_count": 34,
+    "shaft_cases_count": 27,
+    "beam_nodes_count": 85,
+    "shaft_midpoint_virtual_work_independent": true,
+    "beam_equilibrium_passed": true,
+    "flat_section_gauss96_192_match": true,
+    "minimum_gap_not_tolerance_approved": true,
+    "simulation_performed": false
+  },
+  "sources": [
+    {
+      "title": "Rulmeca PSV: назначение уплотнений роликов; источник принципа, не геометрии R11",
+      "url": "https://www.rulmeca.com/en/steel-rollers---psv/11/p"
+    },
+    {
+      "title": "SKF: направление воды в зазор и необходимость отвода загрязнений; не проверка R11",
+      "url": "https://metalchallenges.skf.com/africa/mainpage_all_challenge17_africa_metals_MetalChallenges"
+    },
+    {
+      "title": "Bossard: номинальная площадь резьбы M6 20,1мм²",
+      "url": "https://www.bossard.com/global-en/-/media/bossard-group/website/documents/technical-resources/en/f-004-en.pdf"
+    }
+  ],
+  "limitations": [
+    "Кандидат одной плоской станции, не четырёхроликовая зона или полная сборка",
+    "Контур лабиринта металлический и бесконтактный; нет подтверждения водостойкости, загрязнения/фильтрата, защиты от наматывания и необходимости контактного барьера/смазки",
+    "Номинальные зазоры не включают допуски, биение, тепловые перемещения, люфты и наклон осей",
+    "Неподвижные лабиринтные части условно закреплены M4; резьба/контакт/момент фиксации и покрытие не проверены",
+    "Посадки и внутреннее осевое удержание колец подшипников ещё открыты; габаритные кольца не моделируют реальные кольца/уплотнения",
+    "Оценка оси включает вертикальный изгиб и лыски; концентраторы, горизонтальная нагрузка, кручение и усталость не проверены",
+    "Реальная сила подъёма и момент на оси неизвестны; U0/250/500/1000Н только чувствительность, не принятие расчётной нагрузки",
+    "Балочная оценка верхней перемычки крышки и дополнительной силы болтов исключает местный контакт, изгиб стенки2мм, осевую нагрузку, преднатяг и отрыв/податливость соединения",
+    "Модель не имеет реальных резьб; отверстие4,3мм обозначает только освобождённый габарит резьбы M4, не размер сверления для изготовления",
+    "Не обновлены общая рама, подача, привод, натяжение, инерция всей системы и R08",
+    "Материалы, посадки, чертежи/DXF/технология/УП не выпущены"
+  ]
+}

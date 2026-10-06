@@ -1,0 +1,3580 @@
+{
+  "project": "ЛТ500",
+  "revision": "R08",
+  "date": "2026-10-04",
+  "status": "ПРЕДВАРИТЕЛЬНЫЙ ПРОЕКТ — НЕ ДЛЯ ИЗГОТОВЛЕНИЯ",
+  "inputs": [
+    [
+      "ИД01",
+      "Полная длина",
+      10000,
+      "мм",
+      "Подтверждено",
+      "Ответ пользователя; это габарит, не межосевое расстояние"
+    ],
+    [
+      "ИД02",
+      "Ширина ленты",
+      500,
+      "мм",
+      "Подтверждено",
+      "Ответ пользователя; заменяет первоначальные 600 мм"
+    ],
+    [
+      "ИД03",
+      "Высота рабочей поверхности",
+      800,
+      "мм",
+      "Ориентир",
+      "Ответ пользователя; точка привязки и окончательная отметка не заданы"
+    ],
+    [
+      "ИД04",
+      "Наклон к выгрузке минимум",
+      1,
+      "град",
+      "Диапазон",
+      "Ответ пользователя; лента опускается к выгрузке"
+    ],
+    [
+      "ИД05",
+      "Наклон к выгрузке максимум",
+      2,
+      "град",
+      "Диапазон",
+      "Ответ пользователя; точный угол не назначен"
+    ],
+    [
+      "ИД06",
+      "Погонная масса материала",
+      30,
+      "кг/м",
+      "Приблизительно",
+      "Первоначальное задание; требует проверки по реальному потоку"
+    ],
+    [
+      "ИД07",
+      "Ускорение свободного падения",
+      9.80665,
+      "м/с²",
+      "Расчётная константа",
+      "Стандартное ускорение, используется для перевода массы в силу"
+    ],
+    [
+      "ИД08",
+      "Скорость ленты",
+      null,
+      "м/с",
+      "Не задано",
+      "Назначить после определения требуемого потока и пригодности транспортирования"
+    ],
+    [
+      "ИД09",
+      "Насыпная плотность",
+      null,
+      "кг/м³",
+      "Не задано",
+      "Измерить для влажных отбросов в фактическом состоянии"
+    ],
+    [
+      "ИД10",
+      "Длина загруженной рабочей ветви",
+      null,
+      "м",
+      "Не задано",
+      "Определить компоновкой барабанов, загрузки и выгрузки"
+    ],
+    [
+      "ИД11",
+      "Материал",
+      "Отбросы с решёток",
+      "",
+      "Подтверждено",
+      "Без предварительного отжима"
+    ],
+    [
+      "ИД12",
+      "Максимальное включение",
+      null,
+      "мм",
+      "Не задано",
+      "Пользователь: неизвестно"
+    ],
+    [
+      "ИД13",
+      "Производительность",
+      null,
+      "т/ч",
+      "Не задано",
+      "Пользователь: неизвестно"
+    ],
+    [
+      "ИД14",
+      "Число решёток максимум",
+      3,
+      "шт.",
+      "Подтверждено",
+      "Не более трёх; количество точек и одновременность подачи не определены"
+    ],
+    [
+      "ИД15",
+      "Режим",
+      "Непрерывный",
+      "",
+      "Подтверждено",
+      "24 ч/сут; число пусков и требуемый межремонтный ресурс не заданы"
+    ],
+    [
+      "ИД16",
+      "Повторный пуск",
+      "Повторный пуск с отходами",
+      "—",
+      "Подтверждено",
+      "Позднее уточнение пользователя; расчёт остаточной массы требуется"
+    ],
+    [
+      "ИД17",
+      "Место установки",
+      "Помещение",
+      "",
+      "Подтверждено",
+      "Зимой температура положительная; пределы и химическая среда не заданы"
+    ],
+    [
+      "ИД18",
+      "Промывка",
+      "Вода из обычного шланга",
+      "",
+      "Подтверждено",
+      "Без моющих средств; прямое попадание воды учитывать при выборе защиты"
+    ],
+    [
+      "ИД19",
+      "Напряжение питания",
+      380,
+      "В",
+      "Подтверждено",
+      "Три фазы, 380 В, 50 Гц; заземление и ток короткого замыкания не заданы"
+    ],
+    [
+      "ИД20",
+      "Регулировка скорости",
+      "Не требуется",
+      "",
+      "Подтверждено",
+      "Постоянная рабочая скорость; значение пока не выбрано"
+    ],
+    [
+      "ИД21",
+      "Управление",
+      "Местное Пуск Стоп",
+      "",
+      "Подтверждено",
+      "Выбран вариант 1; управление от внешней автоматики не запрошено"
+    ],
+    [
+      "ИД22",
+      "Опоры",
+      "Собственные, анкеры в бетон",
+      "",
+      "Подтверждено",
+      "Прочность и толщина бетона, координаты опор не заданы"
+    ],
+    [
+      "ИД23",
+      "Боковые борта",
+      "Нет",
+      "",
+      "Подтверждено",
+      "Удержание материала проверить при загрузке без бортов"
+    ],
+    [
+      "ИД24",
+      "Крышка рабочей ветви",
+      "Нет",
+      "",
+      "Подтверждено",
+      "Ограждения опасных механизмов проектируются отдельно"
+    ],
+    [
+      "ИД25",
+      "Поддон фильтрата",
+      "Нет",
+      "",
+      "Подтверждено",
+      "Путь отвода стекающей воды не задан"
+    ],
+    [
+      "ИД26",
+      "Очиститель",
+      "Предусмотреть",
+      "",
+      "Подтверждено",
+      "У разгрузочного барабана; тип и сопротивление не выбраны"
+    ],
+    [
+      "ИД27",
+      "Высота падения",
+      null,
+      "мм",
+      "Не задано",
+      "Высота падения неизвестна; 15 кг — пиковая масса в одной зоне, ИД32"
+    ],
+    [
+      "ИД28",
+      "Секционирование",
+      "Две секции примерно по 5 м",
+      "",
+      "Разрешено",
+      "Болтовой монтажный стык; длины и положение стыка уточнить"
+    ],
+    [
+      "ИД29",
+      "Металлоконструкция",
+      "Ст3",
+      "",
+      "Из исходного ТЗ",
+      "Подмарка, вид проката, свойства, коррозионная защита требуют уточнения"
+    ],
+    [
+      "ИД30",
+      "CAD",
+      "SolidWorks, разработка с нуля",
+      "",
+      "Подтверждено",
+      "Исходная модель не предоставлена"
+    ],
+    [
+      "ИД31",
+      "Покрытие",
+      "Престиж, серое, около 80 мкм",
+      "",
+      "Из исходного ТЗ",
+      "Не подтверждена конкретная система покрытия и пригодность в данной среде"
+    ],
+    [
+      "ИД32",
+      "Пиковая масса в одной зоне",
+      15,
+      "кг",
+      "Подтверждено",
+      "Пользователь: пиковая нагрузка, ответ 2 — в одной зоне загрузки. Не масса разового сброса."
+    ],
+    [
+      "ИД33",
+      "Работа в сутки",
+      24,
+      "ч",
+      "Подтверждено",
+      "Непрерывная эксплуатация"
+    ],
+    [
+      "ИД34",
+      "Частота сети",
+      50,
+      "Гц",
+      "Подтверждено",
+      "380 В, три фазы, 50 Гц"
+    ],
+    [
+      "ИД35",
+      "Высота падения отходов",
+      null,
+      "м",
+      "Не задано",
+      "Нужна для удара; масса падающего сброса отдельно не задана"
+    ],
+    [
+      "ИД36",
+      "Путь торможения при ударе",
+      null,
+      "м",
+      "Не задано",
+      "Физическая деформация/торможение при ударе; не назначать произвольно"
+    ],
+    [
+      "ИД37",
+      "Время разгона",
+      null,
+      "с",
+      "Не задано",
+      "Пуск прямой, без частотного регулирования; проверить характеристику привода"
+    ],
+    [
+      "ИД38",
+      "Модуль упругости расчётный",
+      null,
+      "МПа",
+      "Не задано",
+      "Назначить по принятому материалу и расчётной методике"
+    ],
+    [
+      "ИД39",
+      "Допускаемое напряжение",
+      null,
+      "МПа",
+      "Не задано",
+      "Зависит от марки, схемы проверки и коэффициентов"
+    ],
+    [
+      "ИД40",
+      "Допускаемый прогиб",
+      null,
+      "мм",
+      "Не задано",
+      "Назначить с учётом работы ленты и стыка рамы"
+    ],
+    [
+      "ИД41",
+      "Масса падающего сброса",
+      null,
+      "кг",
+      "Не задано",
+      "15 кг местной нагрузки не подтверждает массу одновременно падающих отходов"
+    ],
+    [
+      "ИД42",
+      "Длина зоны с нагрузкой 15 кг",
+      null,
+      "мм",
+      "Не задано",
+      "Нужна для распределения нагрузки по роликам; вопрос пользователю задан отдельно"
+    ]
+  ],
+  "issues": [
+    [
+      "Б01",
+      "Блокирует поток и привод",
+      "Производительность и плотность",
+      "Получить паспорт/измерения подачи решёток: средняя и пиковая, одновременная подача; определить плотность."
+    ],
+    [
+      "Б02",
+      "Блокирует загрузку и прочность",
+      "Длина зоны, включения и параметры падения",
+      "15 кг в одной зоне подтверждены; определить длину/ширину пятна, высоту, массу и время падения"
+    ],
+    [
+      "Б03",
+      "Блокирует окончательную геометрию",
+      "Координаты загрузки и выгрузки",
+      "Обмерить точки подачи до трёх решёток и приёмник; согласовать точный угол и монтажные отметки."
+    ],
+    [
+      "Б04",
+      "Блокирует крепления",
+      "Бетон и размещение опор",
+      "Получить толщину/класс бетона, армирование, край плиты, коммуникации и допустимые координаты опор."
+    ],
+    [
+      "Б05",
+      "Блокирует подбор ленты и покрытие",
+      "Температура и химическая среда",
+      "Промывка только водой подтверждена; определить границы температуры и агрессивные примеси"
+    ],
+    [
+      "Б06",
+      "Блокирует повторный пуск и защиту",
+      "Остаточная загрузка после отключения",
+      "Нагруженный повторный пуск требуется; рассчитать согласованный остаток и консервативный сценарий полной расчётной загрузки"
+    ],
+    [
+      "Б07",
+      "Блокирует электрооборудование",
+      "Параметры сети и зоны",
+      "3×380 В, 50 Гц подтверждены; проверить заземление, ток короткого замыкания и условия зоны"
+    ],
+    [
+      "Б08",
+      "Блокирует пусконаладку",
+      "Просыпание и отвод воды",
+      "Согласовать приём отходов и отвод воды при отсутствии бортов и поддона."
+    ],
+    [
+      "В01",
+      "Допускает предварительную компоновку",
+      "Требуемый ресурс и пуски",
+      "24 ч/сут подтверждены; определить частоту повторных пусков и межремонтный ресурс"
+    ],
+    [
+      "В02",
+      "Допускает предварительную компоновку",
+      "Номенклатура и доставка",
+      "Получить утверждённых поставщиков, ограничения перевозки, ширину проходов и сторону доступа к приводу."
+    ],
+    [
+      "В03",
+      "Блокирует производственные файлы",
+      "Гибка, токарная обработка и CAM",
+      "Токарные станки найдены в прежних документах; подтвердить рабочие зоны, закрепление и ЧПУ. Гибка не подтверждена"
+    ],
+    [
+      "В04",
+      "Блокирует выпуск КД",
+      "Рабочая сборка, чертежи и нормативная методика",
+      "API работает; эскизы MASTER созданы и проверены. Рассчитать детали и выпускать КД по применимым правилам"
+    ]
+  ],
+  "cad_access": {
+    "installed": true,
+    "running": true,
+    "api_probe": "TYPE_E_ELEMENTNOTFOUND 0x8002802B",
+    "native_models_created": false
+  },
+  "sources": [
+    {
+      "title": "ISO 5048:1989",
+      "url": "https://www.iso.org/standard/11069.html",
+      "scope": "Конвейеры с роликовыми опорами; карточка указывает подтверждение в 2026 году. Полный текст не использован."
+    },
+    {
+      "title": "HSE Guarding",
+      "url": "https://www.hse.gov.uk/quarries/hardtarget/guarding.htm",
+      "scope": "Инженерный справочный материал об ограждении и изоляции энергии; не норматив соответствия для данного объекта."
+    },
+    {
+      "title": "SKF Bearing life",
+      "url": "https://evolution.skf.com/the-skf-formula-for-rolling-bearing-life/",
+      "scope": "Метод расчёта ресурса, зависит от нагрузки, загрязнения и смазки; тип подшипника не выбран."
+    },
+    {
+      "title": "Habasit SeleCalc",
+      "url": "https://selecalc.habasit.com/beltselector.aspx",
+      "scope": "Инструмент подбора; расчёт в сервисе не выполнялся."
+    }
+  ],
+  "sources_equipment": {
+    "thread_title": "ВВОД СВЕДЕНИЙ оборудование и нормы",
+    "thread_id": "6a7b0e44-d86c-83eb-b6f7-9026a568a0ed",
+    "primary_source": "Вторая партия вопросов 2.09.2026.docx",
+    "machines": [
+      {
+        "model": "NEXT 50-1000",
+        "source_text": "NEXT 50-1000, задняя бабка гидравлическая: длина детали -макс 1000мм."
+      },
+      {
+        "model": "КЕ 50-2000",
+        "source_text": "КЕ 50-2000, задняя бабка гидравлическая: длина детали – макс 2000мм"
+      },
+      {
+        "model": "СК 6163-3000",
+        "source_text": "СК 6163-3000, задняя бабка гидравлическая: длина детали – макс. 3000мм"
+      }
+    ],
+    "later_note": "В более позднем сводном ответе того же чата рабочая длина СК указана 2750 мм. Длины из документов не считать одновременно проверенными пределами установки. Проверить фактическую рабочую зону, оснастку и паспорта до назначения операций.",
+    "purpose": "Ранее указанный парк оборудования; конкретный станок для детали транспортёра ещё не выбран. УП и наладка не выпущены."
+  },
+  "cad_creation": {
+    "revision": "34.3.2",
+    "template": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2026\\templates\\gost-part.prtdot",
+    "initial_dimensions_m": [
+      10,
+      10,
+      0.5,
+      0.9309296076962573,
+      0.6690703923037427
+    ],
+    "save_errors": 0,
+    "save_warnings": 0,
+    "file_path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-04\\new-chat-2\\outputs\\Ленточный_транспортер\\03_Модели_SolidWorks\\ЛТ500_MASTER_исходная_геометрия_R01.SLDPRT",
+    "rebuild": true,
+    "angle_probes": [
+      {
+        "angle_deg": 1,
+        "height_in_m": 0.8872753245413411,
+        "height_out_m": 0.7127246754586589
+      },
+      {
+        "angle_deg": 2,
+        "height_in_m": 0.9746038472590625,
+        "height_out_m": 0.6253961527409375
+      }
+    ],
+    "width_probe_restored": true,
+    "equation_count": 12,
+    "manufacturing_approved": false,
+    "solid_bodies_expected": 0,
+    "native_scope": "Parametric side and belt plan reference sketches only. Frame modules, supports, drums, tensioning, assemblies and Simulation remain open.",
+    "ok": true
+  },
+  "cad_inspection": {
+    "reopened_dimensions_m": [
+      10,
+      10,
+      0.5,
+      0.9309296076962573,
+      0.6690703923037427
+    ],
+    "reopen_rebuild_passed": true,
+    "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-04\\new-chat-2\\outputs\\Ленточный_транспортер\\03_Модели_SolidWorks\\ЛТ500_MASTER_исходная_геометрия_R01.SLDPRT",
+    "saved_clean": true,
+    "features": [
+      {
+        "name": "Favorites",
+        "type": "FavoriteFolder"
+      },
+      {
+        "name": "History",
+        "type": "HistoryFolder"
+      },
+      {
+        "name": "Selection Sets",
+        "type": "SelectionSetFolder"
+      },
+      {
+        "name": "Связь проектов",
+        "type": "DocsFolder"
+      },
+      {
+        "name": "Примечания",
+        "type": "DetailCabinet"
+      },
+      {
+        "name": "Markups",
+        "type": "InkMarkupFolder"
+      },
+      {
+        "name": "Источники света и камеры",
+        "type": "EnvFolder"
+      },
+      {
+        "name": "Твердые тела",
+        "type": "SolidBodyFolder"
+      },
+      {
+        "name": "Тела поверхности",
+        "type": "SurfaceBodyFolder"
+      },
+      {
+        "name": "Датчики",
+        "type": "SensorFolder"
+      },
+      {
+        "name": "Заметки",
+        "type": "CommentsFolder"
+      },
+      {
+        "name": "Уравнения",
+        "type": "EqnFolder"
+      },
+      {
+        "name": "Материал <не указан>",
+        "type": "MaterialFolder"
+      },
+      {
+        "name": "Спереди",
+        "type": "RefPlane"
+      },
+      {
+        "name": "Сверху",
+        "type": "RefPlane"
+      },
+      {
+        "name": "Справа",
+        "type": "RefPlane"
+      },
+      {
+        "name": "Исходная точка",
+        "type": "OriginProfileFeature"
+      },
+      {
+        "name": "Tables",
+        "type": "ConfigTableFolder"
+      },
+      {
+        "name": "MASTER_SIDE",
+        "type": "ProfileFeature"
+      },
+      {
+        "name": "MASTER_BELT_PLAN",
+        "type": "ProfileFeature"
+      }
+    ],
+    "equations": [
+      "\"L_GAB\"= 10000",
+      "\"B_BELT\"= 500",
+      "\"H_MID_DRAFT\"= 800",
+      "\"THETA_DOWN_DRAFT\"= 1.5",
+      "\"DROP_DRAFT\"= \"L_GAB\" * tan(\"THETA_DOWN_DRAFT\" * 3.141592653589793 / 180)",
+      "\"H_IN_DRAFT\"= \"H_MID_DRAFT\" + \"DROP_DRAFT\" / 2",
+      "\"H_OUT_DRAFT\"= \"H_MID_DRAFT\" - \"DROP_DRAFT\" / 2",
+      "\"AI_L_GAB@MASTER_SIDE@Деталь6.Part\" = \"L_GAB\"",
+      "\"AI_L_PLAN@MASTER_BELT_PLAN@Деталь6.Part\" = \"L_GAB\"",
+      "\"AI_B_BELT@MASTER_BELT_PLAN@Деталь6.Part\" = \"B_BELT\"",
+      "\"AI_H_IN@MASTER_SIDE@Деталь6.Part\" = \"H_IN_DRAFT\"",
+      "\"AI_H_OUT@MASTER_SIDE@Деталь6.Part\" = \"H_OUT_DRAFT\""
+    ],
+    "solid_body_count": 0,
+    "prior_document_reactivated": true,
+    "prior_document_unsaved": false,
+    "ok": true
+  },
+  "assumptions": [
+    "В CAD длина 10000 мм показана как горизонтальная габаритная проекция, не межосевое расстояние барабанов.",
+    "В CAD угол 1,5° и высота 800 мм в середине временные; не являются утверждёнными монтажными отметками.",
+    "Балка шарнирно опёрта. Отдельно сравниваются распределённая нагрузка q=30 кг/м, точечная идеализация 15 кг в середине пролёта и их условная сумма. Совместность и отсутствие двойного учёта не подтверждены; сумма не является принятой нагрузкой рамы. Собственный вес и динамика не включены.",
+    "Доля равномерной нагрузки на одну балку β=0,5 или 1,0 — сравнение симметричного и предельного несимметричного размещения."
+  ],
+  "clarification_r02": {
+    "peak_local_mass_kg": 15,
+    "scope": "одна зона загрузки",
+    "single_falling_batch_mass_kg": null,
+    "frequency": null,
+    "replaces": "Трактовку 15 кг как суммарной разовой порции в R00/R01",
+    "cad_revision_retained": "R01; геометрия не менялась"
+  },
+  "structural_candidate": {
+    "revision": "R03",
+    "scope": "Эластический вертикальный изгиб отдельных балок; не полный расчёт рамы",
+    "constants": {
+      "g": 9.80665,
+      "E_MPa_assumed": 200000,
+      "rho_steel_kg_m3": 7850,
+      "local_peak_mass_kg": 15,
+      "material_line_mass_kg_m": 30,
+      "deflection_target_mm_proposed": 2
+    },
+    "profiles": [
+      {
+        "h_mm": 80,
+        "b_mm": 40,
+        "t_mm": 3,
+        "r_out_mm": 6,
+        "r_in_mm": 3,
+        "area_mm2": 660.8230016469247,
+        "I_vertical_mm4": 522505.64867237234,
+        "I_horizontal_mm4": 175555.56709132512,
+        "W_vertical_mm3": 13062.641216809308,
+        "mass_kg_m": 5.187460562928359,
+        "name": "80x40x3"
+      },
+      {
+        "h_mm": 100,
+        "b_mm": 50,
+        "t_mm": 3,
+        "r_out_mm": 6,
+        "r_in_mm": 3,
+        "area_mm2": 840.8230016469242,
+        "I_vertical_mm4": 1064567.5899569737,
+        "I_horizontal_mm4": 360571.3623630677,
+        "W_vertical_mm3": 21291.351799139473,
+        "mass_kg_m": 6.600460562928355,
+        "name": "100x50x3"
+      },
+      {
+        "h_mm": 120,
+        "b_mm": 60,
+        "t_mm": 4,
+        "r_out_mm": 8,
+        "r_in_mm": 4,
+        "area_mm2": 1334.7964473723105,
+        "I_vertical_mm4": 2407398.855975506,
+        "I_horizontal_mm4": 812470.7428089776,
+        "W_vertical_mm3": 40123.31426625843,
+        "mass_kg_m": 10.478152111872637,
+        "name": "120x60x4"
+      }
+    ],
+    "comparisons": [
+      {
+        "profile": "80x40x3",
+        "span_m": 2,
+        "beta": 0.5,
+        "w_N_m": 197.97136012944136,
+        "M_uniform_Nm": 98.98568006472068,
+        "M_local_Nm": 73.549875,
+        "M_conditional_sum_Nm": 172.53555506472068,
+        "sigma_uniform_MPa": 7.5777691832600915,
+        "sigma_local_plus_own_MPa": 7.577769183260092,
+        "sigma_conditional_sum_MPa": 13.208320752368055,
+        "deflection_uniform_mm": 0.39467547829479643,
+        "deflection_local_plus_own_mm": 0.33602389944992184,
+        "deflection_conditional_sum_mm": 0.6292817936742949,
+        "stiffness_budget_extra_kg_m": 70.11157585123497,
+        "end_reaction_conditional_N": 271.5212351294414
+      },
+      {
+        "profile": "80x40x3",
+        "span_m": 2,
+        "beta": 1,
+        "w_N_m": 345.07111012944137,
+        "M_uniform_Nm": 172.53555506472068,
+        "M_local_Nm": 73.549875,
+        "M_conditional_sum_Nm": 246.0854300647207,
+        "sigma_uniform_MPa": 13.208320752368055,
+        "sigma_local_plus_own_MPa": 7.577769183260092,
+        "sigma_conditional_sum_MPa": 18.838872321476018,
+        "deflection_uniform_mm": 0.6879333725191695,
+        "deflection_local_plus_own_mm": 0.33602389944992184,
+        "deflection_conditional_sum_mm": 0.922539687898668,
+        "stiffness_budget_extra_kg_m": 55.11157585123498,
+        "end_reaction_conditional_N": 418.62098512944135
+      },
+      {
+        "profile": "80x40x3",
+        "span_m": 2.5,
+        "beta": 0.5,
+        "w_N_m": 197.97136012944136,
+        "M_uniform_Nm": 154.66512510112605,
+        "M_local_Nm": 91.93734375,
+        "M_conditional_sum_Nm": 246.60246885112605,
+        "sigma_uniform_MPa": 11.840264348843892,
+        "sigma_local_plus_own_MPa": 10.080716983497657,
+        "sigma_conditional_sum_MPa": 18.878453810228848,
+        "deflection_uniform_mm": 0.9635631794306553,
+        "deflection_local_plus_own_mm": 0.705816983335015,
+        "deflection_conditional_sum_mm": 1.4217786391562381,
+        "stiffness_budget_extra_kg_m": 12.114224752312952,
+        "end_reaction_conditional_N": 321.0140751618017
+      },
+      {
+        "profile": "80x40x3",
+        "span_m": 2.5,
+        "beta": 1,
+        "w_N_m": 345.07111012944137,
+        "M_uniform_Nm": 269.58680478862607,
+        "M_local_Nm": 91.93734375,
+        "M_conditional_sum_Nm": 361.52414853862604,
+        "sigma_uniform_MPa": 20.638001175575088,
+        "sigma_local_plus_own_MPa": 10.080716983497657,
+        "sigma_conditional_sum_MPa": 27.676190636960037,
+        "deflection_uniform_mm": 1.679524835251879,
+        "deflection_local_plus_own_mm": 0.705816983335015,
+        "deflection_conditional_sum_mm": 2.137740294977462,
+        "stiffness_budget_extra_kg_m": 0,
+        "end_reaction_conditional_N": 504.8887626618017
+      },
+      {
+        "profile": "80x40x3",
+        "span_m": 3.3333333333333335,
+        "beta": 0.5,
+        "w_N_m": 197.97136012944136,
+        "M_uniform_Nm": 274.96022240200193,
+        "M_local_Nm": 122.58312500000001,
+        "M_conditional_sum_Nm": 397.5433474020019,
+        "sigma_uniform_MPa": 21.049358842389143,
+        "sigma_local_plus_own_MPa": 14.793190432269187,
+        "sigma_conditional_sum_MPa": 30.433611457569082,
+        "deflection_uniform_mm": 3.045335480669726,
+        "deflection_local_plus_own_mm": 1.8686834359423035,
+        "deflection_conditional_sum_mm": 4.131475829648886,
+        "stiffness_budget_extra_kg_m": 0,
+        "end_reaction_conditional_N": 403.50214188240227
+      },
+      {
+        "profile": "80x40x3",
+        "span_m": 3.3333333333333335,
+        "beta": 1,
+        "w_N_m": 345.07111012944137,
+        "M_uniform_Nm": 479.2654307353353,
+        "M_local_Nm": 122.58312500000001,
+        "M_conditional_sum_Nm": 601.8485557353354,
+        "sigma_uniform_MPa": 36.68977986768905,
+        "sigma_local_plus_own_MPa": 14.793190432269187,
+        "sigma_conditional_sum_MPa": 46.07403248286899,
+        "deflection_uniform_mm": 5.308127874376308,
+        "deflection_local_plus_own_mm": 1.8686834359423035,
+        "deflection_conditional_sum_mm": 6.394268223355468,
+        "stiffness_budget_extra_kg_m": 0,
+        "end_reaction_conditional_N": 648.6683918824024
+      },
+      {
+        "profile": "80x40x3",
+        "span_m": 5,
+        "beta": 0.5,
+        "w_N_m": 197.97136012944136,
+        "M_uniform_Nm": 618.6605004045042,
+        "M_local_Nm": 183.8746875,
+        "M_conditional_sum_Nm": 802.5351879045043,
+        "sigma_uniform_MPa": 47.36105739537557,
+        "sigma_local_plus_own_MPa": 26.246489011220714,
+        "sigma_conditional_sum_MPa": 61.43743631814548,
+        "deflection_uniform_mm": 15.417010870890484,
+        "deflection_local_plus_own_mm": 7.6273480555555775,
+        "deflection_conditional_sum_mm": 19.082734548695147,
+        "stiffness_budget_extra_kg_m": 0,
+        "end_reaction_conditional_N": 568.4782753236034
+      },
+      {
+        "profile": "80x40x3",
+        "span_m": 5,
+        "beta": 1,
+        "w_N_m": 345.07111012944137,
+        "M_uniform_Nm": 1078.3472191545043,
+        "M_local_Nm": 183.8746875,
+        "M_conditional_sum_Nm": 1262.2219066545042,
+        "sigma_uniform_MPa": 82.55200470230035,
+        "sigma_local_plus_own_MPa": 26.246489011220714,
+        "sigma_conditional_sum_MPa": 96.62838362507024,
+        "deflection_uniform_mm": 26.872397364030064,
+        "deflection_local_plus_own_mm": 7.6273480555555775,
+        "deflection_conditional_sum_mm": 30.538121041834728,
+        "stiffness_budget_extra_kg_m": 0,
+        "end_reaction_conditional_N": 936.2276503236035
+      },
+      {
+        "profile": "100x50x3",
+        "span_m": 2,
+        "beta": 0.5,
+        "w_N_m": 211.82815657944133,
+        "M_uniform_Nm": 105.91407828972066,
+        "M_local_Nm": 73.549875,
+        "M_conditional_sum_Nm": 179.46395328972068,
+        "sigma_uniform_MPa": 4.974511683847212,
+        "sigma_local_plus_own_MPa": 4.974511683847212,
+        "sigma_conditional_sum_MPa": 8.42896002953528,
+        "deflection_uniform_mm": 0.20727132016030048,
+        "deflection_local_plus_own_mm": 0.17848425061289996,
+        "deflection_conditional_sum_mm": 0.3224195983499027,
+        "stiffness_budget_extra_kg_m": 174.82645104474497,
+        "end_reaction_conditional_N": 285.3780315794413
+      },
+      {
+        "profile": "100x50x3",
+        "span_m": 2,
+        "beta": 1,
+        "w_N_m": 358.92790657944136,
+        "M_uniform_Nm": 179.46395328972068,
+        "M_local_Nm": 73.549875,
+        "M_conditional_sum_Nm": 253.01382828972066,
+        "sigma_uniform_MPa": 8.42896002953528,
+        "sigma_local_plus_own_MPa": 4.974511683847212,
+        "sigma_conditional_sum_MPa": 11.883408375223347,
+        "deflection_uniform_mm": 0.35120666789730326,
+        "deflection_local_plus_own_mm": 0.17848425061289996,
+        "deflection_conditional_sum_mm": 0.4663549460869055,
+        "stiffness_budget_extra_kg_m": 159.82645104474494,
+        "end_reaction_conditional_N": 432.47778157944134
+      },
+      {
+        "profile": "100x50x3",
+        "span_m": 2.5,
+        "beta": 0.5,
+        "w_N_m": 211.82815657944133,
+        "M_uniform_Nm": 165.49074732768855,
+        "M_local_Nm": 91.93734375,
+        "M_conditional_sum_Nm": 257.4280910776886,
+        "sigma_uniform_MPa": 7.77267450601127,
+        "sigma_local_plus_own_MPa": 6.693159397983747,
+        "sigma_conditional_sum_MPa": 12.090734938121354,
+        "deflection_uniform_mm": 0.5060334964851086,
+        "deflection_local_plus_own_mm": 0.37952781976313354,
+        "deflection_conditional_sum_mm": 0.7309324773241754,
+        "stiffness_budget_extra_kg_m": 54.171202431574635,
+        "end_reaction_conditional_N": 338.33507072430166
+      },
+      {
+        "profile": "100x50x3",
+        "span_m": 2.5,
+        "beta": 1,
+        "w_N_m": 358.92790657944136,
+        "M_uniform_Nm": 280.41242701518854,
+        "M_local_Nm": 91.93734375,
+        "M_conditional_sum_Nm": 372.3497707651885,
+        "sigma_uniform_MPa": 13.170250046148874,
+        "sigma_local_plus_own_MPa": 6.693159397983747,
+        "sigma_conditional_sum_MPa": 17.488310478258956,
+        "deflection_uniform_mm": 0.8574381540461506,
+        "deflection_local_plus_own_mm": 0.37952781976313354,
+        "deflection_conditional_sum_mm": 1.0823371348852175,
+        "stiffness_budget_extra_kg_m": 39.17120243157464,
+        "end_reaction_conditional_N": 522.2097582243017
+      },
+      {
+        "profile": "100x50x3",
+        "span_m": 3.3333333333333335,
+        "beta": 0.5,
+        "w_N_m": 211.82815657944133,
+        "M_uniform_Nm": 294.2057730270019,
+        "M_local_Nm": 122.58312500000001,
+        "M_conditional_sum_Nm": 416.7888980270019,
+        "sigma_uniform_MPa": 13.8180880106867,
+        "sigma_local_plus_own_MPa": 9.979812071033294,
+        "sigma_conditional_sum_MPa": 19.575501920166815,
+        "deflection_uniform_mm": 1.5993157419776274,
+        "deflection_local_plus_own_mm": 1.021797371427925,
+        "deflection_conditional_sum_mm": 2.1324096224850453,
+        "stiffness_budget_extra_kg_m": 0,
+        "end_reaction_conditional_N": 426.5968026324022
+      },
+      {
+        "profile": "100x50x3",
+        "span_m": 3.3333333333333335,
+        "beta": 1,
+        "w_N_m": 358.92790657944136,
+        "M_uniform_Nm": 498.5109813603353,
+        "M_local_Nm": 122.58312500000001,
+        "M_conditional_sum_Nm": 621.0941063603353,
+        "sigma_uniform_MPa": 23.41377785982022,
+        "sigma_local_plus_own_MPa": 9.979812071033294,
+        "sigma_conditional_sum_MPa": 29.17119176930034,
+        "deflection_uniform_mm": 2.7099279930347477,
+        "deflection_local_plus_own_mm": 1.021797371427925,
+        "deflection_conditional_sum_mm": 3.2430218735421654,
+        "stiffness_budget_extra_kg_m": 0,
+        "end_reaction_conditional_N": 671.7630526324024
+      },
+      {
+        "profile": "100x50x3",
+        "span_m": 5,
+        "beta": 0.5,
+        "w_N_m": 211.82815657944133,
+        "M_uniform_Nm": 661.9629893107542,
+        "M_local_Nm": 183.8746875,
+        "M_conditional_sum_Nm": 845.8376768107541,
+        "sigma_uniform_MPa": 31.09069802404508,
+        "sigma_local_plus_own_MPa": 18.136516727714824,
+        "sigma_conditional_sum_MPa": 39.72681888826524,
+        "deflection_uniform_mm": 8.096535943761738,
+        "deflection_local_plus_own_mm": 4.2732532694976015,
+        "deflection_conditional_sum_mm": 9.895727790474274,
+        "stiffness_budget_extra_kg_m": 0,
+        "end_reaction_conditional_N": 603.1202664486034
+      },
+      {
+        "profile": "100x50x3",
+        "span_m": 5,
+        "beta": 1,
+        "w_N_m": 358.92790657944136,
+        "M_uniform_Nm": 1121.6497080607542,
+        "M_local_Nm": 183.8746875,
+        "M_conditional_sum_Nm": 1305.524395560754,
+        "sigma_uniform_MPa": 52.6810001845955,
+        "sigma_local_plus_own_MPa": 18.136516727714824,
+        "sigma_conditional_sum_MPa": 61.31712104881565,
+        "deflection_uniform_mm": 13.71901046473841,
+        "deflection_local_plus_own_mm": 4.2732532694976015,
+        "deflection_conditional_sum_mm": 15.518202311450946,
+        "stiffness_budget_extra_kg_m": 0,
+        "end_reaction_conditional_N": 970.8696414486034
+      },
+      {
+        "profile": "120x60x4",
+        "span_m": 2,
+        "beta": 0.5,
+        "w_N_m": 249.8553204078958,
+        "M_uniform_Nm": 124.9276602039479,
+        "M_local_Nm": 73.549875,
+        "M_conditional_sum_Nm": 198.4775352039479,
+        "sigma_uniform_MPa": 3.11359274497933,
+        "sigma_local_plus_own_MPa": 3.11359274497933,
+        "sigma_conditional_sum_MPa": 4.946688448687224,
+        "deflection_uniform_mm": 0.10811085920067118,
+        "deflection_local_plus_own_mm": 0.0953810279249219,
+        "deflection_conditional_sum_mm": 0.15903018430366825,
+        "stiffness_budget_extra_kg_m": 433.8556676403334,
+        "end_reaction_conditional_N": 323.4051954078958
+      },
+      {
+        "profile": "120x60x4",
+        "span_m": 2,
+        "beta": 1,
+        "w_N_m": 396.9550704078958,
+        "M_uniform_Nm": 198.4775352039479,
+        "M_local_Nm": 73.549875,
+        "M_conditional_sum_Nm": 272.0274102039479,
+        "sigma_uniform_MPa": 4.946688448687224,
+        "sigma_local_plus_own_MPa": 3.11359274497933,
+        "sigma_conditional_sum_MPa": 6.77978415239512,
+        "deflection_uniform_mm": 0.1717600155794175,
+        "deflection_local_plus_own_mm": 0.0953810279249219,
+        "deflection_conditional_sum_mm": 0.22267934068241457,
+        "stiffness_budget_extra_kg_m": 418.8556676403335,
+        "end_reaction_conditional_N": 470.5049454078958
+      },
+      {
+        "profile": "120x60x4",
+        "span_m": 2.5,
+        "beta": 0.5,
+        "w_N_m": 249.8553204078958,
+        "M_uniform_Nm": 195.1994690686686,
+        "M_local_Nm": 91.93734375,
+        "M_conditional_sum_Nm": 287.1368128186686,
+        "sigma_uniform_MPa": 4.864988664030204,
+        "sigma_local_plus_own_MPa": 4.292146256621486,
+        "sigma_conditional_sum_MPa": 7.156358293665072,
+        "deflection_uniform_mm": 0.26394252734538864,
+        "deflection_local_plus_own_mm": 0.20800088599688107,
+        "deflection_conditional_sum_mm": 0.3633943341871798,
+        "stiffness_budget_extra_kg_m": 157.98018045863097,
+        "end_reaction_conditional_N": 385.86902550986974
+      },
+      {
+        "profile": "120x60x4",
+        "span_m": 2.5,
+        "beta": 1,
+        "w_N_m": 396.9550704078958,
+        "M_uniform_Nm": 310.1211487561686,
+        "M_local_Nm": 91.93734375,
+        "M_conditional_sum_Nm": 402.0584925061686,
+        "sigma_uniform_MPa": 7.729200701073789,
+        "sigma_local_plus_own_MPa": 4.292146256621486,
+        "sigma_conditional_sum_MPa": 10.020570330708658,
+        "deflection_uniform_mm": 0.4193359755356873,
+        "deflection_local_plus_own_mm": 0.20800088599688107,
+        "deflection_conditional_sum_mm": 0.5187877823774785,
+        "stiffness_budget_extra_kg_m": 142.980180458631,
+        "end_reaction_conditional_N": 569.7437130098698
+      },
+      {
+        "profile": "120x60x4",
+        "span_m": 3.3333333333333335,
+        "beta": 0.5,
+        "w_N_m": 249.8553204078958,
+        "M_uniform_Nm": 347.02127834429973,
+        "M_local_Nm": 122.58312500000001,
+        "M_conditional_sum_Nm": 469.6044033442997,
+        "sigma_uniform_MPa": 8.648868736053695,
+        "sigma_local_plus_own_MPa": 6.612095731933812,
+        "sigma_conditional_sum_MPa": 11.70402824223352,
+        "deflection_uniform_mm": 0.8341887284002407,
+        "deflection_local_plus_own_mm": 0.5788063108311967,
+        "deflection_conditional_sum_mm": 1.0699263446178198,
+        "stiffness_budget_extra_kg_m": 28.406710928013254,
+        "end_reaction_conditional_N": 489.97540901315966
+      },
+      {
+        "profile": "120x60x4",
+        "span_m": 3.3333333333333335,
+        "beta": 1,
+        "w_N_m": 396.9550704078958,
+        "M_uniform_Nm": 551.326486677633,
+        "M_local_Nm": 122.58312500000001,
+        "M_conditional_sum_Nm": 673.909611677633,
+        "sigma_uniform_MPa": 13.740801246353401,
+        "sigma_local_plus_own_MPa": 6.612095731933812,
+        "sigma_conditional_sum_MPa": 16.795960752533226,
+        "deflection_uniform_mm": 1.3253087621868638,
+        "deflection_local_plus_own_mm": 0.5788063108311967,
+        "deflection_conditional_sum_mm": 1.5610463784044428,
+        "stiffness_budget_extra_kg_m": 13.406710928013254,
+        "end_reaction_conditional_N": 735.1416590131597
+      },
+      {
+        "profile": "120x60x4",
+        "span_m": 5,
+        "beta": 0.5,
+        "w_N_m": 249.8553204078958,
+        "M_uniform_Nm": 780.7978762746744,
+        "M_local_Nm": 183.8746875,
+        "M_conditional_sum_Nm": 964.6725637746745,
+        "sigma_uniform_MPa": 19.459954656120814,
+        "sigma_local_plus_own_MPa": 12.58584576721621,
+        "sigma_conditional_sum_MPa": 24.04269391539055,
+        "deflection_uniform_mm": 4.223080437526218,
+        "deflection_local_plus_own_mm": 2.532399721215768,
+        "deflection_conditional_sum_mm": 5.018694892260547,
+        "stiffness_budget_extra_kg_m": 0,
+        "end_reaction_conditional_N": 698.1881760197396
+      },
+      {
+        "profile": "120x60x4",
+        "span_m": 5,
+        "beta": 1,
+        "w_N_m": 396.9550704078958,
+        "M_uniform_Nm": 1240.4845950246745,
+        "M_local_Nm": 183.8746875,
+        "M_conditional_sum_Nm": 1424.3592825246744,
+        "sigma_uniform_MPa": 30.916802804295155,
+        "sigma_local_plus_own_MPa": 12.58584576721621,
+        "sigma_conditional_sum_MPa": 35.499542063564895,
+        "deflection_uniform_mm": 6.709375608570997,
+        "deflection_local_plus_own_mm": 2.532399721215768,
+        "deflection_conditional_sum_mm": 7.504990063305326,
+        "stiffness_budget_extra_kg_m": 0,
+        "end_reaction_conditional_N": 1065.9375510197394
+      }
+    ],
+    "sensitivity": [
+      {
+        "thickness_factor": 1,
+        "radius_factor": 1.6,
+        "section": {
+          "h_mm": 100,
+          "b_mm": 50,
+          "t_mm": 3,
+          "r_out_mm": 4.800000000000001,
+          "r_in_mm": 1.8000000000000007,
+          "area_mm2": 847.0035345410779,
+          "I_vertical_mm4": 1079868.8904307387,
+          "I_horizontal_mm4": 364350.1114560764,
+          "W_vertical_mm3": 21597.377808614772,
+          "mass_kg_m": 6.648977746147461
+        },
+        "response": {
+          "span_m": 2.5,
+          "beta": 1,
+          "w_N_m": 359.40369761425694,
+          "M_uniform_Nm": 280.78413876113825,
+          "M_local_Nm": 91.93734375,
+          "M_conditional_sum_Nm": 372.7214825111382,
+          "sigma_uniform_MPa": 13.00084395658157,
+          "sigma_local_plus_own_MPa": 6.615531033547368,
+          "sigma_conditional_sum_MPa": 17.257719238604366,
+          "deflection_uniform_mm": 0.8464091117566126,
+          "deflection_local_plus_own_mm": 0.37527057142856823,
+          "deflection_conditional_sum_mm": 1.0681213660286335,
+          "stiffness_budget_extra_kg_m": 40.34975385324955,
+          "end_reaction_conditional_N": 522.8044970178212
+        }
+      },
+      {
+        "thickness_factor": 1,
+        "radius_factor": 2,
+        "section": {
+          "h_mm": 100,
+          "b_mm": 50,
+          "t_mm": 3,
+          "r_out_mm": 6,
+          "r_in_mm": 3,
+          "area_mm2": 840.8230016469242,
+          "I_vertical_mm4": 1064567.5899569737,
+          "I_horizontal_mm4": 360571.3623630677,
+          "W_vertical_mm3": 21291.351799139473,
+          "mass_kg_m": 6.600460562928355
+        },
+        "response": {
+          "span_m": 2.5,
+          "beta": 1,
+          "w_N_m": 358.92790657944136,
+          "M_uniform_Nm": 280.41242701518854,
+          "M_local_Nm": 91.93734375,
+          "M_conditional_sum_Nm": 372.3497707651885,
+          "sigma_uniform_MPa": 13.170250046148874,
+          "sigma_local_plus_own_MPa": 6.693159397983747,
+          "sigma_conditional_sum_MPa": 17.488310478258956,
+          "deflection_uniform_mm": 0.8574381540461506,
+          "deflection_local_plus_own_mm": 0.37952781976313354,
+          "deflection_conditional_sum_mm": 1.0823371348852175,
+          "stiffness_budget_extra_kg_m": 39.17120243157464,
+          "end_reaction_conditional_N": 522.2097582243017
+        }
+      },
+      {
+        "thickness_factor": 1,
+        "radius_factor": 3,
+        "section": {
+          "h_mm": 100,
+          "b_mm": 50,
+          "t_mm": 3,
+          "r_out_mm": 9,
+          "r_in_mm": 6,
+          "area_mm2": 825.371669411541,
+          "I_vertical_mm4": 1025328.8976110872,
+          "I_horizontal_mm4": 350674.26869964204,
+          "W_vertical_mm3": 20506.577952221745,
+          "mass_kg_m": 6.479167604880597
+        },
+        "response": {
+          "span_m": 2.5,
+          "beta": 1,
+          "w_N_m": 357.73842899240225,
+          "M_uniform_Nm": 279.48314765031427,
+          "M_local_Nm": 91.93734375,
+          "M_conditional_sum_Nm": 371.4204914003143,
+          "sigma_uniform_MPa": 13.62895107616111,
+          "sigma_local_plus_own_MPa": 6.903986240667493,
+          "sigma_conditional_sum_MPa": 18.11226096649019,
+          "deflection_uniform_mm": 0.8873015023542391,
+          "deflection_local_plus_own_mm": 0.39110184001313,
+          "deflection_conditional_sum_mm": 1.1208072258088788,
+          "stiffness_budget_extra_kg_m": 36.145797659106854,
+          "end_reaction_conditional_N": 520.7229112405029
+        }
+      },
+      {
+        "thickness_factor": 0.9,
+        "radius_factor": 1.6,
+        "section": {
+          "h_mm": 100,
+          "b_mm": 50,
+          "t_mm": 2.7,
+          "r_out_mm": 4.32,
+          "r_in_mm": 1.62,
+          "area_mm2": 767.0728629782734,
+          "I_vertical_mm4": 986605.9656456262,
+          "I_horizontal_mm4": 334104.1139646709,
+          "W_vertical_mm3": 19732.119312912524,
+          "mass_kg_m": 6.0215219743794455
+        },
+        "response": {
+          "span_m": 2.5,
+          "beta": 1,
+          "w_N_m": 353.25045847004816,
+          "M_uniform_Nm": 275.97692067972514,
+          "M_local_Nm": 91.93734375,
+          "M_conditional_sum_Nm": 367.9142644297251,
+          "sigma_uniform_MPa": 13.986177374222963,
+          "sigma_local_plus_own_MPa": 6.997266885791267,
+          "sigma_conditional_sum_MPa": 18.64545103317743,
+          "deflection_uniform_mm": 0.9105584228009742,
+          "deflection_local_plus_own_mm": 0.394883603776066,
+          "deflection_conditional_sum_mm": 1.1532289258715194,
+          "stiffness_budget_extra_kg_m": 33.49810631607868,
+          "end_reaction_conditional_N": 515.1129480875602
+        }
+      },
+      {
+        "thickness_factor": 0.9,
+        "radius_factor": 2,
+        "section": {
+          "h_mm": 100,
+          "b_mm": 50,
+          "t_mm": 2.7,
+          "r_out_mm": 5.4,
+          "r_in_mm": 2.7,
+          "area_mm2": 762.0666313340089,
+          "I_vertical_mm4": 974198.4375623879,
+          "I_horizontal_mm4": 331035.19427130383,
+          "W_vertical_mm3": 19483.968751247758,
+          "mass_kg_m": 5.98222305597197
+        },
+        "response": {
+          "span_m": 2.5,
+          "beta": 1,
+          "w_N_m": 352.8650677318475,
+          "M_uniform_Nm": 275.6758341655058,
+          "M_local_Nm": 91.93734375,
+          "M_conditional_sum_Nm": 367.61317791550584,
+          "sigma_uniform_MPa": 14.148854254749894,
+          "sigma_local_plus_own_MPa": 7.070932021058751,
+          "sigma_conditional_sum_MPa": 18.867469077210657,
+          "deflection_uniform_mm": 0.9211493655436128,
+          "deflection_local_plus_own_mm": 0.39890683962022133,
+          "deflection_conditional_sum_mm": 1.1669105542134441,
+          "stiffness_budget_extra_kg_m": 32.5423990778927,
+          "end_reaction_conditional_N": 514.6312096648094
+        }
+      },
+      {
+        "thickness_factor": 0.9,
+        "radius_factor": 3,
+        "section": {
+          "h_mm": 100,
+          "b_mm": 50,
+          "t_mm": 2.7,
+          "r_out_mm": 8.100000000000001,
+          "r_in_mm": 5.400000000000001,
+          "area_mm2": 749.551052223348,
+          "I_vertical_mm4": 942455.0342986337,
+          "I_horizontal_mm4": 323028.48753031204,
+          "W_vertical_mm3": 18849.100685972673,
+          "mass_kg_m": 5.883975759953282
+        },
+        "response": {
+          "span_m": 2.5,
+          "beta": 1,
+          "w_N_m": 351.90159088634584,
+          "M_uniform_Nm": 274.92311787995766,
+          "M_local_Nm": 91.93734375,
+          "M_conditional_sum_Nm": 366.8604616299576,
+          "sigma_uniform_MPa": 14.585476647411243,
+          "sigma_local_plus_own_MPa": 7.269158594761212,
+          "sigma_conditional_sum_MPa": 19.463022015844594,
+          "deflection_uniform_mm": 0.949575302565836,
+          "deflection_local_plus_own_mm": 0.4097428073616237,
+          "deflection_conditional_sum_mm": 1.2036141238384066,
+          "stiffness_budget_extra_kg_m": 30.095023952848056,
+          "end_reaction_conditional_N": 513.4268636079323
+        }
+      }
+    ],
+    "selected_for_prototype": {
+      "h_mm": 100,
+      "b_mm": 50,
+      "t_mm": 3,
+      "r_out_mm": 6,
+      "r_in_mm": 3,
+      "area_mm2": 840.8230016469242,
+      "I_vertical_mm4": 1064567.5899569737,
+      "I_horizontal_mm4": 360571.3623630677,
+      "W_vertical_mm3": 21291.351799139473,
+      "mass_kg_m": 6.600460562928355,
+      "name": "100x50x3"
+    },
+    "selected_span_m": 2.5,
+    "support_reference_coordinates_mm": [
+      0,
+      2500,
+      5000,
+      7500,
+      10000
+    ],
+    "module_length_mm": 5000,
+    "rail_centres_distance_mm_proposed": 600,
+    "assumptions": [
+      "Сечения вычислены геометрически, не получены из паспорта купленного профиля. Номинальный наружный радиус 2t, внутренний r-t.",
+      "E=200000 МПа принят для сравнения; плотность 7850 кг/м³. Свойства конкретного Ст3 не подтверждены сертификатом.",
+      "2 мм — предлагаемый критерий вертикального прогиба для концепции, не утверждённый допуск.",
+      "Балка шарнирно опёрта. Собственный вес включён во все случаи; локальные 15 кг целиком на одну балку в середине пролёта.",
+      "Сумма q+15 кг — условная огибающая для сравнения; не подтверждает совместность и может дважды учитывать материал.",
+      "Деформации стыков, роликов, поперечин, стоек, основания и собственные массы остальных узлов не включены.",
+      "Остаточная масса для пуска и усилия натяжения не определены; поэтому полная прочность рамы не подтверждена.",
+      "Толщина 0,9t и радиусы 1,6t…3t — исследование чувствительности, не заявленные допускаемые отклонения ГОСТ."
+    ],
+    "checks": {
+      "independent_quadrature_area_mm2": 840.8230094594309,
+      "independent_quadrature_I_mm4": 1064567.6149637674,
+      "relative_error_max": 2.349009485929363e-08,
+      "passed": true
+    },
+    "source": "https://tubulareurope.arcelormittal.com/sites/default/files/2023-12/structural_hollow_section_arcelormittal.pdf — табличные физические свойства, стр. 3; не сертификат выбранного Ст3, не действующая экологическая декларация (срок до 2025)."
+  },
+  "support_candidate": {
+    "revision": "R04",
+    "scope": "Вертикальные реакции и отдельная поперечная опора; не расчёт полной прочности транспортёра",
+    "constants": {
+      "g": 9.80665,
+      "E_MPa_assumed": 200000.0,
+      "rho_kg_m3": 7850,
+      "q_kg_m": 30,
+      "local_mass_kg": 15
+    },
+    "rail": {
+      "h_mm": 100,
+      "b_mm": 50,
+      "t_mm": 3,
+      "ro_mm": 6,
+      "ri_mm": 3,
+      "A_mm2": 840.8230016469242,
+      "I_mm4": 1064567.5899569737,
+      "I_weak_mm4": 360571.3623630677,
+      "W_mm3": 21291.351799139473,
+      "kg_m": 6.600460562928355
+    },
+    "continuous_uniform_reaction_coefficients": [
+      0.375,
+      1.25,
+      0.375
+    ],
+    "span_m": 2.4,
+    "moving_local_reaction_bounds": [
+      {
+        "support": 0,
+        "max_N": 147.09975,
+        "min_N": -14.1546531439845
+      },
+      {
+        "support": 1,
+        "max_N": 147.09975,
+        "min_N": -0.0
+      },
+      {
+        "support": 2,
+        "max_N": 147.09975,
+        "min_N": -14.154653143984499
+      }
+    ],
+    "support_stations": [
+      {
+        "x_mm": 200,
+        "rail_tributary_m": 0.9,
+        "material_tributary_m": 1.1,
+        "R_rails_N": 116.51113184299442,
+        "R_material_N": 323.61945000000003,
+        "R_local_envelope_N": 147.09975,
+        "R_uniform_plus_rails_N": 440.13058184299445,
+        "R_local_plus_rails_N": 263.61088184299444,
+        "R_conditional_N": 587.2303318429945
+      },
+      {
+        "x_mm": 2600,
+        "rail_tributary_m": 3.0,
+        "material_tributary_m": 3.0,
+        "R_rails_N": 388.370439476648,
+        "R_material_N": 882.5985000000001,
+        "R_local_envelope_N": 147.09975,
+        "R_uniform_plus_rails_N": 1270.968939476648,
+        "R_local_plus_rails_N": 535.470189476648,
+        "R_conditional_N": 1418.0686894766482
+      },
+      {
+        "x_mm": 5000,
+        "rail_tributary_m": 1.8,
+        "material_tributary_m": 1.8,
+        "R_rails_N": 233.02226368598883,
+        "R_material_N": 529.5591000000001,
+        "R_local_envelope_N": 147.09975,
+        "R_uniform_plus_rails_N": 762.5813636859889,
+        "R_local_plus_rails_N": 380.1220136859888,
+        "R_conditional_N": 909.6811136859889
+      },
+      {
+        "x_mm": 7400,
+        "rail_tributary_m": 3.0,
+        "material_tributary_m": 3.0,
+        "R_rails_N": 388.370439476648,
+        "R_material_N": 882.5985000000001,
+        "R_local_envelope_N": 147.09975,
+        "R_uniform_plus_rails_N": 1270.968939476648,
+        "R_local_plus_rails_N": 535.470189476648,
+        "R_conditional_N": 1418.0686894766482
+      },
+      {
+        "x_mm": 9800,
+        "rail_tributary_m": 0.9,
+        "material_tributary_m": 1.1,
+        "R_rails_N": 116.51113184299442,
+        "R_material_N": 323.61945000000003,
+        "R_local_envelope_N": 147.09975,
+        "R_uniform_plus_rails_N": 440.13058184299445,
+        "R_local_plus_rails_N": 263.61088184299444,
+        "R_conditional_N": 587.2303318429945
+      }
+    ],
+    "crossbeam_candidates": [
+      {
+        "name": "60x40x3",
+        "section": {
+          "h_mm": 60,
+          "b_mm": 40,
+          "t_mm": 3,
+          "ro_mm": 6,
+          "ri_mm": 3,
+          "A_mm2": 540.8230016469245,
+          "I_mm4": 253788.3077171563,
+          "I_weak_mm4": 134395.5670913251,
+          "W_mm3": 8459.610257238544,
+          "kg_m": 4.245460562928357
+        },
+        "load_mid_N": 1418.0686894766482,
+        "M_upper_Nm": 215.20832817126373,
+        "sigma_MPa": 25.439508633050647,
+        "delta_mm": 0.1274743760371816,
+        "land_each_module_mm": 20.0,
+        "half_rail_contact_area_mm2": 1000.0
+      },
+      {
+        "name": "80x40x3",
+        "section": {
+          "h_mm": 80,
+          "b_mm": 40,
+          "t_mm": 3,
+          "ro_mm": 6,
+          "ri_mm": 3,
+          "A_mm2": 660.8230016469247,
+          "I_mm4": 522505.64867237234,
+          "I_weak_mm4": 175555.56709132512,
+          "W_mm3": 13062.641216809308,
+          "kg_m": 5.187460562928359
+        },
+        "load_mid_N": 1418.0686894766482,
+        "M_upper_Nm": 215.7626000292637,
+        "sigma_MPa": 16.517532438356756,
+        "delta_mm": 0.0621050431300319,
+        "land_each_module_mm": 20.0,
+        "half_rail_contact_area_mm2": 1000.0
+      },
+      {
+        "name": "80x100x4",
+        "section": {
+          "h_mm": 80,
+          "b_mm": 100,
+          "t_mm": 4,
+          "ro_mm": 8,
+          "ri_mm": 4,
+          "A_mm2": 1334.7964473723105,
+          "I_mm4": 1341687.4910566919,
+          "I_weak_mm4": 1341687.4910566919,
+          "W_mm3": 33542.187276417295,
+          "kg_m": 10.478152111872637
+        },
+        "load_mid_N": 1418.0686894766482,
+        "M_upper_Nm": 218.87563764597098,
+        "sigma_MPa": 6.525383566737676,
+        "delta_mm": 0.024599428623997194,
+        "land_each_module_mm": 50.0,
+        "half_rail_contact_area_mm2": 2500.0
+      }
+    ],
+    "chosen_crossbeam": {
+      "name": "80x100x4",
+      "section": {
+        "h_mm": 80,
+        "b_mm": 100,
+        "t_mm": 4,
+        "ro_mm": 8,
+        "ri_mm": 4,
+        "A_mm2": 1334.7964473723105,
+        "I_mm4": 1341687.4910566919,
+        "I_weak_mm4": 1341687.4910566919,
+        "W_mm3": 33542.187276417295,
+        "kg_m": 10.478152111872637
+      },
+      "load_mid_N": 1418.0686894766482,
+      "M_upper_Nm": 218.87563764597098,
+      "sigma_MPa": 6.525383566737676,
+      "delta_mm": 0.024599428623997194,
+      "land_each_module_mm": 50.0,
+      "half_rail_contact_area_mm2": 2500.0
+    },
+    "leg": {
+      "h_mm": 50,
+      "b_mm": 50,
+      "t_mm": 3,
+      "ro_mm": 6,
+      "ri_mm": 3,
+      "A_mm2": 540.8230016469245,
+      "I_mm4": 194671.36236306763,
+      "I_weak_mm4": 194671.36236306763,
+      "W_mm3": 7786.854494522705,
+      "kg_m": 4.245460562928357
+    },
+    "leg_checks": {
+      "height_mid_mm": 542.0,
+      "height_max_2deg_mm": 709.6196935603891,
+      "load_entire_frame_on_one_leg_N": 1519.5417147194344,
+      "compression_MPa": 2.8096839633153494,
+      "axial_shortening_mm": 0.009969035365246888,
+      "Euler_K2_N": 190774.57671292702,
+      "Euler_ratio_Ncr_N": 125.54744293291832,
+      "Euler_scope": "Идеальная прямая отдельная стойка, K=2. Не проверка устойчивости портала, нормы или допускаемая нагрузка."
+    },
+    "height_scenarios": [
+      {
+        "angle_deg": 1,
+        "stations": [
+          {
+            "x_mm": 200,
+            "belt_mm": 883.7843116554444,
+            "stand_top_mm": 713.7843116554444,
+            "leg_mm": 625.7843116554444
+          },
+          {
+            "x_mm": 2600,
+            "belt_mm": 841.8921558277223,
+            "stand_top_mm": 671.8921558277223,
+            "leg_mm": 583.8921558277223
+          },
+          {
+            "x_mm": 5000,
+            "belt_mm": 800.0,
+            "stand_top_mm": 630.0,
+            "leg_mm": 542.0
+          },
+          {
+            "x_mm": 7400,
+            "belt_mm": 758.1078441722777,
+            "stand_top_mm": 588.1078441722777,
+            "leg_mm": 500.1078441722778
+          },
+          {
+            "x_mm": 9800,
+            "belt_mm": 716.2156883445556,
+            "stand_top_mm": 546.2156883445556,
+            "leg_mm": 458.2156883445556
+          }
+        ]
+      },
+      {
+        "angle_deg": 1.5,
+        "stations": [
+          {
+            "x_mm": 200,
+            "belt_mm": 925.6924235320972,
+            "stand_top_mm": 755.6924235320972,
+            "leg_mm": 667.6924235320972
+          },
+          {
+            "x_mm": 2600,
+            "belt_mm": 862.8462117660487,
+            "stand_top_mm": 692.8462117660487,
+            "leg_mm": 604.8462117660487
+          },
+          {
+            "x_mm": 5000,
+            "belt_mm": 800.0,
+            "stand_top_mm": 630.0,
+            "leg_mm": 542.0
+          },
+          {
+            "x_mm": 7400,
+            "belt_mm": 737.1537882339513,
+            "stand_top_mm": 567.1537882339513,
+            "leg_mm": 479.1537882339514
+          },
+          {
+            "x_mm": 9800,
+            "belt_mm": 674.3075764679028,
+            "stand_top_mm": 504.3075764679027,
+            "leg_mm": 416.3075764679027
+          }
+        ]
+      },
+      {
+        "angle_deg": 2,
+        "stations": [
+          {
+            "x_mm": 200,
+            "belt_mm": 967.6196935603891,
+            "stand_top_mm": 797.6196935603891,
+            "leg_mm": 709.6196935603891
+          },
+          {
+            "x_mm": 2600,
+            "belt_mm": 883.8098467801946,
+            "stand_top_mm": 713.8098467801946,
+            "leg_mm": 625.8098467801946
+          },
+          {
+            "x_mm": 5000,
+            "belt_mm": 800.0,
+            "stand_top_mm": 630.0,
+            "leg_mm": 542.0
+          },
+          {
+            "x_mm": 7400,
+            "belt_mm": 716.1901532198054,
+            "stand_top_mm": 546.1901532198054,
+            "leg_mm": 458.19015321980544
+          },
+          {
+            "x_mm": 9800,
+            "belt_mm": 632.3803064396109,
+            "stand_top_mm": 462.3803064396109,
+            "leg_mm": 374.3803064396109
+          }
+        ]
+      }
+    ],
+    "prototype": {
+      "bodies": 5,
+      "crossbeam_length_mm": 700,
+      "leg_length_mm": 542,
+      "leg_centres_mm": 600,
+      "plate_mm": [
+        120,
+        150,
+        8
+      ],
+      "top_above_plate_bottom_mm": 630,
+      "volume_m3": 0.0018086096469458835,
+      "mass_kg": 14.197585728525185,
+      "fixed_geometry": true
+    },
+    "plate_mean_compression_MPa": 0.08503484177107969,
+    "assumptions": [
+      "Оси крайних опор отнесены на 200 мм внутрь габарита; это вариант компоновки, не утверждённые монтажные координаты.",
+      "Две балки каждого модуля непрерывны над промежуточной опорой; стык у x=5000 расчётно шарнирный, передачи момента через стык пока не задано.",
+      "Реакции 3/8, 5/4, 3/8 получены для двух равных пролётов и равномерной нагрузки. Для локальных 15 кг рассчитана отдельная огибающая перемещения.",
+      "По 0,2 м концевого материала условно переданы на крайнюю опору; геометрия барабанных участков и массы их узлов не определены.",
+      "Трубы продольных балок R03 длиной 5000 остаются прототипом. При принятии этих осей геометрическую длину несущего каркаса предстоит уточнить около 9600 мм.",
+      "Сумма q и 15 кг условная: совместность и отсутствие двойного учёта неизвестны. 15 кг учтены в огибающей каждой опоры, но не одновременно на пяти опорах.",
+      "Вся вертикальная огибающая рамы поставлена в середину верхней балки для сравнения сечений; фактическая загрузка приходит через места опирания продольных балок.",
+      "Стойка проверена на осевую упругую деформацию и идеальную нагрузку Эйлера; горизонтальные усилия, несовершенства, связи, сварка и общая устойчивость ещё открыты.",
+      "Расстояние 170 мм от рабочей поверхности ленты до верха опоры принято для геометрического прототипа, не подтверждено роликами.",
+      "Подкладные плиты без отверстий являются геометрическими заготовками. Контакт с бетоном, изгиб плиты, анкеры и швы не рассчитаны.",
+      "CAD верхней балки горизонтальный. Приведённые высоты номинальные по осям; поправки на наклонное опирание не выпущены. При 2° перепад на ширине 100 мм равен 3,49 мм; требуются согласованные опорные поверхности."
+    ],
+    "checks": {
+      "uniform_FE_vs_closed_form": true,
+      "moving_load_samples": 1001,
+      "point_vertical_and_moment_equilibrium": true,
+      "total_material_300kg_and_rail_mass_balance": true,
+      "strength_approved": false,
+      "simulation_performed": false,
+      "uniform_plus_point_FE_superposition": true
+    },
+    "inclined_interface": {
+      "crossbeam_longitudinal_width_mm": 100,
+      "height_difference_1p5deg_mm": 2.618592156918693,
+      "height_difference_2deg_mm": 3.492076949174773,
+      "resolved_in_CAD": false,
+      "requirement": "Согласовать наклонную поверхность опирания: наклон верхней балки с соответствующим торцом стоек либо рассчитанная седловая деталь. Номинальные площадки 50 мм не подтверждают полный контакт наклонной балки с горизонтальной опорой."
+    }
+  },
+  "inclined_seat_candidate": {
+    "revision": "R05",
+    "scope": "Геометрия наклонного седла, местная жёсткость и узел стыка; предварительный расчёт",
+    "constants": {
+      "E_MPa_assumed": 200000.0,
+      "rho_kg_m3": 7850.0,
+      "g": 9.80665
+    },
+    "load_from_R04_N": 1418.0686894766482,
+    "seat": {
+      "length_mm": 100.0,
+      "width_mm": 60.0,
+      "t_min_mm": 10.0,
+      "theta_deg": 1.5,
+      "deflection_target_mm_proposed": 0.05,
+      "selected": {
+        "t_min_mm": 10.0,
+        "t_centre_mm": 11.309296078459347,
+        "t_max_mm": 12.618592156918693,
+        "volume_one_m3": 6.78557764707561e-05,
+        "load_one_seat_upper_N": 1428.516063726781,
+        "seat_strip_I_mm4": 3166.6666666666665,
+        "seat_strip_sigma_MPa": 47.36658527094063,
+        "seat_strip_delta_mm": 0.027851552139313094
+      }
+    },
+    "seat_candidates": [
+      {
+        "t_min_mm": 6.0,
+        "t_centre_mm": 7.309296078459346,
+        "t_max_mm": 8.618592156918693,
+        "volume_one_m3": 4.385577647075608e-05,
+        "load_one_seat_upper_N": 1424.820918006781,
+        "seat_strip_I_mm4": 684.0,
+        "seat_strip_sigma_MPa": 131.23350560588773,
+        "seat_strip_delta_mm": 0.12860883549376997
+      },
+      {
+        "t_min_mm": 8.0,
+        "t_centre_mm": 9.309296078459347,
+        "t_max_mm": 10.618592156918693,
+        "volume_one_m3": 5.5855776470756086e-05,
+        "load_one_seat_upper_N": 1426.6684908667812,
+        "seat_strip_I_mm4": 1621.3333333333333,
+        "seat_strip_sigma_MPa": 73.91456819457831,
+        "seat_strip_delta_mm": 0.05432720762301505
+      },
+      {
+        "t_min_mm": 10.0,
+        "t_centre_mm": 11.309296078459347,
+        "t_max_mm": 12.618592156918693,
+        "volume_one_m3": 6.78557764707561e-05,
+        "load_one_seat_upper_N": 1428.516063726781,
+        "seat_strip_I_mm4": 3166.6666666666665,
+        "seat_strip_sigma_MPa": 47.36658527094063,
+        "seat_strip_delta_mm": 0.027851552139313094
+      }
+    ],
+    "variants": [
+      {
+        "angle_deg": 1.0,
+        "t_centre_mm": 10.872753246410879,
+        "t_max_mm": 11.74550649282176,
+        "leg_depth_m": 0.5311272467535891,
+        "stand_volume_m3": 0.0019273222158090334,
+        "stand_mass_kg": 15.129479394100912,
+        "with_reference_rails_volume_m3": 0.0029363098177853427,
+        "with_reference_rails_mass_kg": 23.05003206961494,
+        "wedge_centroid_relative_seat_plane_mm": [
+          -1.3378292609540232,
+          -5.424700674899029
+        ],
+        "stations": [
+          {
+            "x_mm": 200,
+            "belt_mm": 883.7843116554444,
+            "rail_seating_plane_y_mm": 713.7843116554444,
+            "crossbeam_top_mm": 702.9115584090335,
+            "leg_length_mm": 614.9115584090335
+          },
+          {
+            "x_mm": 2600,
+            "belt_mm": 841.8921558277223,
+            "rail_seating_plane_y_mm": 671.8921558277223,
+            "crossbeam_top_mm": 661.0194025813114,
+            "leg_length_mm": 573.0194025813114
+          },
+          {
+            "x_mm": 5000,
+            "belt_mm": 800.0,
+            "rail_seating_plane_y_mm": 630.0,
+            "crossbeam_top_mm": 619.1272467535891,
+            "leg_length_mm": 531.1272467535891
+          },
+          {
+            "x_mm": 7400,
+            "belt_mm": 758.1078441722777,
+            "rail_seating_plane_y_mm": 588.1078441722777,
+            "crossbeam_top_mm": 577.2350909258669,
+            "leg_length_mm": 489.23509092586687
+          },
+          {
+            "x_mm": 9800,
+            "belt_mm": 716.2156883445556,
+            "rail_seating_plane_y_mm": 546.2156883445556,
+            "crossbeam_top_mm": 535.3429350981447,
+            "leg_length_mm": 447.3429350981447
+          }
+        ]
+      },
+      {
+        "angle_deg": 1.5,
+        "t_centre_mm": 11.309296078459347,
+        "t_max_mm": 12.618592156918693,
+        "leg_depth_m": 0.5306907039215407,
+        "stand_volume_m3": 0.0019320885449840633,
+        "stand_mass_kg": 15.166895078124897,
+        "with_reference_rails_volume_m3": 0.0029410761469603726,
+        "with_reference_rails_mass_kg": 23.087447753638926,
+        "wedge_centroid_relative_seat_plane_mm": [
+          -1.929527811126907,
+          -5.629384807265806
+        ],
+        "stations": [
+          {
+            "x_mm": 200,
+            "belt_mm": 925.6924235320972,
+            "rail_seating_plane_y_mm": 755.6924235320972,
+            "crossbeam_top_mm": 744.3831274536378,
+            "leg_length_mm": 656.3831274536378
+          },
+          {
+            "x_mm": 2600,
+            "belt_mm": 862.8462117660487,
+            "rail_seating_plane_y_mm": 692.8462117660487,
+            "crossbeam_top_mm": 681.5369156875893,
+            "leg_length_mm": 593.5369156875893
+          },
+          {
+            "x_mm": 5000,
+            "belt_mm": 800.0,
+            "rail_seating_plane_y_mm": 630.0,
+            "crossbeam_top_mm": 618.6907039215406,
+            "leg_length_mm": 530.6907039215406
+          },
+          {
+            "x_mm": 7400,
+            "belt_mm": 737.1537882339513,
+            "rail_seating_plane_y_mm": 567.1537882339513,
+            "crossbeam_top_mm": 555.8444921554919,
+            "leg_length_mm": 467.84449215549193
+          },
+          {
+            "x_mm": 9800,
+            "belt_mm": 674.3075764679028,
+            "rail_seating_plane_y_mm": 504.3075764679028,
+            "crossbeam_top_mm": 492.99828038944344,
+            "leg_length_mm": 404.99828038944344
+          }
+        ]
+      },
+      {
+        "angle_deg": 2.0,
+        "t_centre_mm": 11.746038474587387,
+        "t_max_mm": 13.492076949174773,
+        "leg_depth_m": 0.5302539615254126,
+        "stand_volume_m3": 0.001936857053070359,
+        "stand_mass_kg": 15.204327866602318,
+        "with_reference_rails_volume_m3": 0.0029458446550466684,
+        "with_reference_rails_mass_kg": 23.124880542116347,
+        "wedge_centroid_relative_seat_plane_mm": [
+          -2.477485605558205,
+          -5.829761385418283
+        ],
+        "stations": [
+          {
+            "x_mm": 200,
+            "belt_mm": 967.6196935603891,
+            "rail_seating_plane_y_mm": 797.6196935603891,
+            "crossbeam_top_mm": 785.8736550858017,
+            "leg_length_mm": 697.8736550858017
+          },
+          {
+            "x_mm": 2600,
+            "belt_mm": 883.8098467801946,
+            "rail_seating_plane_y_mm": 713.8098467801946,
+            "crossbeam_top_mm": 702.0638083056072,
+            "leg_length_mm": 614.0638083056072
+          },
+          {
+            "x_mm": 5000,
+            "belt_mm": 800.0,
+            "rail_seating_plane_y_mm": 630.0,
+            "crossbeam_top_mm": 618.2539615254126,
+            "leg_length_mm": 530.2539615254126
+          },
+          {
+            "x_mm": 7400,
+            "belt_mm": 716.1901532198054,
+            "rail_seating_plane_y_mm": 546.1901532198054,
+            "crossbeam_top_mm": 534.444114745218,
+            "leg_length_mm": 446.44411474521803
+          },
+          {
+            "x_mm": 9800,
+            "belt_mm": 632.3803064396109,
+            "rail_seating_plane_y_mm": 462.3803064396109,
+            "crossbeam_top_mm": 450.63426796502347,
+            "leg_length_mm": 362.63426796502347
+          }
+        ]
+      }
+    ],
+    "contacts": {
+      "rail_flat_width_mm": 38,
+      "seat_bottom_supported_straight_width_mm": 84,
+      "seat_bottom_area_mm2": 5040.0,
+      "rail_half_seat_surface_area_mm2": 1900.651305732649,
+      "mean_pressure_full_load_on_half_contact_MPa": 0.751335367325182,
+      "scope": "Площадь номинального контакта в идеальной геометрии; не фактическое распределение давления и не расчёт контакта в Simulation."
+    },
+    "top_wall": {
+      "clear_span_mm": 92.0,
+      "loaded_width_mm": 84,
+      "effective_transverse_width_mm": 60,
+      "t_mm": 4.0,
+      "sigma_MPa": 111.60281747865479,
+      "delta_mm": 0.2456192008009394,
+      "scope": "Одномерный упругий ориентир: опирание полосы по краям, равномерная центральная площадка. Реальный контакт, углы трубы и распределение по ширине не решены."
+    },
+    "top_wall_sensitivity": [
+      {
+        "spreading_width_mm": 38,
+        "span_mm": 84,
+        "sigma_MPa": 148.02057897168947,
+        "delta_mm": 0.27198781386047943
+      },
+      {
+        "spreading_width_mm": 38,
+        "span_mm": 92,
+        "sigma_MPa": 176.214974966297,
+        "delta_mm": 0.38781979073832534
+      },
+      {
+        "spreading_width_mm": 60,
+        "span_mm": 84,
+        "sigma_MPa": 93.74636668207002,
+        "delta_mm": 0.17225894877830364
+      },
+      {
+        "spreading_width_mm": 60,
+        "span_mm": 92,
+        "sigma_MPa": 111.60281747865479,
+        "delta_mm": 0.2456192008009394
+      }
+    ],
+    "restraint": {
+      "sliding_component_N_at_2deg": 49.854491655502464,
+      "belt_axial_force_N": null,
+      "friction_assumed": false,
+      "positive_restraint_required": true
+    },
+    "blank_proposal": {
+      "size_mm": [
+        104,
+        64,
+        16
+      ],
+      "minimum_top_allowance_at_2deg_mm": 2.5079230508252266,
+      "scope": "Кандидат заготовки для обсуждения фрезеровки; не заказ и не выпущенный маршрут."
+    },
+    "checks": {
+      "independent_top_wall_virtual_work_delta_mm": 0.2456192007984789,
+      "closed_form_matches_virtual_work": true,
+      "manufacturing_approved": false,
+      "simulation_performed": false
+    },
+    "assumptions": [
+      "Седла сплошные, верх наклонён вдоль транспортёра, нижняя поверхность горизонтальна. В CAD отсутствуют фиксаторы седел и крепления балок.",
+      "Минимальная толщина 10 мм выбрана по предлагаемому пределу прогиба отдельного седла 0,05 мм, не по утверждённому нормативу. Сравнены 6/8/10 мм.",
+      "Условная нагрузка 1418,07 Н из R04 плюс вес двух седел целиком направлена на одно седло; совместность q и локальных 15 кг неизвестна.",
+      "Радиусы трубы ограничивают плоскую опорную поверхность: нижняя плоскость рельса 38 мм вместо наружных 50 мм, верх трубы 84 мм вместо наружных 100 мм.",
+      "На стыке контакт каждой половины седла имеет номинальную длину по горизонтали 50 мм. Торцы рельсов в CAD лежат в одной плоскости без заданного эксплуатационного зазора.",
+      "Предложенные высоты исправлены на толщину седла; 170 мм между рабочей поверхностью ленты и плоскостью опирания рельса остаётся допущением.",
+      "Прочность верхней стенки поперечины не подтверждена. Одномерный расчёт показан как ориентир для выбора следующей проверки, а не как заменитель контактов/Simulation.",
+      "Полная рама, барабаны, привод, натяжение, связи, швы, болты, анкеры и бетон пока не рассчитаны.",
+      "Сборочный узел представлен многотельной деталью: семь тел опоры и четыре коротких справочных участка рельса. Они не являются деталями полного транспортёра."
+    ]
+  },
+  "active_support_geometry": "R07: геометрический кандидат среднего узла; R08 не изменяет CAD",
+  "reinforced_support_candidate": {
+    "revision": "R06",
+    "scope": "Наружный колпак усиления опорной зоны: пластина и две вертикальные щеки у каждого седла",
+    "constants": {
+      "E_MPa_assumed": 200000.0,
+      "rho_kg_m3": 7850.0,
+      "g": 9.80665
+    },
+    "load_from_R04_N": 1418.0686894766482,
+    "load_screen_N": 1458.077229486781,
+    "geometry": {
+      "cap_mm": [
+        120,
+        80,
+        12
+      ],
+      "web_mm": [
+        6,
+        80,
+        80
+      ],
+      "caps_quantity": 2,
+      "webs_quantity": 4,
+      "web_centres_x_mm": [
+        -53,
+        53
+      ],
+      "web_inner_faces_x_mm": [
+        -50,
+        50
+      ],
+      "seat_mm": [
+        100,
+        60
+      ],
+      "seat_t_min_mm": 10,
+      "seat_angle_deg": 1.5,
+      "crossbeam_original_mm": [
+        80,
+        100,
+        4
+      ],
+      "straight_side_height_mm": 64,
+      "weld_net_length_proposed_mm": 54,
+      "weld_leg_candidate_mm": 3
+    },
+    "cap_cases": [
+      {
+        "t_mm": 6.0,
+        "span_mm": 100.0,
+        "effective_width_mm": 38.0,
+        "P_N": 1449.2088797587812,
+        "M_Nmm": 36230.22199396953,
+        "sigma_MPa": 158.90448242969092,
+        "delta_mm": 0.2207006700412374
+      },
+      {
+        "t_mm": 6.0,
+        "span_mm": 100.0,
+        "effective_width_mm": 60.0,
+        "P_N": 1449.2088797587812,
+        "M_Nmm": 36230.22199396953,
+        "sigma_MPa": 100.63950553880424,
+        "delta_mm": 0.13977709102611702
+      },
+      {
+        "t_mm": 6.0,
+        "span_mm": 100.0,
+        "effective_width_mm": 80.0,
+        "P_N": 1449.2088797587812,
+        "M_Nmm": 36230.22199396953,
+        "sigma_MPa": 75.4796291541032,
+        "delta_mm": 0.10483281826958776
+      },
+      {
+        "t_mm": 6.0,
+        "span_mm": 106.0,
+        "effective_width_mm": 38.0,
+        "P_N": 1449.2088797587812,
+        "M_Nmm": 38404.0353136077,
+        "sigma_MPa": 168.43875137547238,
+        "delta_mm": 0.26285802922983437
+      },
+      {
+        "t_mm": 6.0,
+        "span_mm": 106.0,
+        "effective_width_mm": 60.0,
+        "P_N": 1449.2088797587812,
+        "M_Nmm": 38404.0353136077,
+        "sigma_MPa": 106.67787587113251,
+        "delta_mm": 0.16647675184556177
+      },
+      {
+        "t_mm": 6.0,
+        "span_mm": 106.0,
+        "effective_width_mm": 80.0,
+        "P_N": 1449.2088797587812,
+        "M_Nmm": 38404.0353136077,
+        "sigma_MPa": 80.00840690334938,
+        "delta_mm": 0.12485756388417132
+      },
+      {
+        "t_mm": 6.0,
+        "span_mm": 112.0,
+        "effective_width_mm": 38.0,
+        "P_N": 1449.2088797587812,
+        "M_Nmm": 40577.84863324587,
+        "sigma_MPa": 177.9730203212538,
+        "delta_mm": 0.31006855095969554
+      },
+      {
+        "t_mm": 6.0,
+        "span_mm": 112.0,
+        "effective_width_mm": 60.0,
+        "P_N": 1449.2088797587812,
+        "M_Nmm": 40577.84863324587,
+        "sigma_MPa": 112.71624620346076,
+        "delta_mm": 0.19637674894114052
+      },
+      {
+        "t_mm": 6.0,
+        "span_mm": 112.0,
+        "effective_width_mm": 80.0,
+        "P_N": 1449.2088797587812,
+        "M_Nmm": 40577.84863324587,
+        "sigma_MPa": 84.53718465259557,
+        "delta_mm": 0.14728256170585538
+      },
+      {
+        "t_mm": 8.0,
+        "span_mm": 100.0,
+        "effective_width_mm": 38.0,
+        "P_N": 1452.164996334781,
+        "M_Nmm": 36304.12490836953,
+        "sigma_MPa": 89.56609763578008,
+        "delta_mm": 0.09329801837060425
+      },
+      {
+        "t_mm": 8.0,
+        "span_mm": 100.0,
+        "effective_width_mm": 60.0,
+        "P_N": 1452.164996334781,
+        "M_Nmm": 36304.12490836953,
+        "sigma_MPa": 56.72519516932739,
+        "delta_mm": 0.05908874496804936
+      },
+      {
+        "t_mm": 8.0,
+        "span_mm": 100.0,
+        "effective_width_mm": 80.0,
+        "P_N": 1452.164996334781,
+        "M_Nmm": 36304.12490836953,
+        "sigma_MPa": 42.54389637699554,
+        "delta_mm": 0.04431655872603702
+      },
+      {
+        "t_mm": 8.0,
+        "span_mm": 106.0,
+        "effective_width_mm": 38.0,
+        "P_N": 1452.164996334781,
+        "M_Nmm": 38482.3724028717,
+        "sigma_MPa": 94.94006349392689,
+        "delta_mm": 0.11111943264768359
+      },
+      {
+        "t_mm": 8.0,
+        "span_mm": 106.0,
+        "effective_width_mm": 60.0,
+        "P_N": 1452.164996334781,
+        "M_Nmm": 38482.3724028717,
+        "sigma_MPa": 60.12870687948703,
+        "delta_mm": 0.07037564067686627
+      },
+      {
+        "t_mm": 8.0,
+        "span_mm": 106.0,
+        "effective_width_mm": 80.0,
+        "P_N": 1452.164996334781,
+        "M_Nmm": 38482.3724028717,
+        "sigma_MPa": 45.09653015961527,
+        "delta_mm": 0.052781730507649706
+      },
+      {
+        "t_mm": 8.0,
+        "span_mm": 112.0,
+        "effective_width_mm": 38.0,
+        "P_N": 1452.164996334781,
+        "M_Nmm": 40660.61989737387,
+        "sigma_MPa": 100.3140293520737,
+        "delta_mm": 0.1310769983533763
+      },
+      {
+        "t_mm": 8.0,
+        "span_mm": 112.0,
+        "effective_width_mm": 60.0,
+        "P_N": 1452.164996334781,
+        "M_Nmm": 40660.61989737387,
+        "sigma_MPa": 63.53221858964668,
+        "delta_mm": 0.08301543229047165
+      },
+      {
+        "t_mm": 8.0,
+        "span_mm": 112.0,
+        "effective_width_mm": 80.0,
+        "P_N": 1452.164996334781,
+        "M_Nmm": 40660.61989737387,
+        "sigma_MPa": 47.649163942235006,
+        "delta_mm": 0.06226157421785374
+      },
+      {
+        "t_mm": 10.0,
+        "span_mm": 100.0,
+        "effective_width_mm": 38.0,
+        "P_N": 1455.1211129107812,
+        "M_Nmm": 36378.02782276953,
+        "sigma_MPa": 57.43899129910978,
+        "delta_mm": 0.04786582608259148
+      },
+      {
+        "t_mm": 10.0,
+        "span_mm": 100.0,
+        "effective_width_mm": 60.0,
+        "P_N": 1455.1211129107812,
+        "M_Nmm": 36378.02782276953,
+        "sigma_MPa": 36.378027822769525,
+        "delta_mm": 0.030315023185641273
+      },
+      {
+        "t_mm": 10.0,
+        "span_mm": 100.0,
+        "effective_width_mm": 80.0,
+        "P_N": 1455.1211129107812,
+        "M_Nmm": 36378.02782276953,
+        "sigma_MPa": 27.283520867077147,
+        "delta_mm": 0.022736267389230954
+      },
+      {
+        "t_mm": 10.0,
+        "span_mm": 106.0,
+        "effective_width_mm": 38.0,
+        "P_N": 1455.1211129107812,
+        "M_Nmm": 38560.709492135706,
+        "sigma_MPa": 60.885330777056375,
+        "delta_mm": 0.05700896471758378
+      },
+      {
+        "t_mm": 10.0,
+        "span_mm": 106.0,
+        "effective_width_mm": 60.0,
+        "P_N": 1455.1211129107812,
+        "M_Nmm": 38560.709492135706,
+        "sigma_MPa": 38.56070949213571,
+        "delta_mm": 0.03610567765446973
+      },
+      {
+        "t_mm": 10.0,
+        "span_mm": 106.0,
+        "effective_width_mm": 80.0,
+        "P_N": 1455.1211129107812,
+        "M_Nmm": 38560.709492135706,
+        "sigma_MPa": 28.92053211910178,
+        "delta_mm": 0.027079258240852295
+      },
+      {
+        "t_mm": 10.0,
+        "span_mm": 112.0,
+        "effective_width_mm": 38.0,
+        "P_N": 1455.1211129107812,
+        "M_Nmm": 40743.39116150187,
+        "sigma_MPa": 64.33167025500296,
+        "delta_mm": 0.06724803930656309
+      },
+      {
+        "t_mm": 10.0,
+        "span_mm": 112.0,
+        "effective_width_mm": 60.0,
+        "P_N": 1455.1211129107812,
+        "M_Nmm": 40743.39116150187,
+        "sigma_MPa": 40.743391161501876,
+        "delta_mm": 0.042590424894156625
+      },
+      {
+        "t_mm": 10.0,
+        "span_mm": 112.0,
+        "effective_width_mm": 80.0,
+        "P_N": 1455.1211129107812,
+        "M_Nmm": 40743.39116150187,
+        "sigma_MPa": 30.557543371126403,
+        "delta_mm": 0.03194281867061747
+      },
+      {
+        "t_mm": 12.0,
+        "span_mm": 100.0,
+        "effective_width_mm": 38.0,
+        "P_N": 1458.077229486781,
+        "M_Nmm": 36451.930737169525,
+        "sigma_MPa": 39.96922229952799,
+        "delta_mm": 0.027756404374672215
+      },
+      {
+        "t_mm": 12.0,
+        "span_mm": 100.0,
+        "effective_width_mm": 60.0,
+        "P_N": 1458.077229486781,
+        "M_Nmm": 36451.930737169525,
+        "sigma_MPa": 25.31384078970106,
+        "delta_mm": 0.01757905610395907
+      },
+      {
+        "t_mm": 12.0,
+        "span_mm": 100.0,
+        "effective_width_mm": 80.0,
+        "P_N": 1458.077229486781,
+        "M_Nmm": 36451.930737169525,
+        "sigma_MPa": 18.985380592275796,
+        "delta_mm": 0.013184292077969303
+      },
+      {
+        "t_mm": 12.0,
+        "span_mm": 106.0,
+        "effective_width_mm": 38.0,
+        "P_N": 1458.077229486781,
+        "M_Nmm": 38639.0465813997,
+        "sigma_MPa": 42.36737563749967,
+        "delta_mm": 0.033058321712704605
+      },
+      {
+        "t_mm": 12.0,
+        "span_mm": 106.0,
+        "effective_width_mm": 60.0,
+        "P_N": 1458.077229486781,
+        "M_Nmm": 38639.0465813997,
+        "sigma_MPa": 26.832671237083126,
+        "delta_mm": 0.020936937084712916
+      },
+      {
+        "t_mm": 12.0,
+        "span_mm": 106.0,
+        "effective_width_mm": 80.0,
+        "P_N": 1458.077229486781,
+        "M_Nmm": 38639.0465813997,
+        "sigma_MPa": 20.124503427812343,
+        "delta_mm": 0.015702702813534686
+      },
+      {
+        "t_mm": 12.0,
+        "span_mm": 112.0,
+        "effective_width_mm": 38.0,
+        "P_N": 1458.077229486781,
+        "M_Nmm": 40826.16242562987,
+        "sigma_MPa": 44.76552897547135,
+        "delta_mm": 0.03899574968529949
+      },
+      {
+        "t_mm": 12.0,
+        "span_mm": 112.0,
+        "effective_width_mm": 60.0,
+        "P_N": 1458.077229486781,
+        "M_Nmm": 40826.16242562987,
+        "sigma_MPa": 28.351501684465184,
+        "delta_mm": 0.02469730813402301
+      },
+      {
+        "t_mm": 12.0,
+        "span_mm": 112.0,
+        "effective_width_mm": 80.0,
+        "P_N": 1458.077229486781,
+        "M_Nmm": 40826.16242562987,
+        "sigma_MPa": 21.26362626334889,
+        "delta_mm": 0.018522981100517255
+      }
+    ],
+    "cap_selected": {
+      "t_mm": 12.0,
+      "span_mm": 106.0,
+      "effective_width_mm": 38.0,
+      "P_N": 1458.077229486781,
+      "M_Nmm": 38639.0465813997,
+      "sigma_MPa": 42.36737563749967,
+      "delta_mm": 0.033058321712704605
+    },
+    "cap_conservative_geometry": {
+      "t_mm": 12.0,
+      "span_mm": 112.0,
+      "effective_width_mm": 38.0,
+      "P_N": 1458.077229486781,
+      "M_Nmm": 40826.16242562987,
+      "sigma_MPa": 44.76552897547135,
+      "delta_mm": 0.03899574968529949
+    },
+    "seat_recheck": {
+      "span_mm": 100,
+      "effective_width_mm": 38,
+      "t_min_mm": 10,
+      "sigma_MPa": 57.55568011132031,
+      "delta_mm": 0.04796306675943359
+    },
+    "alternative_full_tubes": [
+      {
+        "option": "Цельная труба 80x100x4",
+        "mass_kg_m": 10.478152111872637,
+        "flat_top_mm": 84,
+        "screen_sigma_MPa": 176.21497496629698,
+        "screen_delta_mm": 0.38781979073832534
+      },
+      {
+        "option": "Цельная труба 80x100x6",
+        "mass_kg_m": 15.097842251713429,
+        "flat_top_mm": 76,
+        "screen_sigma_MPa": 78.31776665168755,
+        "screen_delta_mm": 0.10490229744289928
+      },
+      {
+        "option": "Цельная труба 80x100x8",
+        "mass_kg_m": 19.304608447490534,
+        "flat_top_mm": 68,
+        "screen_sigma_MPa": 44.053743741574245,
+        "screen_delta_mm": 0.04018068543762751
+      }
+    ],
+    "weld_cases": [
+      {
+        "leg_mm": 3.0,
+        "throat_mm": 2.1213203435596424,
+        "net_length_each_mm": 44.0,
+        "force_one_web_N": 1458.077229486781,
+        "eccentricity_mm": 3,
+        "tau_MPa": 7.810729518665128,
+        "sigma_nominal_MPa": 3.1952984394539157,
+        "equivalent_nominal_MPa": 13.900806413960918
+      },
+      {
+        "leg_mm": 3.0,
+        "throat_mm": 2.1213203435596424,
+        "net_length_each_mm": 54.0,
+        "force_one_web_N": 1458.077229486781,
+        "eccentricity_mm": 3,
+        "tau_MPa": 6.364298126319734,
+        "sigma_nominal_MPa": 2.1214327087732445,
+        "equivalent_nominal_MPa": 11.225566741144236
+      },
+      {
+        "leg_mm": 4.0,
+        "throat_mm": 2.82842712474619,
+        "net_length_each_mm": 44.0,
+        "force_one_web_N": 1458.077229486781,
+        "eccentricity_mm": 3,
+        "tau_MPa": 5.858047138998846,
+        "sigma_nominal_MPa": 2.396473829590437,
+        "equivalent_nominal_MPa": 10.42560481047069
+      },
+      {
+        "leg_mm": 4.0,
+        "throat_mm": 2.82842712474619,
+        "net_length_each_mm": 54.0,
+        "force_one_web_N": 1458.077229486781,
+        "eccentricity_mm": 3,
+        "tau_MPa": 4.7732235947398,
+        "sigma_nominal_MPa": 1.5910745315799335,
+        "equivalent_nominal_MPa": 8.419175055858176
+      }
+    ],
+    "weld_selected": {
+      "leg_mm": 3.0,
+      "throat_mm": 2.1213203435596424,
+      "net_length_each_mm": 54.0,
+      "force_one_web_N": 1458.077229486781,
+      "eccentricity_mm": 3,
+      "tau_MPa": 6.364298126319734,
+      "sigma_nominal_MPa": 2.1214327087732445,
+      "equivalent_nominal_MPa": 11.225566741144236
+    },
+    "wall_connection_nominal_shear_MPa": 3.3751787719601416,
+    "variants": [
+      {
+        "angle_deg": 1.0,
+        "t_centre_seat_mm": 10.872753246410879,
+        "leg_depth_m": 0.5191272467535891,
+        "stand_volume_m3": 0.002298342463769507,
+        "stand_mass_kg": 18.041988340590628,
+        "with_reference_rails_volume_m3": 0.0033073300657458157,
+        "with_reference_rails_mass_kg": 25.96254101610465,
+        "stations": [
+          {
+            "x_mm": 200,
+            "belt_mm": 883.7843116554444,
+            "rail_seating_plane_y_mm": 713.7843116554444,
+            "cap_top_mm": 702.9115584090335,
+            "crossbeam_top_mm": 690.9115584090335,
+            "leg_length_mm": 602.9115584090335
+          },
+          {
+            "x_mm": 2600,
+            "belt_mm": 841.8921558277223,
+            "rail_seating_plane_y_mm": 671.8921558277223,
+            "cap_top_mm": 661.0194025813114,
+            "crossbeam_top_mm": 649.0194025813114,
+            "leg_length_mm": 561.0194025813114
+          },
+          {
+            "x_mm": 5000,
+            "belt_mm": 800.0,
+            "rail_seating_plane_y_mm": 630.0,
+            "cap_top_mm": 619.1272467535891,
+            "crossbeam_top_mm": 607.1272467535891,
+            "leg_length_mm": 519.1272467535891
+          },
+          {
+            "x_mm": 7400,
+            "belt_mm": 758.1078441722777,
+            "rail_seating_plane_y_mm": 588.1078441722777,
+            "cap_top_mm": 577.2350909258669,
+            "crossbeam_top_mm": 565.2350909258669,
+            "leg_length_mm": 477.23509092586687
+          },
+          {
+            "x_mm": 9800,
+            "belt_mm": 716.2156883445556,
+            "rail_seating_plane_y_mm": 546.2156883445556,
+            "cap_top_mm": 535.3429350981447,
+            "crossbeam_top_mm": 523.3429350981447,
+            "leg_length_mm": 435.3429350981447
+          }
+        ]
+      },
+      {
+        "angle_deg": 1.5,
+        "t_centre_seat_mm": 11.309296078459347,
+        "leg_depth_m": 0.5186907039215407,
+        "stand_volume_m3": 0.002303108792944537,
+        "stand_mass_kg": 18.079404024614618,
+        "with_reference_rails_volume_m3": 0.0033120963949208465,
+        "with_reference_rails_mass_kg": 25.999956700128646,
+        "stations": [
+          {
+            "x_mm": 200,
+            "belt_mm": 925.6924235320972,
+            "rail_seating_plane_y_mm": 755.6924235320972,
+            "cap_top_mm": 744.3831274536378,
+            "crossbeam_top_mm": 732.3831274536378,
+            "leg_length_mm": 644.3831274536378
+          },
+          {
+            "x_mm": 2600,
+            "belt_mm": 862.8462117660487,
+            "rail_seating_plane_y_mm": 692.8462117660487,
+            "cap_top_mm": 681.5369156875893,
+            "crossbeam_top_mm": 669.5369156875893,
+            "leg_length_mm": 581.5369156875893
+          },
+          {
+            "x_mm": 5000,
+            "belt_mm": 800.0,
+            "rail_seating_plane_y_mm": 630.0,
+            "cap_top_mm": 618.6907039215406,
+            "crossbeam_top_mm": 606.6907039215406,
+            "leg_length_mm": 518.6907039215406
+          },
+          {
+            "x_mm": 7400,
+            "belt_mm": 737.1537882339513,
+            "rail_seating_plane_y_mm": 567.1537882339513,
+            "cap_top_mm": 555.8444921554919,
+            "crossbeam_top_mm": 543.8444921554919,
+            "leg_length_mm": 455.84449215549193
+          },
+          {
+            "x_mm": 9800,
+            "belt_mm": 674.3075764679028,
+            "rail_seating_plane_y_mm": 504.3075764679028,
+            "cap_top_mm": 492.99828038944344,
+            "crossbeam_top_mm": 480.99828038944344,
+            "leg_length_mm": 392.99828038944344
+          }
+        ]
+      },
+      {
+        "angle_deg": 2.0,
+        "t_centre_seat_mm": 11.746038474587387,
+        "leg_depth_m": 0.5182539615254126,
+        "stand_volume_m3": 0.0023078773010308325,
+        "stand_mass_kg": 18.116836813092036,
+        "with_reference_rails_volume_m3": 0.0033168649030071414,
+        "with_reference_rails_mass_kg": 26.03738948860606,
+        "stations": [
+          {
+            "x_mm": 200,
+            "belt_mm": 967.6196935603891,
+            "rail_seating_plane_y_mm": 797.6196935603891,
+            "cap_top_mm": 785.8736550858017,
+            "crossbeam_top_mm": 773.8736550858017,
+            "leg_length_mm": 685.8736550858017
+          },
+          {
+            "x_mm": 2600,
+            "belt_mm": 883.8098467801946,
+            "rail_seating_plane_y_mm": 713.8098467801946,
+            "cap_top_mm": 702.0638083056072,
+            "crossbeam_top_mm": 690.0638083056072,
+            "leg_length_mm": 602.0638083056072
+          },
+          {
+            "x_mm": 5000,
+            "belt_mm": 800.0,
+            "rail_seating_plane_y_mm": 630.0,
+            "cap_top_mm": 618.2539615254126,
+            "crossbeam_top_mm": 606.2539615254126,
+            "leg_length_mm": 518.2539615254126
+          },
+          {
+            "x_mm": 7400,
+            "belt_mm": 716.1901532198054,
+            "rail_seating_plane_y_mm": 546.1901532198054,
+            "cap_top_mm": 534.444114745218,
+            "crossbeam_top_mm": 522.444114745218,
+            "leg_length_mm": 434.44411474521803
+          },
+          {
+            "x_mm": 9800,
+            "belt_mm": 632.3803064396109,
+            "rail_seating_plane_y_mm": 462.3803064396109,
+            "cap_top_mm": 450.63426796502347,
+            "crossbeam_top_mm": 438.63426796502347,
+            "leg_length_mm": 350.63426796502347
+          }
+        ]
+      }
+    ],
+    "added_mass_main_kg": 2.912508946489721,
+    "moving_load": {
+      "samples": 1001,
+      "max_one_web_reaction_N": 1416.8108928031932,
+      "max_bending_Nmm": 38639.0465813997
+    },
+    "restraint": {
+      "sliding_component_N_at_2deg": 50.886161462465665,
+      "belt_axial_force_N": null,
+      "seat_fixation_designed": false
+    },
+    "checks": {
+      "independent_EB_FE_centre_deflection_mm": 0.0330583217127046,
+      "FE_end_reactions_N": [
+        729.0386147433906,
+        729.0386147433906
+      ],
+      "FE_vs_formula": true,
+      "moving_load_equilibrium": true,
+      "manufacturing_approved": false,
+      "simulation_performed": false
+    },
+    "assumptions": [
+      "Нагрузка условная: огибающая R04 плюс вес обоих седел, обоих колпаков и четырёх щёк целиком на одну площадку. Совместность q и 15 кг неизвестна.",
+      "Пластина колпака рассчитана как отдельная шарнирно опёртая полоса на наружных щеках. Работа верхней стенки трубы и совместная жёсткость слоёв не включены. Это альтернативный путь вертикальной нагрузки.",
+      "Предлагаемый критерий прогиба отдельной пластины 0,05 мм — проектный ориентир, не норматив. Минимальная эффективная ширина 38 мм равна плоской ширине рельса.",
+      "Сосредоточенная сила по центру даёт верхнюю оценку изгиба пластины для рассматриваемых положений внутри седла 100 мм. Для одной щеки и её двух швов принята вся P, не P/2.",
+      "54 мм — предложенная рабочая длина каждого вертикального шва на прямой боковой поверхности трубы 64 мм, с отступом 5 мм от её концов. Катет 3 мм — расчётный кандидат, WPS и нормативный минимальный размер не утверждены.",
+      "Эквивалентные напряжения швов — только номинальная упругая модель группы с a=k/√2, эксцентриситет 3 мм. Нормативная проверка шва, прочность материала/зоны термического влияния и усталость не выполнены.",
+      "Номинальный сдвиг боковой стенки у швов не является проверкой местной концентрации напряжений, вмятия и прочности оболочки трубы.",
+      "Седло и колпак в CAD ещё не имеют механического крепления друг к другу и к рельсам. Сварные валики отсутствуют; нагрузочный путь через щеки требует реальных рассчитанных соединений.",
+      "В CAD сохраняется условная плоскость опирания рельса, поэтому стойки короче R05 ещё на 12 мм. Интерфейс лента–рельс 170 мм и оси опор остаются допущениями.",
+      "13 тел опоры плюс 4 справочных отрезка рельса; это многотельная деталь, не сборка всего транспортёра."
+    ],
+    "source_weld_geometry": "https://www.twi-global.com/technical-knowledge/job-knowledge/design-part-1-090"
+  },
+  "joint_and_seat_fixation_candidate": {
+    "revision": "R07",
+    "scope": "Поперечные втулки/болты для крепления седел и независимых концов модулей; один круглый фиксатор, один продольный паз",
+    "constants": {
+      "E_MPa": 200000.0,
+      "rho_kg_m3": 7850.0,
+      "g": 9.80665
+    },
+    "angle_deg": 1.5,
+    "seat": {
+      "length_mm": 100,
+      "width_mm": 80,
+      "t_min_mm": 24,
+      "t_centre_mm": 25.309296078459347,
+      "transverse_hole_d_mm": 10.5,
+      "pin_axis_from_bottom_mm": 12,
+      "min_bottom_ligament_mm": 6.75
+    },
+    "cap_mm": [
+      160,
+      120,
+      12
+    ],
+    "guide_mm": [
+      160,
+      100,
+      6
+    ],
+    "guide_inside_width_mm": 84,
+    "guide_outside_width_mm": 96,
+    "sleeve_length_mm": 97,
+    "washer_face_gap_to_guide_mm": 0.5,
+    "module_hole_mm": 21,
+    "module_slot_mm": [
+      33,
+      21
+    ],
+    "rail_hole_mm": 20.5,
+    "module_pin_x_mm": [
+      -35,
+      35
+    ],
+    "seat_pin_x_mm": [
+      -30,
+      30
+    ],
+    "end_gap_along_rail_mm": 12,
+    "leg_mid_mm": 504.6907039215406,
+    "support_with_fasteners_mass_kg": 25.85112205349987,
+    "with_stubs_mass_kg": 33.55107969737681,
+    "added_mass_vs_R06_kg": 7.771718028885253,
+    "load_screen_N": 1534.2917480947488,
+    "gravity_component_2deg_N": 53.54600980330713,
+    "capacity_for_actual_belt_forces": null,
+    "cases": [
+      {
+        "type": "MODULE",
+        "F_N": 53.54600980330713,
+        "bolt_d_mm": 10,
+        "thread_area_mm2": 58.0,
+        "sleeve_OD_mm": 20,
+        "sleeve_ID_mm": 11,
+        "span_mm": 90,
+        "sleeve_sigma_MPa": 1.6884873294371205,
+        "sleeve_delta_mm": 0.0005698644736850282,
+        "bolt_thread_double_shear_MPa": 0.4616035327871304,
+        "bare_bolt_bending_screen_MPa": 12.271841485982518,
+        "guide_bearing_MPa": 0.22310837418044638,
+        "rail_or_seat_bearing_MPa": 0.44621674836089276
+      },
+      {
+        "type": "MODULE",
+        "F_N": 500.0,
+        "bolt_d_mm": 10,
+        "thread_area_mm2": 58.0,
+        "sleeve_OD_mm": 20,
+        "sleeve_ID_mm": 11,
+        "span_mm": 90,
+        "sleeve_sigma_MPa": 15.766696114607923,
+        "sleeve_delta_mm": 0.005321259938680174,
+        "bolt_thread_double_shear_MPa": 4.310344827586207,
+        "bare_bolt_bending_screen_MPa": 114.59155902616465,
+        "guide_bearing_MPa": 2.0833333333333335,
+        "rail_or_seat_bearing_MPa": 4.166666666666667
+      },
+      {
+        "type": "MODULE",
+        "F_N": 1000.0,
+        "bolt_d_mm": 10,
+        "thread_area_mm2": 58.0,
+        "sleeve_OD_mm": 20,
+        "sleeve_ID_mm": 11,
+        "span_mm": 90,
+        "sleeve_sigma_MPa": 31.533392229215846,
+        "sleeve_delta_mm": 0.010642519877360347,
+        "bolt_thread_double_shear_MPa": 8.620689655172415,
+        "bare_bolt_bending_screen_MPa": 229.1831180523293,
+        "guide_bearing_MPa": 4.166666666666667,
+        "rail_or_seat_bearing_MPa": 8.333333333333334
+      },
+      {
+        "type": "MODULE",
+        "F_N": 2000.0,
+        "bolt_d_mm": 10,
+        "thread_area_mm2": 58.0,
+        "sleeve_OD_mm": 20,
+        "sleeve_ID_mm": 11,
+        "span_mm": 90,
+        "sleeve_sigma_MPa": 63.06678445843169,
+        "sleeve_delta_mm": 0.021285039754720694,
+        "bolt_thread_double_shear_MPa": 17.24137931034483,
+        "bare_bolt_bending_screen_MPa": 458.3662361046586,
+        "guide_bearing_MPa": 8.333333333333334,
+        "rail_or_seat_bearing_MPa": 16.666666666666668
+      },
+      {
+        "type": "MODULE",
+        "F_N": 5000.0,
+        "bolt_d_mm": 10,
+        "thread_area_mm2": 58.0,
+        "sleeve_OD_mm": 20,
+        "sleeve_ID_mm": 11,
+        "span_mm": 90,
+        "sleeve_sigma_MPa": 157.66696114607922,
+        "sleeve_delta_mm": 0.053212599386801736,
+        "bolt_thread_double_shear_MPa": 43.10344827586207,
+        "bare_bolt_bending_screen_MPa": 1145.9155902616465,
+        "guide_bearing_MPa": 20.833333333333332,
+        "rail_or_seat_bearing_MPa": 41.666666666666664
+      },
+      {
+        "type": "SEAT",
+        "F_N": 53.54600980330713,
+        "bolt_d_mm": 6,
+        "thread_area_mm2": 20.1,
+        "sleeve_OD_mm": 10,
+        "sleeve_ID_mm": 6.5,
+        "span_mm": 90,
+        "sleeve_sigma_MPa": 14.938447780013567,
+        "sleeve_delta_mm": 0.010083452251509159,
+        "bolt_thread_double_shear_MPa": 1.331990293614605,
+        "bare_bolt_bending_screen_MPa": 56.814080953622785,
+        "guide_bearing_MPa": 0.44621674836089276,
+        "rail_or_seat_bearing_MPa": 0.06693251225413391
+      },
+      {
+        "type": "SEAT",
+        "F_N": 500.0,
+        "bolt_d_mm": 6,
+        "thread_area_mm2": 20.1,
+        "sleeve_OD_mm": 10,
+        "sleeve_ID_mm": 6.5,
+        "span_mm": 90,
+        "sleeve_sigma_MPa": 139.491699147029,
+        "sleeve_delta_mm": 0.09415689692424457,
+        "bolt_thread_double_shear_MPa": 12.43781094527363,
+        "bare_bolt_bending_screen_MPa": 530.5164769729845,
+        "guide_bearing_MPa": 4.166666666666667,
+        "rail_or_seat_bearing_MPa": 0.625
+      },
+      {
+        "type": "SEAT",
+        "F_N": 1000.0,
+        "bolt_d_mm": 6,
+        "thread_area_mm2": 20.1,
+        "sleeve_OD_mm": 10,
+        "sleeve_ID_mm": 6.5,
+        "span_mm": 90,
+        "sleeve_sigma_MPa": 278.983398294058,
+        "sleeve_delta_mm": 0.18831379384848915,
+        "bolt_thread_double_shear_MPa": 24.87562189054726,
+        "bare_bolt_bending_screen_MPa": 1061.032953945969,
+        "guide_bearing_MPa": 8.333333333333334,
+        "rail_or_seat_bearing_MPa": 1.25
+      },
+      {
+        "type": "SEAT",
+        "F_N": 2000.0,
+        "bolt_d_mm": 6,
+        "thread_area_mm2": 20.1,
+        "sleeve_OD_mm": 10,
+        "sleeve_ID_mm": 6.5,
+        "span_mm": 90,
+        "sleeve_sigma_MPa": 557.966796588116,
+        "sleeve_delta_mm": 0.3766275876969783,
+        "bolt_thread_double_shear_MPa": 49.75124378109452,
+        "bare_bolt_bending_screen_MPa": 2122.065907891938,
+        "guide_bearing_MPa": 16.666666666666668,
+        "rail_or_seat_bearing_MPa": 2.5
+      },
+      {
+        "type": "SEAT",
+        "F_N": 5000.0,
+        "bolt_d_mm": 6,
+        "thread_area_mm2": 20.1,
+        "sleeve_OD_mm": 10,
+        "sleeve_ID_mm": 6.5,
+        "span_mm": 90,
+        "sleeve_sigma_MPa": 1394.91699147029,
+        "sleeve_delta_mm": 0.9415689692424457,
+        "bolt_thread_double_shear_MPa": 124.37810945273631,
+        "bare_bolt_bending_screen_MPa": 5305.164769729845,
+        "guide_bearing_MPa": 41.666666666666664,
+        "rail_or_seat_bearing_MPa": 6.25
+      }
+    ],
+    "slot_geometry": [
+      {
+        "angle_deg": 1,
+        "travel_one_side_mm": 6,
+        "normal_clearance_mm": 0.5,
+        "vertical_shift_mm": 0.10473038956930551,
+        "remaining_vertical_clearance_mm": 0.3952696104306945
+      },
+      {
+        "angle_deg": 1.5,
+        "travel_one_side_mm": 6,
+        "normal_clearance_mm": 0.5,
+        "vertical_shift_mm": 0.15711552941512158,
+        "remaining_vertical_clearance_mm": 0.3428844705848784
+      },
+      {
+        "angle_deg": 2,
+        "travel_one_side_mm": 6,
+        "normal_clearance_mm": 0.5,
+        "vertical_shift_mm": 0.20952461695048638,
+        "remaining_vertical_clearance_mm": 0.2904753830495136
+      }
+    ],
+    "cap_recheck": {
+      "P_N": 1534.2917480947488,
+      "span_mm": 112,
+      "b_mm": 38,
+      "t_mm": 12,
+      "sigma_MPa": 47.10544840641772,
+      "delta_mm": 0.04103407950070166
+    },
+    "expected_bodies": {
+      "CROSSBEAM": {
+        "volume_m3": 0.0009343575131606173,
+        "centroid_mm": [
+          0,
+          -37.30929607845935,
+          350
+        ]
+      },
+      "LEG_LEFT": {
+        "volume_m3": 0.0002729483413981467,
+        "centroid_mm": [
+          0,
+          -329.6546480392297,
+          50
+        ]
+      },
+      "PLATE_LEFT": {
+        "volume_m3": 0.000144,
+        "centroid_mm": [
+          0,
+          -586,
+          50
+        ]
+      },
+      "CAP_LEFT": {
+        "volume_m3": 0.0002304,
+        "centroid_mm": [
+          0,
+          8.690703921540653,
+          50
+        ]
+      },
+      "SEAT_LEFT": {
+        "volume_m3": 0.00018861994502534382,
+        "centroid_mm": [
+          -0.9255267805204261,
+          27.405554746885134,
+          50
+        ]
+      },
+      "WEB_LEFT_MINUS": {
+        "volume_m3": 3.84e-05,
+        "centroid_mm": [
+          -53,
+          -37.30929607845935,
+          50
+        ]
+      },
+      "WEB_LEFT_PLUS": {
+        "volume_m3": 3.84e-05,
+        "centroid_mm": [
+          53,
+          -37.30929607845935,
+          50
+        ]
+      },
+      "REF_RAIL_LEFT_IN_SLOPE": {
+        "volume_m3": 0.00024522158101518903,
+        "centroid_mm": [
+          -152.58068430802336,
+          94.01260545680614,
+          50
+        ]
+      },
+      "REF_RAIL_LEFT_OUT_SLOPE": {
+        "volume_m3": 0.00024522158101518903,
+        "centroid_mm": [
+          155.21951934316363,
+          85.95257346501641,
+          50
+        ]
+      },
+      "GUIDE_LEFT_MINUS": {
+        "volume_m3": 8.929259114912588e-05,
+        "centroid_mm": [
+          -0.5926583529379197,
+          63.54069075924662,
+          5
+        ]
+      },
+      "GUIDE_LEFT_PLUS": {
+        "volume_m3": 8.929259114912588e-05,
+        "centroid_mm": [
+          -0.5926583529379197,
+          63.54069075924662,
+          95
+        ]
+      },
+      "SLEEVE_LEFT_SEAT_IN": {
+        "volume_m3": 4.399604161811656e-06,
+        "centroid_mm": [
+          -30,
+          26.690703921540653,
+          50
+        ]
+      },
+      "SHAFT_LEFT_SEAT_IN": {
+        "volume_m3": 3.1101767270538957e-06,
+        "centroid_mm": [
+          -30,
+          26.690703921540653,
+          54.5
+        ]
+      },
+      "HEAD_LEFT_SEAT_IN": {
+        "volume_m3": 3.464101615137754e-07,
+        "centroid_mm": [
+          -30,
+          26.690703921540653,
+          -2.5
+        ]
+      },
+      "NUT_LEFT_SEAT_IN": {
+        "volume_m3": 2.916410324806785e-07,
+        "centroid_mm": [
+          -30,
+          26.690703921540653,
+          103.0
+        ]
+      },
+      "WASHER_LEFT_SEAT_IN_MINUS": {
+        "volume_m3": 4.425718650744621e-07,
+        "centroid_mm": [
+          -30,
+          26.690703921540653,
+          0.5
+        ]
+      },
+      "WASHER_LEFT_SEAT_IN_PLUS": {
+        "volume_m3": 4.425718650744621e-07,
+        "centroid_mm": [
+          -30,
+          26.690703921540653,
+          99.5
+        ]
+      },
+      "SLEEVE_LEFT_SEAT_OUT": {
+        "volume_m3": 4.399604161811656e-06,
+        "centroid_mm": [
+          30,
+          26.690703921540653,
+          50
+        ]
+      },
+      "SHAFT_LEFT_SEAT_OUT": {
+        "volume_m3": 3.1101767270538957e-06,
+        "centroid_mm": [
+          30,
+          26.690703921540653,
+          54.5
+        ]
+      },
+      "HEAD_LEFT_SEAT_OUT": {
+        "volume_m3": 3.464101615137754e-07,
+        "centroid_mm": [
+          30,
+          26.690703921540653,
+          -2.5
+        ]
+      },
+      "NUT_LEFT_SEAT_OUT": {
+        "volume_m3": 2.916410324806785e-07,
+        "centroid_mm": [
+          30,
+          26.690703921540653,
+          103.0
+        ]
+      },
+      "WASHER_LEFT_SEAT_OUT_MINUS": {
+        "volume_m3": 4.425718650744621e-07,
+        "centroid_mm": [
+          30,
+          26.690703921540653,
+          0.5
+        ]
+      },
+      "WASHER_LEFT_SEAT_OUT_PLUS": {
+        "volume_m3": 4.425718650744621e-07,
+        "centroid_mm": [
+          30,
+          26.690703921540653,
+          99.5
+        ]
+      },
+      "SLEEVE_LEFT_MODULE_IN": {
+        "volume_m3": 2.125523049602514e-05,
+        "centroid_mm": [
+          -35,
+          90.93364687946494,
+          50
+        ]
+      },
+      "SHAFT_LEFT_MODULE_IN": {
+        "volume_m3": 9.424777960769379e-06,
+        "centroid_mm": [
+          -35,
+          90.93364687946494,
+          59.5
+        ]
+      },
+      "HEAD_LEFT_MODULE_IN": {
+        "volume_m3": 1.5016880501622166e-06,
+        "centroid_mm": [
+          -35,
+          90.93364687946494,
+          -3.5
+        ]
+      },
+      "NUT_LEFT_MODULE_IN": {
+        "volume_m3": 1.3739322028316633e-06,
+        "centroid_mm": [
+          -35,
+          90.93364687946494,
+          104.5
+        ]
+      },
+      "WASHER_LEFT_MODULE_IN_MINUS": {
+        "volume_m3": 7.147123286916779e-07,
+        "centroid_mm": [
+          -35,
+          90.93364687946494,
+          0.5
+        ]
+      },
+      "WASHER_LEFT_MODULE_IN_PLUS": {
+        "volume_m3": 7.147123286916779e-07,
+        "centroid_mm": [
+          -35,
+          90.93364687946494,
+          99.5
+        ]
+      },
+      "SLEEVE_LEFT_MODULE_OUT": {
+        "volume_m3": 2.125523049602514e-05,
+        "centroid_mm": [
+          35,
+          89.10063236962186,
+          50
+        ]
+      },
+      "SHAFT_LEFT_MODULE_OUT": {
+        "volume_m3": 9.424777960769379e-06,
+        "centroid_mm": [
+          35,
+          89.10063236962186,
+          59.5
+        ]
+      },
+      "HEAD_LEFT_MODULE_OUT": {
+        "volume_m3": 1.5016880501622166e-06,
+        "centroid_mm": [
+          35,
+          89.10063236962186,
+          -3.5
+        ]
+      },
+      "NUT_LEFT_MODULE_OUT": {
+        "volume_m3": 1.3739322028316633e-06,
+        "centroid_mm": [
+          35,
+          89.10063236962186,
+          104.5
+        ]
+      },
+      "WASHER_LEFT_MODULE_OUT_MINUS": {
+        "volume_m3": 7.147123286916779e-07,
+        "centroid_mm": [
+          35,
+          89.10063236962186,
+          0.5
+        ]
+      },
+      "WASHER_LEFT_MODULE_OUT_PLUS": {
+        "volume_m3": 7.147123286916779e-07,
+        "centroid_mm": [
+          35,
+          89.10063236962186,
+          99.5
+        ]
+      },
+      "LEG_RIGHT": {
+        "volume_m3": 0.0002729483413981467,
+        "centroid_mm": [
+          0,
+          -329.6546480392297,
+          650
+        ]
+      },
+      "PLATE_RIGHT": {
+        "volume_m3": 0.000144,
+        "centroid_mm": [
+          0,
+          -586,
+          650
+        ]
+      },
+      "CAP_RIGHT": {
+        "volume_m3": 0.0002304,
+        "centroid_mm": [
+          0,
+          8.690703921540653,
+          650
+        ]
+      },
+      "SEAT_RIGHT": {
+        "volume_m3": 0.00018861994502534382,
+        "centroid_mm": [
+          -0.9255267805204261,
+          27.405554746885134,
+          650
+        ]
+      },
+      "WEB_RIGHT_MINUS": {
+        "volume_m3": 3.84e-05,
+        "centroid_mm": [
+          -53,
+          -37.30929607845935,
+          650
+        ]
+      },
+      "WEB_RIGHT_PLUS": {
+        "volume_m3": 3.84e-05,
+        "centroid_mm": [
+          53,
+          -37.30929607845935,
+          650
+        ]
+      },
+      "REF_RAIL_RIGHT_IN_SLOPE": {
+        "volume_m3": 0.00024522158101518903,
+        "centroid_mm": [
+          -152.58068430802336,
+          94.01260545680614,
+          650
+        ]
+      },
+      "REF_RAIL_RIGHT_OUT_SLOPE": {
+        "volume_m3": 0.00024522158101518903,
+        "centroid_mm": [
+          155.21951934316363,
+          85.95257346501641,
+          650
+        ]
+      },
+      "GUIDE_RIGHT_MINUS": {
+        "volume_m3": 8.929259114912588e-05,
+        "centroid_mm": [
+          -0.5926583529379197,
+          63.54069075924662,
+          605
+        ]
+      },
+      "GUIDE_RIGHT_PLUS": {
+        "volume_m3": 8.929259114912588e-05,
+        "centroid_mm": [
+          -0.5926583529379197,
+          63.54069075924662,
+          695
+        ]
+      },
+      "SLEEVE_RIGHT_SEAT_IN": {
+        "volume_m3": 4.399604161811656e-06,
+        "centroid_mm": [
+          -30,
+          26.690703921540653,
+          650
+        ]
+      },
+      "SHAFT_RIGHT_SEAT_IN": {
+        "volume_m3": 3.1101767270538957e-06,
+        "centroid_mm": [
+          -30,
+          26.690703921540653,
+          654.5
+        ]
+      },
+      "HEAD_RIGHT_SEAT_IN": {
+        "volume_m3": 3.464101615137754e-07,
+        "centroid_mm": [
+          -30,
+          26.690703921540653,
+          597.5
+        ]
+      },
+      "NUT_RIGHT_SEAT_IN": {
+        "volume_m3": 2.916410324806785e-07,
+        "centroid_mm": [
+          -30,
+          26.690703921540653,
+          703.0
+        ]
+      },
+      "WASHER_RIGHT_SEAT_IN_MINUS": {
+        "volume_m3": 4.425718650744621e-07,
+        "centroid_mm": [
+          -30,
+          26.690703921540653,
+          600.5
+        ]
+      },
+      "WASHER_RIGHT_SEAT_IN_PLUS": {
+        "volume_m3": 4.425718650744621e-07,
+        "centroid_mm": [
+          -30,
+          26.690703921540653,
+          699.5
+        ]
+      },
+      "SLEEVE_RIGHT_SEAT_OUT": {
+        "volume_m3": 4.399604161811656e-06,
+        "centroid_mm": [
+          30,
+          26.690703921540653,
+          650
+        ]
+      },
+      "SHAFT_RIGHT_SEAT_OUT": {
+        "volume_m3": 3.1101767270538957e-06,
+        "centroid_mm": [
+          30,
+          26.690703921540653,
+          654.5
+        ]
+      },
+      "HEAD_RIGHT_SEAT_OUT": {
+        "volume_m3": 3.464101615137754e-07,
+        "centroid_mm": [
+          30,
+          26.690703921540653,
+          597.5
+        ]
+      },
+      "NUT_RIGHT_SEAT_OUT": {
+        "volume_m3": 2.916410324806785e-07,
+        "centroid_mm": [
+          30,
+          26.690703921540653,
+          703.0
+        ]
+      },
+      "WASHER_RIGHT_SEAT_OUT_MINUS": {
+        "volume_m3": 4.425718650744621e-07,
+        "centroid_mm": [
+          30,
+          26.690703921540653,
+          600.5
+        ]
+      },
+      "WASHER_RIGHT_SEAT_OUT_PLUS": {
+        "volume_m3": 4.425718650744621e-07,
+        "centroid_mm": [
+          30,
+          26.690703921540653,
+          699.5
+        ]
+      },
+      "SLEEVE_RIGHT_MODULE_IN": {
+        "volume_m3": 2.125523049602514e-05,
+        "centroid_mm": [
+          -35,
+          90.93364687946494,
+          650
+        ]
+      },
+      "SHAFT_RIGHT_MODULE_IN": {
+        "volume_m3": 9.424777960769379e-06,
+        "centroid_mm": [
+          -35,
+          90.93364687946494,
+          659.5
+        ]
+      },
+      "HEAD_RIGHT_MODULE_IN": {
+        "volume_m3": 1.5016880501622166e-06,
+        "centroid_mm": [
+          -35,
+          90.93364687946494,
+          596.5
+        ]
+      },
+      "NUT_RIGHT_MODULE_IN": {
+        "volume_m3": 1.3739322028316633e-06,
+        "centroid_mm": [
+          -35,
+          90.93364687946494,
+          704.5
+        ]
+      },
+      "WASHER_RIGHT_MODULE_IN_MINUS": {
+        "volume_m3": 7.147123286916779e-07,
+        "centroid_mm": [
+          -35,
+          90.93364687946494,
+          600.5
+        ]
+      },
+      "WASHER_RIGHT_MODULE_IN_PLUS": {
+        "volume_m3": 7.147123286916779e-07,
+        "centroid_mm": [
+          -35,
+          90.93364687946494,
+          699.5
+        ]
+      },
+      "SLEEVE_RIGHT_MODULE_OUT": {
+        "volume_m3": 2.125523049602514e-05,
+        "centroid_mm": [
+          35,
+          89.10063236962186,
+          650
+        ]
+      },
+      "SHAFT_RIGHT_MODULE_OUT": {
+        "volume_m3": 9.424777960769379e-06,
+        "centroid_mm": [
+          35,
+          89.10063236962186,
+          659.5
+        ]
+      },
+      "HEAD_RIGHT_MODULE_OUT": {
+        "volume_m3": 1.5016880501622166e-06,
+        "centroid_mm": [
+          35,
+          89.10063236962186,
+          596.5
+        ]
+      },
+      "NUT_RIGHT_MODULE_OUT": {
+        "volume_m3": 1.3739322028316633e-06,
+        "centroid_mm": [
+          35,
+          89.10063236962186,
+          704.5
+        ]
+      },
+      "WASHER_RIGHT_MODULE_OUT_MINUS": {
+        "volume_m3": 7.147123286916779e-07,
+        "centroid_mm": [
+          35,
+          89.10063236962186,
+          600.5
+        ]
+      },
+      "WASHER_RIGHT_MODULE_OUT_PLUS": {
+        "volume_m3": 7.147123286916779e-07,
+        "centroid_mm": [
+          35,
+          89.10063236962186,
+          699.5
+        ]
+      }
+    },
+    "sources": {
+      "thread_area": "https://media.bossard.com/de-de/-/media/bossard-group/website/documents/technical-resources/de/f-041-de.pdf"
+    },
+    "limitations": [
+      "Все продольные силы ленты/пуска/заклинивания неизвестны; несущая способность соединения не утверждена.",
+      "Швы направляющих с пластиной, пластины с щеками и щек с трубой не подтверждены.",
+      "Один модуль в данном узле фиксирован, второй может перемещаться ±6 мм вдоль паза; у каждого полного модуля необходима своя единственная фиксированная опора. Полная схема фиксированных/подвижных опор пока не выпущена.",
+      "Передача момента между модулями не используется в расчёте R04; контактные площадки и штифты создают реальную местную жесткость, которую требуется проверить.",
+      "Шайбы опираются на торцы втулок, не на направляющие: номинальный зазор 0,5 мм сохраняет перемещение в пазу без зажима. Допуски/покрытие и усилие затяжки ещё не назначены.",
+      "В CAD резьбы заменены цилиндрами, головы/гайки имеют условный шестигранник. Это проверка расположения, не библиотечные детали поставщика.",
+      "Седло утолщено до 24 мм для размещения отверстий и геометрических перемычек; это не нормативное обоснование минимальной толщины.",
+      "Измененные сечения отверстий продольной трубы, контакт втулок, усталость, коррозия и силы от сборочных зазоров не проверены.",
+      "Условный прогиб пластины пересчитан с новой массой. Допускаемые напряжения и частичные коэффициенты не назначены."
+    ]
+  },
+  "traction_and_tension_iteration": {
+    "revision": "R08",
+    "scope": "Условная тяга, пуск/торможение, натяжение и силы на концевые барабаны; фрикционная лента на роликах",
+    "inputs": {
+      "L_calc_m": 10.0,
+      "belt_width_mm": 500.0,
+      "q_material_kg_m": 30.0,
+      "peak_kg": 15.0,
+      "q_belt_kg_m_assumed": 5.0,
+      "moving_mass_equivalent_other_kg_assumed": 60.0,
+      "carry_pitch_m_assumed": 0.75,
+      "return_pitch_m_assumed": 2.0,
+      "carry_relative_sag_proposed": 0.01,
+      "return_relative_sag_proposed": 0.02,
+      "D_example_m": 0.2,
+      "wrap_deg_example": 180.0,
+      "eta_example": 0.85,
+      "angle_active_deg": 1.5,
+      "v_active_m_s": 0.2,
+      "c_active": 0.03,
+      "R_misc_active_N": 100.0,
+      "mu_active": 0.2,
+      "start_time_active_s": 3.0,
+      "stop_time_active_s": 3.0,
+      "breakaway_factor_example": 1.5,
+      "jam_output_torque_limit_Nm": null
+    },
+    "extrema": {
+      "Fu_N": {
+        "min": -209.63504641812276,
+        "min_id": 462,
+        "max": 754.8104544287189,
+        "max_id": 398
+      },
+      "drive_resultant_N": {
+        "min": 1029.290591207433,
+        "min_id": 107,
+        "max": 13991.83574705583,
+        "max_id": 462
+      },
+      "tail_resultant_N": {
+        "min": 1225.0845067233518,
+        "min_id": 138,
+        "max": 14197.496184461497,
+        "max_id": 462
+      },
+      "T_max_loop_N": {
+        "min": 613.5570583026215,
+        "min_id": 66,
+        "max": 7272.380362093511,
+        "max_id": 398
+      },
+      "belt_torque_example_Nm": {
+        "min": -20.96350464181228,
+        "min_id": 462,
+        "max": 75.48104544287189,
+        "max_id": 398
+      },
+      "belt_power_signed_kW": {
+        "min": -0.06289051392543682,
+        "min_id": 462,
+        "max": 0.22644313632861568,
+        "max_id": 398
+      }
+    },
+    "checks": {
+      "force_balance_all486": true,
+      "capstan_and_sag_constraints_all486": true,
+      "single_peak_position_bounds": true,
+      "finite_difference_string_nodes": 1001,
+      "sag_difference_equation_max_residual_N_m": 5.3055714488436934e-08,
+      "deflection_target_m": 0.0075,
+      "component_selected": false,
+      "simulation_performed": false
+    },
+    "sources": [
+      {
+        "title": "Rulmeca: Calculating Conveyor Power for Bulk Handling",
+        "url": "https://rulmecacorp.com/bulk-handling-power-calculation-program/",
+        "use": "Различие эффективной тяги, натяжения для сцепления/провисания и сил на барабан; численные коэффициенты R08 не взяты из этой страницы."
+      },
+      {
+        "title": "Rulmeca: Technical Precautions, TC101 02/24, p82",
+        "url": "https://rulmecacorp.com/wp-content/uploads/2024/07/TC101_catalog_2024_pg80-90a.pdf",
+        "use": "Результирующую на барабане определяют векторно; лента/минимальный диаметр по требованиям поставщика. Не выбор модели мотор-барабана."
+      }
+    ],
+    "limitations": [
+      "Длина 10 м — расчётный сценарий прямой ветви; это не определённое межосевое расстояние. Опорные оси R04 не используются как оси барабанов.",
+      "q=30 кг/м плюс единственные15 кг — условное сочетание. 15 кг учитываются один раз в общей массе и как отдельная точечная нагрузка для провисания, не три одновременно падающие порции.",
+      "qB=5 кг/м, эквивалентная дополнительная масса60 кг, коэффициенты c/μ, сопротивление очистителя и времена разгона/торможения — допущения, не измеренные свойства и не нормативные значения.",
+      "60 кг разделены поровну между ветвями как инерционный эквивалент роликов/хвостового барабана/ленты на дугах. Инерция двигателя, редуктора и приводного барабана не включена.",
+      "Барабаны D200 и скорость0,1–0,3 м/с — примеры, не подбор по ленте/потоку. Профиль использует параллельные ветви и обхват180°.",
+      "Коэффициент сопротивления — эквивалентный параметр упрощенной модели, не коэффициент ISO/DIN и не заявленный расчёт по ним.",
+      "Минимальное натяжение вычислено заново для каждого режима: реальные винтовые натяжители не меняют натяжение автоматически. Результаты отдельных режимов нельзя считать совместимым назначением преднатяга.",
+      "Ориентиры провисания1%/2% не утверждены. Точечная15 кг размещена в центре одного пролёта; её реальное распределение по роликам неизвестно.",
+      "Отрицательная тяга означает необходимость удерживать/тормозить движение вниз в этой модели. Выбор тормоза/редуктора, время остановки и поведение при потере питания не подтверждены.",
+      "Момент заклинивания и ограничение момента неизвестны: расчёт заклинивания недоступен, термореле не трактуется как заданный механический ограничитель.",
+      "Результирующие у барабанов не являются силами на одной связи M10 среднего узла R07. Не задан путь усилий от подшипников через концевые рамы к опорам и анкерам.",
+      "Скорость выбирается по производительности и удержанию мокрых отбросов; номинальную мощность двигателя нельзя назначить по одной величине Fu*v."
+    ],
+    "fixed_mean_comparison": {
+      "T_mean_target_N": 7049.373884337331,
+      "extrema": {
+        "drive_resultant_N": {
+          "min": 13781.635411207784,
+          "max": 14135.718357822472,
+          "max_case": {
+            "source_id": 380,
+            "peak_position_fraction": 1,
+            "T_out_N": 6993.046698167293,
+            "T_in_N": 7142.6716596551805,
+            "T_tail_N": 7032.958047546481,
+            "drive_resultant_N": 14135.718357822472,
+            "tail_resultant_N": 14065.916095092962
+          }
+        },
+        "tail_resultant_N": {
+          "min": 13940.438369080497,
+          "max": 14205.659790293494,
+          "max_case": {
+            "source_id": 462,
+            "peak_position_fraction": 0,
+            "T_out_N": 7104.8171996529745,
+            "T_in_N": 6895.182153234852,
+            "T_tail_N": 7102.829895146747,
+            "drive_resultant_N": 13999.999352887826,
+            "tail_resultant_N": 14205.659790293494
+          }
+        }
+      },
+      "assumption": "Одинаковый упругий EA и неизменная длина пути ленты: постоянное среднее натяжение, без изменения длины от провисания/температуры/релаксации. Это отдельное сравнение, не назначение винтового натяжителя."
+    }
+  }
+}

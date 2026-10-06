@@ -1,0 +1,806 @@
+{
+  "revision": "R07",
+  "scope": "Поперечные втулки/болты для крепления седел и независимых концов модулей; один круглый фиксатор, один продольный паз",
+  "constants": {
+    "E_MPa": 200000.0,
+    "rho_kg_m3": 7850.0,
+    "g": 9.80665
+  },
+  "angle_deg": 1.5,
+  "seat": {
+    "length_mm": 100,
+    "width_mm": 80,
+    "t_min_mm": 24,
+    "t_centre_mm": 25.309296078459347,
+    "transverse_hole_d_mm": 10.5,
+    "pin_axis_from_bottom_mm": 12,
+    "min_bottom_ligament_mm": 6.75
+  },
+  "cap_mm": [
+    160,
+    120,
+    12
+  ],
+  "guide_mm": [
+    160,
+    100,
+    6
+  ],
+  "guide_inside_width_mm": 84,
+  "guide_outside_width_mm": 96,
+  "sleeve_length_mm": 97,
+  "washer_face_gap_to_guide_mm": 0.5,
+  "module_hole_mm": 21,
+  "module_slot_mm": [
+    33,
+    21
+  ],
+  "rail_hole_mm": 20.5,
+  "module_pin_x_mm": [
+    -35,
+    35
+  ],
+  "seat_pin_x_mm": [
+    -30,
+    30
+  ],
+  "end_gap_along_rail_mm": 12,
+  "leg_mid_mm": 504.6907039215406,
+  "support_with_fasteners_mass_kg": 25.85112205349987,
+  "with_stubs_mass_kg": 33.55107969737681,
+  "added_mass_vs_R06_kg": 7.771718028885253,
+  "load_screen_N": 1534.2917480947488,
+  "gravity_component_2deg_N": 53.54600980330713,
+  "capacity_for_actual_belt_forces": null,
+  "cases": [
+    {
+      "type": "MODULE",
+      "F_N": 53.54600980330713,
+      "bolt_d_mm": 10,
+      "thread_area_mm2": 58.0,
+      "sleeve_OD_mm": 20,
+      "sleeve_ID_mm": 11,
+      "span_mm": 90,
+      "sleeve_sigma_MPa": 1.6884873294371205,
+      "sleeve_delta_mm": 0.0005698644736850282,
+      "bolt_thread_double_shear_MPa": 0.4616035327871304,
+      "bare_bolt_bending_screen_MPa": 12.271841485982518,
+      "guide_bearing_MPa": 0.22310837418044638,
+      "rail_or_seat_bearing_MPa": 0.44621674836089276
+    },
+    {
+      "type": "MODULE",
+      "F_N": 500.0,
+      "bolt_d_mm": 10,
+      "thread_area_mm2": 58.0,
+      "sleeve_OD_mm": 20,
+      "sleeve_ID_mm": 11,
+      "span_mm": 90,
+      "sleeve_sigma_MPa": 15.766696114607923,
+      "sleeve_delta_mm": 0.005321259938680174,
+      "bolt_thread_double_shear_MPa": 4.310344827586207,
+      "bare_bolt_bending_screen_MPa": 114.59155902616465,
+      "guide_bearing_MPa": 2.0833333333333335,
+      "rail_or_seat_bearing_MPa": 4.166666666666667
+    },
+    {
+      "type": "MODULE",
+      "F_N": 1000.0,
+      "bolt_d_mm": 10,
+      "thread_area_mm2": 58.0,
+      "sleeve_OD_mm": 20,
+      "sleeve_ID_mm": 11,
+      "span_mm": 90,
+      "sleeve_sigma_MPa": 31.533392229215846,
+      "sleeve_delta_mm": 0.010642519877360347,
+      "bolt_thread_double_shear_MPa": 8.620689655172415,
+      "bare_bolt_bending_screen_MPa": 229.1831180523293,
+      "guide_bearing_MPa": 4.166666666666667,
+      "rail_or_seat_bearing_MPa": 8.333333333333334
+    },
+    {
+      "type": "MODULE",
+      "F_N": 2000.0,
+      "bolt_d_mm": 10,
+      "thread_area_mm2": 58.0,
+      "sleeve_OD_mm": 20,
+      "sleeve_ID_mm": 11,
+      "span_mm": 90,
+      "sleeve_sigma_MPa": 63.06678445843169,
+      "sleeve_delta_mm": 0.021285039754720694,
+      "bolt_thread_double_shear_MPa": 17.24137931034483,
+      "bare_bolt_bending_screen_MPa": 458.3662361046586,
+      "guide_bearing_MPa": 8.333333333333334,
+      "rail_or_seat_bearing_MPa": 16.666666666666668
+    },
+    {
+      "type": "MODULE",
+      "F_N": 5000.0,
+      "bolt_d_mm": 10,
+      "thread_area_mm2": 58.0,
+      "sleeve_OD_mm": 20,
+      "sleeve_ID_mm": 11,
+      "span_mm": 90,
+      "sleeve_sigma_MPa": 157.66696114607922,
+      "sleeve_delta_mm": 0.053212599386801736,
+      "bolt_thread_double_shear_MPa": 43.10344827586207,
+      "bare_bolt_bending_screen_MPa": 1145.9155902616465,
+      "guide_bearing_MPa": 20.833333333333332,
+      "rail_or_seat_bearing_MPa": 41.666666666666664
+    },
+    {
+      "type": "SEAT",
+      "F_N": 53.54600980330713,
+      "bolt_d_mm": 6,
+      "thread_area_mm2": 20.1,
+      "sleeve_OD_mm": 10,
+      "sleeve_ID_mm": 6.5,
+      "span_mm": 90,
+      "sleeve_sigma_MPa": 14.938447780013567,
+      "sleeve_delta_mm": 0.010083452251509159,
+      "bolt_thread_double_shear_MPa": 1.331990293614605,
+      "bare_bolt_bending_screen_MPa": 56.814080953622785,
+      "guide_bearing_MPa": 0.44621674836089276,
+      "rail_or_seat_bearing_MPa": 0.06693251225413391
+    },
+    {
+      "type": "SEAT",
+      "F_N": 500.0,
+      "bolt_d_mm": 6,
+      "thread_area_mm2": 20.1,
+      "sleeve_OD_mm": 10,
+      "sleeve_ID_mm": 6.5,
+      "span_mm": 90,
+      "sleeve_sigma_MPa": 139.491699147029,
+      "sleeve_delta_mm": 0.09415689692424457,
+      "bolt_thread_double_shear_MPa": 12.43781094527363,
+      "bare_bolt_bending_screen_MPa": 530.5164769729845,
+      "guide_bearing_MPa": 4.166666666666667,
+      "rail_or_seat_bearing_MPa": 0.625
+    },
+    {
+      "type": "SEAT",
+      "F_N": 1000.0,
+      "bolt_d_mm": 6,
+      "thread_area_mm2": 20.1,
+      "sleeve_OD_mm": 10,
+      "sleeve_ID_mm": 6.5,
+      "span_mm": 90,
+      "sleeve_sigma_MPa": 278.983398294058,
+      "sleeve_delta_mm": 0.18831379384848915,
+      "bolt_thread_double_shear_MPa": 24.87562189054726,
+      "bare_bolt_bending_screen_MPa": 1061.032953945969,
+      "guide_bearing_MPa": 8.333333333333334,
+      "rail_or_seat_bearing_MPa": 1.25
+    },
+    {
+      "type": "SEAT",
+      "F_N": 2000.0,
+      "bolt_d_mm": 6,
+      "thread_area_mm2": 20.1,
+      "sleeve_OD_mm": 10,
+      "sleeve_ID_mm": 6.5,
+      "span_mm": 90,
+      "sleeve_sigma_MPa": 557.966796588116,
+      "sleeve_delta_mm": 0.3766275876969783,
+      "bolt_thread_double_shear_MPa": 49.75124378109452,
+      "bare_bolt_bending_screen_MPa": 2122.065907891938,
+      "guide_bearing_MPa": 16.666666666666668,
+      "rail_or_seat_bearing_MPa": 2.5
+    },
+    {
+      "type": "SEAT",
+      "F_N": 5000.0,
+      "bolt_d_mm": 6,
+      "thread_area_mm2": 20.1,
+      "sleeve_OD_mm": 10,
+      "sleeve_ID_mm": 6.5,
+      "span_mm": 90,
+      "sleeve_sigma_MPa": 1394.91699147029,
+      "sleeve_delta_mm": 0.9415689692424457,
+      "bolt_thread_double_shear_MPa": 124.37810945273631,
+      "bare_bolt_bending_screen_MPa": 5305.164769729845,
+      "guide_bearing_MPa": 41.666666666666664,
+      "rail_or_seat_bearing_MPa": 6.25
+    }
+  ],
+  "slot_geometry": [
+    {
+      "angle_deg": 1,
+      "travel_one_side_mm": 6,
+      "normal_clearance_mm": 0.5,
+      "vertical_shift_mm": 0.10473038956930551,
+      "remaining_vertical_clearance_mm": 0.3952696104306945
+    },
+    {
+      "angle_deg": 1.5,
+      "travel_one_side_mm": 6,
+      "normal_clearance_mm": 0.5,
+      "vertical_shift_mm": 0.15711552941512158,
+      "remaining_vertical_clearance_mm": 0.3428844705848784
+    },
+    {
+      "angle_deg": 2,
+      "travel_one_side_mm": 6,
+      "normal_clearance_mm": 0.5,
+      "vertical_shift_mm": 0.20952461695048638,
+      "remaining_vertical_clearance_mm": 0.2904753830495136
+    }
+  ],
+  "cap_recheck": {
+    "P_N": 1534.2917480947488,
+    "span_mm": 112,
+    "b_mm": 38,
+    "t_mm": 12,
+    "sigma_MPa": 47.10544840641772,
+    "delta_mm": 0.04103407950070166
+  },
+  "expected_bodies": {
+    "CROSSBEAM": {
+      "volume_m3": 0.0009343575131606173,
+      "centroid_mm": [
+        0,
+        -37.30929607845935,
+        350
+      ]
+    },
+    "LEG_LEFT": {
+      "volume_m3": 0.0002729483413981467,
+      "centroid_mm": [
+        0,
+        -329.6546480392297,
+        50
+      ]
+    },
+    "PLATE_LEFT": {
+      "volume_m3": 0.000144,
+      "centroid_mm": [
+        0,
+        -586,
+        50
+      ]
+    },
+    "CAP_LEFT": {
+      "volume_m3": 0.0002304,
+      "centroid_mm": [
+        0,
+        8.690703921540653,
+        50
+      ]
+    },
+    "SEAT_LEFT": {
+      "volume_m3": 0.00018861994502534382,
+      "centroid_mm": [
+        -0.9255267805204261,
+        27.405554746885134,
+        50
+      ]
+    },
+    "WEB_LEFT_MINUS": {
+      "volume_m3": 3.84e-05,
+      "centroid_mm": [
+        -53,
+        -37.30929607845935,
+        50
+      ]
+    },
+    "WEB_LEFT_PLUS": {
+      "volume_m3": 3.84e-05,
+      "centroid_mm": [
+        53,
+        -37.30929607845935,
+        50
+      ]
+    },
+    "REF_RAIL_LEFT_IN_SLOPE": {
+      "volume_m3": 0.00024522158101518903,
+      "centroid_mm": [
+        -152.58068430802336,
+        94.01260545680614,
+        50
+      ]
+    },
+    "REF_RAIL_LEFT_OUT_SLOPE": {
+      "volume_m3": 0.00024522158101518903,
+      "centroid_mm": [
+        155.21951934316363,
+        85.95257346501641,
+        50
+      ]
+    },
+    "GUIDE_LEFT_MINUS": {
+      "volume_m3": 8.929259114912588e-05,
+      "centroid_mm": [
+        -0.5926583529379197,
+        63.54069075924662,
+        5
+      ]
+    },
+    "GUIDE_LEFT_PLUS": {
+      "volume_m3": 8.929259114912588e-05,
+      "centroid_mm": [
+        -0.5926583529379197,
+        63.54069075924662,
+        95
+      ]
+    },
+    "SLEEVE_LEFT_SEAT_IN": {
+      "volume_m3": 4.399604161811656e-06,
+      "centroid_mm": [
+        -30,
+        26.690703921540653,
+        50
+      ]
+    },
+    "SHAFT_LEFT_SEAT_IN": {
+      "volume_m3": 3.1101767270538957e-06,
+      "centroid_mm": [
+        -30,
+        26.690703921540653,
+        54.5
+      ]
+    },
+    "HEAD_LEFT_SEAT_IN": {
+      "volume_m3": 3.464101615137754e-07,
+      "centroid_mm": [
+        -30,
+        26.690703921540653,
+        -2.5
+      ]
+    },
+    "NUT_LEFT_SEAT_IN": {
+      "volume_m3": 2.916410324806785e-07,
+      "centroid_mm": [
+        -30,
+        26.690703921540653,
+        103.0
+      ]
+    },
+    "WASHER_LEFT_SEAT_IN_MINUS": {
+      "volume_m3": 4.425718650744621e-07,
+      "centroid_mm": [
+        -30,
+        26.690703921540653,
+        0.5
+      ]
+    },
+    "WASHER_LEFT_SEAT_IN_PLUS": {
+      "volume_m3": 4.425718650744621e-07,
+      "centroid_mm": [
+        -30,
+        26.690703921540653,
+        99.5
+      ]
+    },
+    "SLEEVE_LEFT_SEAT_OUT": {
+      "volume_m3": 4.399604161811656e-06,
+      "centroid_mm": [
+        30,
+        26.690703921540653,
+        50
+      ]
+    },
+    "SHAFT_LEFT_SEAT_OUT": {
+      "volume_m3": 3.1101767270538957e-06,
+      "centroid_mm": [
+        30,
+        26.690703921540653,
+        54.5
+      ]
+    },
+    "HEAD_LEFT_SEAT_OUT": {
+      "volume_m3": 3.464101615137754e-07,
+      "centroid_mm": [
+        30,
+        26.690703921540653,
+        -2.5
+      ]
+    },
+    "NUT_LEFT_SEAT_OUT": {
+      "volume_m3": 2.916410324806785e-07,
+      "centroid_mm": [
+        30,
+        26.690703921540653,
+        103.0
+      ]
+    },
+    "WASHER_LEFT_SEAT_OUT_MINUS": {
+      "volume_m3": 4.425718650744621e-07,
+      "centroid_mm": [
+        30,
+        26.690703921540653,
+        0.5
+      ]
+    },
+    "WASHER_LEFT_SEAT_OUT_PLUS": {
+      "volume_m3": 4.425718650744621e-07,
+      "centroid_mm": [
+        30,
+        26.690703921540653,
+        99.5
+      ]
+    },
+    "SLEEVE_LEFT_MODULE_IN": {
+      "volume_m3": 2.125523049602514e-05,
+      "centroid_mm": [
+        -35,
+        90.93364687946494,
+        50
+      ]
+    },
+    "SHAFT_LEFT_MODULE_IN": {
+      "volume_m3": 9.424777960769379e-06,
+      "centroid_mm": [
+        -35,
+        90.93364687946494,
+        59.5
+      ]
+    },
+    "HEAD_LEFT_MODULE_IN": {
+      "volume_m3": 1.5016880501622166e-06,
+      "centroid_mm": [
+        -35,
+        90.93364687946494,
+        -3.5
+      ]
+    },
+    "NUT_LEFT_MODULE_IN": {
+      "volume_m3": 1.3739322028316633e-06,
+      "centroid_mm": [
+        -35,
+        90.93364687946494,
+        104.5
+      ]
+    },
+    "WASHER_LEFT_MODULE_IN_MINUS": {
+      "volume_m3": 7.147123286916779e-07,
+      "centroid_mm": [
+        -35,
+        90.93364687946494,
+        0.5
+      ]
+    },
+    "WASHER_LEFT_MODULE_IN_PLUS": {
+      "volume_m3": 7.147123286916779e-07,
+      "centroid_mm": [
+        -35,
+        90.93364687946494,
+        99.5
+      ]
+    },
+    "SLEEVE_LEFT_MODULE_OUT": {
+      "volume_m3": 2.125523049602514e-05,
+      "centroid_mm": [
+        35,
+        89.10063236962186,
+        50
+      ]
+    },
+    "SHAFT_LEFT_MODULE_OUT": {
+      "volume_m3": 9.424777960769379e-06,
+      "centroid_mm": [
+        35,
+        89.10063236962186,
+        59.5
+      ]
+    },
+    "HEAD_LEFT_MODULE_OUT": {
+      "volume_m3": 1.5016880501622166e-06,
+      "centroid_mm": [
+        35,
+        89.10063236962186,
+        -3.5
+      ]
+    },
+    "NUT_LEFT_MODULE_OUT": {
+      "volume_m3": 1.3739322028316633e-06,
+      "centroid_mm": [
+        35,
+        89.10063236962186,
+        104.5
+      ]
+    },
+    "WASHER_LEFT_MODULE_OUT_MINUS": {
+      "volume_m3": 7.147123286916779e-07,
+      "centroid_mm": [
+        35,
+        89.10063236962186,
+        0.5
+      ]
+    },
+    "WASHER_LEFT_MODULE_OUT_PLUS": {
+      "volume_m3": 7.147123286916779e-07,
+      "centroid_mm": [
+        35,
+        89.10063236962186,
+        99.5
+      ]
+    },
+    "LEG_RIGHT": {
+      "volume_m3": 0.0002729483413981467,
+      "centroid_mm": [
+        0,
+        -329.6546480392297,
+        650
+      ]
+    },
+    "PLATE_RIGHT": {
+      "volume_m3": 0.000144,
+      "centroid_mm": [
+        0,
+        -586,
+        650
+      ]
+    },
+    "CAP_RIGHT": {
+      "volume_m3": 0.0002304,
+      "centroid_mm": [
+        0,
+        8.690703921540653,
+        650
+      ]
+    },
+    "SEAT_RIGHT": {
+      "volume_m3": 0.00018861994502534382,
+      "centroid_mm": [
+        -0.9255267805204261,
+        27.405554746885134,
+        650
+      ]
+    },
+    "WEB_RIGHT_MINUS": {
+      "volume_m3": 3.84e-05,
+      "centroid_mm": [
+        -53,
+        -37.30929607845935,
+        650
+      ]
+    },
+    "WEB_RIGHT_PLUS": {
+      "volume_m3": 3.84e-05,
+      "centroid_mm": [
+        53,
+        -37.30929607845935,
+        650
+      ]
+    },
+    "REF_RAIL_RIGHT_IN_SLOPE": {
+      "volume_m3": 0.00024522158101518903,
+      "centroid_mm": [
+        -152.58068430802336,
+        94.01260545680614,
+        650
+      ]
+    },
+    "REF_RAIL_RIGHT_OUT_SLOPE": {
+      "volume_m3": 0.00024522158101518903,
+      "centroid_mm": [
+        155.21951934316363,
+        85.95257346501641,
+        650
+      ]
+    },
+    "GUIDE_RIGHT_MINUS": {
+      "volume_m3": 8.929259114912588e-05,
+      "centroid_mm": [
+        -0.5926583529379197,
+        63.54069075924662,
+        605
+      ]
+    },
+    "GUIDE_RIGHT_PLUS": {
+      "volume_m3": 8.929259114912588e-05,
+      "centroid_mm": [
+        -0.5926583529379197,
+        63.54069075924662,
+        695
+      ]
+    },
+    "SLEEVE_RIGHT_SEAT_IN": {
+      "volume_m3": 4.399604161811656e-06,
+      "centroid_mm": [
+        -30,
+        26.690703921540653,
+        650
+      ]
+    },
+    "SHAFT_RIGHT_SEAT_IN": {
+      "volume_m3": 3.1101767270538957e-06,
+      "centroid_mm": [
+        -30,
+        26.690703921540653,
+        654.5
+      ]
+    },
+    "HEAD_RIGHT_SEAT_IN": {
+      "volume_m3": 3.464101615137754e-07,
+      "centroid_mm": [
+        -30,
+        26.690703921540653,
+        597.5
+      ]
+    },
+    "NUT_RIGHT_SEAT_IN": {
+      "volume_m3": 2.916410324806785e-07,
+      "centroid_mm": [
+        -30,
+        26.690703921540653,
+        703.0
+      ]
+    },
+    "WASHER_RIGHT_SEAT_IN_MINUS": {
+      "volume_m3": 4.425718650744621e-07,
+      "centroid_mm": [
+        -30,
+        26.690703921540653,
+        600.5
+      ]
+    },
+    "WASHER_RIGHT_SEAT_IN_PLUS": {
+      "volume_m3": 4.425718650744621e-07,
+      "centroid_mm": [
+        -30,
+        26.690703921540653,
+        699.5
+      ]
+    },
+    "SLEEVE_RIGHT_SEAT_OUT": {
+      "volume_m3": 4.399604161811656e-06,
+      "centroid_mm": [
+        30,
+        26.690703921540653,
+        650
+      ]
+    },
+    "SHAFT_RIGHT_SEAT_OUT": {
+      "volume_m3": 3.1101767270538957e-06,
+      "centroid_mm": [
+        30,
+        26.690703921540653,
+        654.5
+      ]
+    },
+    "HEAD_RIGHT_SEAT_OUT": {
+      "volume_m3": 3.464101615137754e-07,
+      "centroid_mm": [
+        30,
+        26.690703921540653,
+        597.5
+      ]
+    },
+    "NUT_RIGHT_SEAT_OUT": {
+      "volume_m3": 2.916410324806785e-07,
+      "centroid_mm": [
+        30,
+        26.690703921540653,
+        703.0
+      ]
+    },
+    "WASHER_RIGHT_SEAT_OUT_MINUS": {
+      "volume_m3": 4.425718650744621e-07,
+      "centroid_mm": [
+        30,
+        26.690703921540653,
+        600.5
+      ]
+    },
+    "WASHER_RIGHT_SEAT_OUT_PLUS": {
+      "volume_m3": 4.425718650744621e-07,
+      "centroid_mm": [
+        30,
+        26.690703921540653,
+        699.5
+      ]
+    },
+    "SLEEVE_RIGHT_MODULE_IN": {
+      "volume_m3": 2.125523049602514e-05,
+      "centroid_mm": [
+        -35,
+        90.93364687946494,
+        650
+      ]
+    },
+    "SHAFT_RIGHT_MODULE_IN": {
+      "volume_m3": 9.424777960769379e-06,
+      "centroid_mm": [
+        -35,
+        90.93364687946494,
+        659.5
+      ]
+    },
+    "HEAD_RIGHT_MODULE_IN": {
+      "volume_m3": 1.5016880501622166e-06,
+      "centroid_mm": [
+        -35,
+        90.93364687946494,
+        596.5
+      ]
+    },
+    "NUT_RIGHT_MODULE_IN": {
+      "volume_m3": 1.3739322028316633e-06,
+      "centroid_mm": [
+        -35,
+        90.93364687946494,
+        704.5
+      ]
+    },
+    "WASHER_RIGHT_MODULE_IN_MINUS": {
+      "volume_m3": 7.147123286916779e-07,
+      "centroid_mm": [
+        -35,
+        90.93364687946494,
+        600.5
+      ]
+    },
+    "WASHER_RIGHT_MODULE_IN_PLUS": {
+      "volume_m3": 7.147123286916779e-07,
+      "centroid_mm": [
+        -35,
+        90.93364687946494,
+        699.5
+      ]
+    },
+    "SLEEVE_RIGHT_MODULE_OUT": {
+      "volume_m3": 2.125523049602514e-05,
+      "centroid_mm": [
+        35,
+        89.10063236962186,
+        650
+      ]
+    },
+    "SHAFT_RIGHT_MODULE_OUT": {
+      "volume_m3": 9.424777960769379e-06,
+      "centroid_mm": [
+        35,
+        89.10063236962186,
+        659.5
+      ]
+    },
+    "HEAD_RIGHT_MODULE_OUT": {
+      "volume_m3": 1.5016880501622166e-06,
+      "centroid_mm": [
+        35,
+        89.10063236962186,
+        596.5
+      ]
+    },
+    "NUT_RIGHT_MODULE_OUT": {
+      "volume_m3": 1.3739322028316633e-06,
+      "centroid_mm": [
+        35,
+        89.10063236962186,
+        704.5
+      ]
+    },
+    "WASHER_RIGHT_MODULE_OUT_MINUS": {
+      "volume_m3": 7.147123286916779e-07,
+      "centroid_mm": [
+        35,
+        89.10063236962186,
+        600.5
+      ]
+    },
+    "WASHER_RIGHT_MODULE_OUT_PLUS": {
+      "volume_m3": 7.147123286916779e-07,
+      "centroid_mm": [
+        35,
+        89.10063236962186,
+        699.5
+      ]
+    }
+  },
+  "sources": {
+    "thread_area": "https://media.bossard.com/de-de/-/media/bossard-group/website/documents/technical-resources/de/f-041-de.pdf"
+  },
+  "limitations": [
+    "Все продольные силы ленты/пуска/заклинивания неизвестны; несущая способность соединения не утверждена.",
+    "Швы направляющих с пластиной, пластины с щеками и щек с трубой не подтверждены.",
+    "Один модуль в данном узле фиксирован, второй может перемещаться ±6 мм вдоль паза; у каждого полного модуля необходима своя единственная фиксированная опора. Полная схема фиксированных/подвижных опор пока не выпущена.",
+    "Передача момента между модулями не используется в расчёте R04; контактные площадки и штифты создают реальную местную жесткость, которую требуется проверить.",
+    "Шайбы опираются на торцы втулок, не на направляющие: номинальный зазор 0,5 мм сохраняет перемещение в пазу без зажима. Допуски/покрытие и усилие затяжки ещё не назначены.",
+    "В CAD резьбы заменены цилиндрами, головы/гайки имеют условный шестигранник. Это проверка расположения, не библиотечные детали поставщика.",
+    "Седло утолщено до 24 мм для размещения отверстий и геометрических перемычек; это не нормативное обоснование минимальной толщины.",
+    "Измененные сечения отверстий продольной трубы, контакт втулок, усталость, коррозия и силы от сборочных зазоров не проверены.",
+    "Условный прогиб пластины пересчитан с новой массой. Допускаемые напряжения и частичные коэффициенты не назначены."
+  ]
+}

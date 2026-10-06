@@ -1,0 +1,229 @@
+{
+  "revision": "R11_FLAT",
+  "scope": "Одна плоская станция, включая2 вилки/крышки и крепёж;2 справочные трубы исключены. Полная зона/машина не специфицирована",
+  "items": [
+    {
+      "name": "Ось Ø25×620, лыски20 длиной24 с обоих концов",
+      "quantity": 1,
+      "unit": "шт.",
+      "model_calculation_names": [
+        "SHAFT"
+      ],
+      "CAD_body_names": [
+        "SHAFT_FLAT_4_SLOPE"
+      ],
+      "mass_geometric_proxy_kg": 2.3698307827242036,
+      "mass_basis": "Условная плотность7850; покупной крепёж показан без реальной резьбы, это не каталоговая масса",
+      "material_status": "Не выпущен материал/покрытие деталей; Ст3 для рамы по ТЗ, расчётный E200000МПа",
+      "status": "Геометрический кандидат; не для изготовления"
+    },
+    {
+      "name": "Оболочка Ø76/70×486",
+      "quantity": 1,
+      "unit": "шт.",
+      "model_calculation_names": [
+        "SHELL"
+      ],
+      "CAD_body_names": [
+        "SHELL_SLOPE"
+      ],
+      "mass_geometric_proxy_kg": 2.624822339063582,
+      "mass_basis": "Условная плотность7850; покупной крепёж показан без реальной резьбы, это не каталоговая масса",
+      "material_status": "Не выпущен материал/покрытие деталей; Ст3 для рамы по ТЗ, расчётный E200000МПа",
+      "status": "Геометрический кандидат; не для изготовления"
+    },
+    {
+      "name": "Держатель подшипника: габарит Ø76/52×21",
+      "quantity": 2,
+      "unit": "шт.",
+      "model_calculation_names": [
+        "CARRIER_LEFT",
+        "CARRIER_RIGHT"
+      ],
+      "CAD_body_names": [
+        "CARRIER_LEFT_SLOPE",
+        "CARRIER_RIGHT_SLOPE"
+      ],
+      "mass_geometric_proxy_kg": 0.7954814191784102,
+      "mass_basis": "Условная плотность7850; покупной крепёж показан без реальной резьбы, это не каталоговая масса",
+      "material_status": "Не выпущен материал/покрытие деталей; Ст3 для рамы по ТЗ, расчётный E200000МПа",
+      "status": "Геометрический кандидат; не для изготовления"
+    },
+    {
+      "name": "Вращающийся козырёк лабиринта, геометрический кандидат",
+      "quantity": 2,
+      "unit": "шт.",
+      "model_calculation_names": [
+        "ROT_CAP_LEFT",
+        "ROT_CAP_RIGHT"
+      ],
+      "CAD_body_names": [
+        "ROT_CAP_LEFT_SLOPE",
+        "ROT_CAP_RIGHT_SLOPE"
+      ],
+      "mass_geometric_proxy_kg": 0.309286066104639,
+      "mass_basis": "Условная плотность7850; покупной крепёж показан без реальной резьбы, это не каталоговая масса",
+      "material_status": "Не выпущен материал/покрытие деталей; Ст3 для рамы по ТЗ, расчётный E200000МПа",
+      "status": "Геометрический кандидат; не для изготовления"
+    },
+    {
+      "name": "Неподвижная лабиринтная крышка со втулкой и условным отверстиемM4",
+      "quantity": 2,
+      "unit": "шт.",
+      "model_calculation_names": [
+        "STATOR_LEFT",
+        "STATOR_RIGHT"
+      ],
+      "CAD_body_names": [
+        "HOLE_STATOR_LEFT_SLOPE",
+        "HOLE_STATOR_RIGHT_SLOPE"
+      ],
+      "mass_geometric_proxy_kg": 0.22510414829428807,
+      "mass_basis": "Условная плотность7850; покупной крепёж показан без реальной резьбы, это не каталоговая масса",
+      "material_status": "Не выпущен материал/покрытие деталей; Ст3 для рамы по ТЗ, расчётный E200000МПа",
+      "status": "Геометрический кандидат; не для изготовления"
+    },
+    {
+      "name": "Вилка60×45×8, паз20,5 иR12,75,2 отверстияØ6,5",
+      "quantity": 2,
+      "unit": "шт.",
+      "model_calculation_names": [
+        "FORK_LEFT",
+        "FORK_RIGHT"
+      ],
+      "CAD_body_names": [
+        "FORK_LEFT_SLOPE",
+        "FORK_RIGHT_SLOPE"
+      ],
+      "mass_geometric_proxy_kg": 0.24852770612483077,
+      "mass_basis": "Условная плотность7850; покупной крепёж показан без реальной резьбы, это не каталоговая масса",
+      "material_status": "Не выпущен материал/покрытие деталей; Ст3 для рамы по ТЗ, расчётный E200000МПа",
+      "status": "Геометрический кандидат; не для изготовления"
+    },
+    {
+      "name": "Торцевая крышка60×45×8,5, глухое отверстие глубиной6,5",
+      "quantity": 2,
+      "unit": "шт.",
+      "model_calculation_names": [
+        "KEEPER_LEFT",
+        "KEEPER_RIGHT"
+      ],
+      "CAD_body_names": [
+        "KEEPER_LEFT_SLOPE",
+        "KEEPER_RIGHT_SLOPE"
+      ],
+      "mass_geometric_proxy_kg": 0.3043675236310689,
+      "mass_basis": "Условная плотность7850; покупной крепёж показан без реальной резьбы, это не каталоговая масса",
+      "material_status": "Не выпущен материал/покрытие деталей; Ст3 для рамы по ТЗ, расчётный E200000МПа",
+      "status": "Геометрический кандидат; не для изготовления"
+    },
+    {
+      "name": "БолтM6×30: гладкая часть через плоскость среза, без резьбы вCAD",
+      "quantity": 4,
+      "unit": "шт.",
+      "model_calculation_names": [
+        "M6_BOLT_LEFT_MINUS",
+        "M6_BOLT_LEFT_PLUS",
+        "M6_BOLT_RIGHT_MINUS",
+        "M6_BOLT_RIGHT_PLUS"
+      ],
+      "CAD_body_names": [
+        "M6_BOLT_LEFT_MINUS_SLOPE",
+        "M6_BOLT_LEFT_PLUS_SLOPE",
+        "M6_BOLT_RIGHT_MINUS_SLOPE",
+        "M6_BOLT_RIGHT_PLUS_SLOPE"
+      ],
+      "mass_geometric_proxy_kg": 0.03751170158866681,
+      "mass_basis": "Условная плотность7850; покупной крепёж показан без реальной резьбы, это не каталоговая масса",
+      "material_status": "Не выпущен материал/покрытие деталей; Ст3 для рамы по ТЗ, расчётный E200000МПа",
+      "status": "Геометрический кандидат; не для изготовления"
+    },
+    {
+      "name": "ГайкаM6, габарит10/5",
+      "quantity": 4,
+      "unit": "шт.",
+      "model_calculation_names": [
+        "M6_NUT_LEFT_MINUS",
+        "M6_NUT_LEFT_PLUS",
+        "M6_NUT_RIGHT_MINUS",
+        "M6_NUT_RIGHT_PLUS"
+      ],
+      "CAD_body_names": [
+        "M6_NUT_LEFT_MINUS_SLOPE",
+        "M6_NUT_LEFT_PLUS_SLOPE",
+        "M6_NUT_RIGHT_MINUS_SLOPE",
+        "M6_NUT_RIGHT_PLUS_SLOPE"
+      ],
+      "mass_geometric_proxy_kg": 0.00915752841989331,
+      "mass_basis": "Условная плотность7850; покупной крепёж показан без реальной резьбы, это не каталоговая масса",
+      "material_status": "Не выпущен материал/покрытие деталей; Ст3 для рамы по ТЗ, расчётный E200000МПа",
+      "status": "Геометрический кандидат; не для изготовления"
+    },
+    {
+      "name": "ШайбаØ12/6,5×1,6, габаритный кандидат",
+      "quantity": 8,
+      "unit": "шт.",
+      "model_calculation_names": [
+        "M6_WASH_LEFT_MINUS_OUT",
+        "M6_WASH_LEFT_MINUS_IN",
+        "M6_WASH_LEFT_PLUS_OUT",
+        "M6_WASH_LEFT_PLUS_IN",
+        "M6_WASH_RIGHT_MINUS_OUT",
+        "M6_WASH_RIGHT_MINUS_IN",
+        "M6_WASH_RIGHT_PLUS_OUT",
+        "M6_WASH_RIGHT_PLUS_IN"
+      ],
+      "CAD_body_names": [
+        "M6_WASH_LEFT_MINUS_OUT_SLOPE",
+        "M6_WASH_LEFT_MINUS_IN_SLOPE",
+        "M6_WASH_LEFT_PLUS_OUT_SLOPE",
+        "M6_WASH_LEFT_PLUS_IN_SLOPE",
+        "M6_WASH_RIGHT_MINUS_OUT_SLOPE",
+        "M6_WASH_RIGHT_MINUS_IN_SLOPE",
+        "M6_WASH_RIGHT_PLUS_OUT_SLOPE",
+        "M6_WASH_RIGHT_PLUS_IN_SLOPE"
+      ],
+      "mass_geometric_proxy_kg": 0.008029785158869368,
+      "mass_basis": "Условная плотность7850; покупной крепёж показан без реальной резьбы, это не каталоговая масса",
+      "material_status": "Не выпущен материал/покрытие деталей; Ст3 для рамы по ТЗ, расчётный E200000МПа",
+      "status": "Геометрический кандидат; не для изготовления"
+    },
+    {
+      "name": "ВинтM4×6: только габарит и касание оси, резьба/момент не разработаны",
+      "quantity": 2,
+      "unit": "шт.",
+      "model_calculation_names": [
+        "M4_SET_ENV_LEFT",
+        "M4_SET_ENV_RIGHT"
+      ],
+      "CAD_body_names": [
+        "M4_SET_ENV_LEFT_SLOPE",
+        "M4_SET_ENV_RIGHT_SLOPE"
+      ],
+      "mass_geometric_proxy_kg": 0.0011837521118726341,
+      "mass_basis": "Условная плотность7850; покупной крепёж показан без реальной резьбы, это не каталоговая масса",
+      "material_status": "Не выпущен материал/покрытие деталей; Ст3 для рамы по ТЗ, расчётный E200000МПа",
+      "status": "Геометрический кандидат; не для изготовления"
+    },
+    {
+      "name": "Подшипник25×52×15;6205-2RSH габаритный кандидат",
+      "quantity": 2,
+      "unit": "шт.",
+      "CAD_body_names": [
+        "BEARING_ENV_LEFT_SLOPE",
+        "BEARING_ENV_RIGHT_SLOPE"
+      ],
+      "catalog_mass_estimate_each_kg": 0.13,
+      "mass_catalog_estimate_total_kg": 0.26,
+      "status": "Покупной кандидат R09; исполнение/ресурс/водостойкость/посадки и фиксация колец не утверждены"
+    }
+  ],
+  "total_candidate_mass_with_proxy_fasteners_kg": 7.193302752400324,
+  "missing_parts": [
+    "внутреннее осевое удержание колец подшипников",
+    "окончательное уплотнение и смазка/дренирование",
+    "соединения/швы вилок и регулировка",
+    "реальные посадки, радиусы/фаски и защита крепежа от отвинчивания"
+  ],
+  "status": "PRELIMINARY NOT FOR MANUFACTURING"
+}

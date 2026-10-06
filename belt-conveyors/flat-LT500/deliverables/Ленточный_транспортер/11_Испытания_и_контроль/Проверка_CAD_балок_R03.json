@@ -1,0 +1,15 @@
+{
+  "initial_volume_m3": 0.008408230016469254,
+  "calculated_mass_kg_at_7850": 66.00460562928365,
+  "path": "C:\\Users\\adm\\Documents\\Codex\\2026-10-04\\new-chat-2\\outputs\\Ленточный_транспортер\\03_Модели_SolidWorks\\ЛТ500_Продольные_балки_модуля_прототип_R03.SLDPRT",
+  "solid_body_count": 2,
+  "length_probe_4500_and_restored_5000": true,
+  "reopened_rebuild_and_volume_checked": true,
+  "save_errors": 0,
+  "save_warnings": 0,
+  "material_assigned": false,
+  "manufacturing_approved": false,
+  "section_shape_fixed_not_dimension_driven": true,
+  "ok": true,
+  "prior_document_unchanged": true
+}

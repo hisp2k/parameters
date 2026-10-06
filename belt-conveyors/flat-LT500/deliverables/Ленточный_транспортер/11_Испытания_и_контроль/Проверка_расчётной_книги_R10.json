@@ -1,0 +1,14 @@
+{
+  "geometry_and_four_transitions_match_Python": true,
+  "four_load_models_and_shaft_bound_match_Python": true,
+  "missing_density_speed_and_example_values_checked": true,
+  "angle30_and_overheight_freeboard_checked": true,
+  "inputs_restored": true,
+  "engine": "Artifact Tool; Microsoft Excel not tested",
+  "all_sheets_visually_checked": true,
+  "preview_regions_checked": 5,
+  "formula_scan_zero_matches": true,
+  "formula_count": 44,
+  "exported_cached_errors": [],
+  "formulas_without_cached_values": []
+}

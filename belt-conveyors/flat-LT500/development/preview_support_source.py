@@ -1,0 +1,7 @@
+from pathlib import Path
+b=Path(__file__).parent;s=(b/'CreateSupportPrototype.cs').read_text(encoding='utf8');s=s[:s.index('[STAThread]')]
+s+=r'''
+[STAThread]static int Main(string[]args){using(var mx=new Mutex(false,"Global\SolidWorksCodex_COM_Mutex")){bool held=false;object app=null,previous=null;string prevTitle=null;try{held=mx.WaitOne(10000);R(held,"Connector busy");api=Assembly.LoadFrom(@"C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\api\redist\SolidWorks.Interop.sldworks.dll");Guid clsid;CLSIDFromProgID("SldWorks.Application",out clsid);GetActiveObject(ref clsid,IntPtr.Zero,out app);previous=G(app,"ISldWorks","IActiveDoc2");if(previous!=null)prevTitle=Convert.ToString(C(previous,"IModelDoc2","GetTitle"));object[] a={Path.GetFullPath(args[0]),1,1,"",0,0};object d=C(app,"ISldWorks","OpenDoc6",a);R(d!=null&&Convert.ToInt32(a[4])==0,"Open failed");object[] act={Convert.ToString(C(d,"IModelDoc2","GetTitle")),true,0};C(app,"ISldWorks","ActivateDoc2",act);C(d,"IModelDoc2","ShowNamedView2","*Isometric",7);C(d,"IModelDoc2","ViewZoomtofit2");R(Convert.ToBoolean(C(d,"IModelDoc2","SaveBMP",Path.GetFullPath(args[1]),1200,1000)),"BMP failed");Console.WriteLine("PREVIEW_SAVED");return 0;}catch(Exception e){Console.WriteLine(e.ToString());return 1;}finally{if(previous!=null&&prevTitle!=null&&app!=null){object[] a={prevTitle,true,0};C(app,"ISldWorks","ActivateDoc2",a);}if(held)mx.ReleaseMutex();}}}
+}
+'''
+(b/'PreviewSupport.cs').write_text(s,encoding='utf8')

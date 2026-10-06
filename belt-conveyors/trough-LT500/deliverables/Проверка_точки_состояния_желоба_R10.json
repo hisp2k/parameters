@@ -1,0 +1,42 @@
+{
+  "date_local": "2026-10-04",
+  "timezone": "Europe/Samara",
+  "imported_inventory_files_checked": 94,
+  "inventory_hash_failures": [],
+  "all_96_extracted_files_unchanged": true,
+  "archive_sha256": "e5f868c7922bdc4d566e456d18134977fb3c5aba71a75b6d2d5b03fc14661106",
+  "pdf_pages_rendered_and_reviewed_this_chat": 4,
+  "independent_arithmetic_this_chat": {
+    "area_no_heap_m2": 0.01788520882483414,
+    "area_20mm_freeboard_m2": 0.009424890242518282,
+    "transition_750mm_lower_bound_strain": 0.002740899571003208,
+    "conditional_station_load_N": 404.3856921213264
+  },
+  "inherited_CAD_evidence": {
+    "body_counts": [
+      34,
+      34
+    ],
+    "intersection_operations": 1122,
+    "intersections_above_1e_minus_10_m3": 0,
+    "save_errors": 0,
+    "save_warnings": 0,
+    "independent_verification": [
+      {
+        "bodies": 34,
+        "max_volume_difference_m3": 3.686287386450715e-18,
+        "max_centroid_difference_m": 1.4155343563970746e-15,
+        "all_individual_volumes_centroids_match": true
+      },
+      {
+        "bodies": 34,
+        "max_volume_difference_m3": 3.7947076036992655e-18,
+        "max_centroid_difference_m": 1.4155343563970746e-15,
+        "all_individual_volumes_centroids_match": true
+      }
+    ]
+  },
+  "SolidWorks_opened_or_rebuilt_this_chat": false,
+  "Excel_recalculated_this_chat": false,
+  "limitations": "Проверка переноса и арифметики идеального профиля. CAD-проверки унаследованы из R10, не повторены в новом сеансе. Прочность, реальные контакты, сборка, ресурс и производительность не подтверждены."
+}
