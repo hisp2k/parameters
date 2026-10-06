@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-06",
+  "imported_original_files": 5613,
+  "original_bytes": 3802828406,
+  "unique_sha256": 4739,
+  "split_archives": 2,
+  "excluded_files": 3479,
+  "groups": {
+    "screw-conveyors": 4157,
+    "grit-chambers": 495,
+    "containers": 52,
+    "belt-conveyors": 387,
+    "screens": 255,
+    "engineering": 262,
+    "docs": 5
+  }
+}

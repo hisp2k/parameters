@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+~$*
+*.restore.tmp
+grit-chambers/PT-SHT-10/deliverables/PT-SHT-10-210L_модель_и_Flow.zip
+grit-chambers/PT-SHT-10/deliverables/PT-SHT-10_демо_проект_Flow.zip
